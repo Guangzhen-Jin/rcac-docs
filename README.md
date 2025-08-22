@@ -3,12 +3,12 @@
 ## How to setup local mkdoc server?
 1. Clone this repository with this `feature_test` branch.
 ```bash
-git clone -b feature_test git@github.com:Guangzhen-Jin/rcac-blogs.git
+git clone https://github.com/Guangzhen-Jin/rcac-docs
 ```
 
 2. Go inside of the folder, create a conda env and install all required packages in `requirements.txt`.
 ```bash
-cd rcac-blogs
+cd rcac-docs
 # Make sure to include python in your conda env
 conda create xxx python
 conda activate xxx
