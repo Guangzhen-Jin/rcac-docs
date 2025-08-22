@@ -1,7 +1,7 @@
 # Demo for RCAC documentation website.
 
 ## How to setup local mkdoc server?
-1. Clone this repository with this `feature_test` branch.
+1. Clone this repository with this `main` branch.
 ```bash
 git clone https://github.com/Guangzhen-Jin/rcac-docs
 ```
