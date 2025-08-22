@@ -1,0 +1,49 @@
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: black;
+  --md-primary-bg-color: #CBBA94;
+  --md-accent-bg-color: #CBBA94;
+  --md-accent-fg-color: #CBBA94;
+  --md-typeset-a-color: #8e6f3e;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"][data-md-color-primary] {
+  /* --md-default-fg-color: #CBBA94;  */ 
+  /* --md-default-bg-color: #CBBA94; */
+  --md-typeset-a-color: #ebd99f;
+  --md-primary-fg-color: #CBBA94;
+  --md-accent-fg-color: #8e6f3e;
+}
+
+.md-nav__link--active {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "UnitedSans";
+  src: url("/assets/fonts/UnitedSans_purdue_2023/UnitedSansSmExMd.otf") format('truetype');
+}
+
+.md-header__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
+}
+
+.md-nav__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
+}
+
+/* Adjust nav font size */
+/* .md-tabs__link {
+  font-size: 0.9rem;
+} */
+/* .md-nav__title {
+  font-size: 0.8rem; 
+} */
+.md-nav__link {
+  font-size: 0.8rem; /* Adjust as needed */
+}
+
+/* :root {
+  --md-text-font: "UnitedSans"; 
+} */
