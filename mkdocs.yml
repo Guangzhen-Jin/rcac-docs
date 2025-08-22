@@ -1,6 +1,6 @@
 site_name: RCAC Documentation
-site_description: RCAC Blogs written by scientists.
-site_url: https://rcac-blogs.readthedocs.io
+site_description: A demo site for RCAC documentation.
+site_url: https://rcac-docs-demo.readthedocs.io
 
 theme:
   name: material
