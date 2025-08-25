@@ -132,8 +132,8 @@ nav:
         - Job History: workshops/hpc_exchange/week4/history.md
         - Resource Utilization and Monitoring: workshops/hpc_exchange/week4/monitor.md
         - Managing Workloads and Jobs: workshops/hpc_exchange/week4/workloads.md
-  - RCAC Tags: tags.md
-  - Templates and Notes: notes.md
+  - Tags: tags.md
+#  - Templates and Notes: notes.md
 
 extra:
   social:
@@ -169,7 +169,7 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/Guangzhen-Jin/rcac-blogs/issues/new" target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new" target="_blank" rel="noopener">feedback form</a>.
 
 features:
   - search.suggest

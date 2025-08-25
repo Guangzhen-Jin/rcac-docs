@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Software and Datasets
 
 Categorized list of commonly deployed software and popular datasets on Purdue RCAC clusters.

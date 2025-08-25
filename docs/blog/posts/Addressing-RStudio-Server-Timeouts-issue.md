@@ -35,11 +35,9 @@ This issue is related to the RStudio Server configuration that sessions will aut
 
 1. Navigate to the current RStudio session in Open OnDemand.
 2. Click on the session ID to open the session folder. 
-3. Locate the connection.yml file within the session folder.
+3. Locate the `connection.yml` file within the session folder.
 4. Open it to find the session-specific password. 
 5. Then, use your Purdue account username in the "Username" field.
-6. Enter the password retrieved from the connection.yml file.
+6. Enter the password retrieved from the `connection.yml` file.
 
 P.S. If you could not open the page after re-login and saw the web url ended with `/appUri`, delete `/appUri` and retry with the remaining url. 
-
-These steps can be done by the user.

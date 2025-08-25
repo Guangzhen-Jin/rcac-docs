@@ -49,12 +49,12 @@ There's a lot to unpack here.
 Account                    User  RawShares  NormShares    RawUsage  EffectvUsage  FairShare 
 -------------------- ---------- ---------- ----------- ----------- ------------- ---------- 
  standby                                 1    0.005435 19151317176      0.455953            
-  standby              xxxx          1    0.000362  1215628942      0.063475   0.000289 
-  standby               yyyy          1    0.000362  1432711221      0.074810   0.000231 
-  standby              yyyy          1    0.000362  3054076246      0.159471   0.000116 
-  standby                yyyy          1    0.000362  1433159382      0.074833   0.000173 
-  standby              user          1    0.000362  8513414417      0.444534   0.000058 
-  standby                yyyy          1    0.000362   174273798      0.009100   0.000751 
+ standby                   xxxx          1    0.000362  1215628942      0.063475   0.000289 
+ standby                   yyyy          1    0.000362  1432711221      0.074810   0.000231 
+ standby                   yyyy          1    0.000362  3054076246      0.159471   0.000116 
+ standby                   yyyy          1    0.000362  1433159382      0.074833   0.000173 
+ standby                   user          1    0.000362  8513414417      0.444534   0.000058 
+ standby                   yyyy          1    0.000362   174273798      0.009100   0.000751 
 ```
 
 `RawShares`: The total number of "shares" this association owns from its parent. For example, all top level associations (`standby`, `labqueues`, `debug`, `gpu`) inherit from `root`. All accounts on the cluster are configured to have 1 `RawShare`. **I actually think this should not be the case and we should revisit whether accounts that have purchased more of the cluster should have a higher raw share.** However, for the case of Standby, this is not relevant to the discussion.
