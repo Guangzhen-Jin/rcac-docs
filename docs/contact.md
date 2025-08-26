@@ -1,22 +1,7 @@
----
-tags:
-  - Halcyon
-  - Anvil
----
+# Contact RCAC
 
-# Contact page for RCAC
-General Information
-Email:	rcac-help@purdue.edu
-Phone:	765-49-43500
+**General contact Information**
 
-Postal Mail:	
-Rosen Center for Advanced Computing
-3314
-Convergence
-101 Foundry Dr
-West Lafayette, IN 47906
-
-Campus Mail:
-Rosen Center for Advanced Computing
-CONV 3314
-Convergence
+- Email: [rcac-help@purdue.edu](mailto:rcac-help@purdue.edu)
+- Phone: 765-49-4350
+- Postal Mail: Rosen Center for Advanced Computing, 3314 Convergence, 101 Foundry Dr., West Lafayette, IN 47906

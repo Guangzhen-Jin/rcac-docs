@@ -138,6 +138,7 @@ nav:
         - Resource Utilization and Monitoring: workshops/hpc_exchange/week4/monitor.md
         - Managing Workloads and Jobs: workshops/hpc_exchange/week4/workloads.md
   - Tags: tags.md
+  # - Contact us: contact.md
 #  - Templates and Notes: notes.md
 
 extra:
@@ -155,7 +156,7 @@ extra:
     name: Join our Purdue RCD Community Discord channel
     link: https://discord.gg/RmtKZmaQW9
   - icon: /material/mailbox
-    name: contact us
+    name: Contact Us
     link: /contact
   org: Rosen Center for Advanced Computing
   analytics:
