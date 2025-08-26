@@ -53,6 +53,11 @@ plugins:
       enabled: true
   - git-revision-date-localized:
       enable_creation_date: true
+      exclude:
+      # Do not include timestamp in the following pages
+        - index.md
+        - contact.md
+        - blog/*
   - macros
 
 nav:

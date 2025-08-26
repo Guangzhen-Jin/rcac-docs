@@ -10,7 +10,7 @@ hide:
 
 # Welcome to RCAC Documentation
 
-This is a space where RCAC staff share their opinions, best practices regarding using RCAC resources in best practice.
+This is a space to host documentation for RCAC resources and where RCAC staff share their opinions, best practices regarding using RCAC resources in best practice.
 
 ## User guides for RCAC HPC clusters
 

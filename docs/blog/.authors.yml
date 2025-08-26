@@ -1,8 +1,9 @@
 authors:
-  team:
-    name: Team
-    description: Creator
-    avatar: https://simpleicons.org/icons/materialformkdocs.svg
+  rcac:
+    name: Rosen Center for Advanced Computing
+    description: Rosen Center for Advanced Computing
+    url: https://www.rcac.purdue.edu
+    avatar: assets/purdue.png
   squidfunk:
     name: Martin Donath
     description: Creator
