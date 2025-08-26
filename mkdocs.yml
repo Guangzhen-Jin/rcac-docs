@@ -138,7 +138,7 @@ nav:
         - Resource Utilization and Monitoring: workshops/hpc_exchange/week4/monitor.md
         - Managing Workloads and Jobs: workshops/hpc_exchange/week4/workloads.md
   - Tags: tags.md
-  # - Contact us: contact.md
+  - Contact us: contact.md
 #  - Templates and Notes: notes.md
 
 extra:
