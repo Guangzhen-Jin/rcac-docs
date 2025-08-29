@@ -16,7 +16,7 @@ slug: firsttime_login_issue
 tags:
   - Account
   - Login
-  - Open Ondemand
+  - Open OnDemand
   - ThinLinc
 authors:
   - jin456

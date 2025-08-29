@@ -55,20 +55,20 @@
 -->
 ### Computational chemistry
 
-* [amber](/software_datasets/software/amber)
-* [cp2k](/software_datasets/software/cp2k)
-* [gamess](/software_datasets/software/gamess)
-* [gaussian09](/software_datasets/software/gaussian09)
-* [gaussian16](/software_datasets/software/gaussian16)
-* [gaussview](/software_datasets/software/gaussview)
-* [gromacs](/software_datasets/software/gromacs)
-* [lammps](/software_datasets/software/lammps)
-* [namd](/software_datasets/software/namd)
-* [nwchem](/software_datasets/software/nwchem)
-* [quantum-espresso](/software_datasets/software/quantum-espresso)
-* [vasp](/software_datasets/software/vasp)
-* [vmd](/software_datasets/software/vmd)
-* [wannier90](/software_datasets/software/wannier90)
+* [amber](amber.md)
+* [cp2k](cp2k.md)
+* [gamess](gamess.md)
+* [gaussian09](gaussian09.md)
+* [gaussian16](gaussian16.md)
+* [gaussview](gaussview.md)
+* [gromacs](gromacs.md)
+* [lammps](lammps.md)
+* [namd](namd.md)
+* [nwchem](nwchem.md)
+* [quantum-espresso](quantum-espresso.md)
+* [vasp](vasp.md)
+* [vmd](vmd.md)
+* [wannier90](wannier90.md)
 <!--
 ### Container
 
@@ -81,7 +81,7 @@
 -->
 ### Fluid dynamics
 
-* [abaqus](/software_datasets/software/abaqus)
+* [abaqus](abaqus.md)
 <!--
 * [ansys](/software_datasets/software/ansys)
 * [openfoam](/software_datasets/software/openfoam)

@@ -51,6 +51,7 @@ plugins:
       pagination_if_single_page: true
   - tags:
       enabled: true
+      # tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
   - git-revision-date-localized:
       enable_creation_date: true
       exclude:

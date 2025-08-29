@@ -15,7 +15,7 @@ Categorized list of commonly deployed software and popular datasets on Purdue RC
 
     Software catalog of deployed applications on RCAC clusters.
 
-    [:octicons-arrow-right-24: Software Catalog](/software_datasets/software/)
+    [:octicons-arrow-right-24: Software Catalog](software/index.md)
 
 
 -   :material-application:{ .lg .middle } __Datasets__
@@ -24,7 +24,7 @@ Categorized list of commonly deployed software and popular datasets on Purdue RC
 
     Information on popular and open datasets hosted on RCAC clusters. 
 
-    [:octicons-arrow-right-24: Datasets List](/software_datasets/datasets/)
+    [:octicons-arrow-right-24: Datasets List](datasets/index.md)
 </div>
 
 

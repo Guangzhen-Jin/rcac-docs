@@ -23,7 +23,7 @@ This is a space to host documentation for RCAC resources and where RCAC staff sh
     User guide for Anvil.
     <!-- ![anvil](assets/anvil_title.png) -->
 
-    [:octicons-arrow-right-24: Getting started](userguides/anvil)
+    [:octicons-arrow-right-24: Getting started](userguides/anvil/index.md)
 
 -   :material-file-document:{ .lg .middle } __Gautschi User Guide__
 
@@ -31,7 +31,7 @@ This is a space to host documentation for RCAC resources and where RCAC staff sh
 
     User guide for Gautschi.
 
-    [:octicons-arrow-right-24: Getting started](userguides/gautschi)
+    [:octicons-arrow-right-24: Getting started](userguides/gautschi/index.md)
 
 </div>
 
