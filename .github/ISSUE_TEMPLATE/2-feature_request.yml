@@ -1,6 +1,7 @@
 name: Feature Request
 description: Suggest new content or features for RCAC documentation.
-type: Feature
+labels: ["feature"]
+title: "[Feature Request]: "
 
 body:
   - type: markdown
