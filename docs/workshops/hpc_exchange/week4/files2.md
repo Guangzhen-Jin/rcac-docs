@@ -4,29 +4,29 @@
 
 There are many places you can store your files to access them on the clusters:
 
-## Local (mountable)
+### Local (mountable)
 * `/home`
 * `/depot`
 * `/scratch`
 * `/tmp`
 
-## Indirect access
+### Indirect access
 * `Fortress` (HPSS tape archive)
 * `Ceph` (S3 object storage)
 
-## Cloud
+### Cloud
 * Box.com / REED
 * GitHub (github.itap.purdue.edu)
 
-## Libraries
+### Libraries
 * PURR - research data repository providing data management, DOI, citation tracking
 
 Of these, only the **Local** and **Indirect access** options are directly available/mounted onto the clusters. The **Cloud** and **Libraries** are good places to store your files, but require more steps to get onto the clusters.
 
-## Home directory
-### Environment variable
+### Home directory
+#### Environment variable
 `$HOME`
-### Path
+#### Path
 `/home/username`
 
 Your home directory is small (only 25GB), it has mild performance and is cluster specific (it is shared between nodes of a cluster, but not across clusters). It is also mountable on your local computer as a network drive.
@@ -35,8 +35,8 @@ Home directories are housed on redundant hardware, are never purged and are prot
 
 Home directories are good for personal configuration files, software installation, scripts, etc. You can also store personal data and job files, if they're small enough. It's ok to run jobs against your home directory, but it's not good for heavy I/O scenarios. In short, it's good for medium to long term storage.
 
-## Depot directory
-### Path
+### Depot directory
+#### Path
 `/depot/<group_name>`
 
 The Data Depot is a group directory mounted on all Purdue community clusters. It is larger than your home directory (100GB free trial) and it can grow in 1TB increments at $70/TB/year. It has reasonable performance with redundant hardware that is never purged and is protected by snapshots.
@@ -49,10 +49,10 @@ Importantly, you can use the data depot without any cluster purchase, if you nee
 
 The Data Depot is good for shared configuration files, software installation, scripts, etc. You can store critical research data here to be shared amongst your group. It's ok to run jobs against but it's not good for intensive I/O scenarios. It is good for medium to long term storage.
 
-## Scratch directory
-### Environment variable
+### Scratch directory
+#### Environment variable
 `$CLUSTER_SCRATCH`, or `$SCRATCH`, or `$RCAC_SCRATCH`
-### Path
+#### Path
 `/scratch/<cluster>/username`
 
 Your scratch directory is a high-performance directory on each cluster. It is huge (100+TB), however it does have a file number limit (in the millions), so make sure to not have a bunch of tiny files, use the `tar` and `zip` programs to bundle files together. It is highly performant, but cluster specific, in that it is shared across nodes in a cluster, but not across clusters. It is also mountable as a network drive on your local computer.
@@ -66,8 +66,8 @@ Scratch directories are good for intermediate to massive data I/O, so are perfec
 
     Beware of regular purging of older files. You can use the `purgelist` program to  tell you which files will be purged. Please do not try to game the system, as we will ban users who repeatedly do so. Just back older files up to Fortress instead of storing them on Scratch.
 
-## Temporary directory
-### Path
+### Temporary directory
+#### Path
 `/tmp`
 
 There is a node-local `/tmp` directory on Purdue's community clusters. It is moderately large (200+GB) with good performance. However, there is zero redundancy and files are purged after your job on the node ends. There are no snapshots of data in the `/tmp` directory.
@@ -76,9 +76,9 @@ It is node-local, i.e. each node of the cluster has its own `/tmp` that is world
 
 It is good for node-local caching of data and files. It is **NOT** for valuable data or software and **NOT** for long-term storage. It is rarely needed, but priceless when you do need it. Unless you understand the tradeoffs, consider just using your Scratch directory.
 
-## Fortress (HPSS tape archive)
+### Fortress (HPSS tape archive)
 
-### Path
+**Path**
 
 `/home/username`
 
@@ -196,7 +196,7 @@ In the example above, the options to the `htar` program are similar to the `tar`
 
     There is no need to make and compress this `.tar` archive ahead of time. Fortress has built-in compression.
 
-## Slurm output files
+### Slurm output files
 
 In our job script, we can use certain Slurm options to specify a path for the console output files in our job. These options are `-o/--output` (for `stdout` and `-e/--error` (for `stderr`). Output paths can contain substitution patterns like `%j` or `%A`. See the *file pattern* section of the *manual page* for details.
 
