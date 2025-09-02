@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: RCAC Help Desk (Open a Ticket)
-    url: https://www.rcac.purdue.edu/about/contact
+    url: mailto:<rcac-help@purdue.edu>
     about: For technical user support issues or questions after reading the user-guides, please submit a ticket to rcac-help@purdue.edu so our RCAC Support can help you from there.
   - name: RCAC Homepage
     url: https://www.rcac.purdue.edu
