@@ -1,6 +1,8 @@
 name: Bug Report
 description: Report a problem with the docs technical content, or unexpected behavior with the rendering of the website
 type: Bug
+title: "[Bug]: "
+labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
