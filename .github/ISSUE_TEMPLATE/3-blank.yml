@@ -1,5 +1,6 @@
 name: Blank Issue
 description: Create an issue with minimal structure (for experienced authors)
+
 body:
   - type: markdown
     attributes:
