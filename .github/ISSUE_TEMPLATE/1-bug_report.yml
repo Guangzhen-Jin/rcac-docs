@@ -64,11 +64,3 @@ body:
         - Other
     validations:
       required: false
-  - type: checkboxes
-    id: label-confirmation
-    attributes:
-      label: Label Confirmation
-      description: I confirm that I have selected at least one appropriate label for this issue using the GitHub UI
-      options:
-        - label: I have selected at least one appropriate label
-          required: true

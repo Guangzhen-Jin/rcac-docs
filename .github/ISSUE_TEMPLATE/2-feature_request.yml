@@ -1,7 +1,7 @@
 name: Feature Request
 description: Suggest new content or features for RCAC documentation.
-labels: ["feature"]
 title: "[Feature Request]: "
+labels: ["enhancement"]
 
 body:
   - type: markdown
@@ -34,11 +34,3 @@ body:
         - Low (Optional enhancement)
     validations:
       required: false
-  - type: checkboxes
-    id: label-confirmation
-    attributes:
-      label: Label Confirmation
-      description: I confirm that I have selected at least one appropriate label for this issue using the GitHub UI
-      options:
-        - label: I have selected at least one appropriate label
-          required: true
