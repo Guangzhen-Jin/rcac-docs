@@ -32,3 +32,15 @@ authors:
     avatar: https://www.rcac.purdue.edu/files/users/amaji/photo.jpg
     slug: https://www.rcac.purdue.edu/about/staff/amaji
     url: https://www.rcac.purdue.edu/about/staff/amaji
+  aseethar:
+    name: Arun Seetharam
+    description: Lead Bioinformatics Scientist
+    avatar: https://www.rcac.purdue.edu/files/users/aseethar/photo.jpg
+    slug: https://www.rcac.purdue.edu/about/staff/aseethar
+    url: https://www.rcac.purdue.edu/about/staff/aseethar
+  remender:
+    name: Josh Remender
+    description: HPC Support Specialist
+    avatar: https://www.rcac.purdue.edu/files/staff_thumb.png
+    slug: https://www.rcac.purdue.edu/about/staff/remender
+    url: https://www.rcac.purdue.edu/about/staff/remender
