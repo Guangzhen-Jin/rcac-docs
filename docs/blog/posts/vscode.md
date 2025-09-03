@@ -132,5 +132,5 @@ Match host *.rcac.purdue.edu
 ```
 
 !!! Note "Compute Node Host Configuration"
-    In the above example, we’ve created two connection targets for `gautschi`, `gautschi-login` and `gautschi-compute`.  To use VS Code with a compute node as part of a job, with more/dedicated resources, **you’ll need to get an allocation outside of VS Code** (i.e. you need to have active jobs running on that node using e.g. `sinteractive`) and note the hostname (which node) the job is on and alter the HostName in your `~/.ssh/config` before connecting.
+    In the above example, we’ve created two connection targets for Gautschi cluster: `gautschi-login` and `gautschi-compute`.  To use VS Code with a compute node as part of a job, with more/dedicated resources, **you’ll need to get an allocation outside of VS Code** (i.e. you need to have active jobs running on that node using e.g. `sinteractive`) and note the hostname (which node) the job is on and alter the HostName in your `~/.ssh/config` before connecting.
 
