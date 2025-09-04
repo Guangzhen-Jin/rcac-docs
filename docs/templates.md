@@ -168,3 +168,83 @@ And it will look like:
 
 !!! example "Example"
     This is an example.
+
+## Syntax Highlighting
+Specific lines can be highlighted by passing the line numbers to the `hl_lines` argument placed right after the language shortcode.
+
+### Highlighting specific lines
+
+=== "Lines"
+
+    ```` markdown title="Code block with highlighted lines"
+    ``` py hl_lines="2 3"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+    ````
+
+    <div class="result" markdown>
+
+    ``` py linenums="1" hl_lines="2 3"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+
+    </div>
+
+=== "Line ranges"
+
+    ```` markdown title="Code block with highlighted line range"
+    ``` py hl_lines="3-5"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+    ````
+
+    <div class="result" markdown>
+
+    ``` py linenums="1" hl_lines="3-5"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+
+    </div>
+
+### Highlighting inline code blocks
+When `InlineHilite` is enabled, syntax highlighting can be applied to inline code blocks by prefixing them with a shebang, i.e. `#!`, directly followed by the corresponding language shortcode.
+
+=== "Python"
+
+    ``` markdown title="Inline code block"
+    The `#!python range()` function is used to generate a sequence of numbers.
+    ```
+
+    <div class="result" markdown>
+
+    The `#!python range()` function is used to generate a sequence of numbers.
+
+    </div>
+
+=== "Bash"
+
+    ``` markdown title="Bash inline code block"
+    The `#!bash ls` function is used to list files under current folder.
+    ```
+
+    <div class="result" markdown>
+
+     The `#!bash ls` function is used to list files under current folder.
+
+    </div>
