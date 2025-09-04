@@ -124,7 +124,7 @@ You can use the `squeue` program to list currently scheduled (pending and runnin
 
     Specific user: `squeue -u USERNAME`
 
-    Only our own jobs: `squeue -- me`
+    Only our own jobs: `squeue --me`
 
 To learn more about the parameters of a single job, you can use the `jobinfo` program. To use `jobinfo`, the command would be `jobinfo JOB_ID`, where the `JOB_ID` is replaced with the job ID mentioned above (which you can also check with the `squeue` program).
 

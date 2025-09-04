@@ -69,11 +69,12 @@ $ ./boo.sh
     $ ./boo.sh
     Ooh, so scary!
     ```
+
+**Quiz:** How would we remove read permissions on a file for both the file *group* and *others*?
+
 ??? note "`chmod` Hint"
 
     The `chmod` program takes both relative (**[ugo][-+][rwx]**) and absolute (e.g. 700) syntax.
-
-**Quiz:** How would we remove read permissions on a file for both the file *group* and *others*?
 
 ??? note "Answer"
 

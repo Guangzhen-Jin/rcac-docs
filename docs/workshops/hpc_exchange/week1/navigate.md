@@ -53,7 +53,7 @@ $ pwd
 
 !!! tip
 
-    Run **cd -** to navigate to the previous directory you were in. Run `cd` without any arguments to navigate back to your home directory.
+    Run `cd -` to navigate to the previous directory you were in. Run `cd` without any arguments to navigate back to your home directory.
 
 ### Special Paths
 There are three special paths that are commonly used in navigating UNIX file systems:
