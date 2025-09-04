@@ -55,5 +55,5 @@ fi
 - Step 4: For TL, check if user has `~/.lmod.d/default` file and whether it includes anaconda or other Python-related modules (see the possible error messages below). Since preloading Python-related modules may interfere with the initialization of the Python-based ThinLinc session, we can ask user to try renaming their `~/.lmod.d/default` file to `~/.lmod.d/mymodules`. Note: the path on Negishi is `~/.config/lmod`.
 
 ```bash
-$ mv ~/.lmod.d/default ~/.lmod.d/mymodules
+mv ~/.lmod.d/default ~/.lmod.d/mymodules
 ```

@@ -59,6 +59,8 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub pete@gautschi.rcac.purdue.edu
 # Repeat for other clusters (negishi, bell, anvil)
 # eg., ssh-copy-id -i ~/.ssh/id_rsa.pub pete@negishi.rcac.purdue.edu
 ```
+!!! note
+    Replace `pete` with your own Purdue account.
 
 This should allow you to log in to the RCAC clusters without entering a password each time.
 
@@ -67,7 +69,7 @@ This should allow you to log in to the RCAC clusters without entering a password
 
 Open your SSH config file (`~/.ssh/config`) in a text editor/VScode and add the following entries for each RCAC cluster:
 
-``` title="~/.ssh/config"
+```console title="~/.ssh/config"
 Host gautschi
     HostName login03.gautschi.rcac.purdue.edu
 Host negishi
@@ -112,7 +114,7 @@ Once connected, you can open files, run commands, and manage your projects on th
 
 Follow all steps from step 1 to step 3 on this page. Instead of creating only one `Host` for a login node (frontend), we can have both `xxx-login` and `xxx-compute` hosts set that direct to one specific login node and one specific compute node, respectively. 
 
-``` title="~/.ssh/config"
+```console title="~/.ssh/config"
 Host gautschi-login
 	HostName login03.gautschi.rcac.purdue.edu
 Host gautschi-compute

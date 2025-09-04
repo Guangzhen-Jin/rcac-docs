@@ -45,7 +45,7 @@ There's a lot to unpack here.
 
 2. There is a question of whether fairshare is working correctly because certainly the user is utilizing a lot of the cluster. There are many jobs stuck in the pending state but a lot of them are not pending for reasons of priority, they are pending because of MaxJobLimts, Dependencies on other jobs, etc. You can use the command `squeue -A standby -l --state=PD | grep Priority | sort -k4`  to see all the jobs currently pending for reasons of priority. There are 6 users who have jobs pending for this reason. You can use the command `sshare -u user,xxx` to see their current fairshare weights the output of which I will paste and explain below.
 
-```bash
+```console
 Account                    User  RawShares  NormShares    RawUsage  EffectvUsage  FairShare 
 -------------------- ---------- ---------- ----------- ----------- ------------- ---------- 
  standby                                 1    0.005435 19151317176      0.455953            

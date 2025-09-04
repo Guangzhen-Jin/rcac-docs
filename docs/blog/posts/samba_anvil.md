@@ -33,22 +33,22 @@ A common issue with the Samba libraries is seen after an OS update when some sys
 ## Solution
 The solution for this problem is to unpack the newer version of the samba libraries in the location `/apps/anvil/external/apps/samba`. This can be accomplished by the script `/apps/anvil/external/apps/samba/scripts/install-samba-rpms.sh`. Do the following steps.
 
-```
-   $ cd /apps/anvil/external/apps
-   $ mv samba samba.YYYYMMDD #backup the old samba directory for safekeeping
-   $ mkdir samba
-   $ cd samba
-   $ cp -r samba.YYYYMMDD/scripts . # Copy the scripts from the old samba directory
-   $ ./scripts/install-samba-rpms.sh # The script will automatically download the necessary RPMs, unpack them and place them in the proper location
+```bash
+$ cd /apps/anvil/external/apps
+$ mv samba samba.YYYYMMDD #backup the old samba directory for safekeeping
+$ mkdir samba
+$ cd samba
+$ cp -r samba.YYYYMMDD/scripts . # Copy the scripts from the old samba directory
+$ ./scripts/install-samba-rpms.sh # The script will automatically download the necessary RPMs, unpack them and place them in the proper location
 ```
 
 You can check the new libraries by looking at the `usr/lib64` directory underneath. Make sure to inspect the log from the script and verify that all RPMs were unpacked successfully. You may see some errors about `sed` not finding `pkgconfig` files. This can be ignored.
 
 The next thing is to test that Windows VM can use samba libraries. To test, start an interactive job with at least 4 cores.
 
-```
-   $ module load qemu
-   $ windows11
+```bash
+$ module load qemu
+$ windows11
 ```
 
 Once Windows loads, log in and look inside the directories "Anvil Home", "Anvil Scratch", etc. You should see your files there.
