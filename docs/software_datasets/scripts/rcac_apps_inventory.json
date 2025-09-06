@@ -47,6 +47,9 @@
     "availability": {
       "anvil": [
         "1.2.11"
+      ],
+      "bell": [
+        "1.3.1"
       ]
     }
   },
@@ -68,6 +71,12 @@
       "gautschi": [
         "cpu",
         "gpu"
+      ],
+      "scholar": [
+        "all"
+      ],
+      "bell": [
+        "cpu"
       ]
     }
   },
@@ -81,6 +90,12 @@
         "R2023a"
       ],
       "gautschi": [
+        "R2024a"
+      ],
+      "scholar": [
+        "R2024a"
+      ],
+      "bell": [
         "R2024a"
       ]
     }
@@ -109,6 +124,12 @@
       ],
       "gautschi": [
         "0.3.10"
+      ],
+      "scholar": [
+        "0.3.10"
+      ],
+      "bell": [
+        "0.3.10"
       ]
     }
   },
@@ -116,6 +137,9 @@
     "description": "HDF4 (also known as HDF) is a library and multi-object file format for storing and managing data between machines.",
     "availability": {
       "anvil": [
+        "4.2.15"
+      ],
+      "bell": [
         "4.2.15"
       ]
     }
@@ -128,6 +152,9 @@
         "6.2.0"
       ],
       "gautschi": [
+        "4.2.1"
+      ],
+      "scholar": [
         "4.2.1"
       ]
     }
@@ -148,6 +175,12 @@
       ],
       "gautschi": [
         "0.4.1"
+      ],
+      "scholar": [
+        "0.4.1"
+      ],
+      "bell": [
+        "0.4.1"
       ]
     }
   },
@@ -159,6 +192,12 @@
       ],
       "gautschi": [
         "1.14.3"
+      ],
+      "scholar": [
+        "1.14.3"
+      ],
+      "bell": [
+        "1.14.5"
       ]
     }
   },
@@ -178,6 +217,13 @@
       ],
       "gautschi": [
         "1.2.2"
+      ],
+      "scholar": [
+        "1.2.2"
+      ],
+      "bell": [
+        "1.2.2",
+        "1.2.4"
       ]
     }
   },
@@ -197,6 +243,12 @@
       ],
       "gautschi": [
         "3.40.2"
+      ],
+      "scholar": [
+        "3.40.2"
+      ],
+      "bell": [
+        "3.42.0"
       ]
     }
   },
@@ -258,6 +310,9 @@
         "2.5.2",
         "2.6.5",
         "2.7.0"
+      ],
+      "bell": [
+        "2.6.5"
       ]
     }
   },
@@ -273,6 +328,16 @@
       "gautschi": [
         "11.4.1",
         "14.1.0"
+      ],
+      "scholar": [
+        "11.4.1",
+        "14.1.0"
+      ],
+      "bell": [
+        "11.1.0",
+        "14.2.0",
+        "8.5.0",
+        "9.3.0"
       ]
     }
   },
@@ -284,6 +349,13 @@
       ],
       "gautschi": [
         "1.85.0"
+      ],
+      "scholar": [
+        "1.85.0",
+        "1.86.0"
+      ],
+      "bell": [
+        "1.85.0"
       ]
     }
   },
@@ -292,6 +364,9 @@
     "availability": {
       "anvil": [
         "1.61.2"
+      ],
+      "bell": [
+        "1.79.2"
       ]
     }
   },
@@ -319,6 +394,12 @@
       ],
       "gautschi": [
         "9.0.2"
+      ],
+      "scholar": [
+        "9.0.2"
+      ],
+      "bell": [
+        "9.0.2"
       ]
     }
   },
@@ -330,6 +411,12 @@
       ],
       "gautschi": [
         "1.1.3"
+      ],
+      "scholar": [
+        "1.0.0"
+      ],
+      "bell": [
+        "1.1.3"
       ]
     }
   },
@@ -338,6 +425,9 @@
     "availability": {
       "anvil": [
         "3.1.1"
+      ],
+      "bell": [
+        "3.5.1"
       ]
     }
   },
@@ -365,6 +455,12 @@
       ],
       "gautschi": [
         "20220321"
+      ],
+      "scholar": [
+        "20220321"
+      ],
+      "bell": [
+        "20220321"
       ]
     }
   },
@@ -375,6 +471,9 @@
         "2021.12"
       ],
       "gautschi": [
+        "2021.12"
+      ],
+      "scholar": [
         "2021.12"
       ]
     }
@@ -408,6 +507,12 @@
       ],
       "gautschi": [
         "4.4.1"
+      ],
+      "scholar": [
+        "4.4.1"
+      ],
+      "bell": [
+        "4.4.1"
       ]
     }
   },
@@ -427,6 +532,9 @@
       ],
       "gautschi": [
         "2.3.1"
+      ],
+      "bell": [
+        "2.3.1"
       ]
     }
   },
@@ -439,6 +547,12 @@
       ],
       "gautschi": [
         "1.1.1"
+      ],
+      "scholar": [
+        "1.1.1"
+      ],
+      "bell": [
+        "3.4.4"
       ]
     }
   },
@@ -463,6 +577,9 @@
     "availability": {
       "anvil": [
         "8.6.11"
+      ],
+      "bell": [
+        "8.6.11"
       ]
     }
   },
@@ -482,6 +599,9 @@
       ],
       "gautschi": [
         "9.56.1"
+      ],
+      "scholar": [
+        "9.56.1"
       ]
     }
   },
@@ -492,6 +612,9 @@
         "5.4.2"
       ],
       "gautschi": [
+        "6.0.0"
+      ],
+      "bell": [
         "6.0.0"
       ]
     }
@@ -529,6 +652,12 @@
       ],
       "gautschi": [
         "2.38.1"
+      ],
+      "scholar": [
+        "2.38.1"
+      ],
+      "bell": [
+        "2.38.1"
       ]
     }
   },
@@ -561,6 +690,9 @@
     "availability": {
       "anvil": [
         "4.2.2"
+      ],
+      "bell": [
+        "7.0.2"
       ]
     }
   },
@@ -571,6 +703,12 @@
         "0.4.1"
       ],
       "gautschi": [
+        "0.4.2"
+      ],
+      "scholar": [
+        "0.4.2"
+      ],
+      "bell": [
         "0.4.2"
       ]
     }
@@ -599,6 +737,9 @@
     "availability": {
       "anvil": [
         "5.15.2"
+      ],
+      "bell": [
+        "5.15.15"
       ]
     }
   },
@@ -632,6 +773,9 @@
     "availability": {
       "anvil": [
         "3.3.0"
+      ],
+      "bell": [
+        "3.4.0"
       ]
     }
   },
@@ -642,6 +786,12 @@
         "default"
       ],
       "gautschi": [
+        "default"
+      ],
+      "scholar": [
+        "default"
+      ],
+      "bell": [
         "default"
       ]
     }
@@ -686,6 +836,12 @@
       ],
       "gautschi": [
         "1.1.33"
+      ],
+      "scholar": [
+        "1.1.33"
+      ],
+      "bell": [
+        "1.1.42"
       ]
     }
   },
@@ -709,6 +865,9 @@
       "gautschi": [
         "1.11.1",
         "1.11.4"
+      ],
+      "bell": [
+        "1.9.3"
       ]
     }
   },
@@ -717,6 +876,9 @@
     "availability": {
       "anvil": [
         "3.11.4"
+      ],
+      "bell": [
+        "3.28.2"
       ]
     }
   },
@@ -736,6 +898,9 @@
       ],
       "gautschi": [
         "20241022"
+      ],
+      "bell": [
+        "20240822"
       ]
     }
   },
@@ -746,6 +911,12 @@
         "1.6.37"
       ],
       "gautschi": [
+        "1.6.37"
+      ],
+      "scholar": [
+        "1.6.37"
+      ],
+      "bell": [
         "1.6.37"
       ]
     }
@@ -773,6 +944,12 @@
         "0.4.0"
       ],
       "gautschi": [
+        "0.4.1"
+      ],
+      "scholar": [
+        "0.4.1"
+      ],
+      "bell": [
         "0.4.1"
       ]
     }
@@ -802,6 +979,12 @@
       ],
       "gautschi": [
         "2024.09"
+      ],
+      "scholar": [
+        "2024.09"
+      ],
+      "bell": [
+        "2024.12"
       ]
     }
   },
@@ -814,6 +997,9 @@
         "2024.1"
       ],
       "gautschi": [
+        "2024.1"
+      ],
+      "scholar": [
         "2024.1"
       ]
     }
@@ -851,6 +1037,9 @@
       ],
       "gautschi": [
         "2025.1.13"
+      ],
+      "bell": [
+        "2024.3-x86-64"
       ]
     }
   },
@@ -859,6 +1048,9 @@
     "availability": {
       "anvil": [
         "11.1"
+      ],
+      "bell": [
+        "15.2"
       ]
     }
   },
@@ -884,6 +1076,9 @@
       "anvil": [
         "2.4.4",
         "3.2.0"
+      ],
+      "bell": [
+        "3.10.0"
       ]
     }
   },
@@ -894,6 +1089,12 @@
         "0.3.17"
       ],
       "gautschi": [
+        "0.3.27"
+      ],
+      "scholar": [
+        "0.3.27"
+      ],
+      "bell": [
         "0.3.27"
       ]
     }
@@ -913,6 +1114,12 @@
         "5.2.0"
       ],
       "gautschi": [
+        "5.2.0"
+      ],
+      "scholar": [
+        "5.2.0"
+      ],
+      "bell": [
         "5.2.0"
       ]
     }
@@ -977,6 +1184,12 @@
         "3.3.8"
       ],
       "gautschi": [
+        "3.3.10"
+      ],
+      "scholar": [
+        "3.3.10"
+      ],
+      "bell": [
         "3.3.10"
       ]
     }
@@ -1045,6 +1258,12 @@
       ],
       "gautschi": [
         "11.0.3"
+      ],
+      "scholar": [
+        "11.0.3"
+      ],
+      "bell": [
+        "11.0.3"
       ]
     }
   },
@@ -1080,6 +1299,9 @@
       ],
       "gautschi": [
         "2024.1.0"
+      ],
+      "scholar": [
+        "2024.1.0"
       ]
     }
   },
@@ -1090,6 +1312,9 @@
         "2024.1.0"
       ],
       "gautschi": [
+        "2024.1.0"
+      ],
+      "scholar": [
         "2024.1.0"
       ]
     }
@@ -1115,6 +1340,9 @@
     "availability": {
       "anvil": [
         "6.3.0"
+      ],
+      "bell": [
+        "9.1.0"
       ]
     }
   },
@@ -1126,6 +1354,9 @@
       ],
       "gautschi": [
         "3.1.4"
+      ],
+      "bell": [
+        "3.0.2"
       ]
     }
   },
@@ -1140,6 +1371,12 @@
       "gautschi": [
         "2024.09",
         "2025.09"
+      ],
+      "scholar": [
+        "2024.09-py312"
+      ],
+      "bell": [
+        "2025.02"
       ]
     }
   },
@@ -1147,6 +1384,9 @@
     "description": "Szip is an implementation of the extended-Rice lossless compression algorithm. It provides lossless compression of scientific data, and is provided with HDF software products.",
     "availability": {
       "anvil": [
+        "2.1.1"
+      ],
+      "bell": [
         "2.1.1"
       ]
     }
@@ -1180,6 +1420,12 @@
     "availability": {
       "gautschi": [
         "1.4.4"
+      ],
+      "scholar": [
+        "1.4.4"
+      ],
+      "bell": [
+        "1.4.4"
       ]
     }
   },
@@ -1189,6 +1435,13 @@
       "gautschi": [
         "2024R2",
         "2025R2"
+      ],
+      "scholar": [
+        "2022R1"
+      ],
+      "bell": [
+        "2023R1",
+        "2024R2"
       ],
       "negishi": [
         "2022R2",
@@ -1204,6 +1457,12 @@
     "availability": {
       "gautschi": [
         "1.3.2"
+      ],
+      "scholar": [
+        "1.3.2"
+      ],
+      "bell": [
+        "1.3.2"
       ]
     }
   },
@@ -1211,6 +1470,12 @@
     "description": "LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community.",
     "availability": {
       "gautschi": [
+        "3.11.0"
+      ],
+      "scholar": [
+        "3.11.0"
+      ],
+      "bell": [
         "3.11.0"
       ],
       "negishi": [
@@ -1224,6 +1489,12 @@
       "gautschi": [
         "4.3.1"
       ],
+      "scholar": [
+        "4.3.1"
+      ],
+      "bell": [
+        "4.3.1"
+      ],
       "negishi": [
         "4.3.1"
       ]
@@ -1234,6 +1505,9 @@
     "availability": {
       "gautschi": [
         "12.6.0"
+      ],
+      "scholar": [
+        "12.1.0"
       ],
       "gilbreth": [
         "12.1.1",
@@ -1247,6 +1521,9 @@
       "gautschi": [
         "24.04.3"
       ],
+      "bell": [
+        "24.10.0"
+      ],
       "negishi": [
         "22.10.1",
         "23.04.1"
@@ -1258,6 +1535,12 @@
     "availability": {
       "gautschi": [
         "1.14"
+      ],
+      "scholar": [
+        "1.14"
+      ],
+      "bell": [
+        "1.14"
       ]
     }
   },
@@ -1267,6 +1550,13 @@
       "gautschi": [
         "18",
         "19"
+      ],
+      "scholar": [
+        "17",
+        "18"
+      ],
+      "bell": [
+        "18"
       ]
     }
   },
@@ -1294,6 +1584,12 @@
     "availability": {
       "gautschi": [
         "1.0.3"
+      ],
+      "scholar": [
+        "1.0.3"
+      ],
+      "bell": [
+        "1.0.3"
       ]
     }
   },
@@ -1302,6 +1598,12 @@
     "availability": {
       "gautschi": [
         "1.8.1.1"
+      ],
+      "scholar": [
+        "1.8.1.1"
+      ],
+      "bell": [
+        "1.9.1"
       ]
     }
   },
@@ -1319,6 +1621,12 @@
       "gautschi": [
         "14.1",
         "14.2"
+      ],
+      "scholar": [
+        "14.1"
+      ],
+      "bell": [
+        "14.1"
       ]
     }
   },
@@ -1327,6 +1635,9 @@
     "availability": {
       "gautschi": [
         "default"
+      ],
+      "scholar": [
+        "default"
       ]
     }
   },
@@ -1334,6 +1645,9 @@
     "description": "Tools for Splitting, Applying and Combining Data. A set of tools that solves a common set of problems: you need to break a big problem down into manageable pieces, operate on each piece and then put all the pieces back together. For example, you might want to fit a model to each spatial location or time point in your study, summarise data by panels or collapse high-dimensional arrays to simpler summary statistics. The development of 'plyr' has been generously supported by 'Becton Dickinson'.",
     "availability": {
       "gautschi": [
+        "1.8.8"
+      ],
+      "scholar": [
         "1.8.8"
       ]
     }
@@ -1344,6 +1658,13 @@
       "gautschi": [
         "6.2",
         "6.3"
+      ],
+      "scholar": [
+        "6.2"
+      ],
+      "bell": [
+        "6.0",
+        "6.2"
       ]
     }
   },
@@ -1360,6 +1681,12 @@
     "availability": {
       "gautschi": [
         "2.4.5"
+      ],
+      "scholar": [
+        "2.4.5"
+      ],
+      "bell": [
+        "2.4.5"
       ]
     }
   },
@@ -1368,6 +1695,12 @@
     "availability": {
       "gautschi": [
         "2.3.8"
+      ],
+      "scholar": [
+        "2.3.8"
+      ],
+      "bell": [
+        "2.3.8"
       ]
     }
   },
@@ -1375,6 +1708,12 @@
     "description": "NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. This is the Fortran distribution.",
     "availability": {
       "gautschi": [
+        "4.6.1"
+      ],
+      "scholar": [
+        "4.6.1"
+      ],
+      "bell": [
         "4.6.1"
       ],
       "negishi": [
@@ -1388,6 +1727,12 @@
       "gautschi": [
         "4.9.2"
       ],
+      "scholar": [
+        "4.9.2"
+      ],
+      "bell": [
+        "4.9.2"
+      ],
       "negishi": [
         "4.9.0"
       ]
@@ -1398,6 +1743,9 @@
     "availability": {
       "gautschi": [
         "2025.06-py313"
+      ],
+      "scholar": [
+        "2024.02-py311"
       ],
       "negishi": [
         "2021.05-py38",
@@ -1411,6 +1759,12 @@
     "availability": {
       "gautschi": [
         "2.19.2"
+      ],
+      "scholar": [
+        "2.19.2"
+      ],
+      "bell": [
+        "2.19.2"
       ]
     }
   },
@@ -1419,6 +1773,241 @@
     "availability": {
       "gautschi": [
         "360-2024-R1"
+      ],
+      "scholar": [
+        "360-2024-R1"
+      ],
+      "bell": [
+        "360-2024-R1"
+      ]
+    }
+  },
+  "gaussian16": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "B.01"
+      ],
+      "bell": [
+        "B.01"
+      ]
+    }
+  },
+  "r-sf": {
+    "description": "Name   : r-sf",
+    "availability": {
+      "scholar": [
+        "1.0-12"
+      ],
+      "bell": [
+        "1.0-16"
+      ]
+    }
+  },
+  "hyper-shell": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "2.5.2"
+      ]
+    }
+  },
+  "r-ncdf4": {
+    "description": "Name   : r-ncdf4",
+    "availability": {
+      "scholar": [
+        "1.21"
+      ],
+      "bell": [
+        "1.23"
+      ]
+    }
+  },
+  "panoply": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "4.11.0"
+      ]
+    }
+  },
+  "aws-cli": {
+    "description": "The AWS Command Line Interface (CLI) is a unified tool to manage \tyour AWS services from command line.",
+    "availability": {
+      "scholar": [
+        "2.4.15"
+      ],
+      "bell": [
+        "2.9.7"
+      ],
+      "negishi": [
+        "2.9.7"
+      ]
+    }
+  },
+  "sas": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "9.4"
+      ]
+    }
+  },
+  "gaussian09": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "E.01"
+      ]
+    }
+  },
+  "gaussview": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "5.0.8",
+        "6.0.16"
+      ],
+      "bell": [
+        "6.0.16"
+      ]
+    }
+  },
+  "ansysem": {
+    "description": "To launch ansysedt, please type  \t$ run_ansysedt  This will set the project folder to be ${RCAC_SCRATCH}/Ansoft. For  the Workbench cluster, the folder is set to be /tmp/$USER/Ansoft.",
+    "availability": {
+      "scholar": [
+        "2021r2"
+      ]
+    }
+  },
+  "stata-mp": {
+    "description": "",
+    "availability": {
+      "scholar": [
+        "17",
+        "18"
+      ],
+      "bell": [
+        "18"
+      ]
+    }
+  },
+  "hspice": {
+    "description": "",
+    "availability": {
+      "bell": [
+        "2020.12"
+      ]
+    }
+  },
+  "intel-oneapi-compilers": {
+    "description": "Name   : intel-oneapi-compilers",
+    "availability": {
+      "bell": [
+        "2024.2.0"
+      ]
+    }
+  },
+  "intel-oneapi-tbb": {
+    "description": "Name   : intel-oneapi-tbb",
+    "availability": {
+      "bell": [
+        "2022.0.0"
+      ]
+    }
+  },
+  "mvapich2": {
+    "description": "Name   : mvapich2",
+    "availability": {
+      "bell": [
+        "2.3.7-1"
+      ]
+    }
+  },
+  "sentaurus": {
+    "description": "",
+    "availability": {
+      "bell": [
+        "2022.03"
+      ]
+    }
+  },
+  "rocm": {
+    "description": "rocm - Load this module to enable ROCm tools and libraries for AMD GPUs.",
+    "availability": {
+      "bell": [
+        "6.2.2"
+      ]
+    }
+  },
+  "vim": {
+    "description": "Name   : vim",
+    "availability": {
+      "bell": [
+        "9.1.0437"
+      ]
+    }
+  },
+  "intel-oneapi-vtune": {
+    "description": "Name   : intel-oneapi-vtune",
+    "availability": {
+      "bell": [
+        "2025.0.0"
+      ]
+    }
+  },
+  "quantumatk": {
+    "description": "",
+    "availability": {
+      "bell": [
+        "2020.09"
+      ]
+    }
+  },
+  "thermocalc": {
+    "description": "To use TC-Python, you need to create an anaconda environment first. Please visit our user guide below for rcac-conda-env usage.          https://www.rcac.purdue.edu/knowledge/brown/run/examples/apps/python/environment_example  Example commands to install TC_Python into your anaconda environment in $HOME.          $ module load anaconda/2022.10-py39         $ module load thermocalc/2022b          $ conda-env-mod create -n tcpython         $ module load use.own         $ module load conda-env/tcpython-py3.9.13         $ pip install $TC22B_HOME/SDK/TC-Python/TC_Python-2022.2.26156.178-py3-none-any.whl     TC-Python user guide:          https://www.thermocalc.com/media/55442/TC-Python-API-Programmer-Guide.pdf",
+    "availability": {
+      "bell": [
+        "2022b"
+      ]
+    }
+  },
+  "openmpi": {
+    "description": "Name   : openmpi",
+    "availability": {
+      "bell": [
+        "4.1.6",
+        "5.0.5"
+      ]
+    }
+  },
+  "rocmcontainers": {
+    "description": "rocmcontainers - Load this first to make available modules for         ROCm-based application containers with AMD GPU support.",
+    "availability": {
+      "bell": [
+        "default"
+      ]
+    }
+  },
+  "nf-core": {
+    "description": "",
+    "availability": {
+      "bell": [
+        "2.11.1"
+      ],
+      "negishi": [
+        "2.11.1",
+        "2.7.2",
+        "2.8"
+      ]
+    }
+  },
+  "intel-oneapi-mpi": {
+    "description": "Name   : intel-oneapi-mpi",
+    "availability": {
+      "bell": [
+        "2021.14.0"
       ]
     }
   },
@@ -1427,16 +2016,6 @@
     "availability": {
       "gilbreth": [
         "9.2.0.82-12"
-      ]
-    }
-  },
-  "nf-core": {
-    "description": "",
-    "availability": {
-      "negishi": [
-        "2.11.1",
-        "2.7.2",
-        "2.8"
       ]
     }
   },
@@ -1469,14 +2048,6 @@
     "availability": {
       "negishi": [
         "2.0.14"
-      ]
-    }
-  },
-  "aws-cli": {
-    "description": "The AWS Command Line Interface (CLI) is a unified tool to manage \tyour AWS services from command line.",
-    "availability": {
-      "negishi": [
-        "2.9.7"
       ]
     }
   }

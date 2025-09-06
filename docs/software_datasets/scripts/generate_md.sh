@@ -5,7 +5,7 @@
 set -euo pipefail
 
 JSON_FILE="./rcac_apps_inventory.json"
-MD_DIR="./md"
+MD_DIR="../software/md"
 
 mkdir -p "$MD_DIR"
 
@@ -24,6 +24,8 @@ jq -r 'to_entries[] |
 
   {
     echo "# $APP_NAME"
+    echo
+    echo "[Back to application catalog](../app_catalog.md)"
     echo
     echo "## Description"
     if [ -n "$DESCRIPTION" ]; then

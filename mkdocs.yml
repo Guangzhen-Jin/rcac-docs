@@ -60,6 +60,7 @@ plugins:
         - index.md
         - contact.md
         - blog/*
+        - software_datasets/*
   - macros
 
 nav:
@@ -83,7 +84,7 @@ nav:
     - software_datasets/index.md
     - Software:
       - software_datasets/software/index.md
-      - Software Catelog: software_datasets/software/app_catelog.md
+      - Software Catalog: software_datasets/software/app_catalog.md
       - Computational chemistry: 
         - amber: software_datasets/software/amber.md
         - cp2k: software_datasets/software/cp2k.md
