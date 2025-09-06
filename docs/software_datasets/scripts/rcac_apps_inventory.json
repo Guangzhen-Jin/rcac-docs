@@ -1,0 +1,1483 @@
+{
+  "mpfr": {
+    "description": "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
+    "availability": {
+      "anvil": [
+        "4.0.2"
+      ]
+    }
+  },
+  "libiconv": {
+    "description": "GNU libiconv provides an implementation of the iconv() function and the iconv program for character set conversion.",
+    "availability": {
+      "anvil": [
+        "1.16"
+      ]
+    }
+  },
+  "libtirpc": {
+    "description": "Libtirpc is a port of Suns Transport-Independent RPC library to Linux.",
+    "availability": {
+      "anvil": [
+        "1.2.6"
+      ]
+    }
+  },
+  "font-util": {
+    "description": "X.Org font package creation/installation utilities and fonts.",
+    "availability": {
+      "anvil": [
+        "1.3.2"
+      ]
+    }
+  },
+  "parafly": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "r2013"
+      ],
+      "gautschi": [
+        "r2013"
+      ]
+    }
+  },
+  "zlib": {
+    "description": "A free, general-purpose, legally unencumbered lossless data-compression library.",
+    "availability": {
+      "anvil": [
+        "1.2.11"
+      ]
+    }
+  },
+  "gmt": {
+    "description": "GMT (Generic Mapping Tools) is an open source collection of about 80 command-line tools for manipulating geographic and Cartesian data sets (including filtering, trend fitting, gridding, projecting, etc.) and producing PostScript illustrations ranging from simple x-y plots via contour maps to artificially illuminated surfaces and 3D perspective views.",
+    "availability": {
+      "anvil": [
+        "6.1.0"
+      ]
+    }
+  },
+  "modtree": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "cpu",
+        "gpu"
+      ],
+      "gautschi": [
+        "cpu",
+        "gpu"
+      ]
+    }
+  },
+  "matlab": {
+    "description": "MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and fourth-generation programming language. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python.",
+    "availability": {
+      "anvil": [
+        "R2020b",
+        "R2021b",
+        "R2022a",
+        "R2023a"
+      ],
+      "gautschi": [
+        "R2024a"
+      ]
+    }
+  },
+  "ovito": {
+    "description": "The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.",
+    "availability": {
+      "anvil": [
+        "3.12.2"
+      ]
+    }
+  },
+  "readline": {
+    "description": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
+    "availability": {
+      "anvil": [
+        "8.1"
+      ]
+    }
+  },
+  "xcb-util-renderutil": {
+    "description": "The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+    "availability": {
+      "anvil": [
+        "0.3.9"
+      ],
+      "gautschi": [
+        "0.3.10"
+      ]
+    }
+  },
+  "hdf": {
+    "description": "HDF4 (also known as HDF) is a library and multi-object file format for storing and managing data between machines.",
+    "availability": {
+      "anvil": [
+        "4.2.15"
+      ]
+    }
+  },
+  "qemu": {
+    "description": "You can launch a pre-configured Windows-11-professional virtual machine by running the command 'windows11' after loading this module.  Notice: This copy of Windows is only licensed to be used on Anvil.",
+    "availability": {
+      "anvil": [
+        "4.1.1",
+        "6.2.0"
+      ],
+      "gautschi": [
+        "4.2.1"
+      ]
+    }
+  },
+  "renderproto": {
+    "description": "X Rendering Extension. This extension defines the protcol for a digital image composition as the foundation of a new rendering model within the X Window System.",
+    "availability": {
+      "anvil": [
+        "0.11.1"
+      ]
+    }
+  },
+  "xcb-util-keysyms": {
+    "description": "The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+    "availability": {
+      "anvil": [
+        "0.4.0"
+      ],
+      "gautschi": [
+        "0.4.1"
+      ]
+    }
+  },
+  "hdf5": {
+    "description": "HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data.",
+    "availability": {
+      "anvil": [
+        "1.10.7"
+      ],
+      "gautschi": [
+        "1.14.3"
+      ]
+    }
+  },
+  "libxrender": {
+    "description": "libXrender - library for the Render Extension to the X11 protocol.",
+    "availability": {
+      "anvil": [
+        "0.9.10"
+      ]
+    }
+  },
+  "libxscrnsaver": {
+    "description": "XScreenSaver - X11 Screen Saver extension client library",
+    "availability": {
+      "anvil": [
+        "1.2.2"
+      ],
+      "gautschi": [
+        "1.2.2"
+      ]
+    }
+  },
+  "eigen": {
+    "description": "Eigen is a C++ template library for linear algebra matrices, vectors, numerical solvers, and related algorithms.",
+    "availability": {
+      "anvil": [
+        "3.3.9"
+      ]
+    }
+  },
+  "qgis": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "3.40.1"
+      ],
+      "gautschi": [
+        "3.40.2"
+      ]
+    }
+  },
+  "xextproto": {
+    "description": "X Protocol Extensions.",
+    "availability": {
+      "anvil": [
+        "7.3.0"
+      ]
+    }
+  },
+  "hpctoolkit": {
+    "description": "HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers. By using statistical sampling of timers and hardware performance counters, HPCToolkit collects accurate measurements of a program's work, resource consumption, and inefficiency and attributes them to the full calling context in which they occur.",
+    "availability": {
+      "anvil": [
+        "2021.03.01"
+      ]
+    }
+  },
+  "clusterbot": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2.0.0"
+      ]
+    }
+  },
+  "geos": {
+    "description": "GEOS (Geometry Engine - Open Source) is a C++ port of the Java Topology Suite (JTS). As such, it aims to contain the complete functionality of JTS in C++. This includes all the OpenGIS Simple Features for SQL spatial predicate functions and spatial operators, as well as specific JTS enhanced topology functions.",
+    "availability": {
+      "anvil": [
+        "3.8.1",
+        "3.9.1"
+      ]
+    }
+  },
+  "spice-server": {
+    "description": "This package builds spice-server for enabling spice-based communication and graphics in qemu vms.",
+    "availability": {
+      "anvil": [
+        "0.15.2"
+      ]
+    }
+  },
+  "hypershell": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2.0.2",
+        "2.2.0",
+        "2.4.0",
+        "2.5.1",
+        "2.6.0",
+        "2.6.2",
+        "2.6.5",
+        "2.7.0"
+      ],
+      "gautschi": [
+        "2.5.2",
+        "2.6.5",
+        "2.7.0"
+      ]
+    }
+  },
+  "gcc": {
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages.",
+    "availability": {
+      "anvil": [
+        "10.2.0",
+        "11.2.0",
+        "14.2.0",
+        "8.4.1"
+      ],
+      "gautschi": [
+        "11.4.1",
+        "14.1.0"
+      ]
+    }
+  },
+  "boost": {
+    "description": "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library. Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use.",
+    "availability": {
+      "anvil": [
+        "1.74.0"
+      ],
+      "gautschi": [
+        "1.85.0"
+      ]
+    }
+  },
+  "vscode": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "1.61.2"
+      ]
+    }
+  },
+  "libxext": {
+    "description": "libXext - library for common extensions to the X11 protocol.",
+    "availability": {
+      "anvil": [
+        "1.3.3"
+      ]
+    }
+  },
+  "perl": {
+    "description": "Perl 5 is a highly capable, feature-rich programming language with over 27 years of development.",
+    "availability": {
+      "anvil": [
+        "5.32.0"
+      ]
+    }
+  },
+  "mesa-glu": {
+    "description": "This package provides the Mesa OpenGL Utility library.",
+    "availability": {
+      "anvil": [
+        "9.0.2"
+      ],
+      "gautschi": [
+        "9.0.2"
+      ]
+    }
+  },
+  "duckdb": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "1.0.0"
+      ],
+      "gautschi": [
+        "1.1.3"
+      ]
+    }
+  },
+  "spark": {
+    "description": "Apache Spark is a fast and general engine for large-scale data processing.",
+    "availability": {
+      "anvil": [
+        "3.1.1"
+      ]
+    }
+  },
+  "xz": {
+    "description": "XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
+    "availability": {
+      "anvil": [
+        "5.2.5"
+      ]
+    }
+  },
+  "fontconfig": {
+    "description": "Fontconfig is a library for configuring/customizing font access",
+    "availability": {
+      "anvil": [
+        "2.12.3"
+      ]
+    }
+  },
+  "texlive": {
+    "description": "TeX Live is an easy (we hope) way to get up and running with the TeX document production system. It provides a comprehensive TeX system with binaries for most flavors of Unix, including GNU/Linux, macOS, and also Windows. It includes all the major TeX-related programs, macro packages, and fonts that are free software, including support for many languages around the world.",
+    "availability": {
+      "anvil": [
+        "20200406"
+      ],
+      "gautschi": [
+        "20220321"
+      ]
+    }
+  },
+  "tbb": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2021.12"
+      ],
+      "gautschi": [
+        "2021.12"
+      ]
+    }
+  },
+  "launcher": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "3.9"
+      ],
+      "gautschi": [
+        "3.9"
+      ]
+    }
+  },
+  "cmake": {
+    "description": "A cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
+    "availability": {
+      "anvil": [
+        "3.20.0"
+      ]
+    }
+  },
+  "r": {
+    "description": "R is 'GNU S', a freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc. Please consult the R project homepage for further information.",
+    "availability": {
+      "anvil": [
+        "4.0.5",
+        "4.1.0",
+        "4.4.1"
+      ],
+      "gautschi": [
+        "4.4.1"
+      ]
+    }
+  },
+  "libxau": {
+    "description": "The libXau package contains a library implementing the X11 Authorization Protocol. This is useful for restricting client access to the display.",
+    "availability": {
+      "anvil": [
+        "1.0.8"
+      ]
+    }
+  },
+  "monitor": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2.3.1"
+      ],
+      "gautschi": [
+        "2.3.1"
+      ]
+    }
+  },
+  "jupyter": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2022.04",
+        "2025.07"
+      ],
+      "gautschi": [
+        "1.1.1"
+      ]
+    }
+  },
+  "cue-login-env": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "1.1"
+      ]
+    }
+  },
+  "libxml2": {
+    "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.",
+    "availability": {
+      "anvil": [
+        "2.9.10"
+      ]
+    }
+  },
+  "tk": {
+    "description": "Tk is a graphical user interface toolkit that takes developing desktop applications to a higher level than conventional approaches. Tk is the standard GUI not only for Tcl, but for many other dynamic languages, and can produce rich, native applications that run unchanged across Windows, Mac OS X, Linux and more.",
+    "availability": {
+      "anvil": [
+        "8.6.11"
+      ]
+    }
+  },
+  "xproto": {
+    "description": "X Window System Core Protocol. This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11. It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.",
+    "availability": {
+      "anvil": [
+        "7.0.31"
+      ]
+    }
+  },
+  "ghostscript": {
+    "description": "An interpreter for the PostScript language and for PDF.",
+    "availability": {
+      "anvil": [
+        "9.56.1"
+      ],
+      "gautschi": [
+        "9.56.1"
+      ]
+    }
+  },
+  "gnuplot": {
+    "description": "Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. The source code is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Gnuplot has been supported and under active development since 1986",
+    "availability": {
+      "anvil": [
+        "5.4.2"
+      ],
+      "gautschi": [
+        "6.0.0"
+      ]
+    }
+  },
+  "intel-mkl": {
+    "description": "Intel Math Kernel Library.",
+    "availability": {
+      "anvil": [
+        "2019.5.281",
+        "2020.4.304"
+      ]
+    }
+  },
+  "blis": {
+    "description": "BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries. The framework was designed to isolate essential kernels of computation that, when optimized, immediately enable optimized implementations of most of its commonly used and computationally intensive operations. BLIS is written in ISO C99 and available under a new/modified/3-clause BSD license. While BLIS exports a new BLAS-like API, it also includes a BLAS compatibility layer which gives application developers access to BLIS implementations via traditional BLAS routine calls. An object-based API unique to BLIS is also available.",
+    "availability": {
+      "anvil": [
+        "0.8.1"
+      ]
+    }
+  },
+  "tcl": {
+    "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, administration, testing and many more. Open source and business-friendly, Tcl is a mature yet evolving language that is truly cross platform, easily deployed and highly extensible.",
+    "availability": {
+      "anvil": [
+        "8.6.11"
+      ]
+    }
+  },
+  "util-linux-uuid": {
+    "description": "Util-linux is a suite of essential utilities for any Linux system.",
+    "availability": {
+      "anvil": [
+        "2.38.1"
+      ],
+      "gautschi": [
+        "2.38.1"
+      ]
+    }
+  },
+  "openssl": {
+    "description": "OpenSSL is an open source project that provides a robust, commercial- grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.",
+    "availability": {
+      "anvil": [
+        "1.1.1g"
+      ]
+    }
+  },
+  "learning": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "conda-2021.05-py38-cpu"
+      ]
+    }
+  },
+  "gmp": {
+    "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.",
+    "availability": {
+      "anvil": [
+        "6.2.1"
+      ]
+    }
+  },
+  "ffmpeg": {
+    "description": "FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.",
+    "availability": {
+      "anvil": [
+        "4.2.2"
+      ]
+    }
+  },
+  "xcb-util-wm": {
+    "description": "The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+    "availability": {
+      "anvil": [
+        "0.4.1"
+      ],
+      "gautschi": [
+        "0.4.2"
+      ]
+    }
+  },
+  "cdo": {
+    "description": "CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.",
+    "availability": {
+      "anvil": [
+        "1.9.9"
+      ],
+      "gilbreth": [
+        "2.3.0"
+      ]
+    }
+  },
+  "pixman": {
+    "description": "The Pixman package contains a library that provides low-level pixel manipulation features such as image compositing and trapezoid rasterization.",
+    "availability": {
+      "anvil": [
+        "0.40.0"
+      ]
+    }
+  },
+  "qt": {
+    "description": "Qt is a comprehensive cross-platform C++ application framework.",
+    "availability": {
+      "anvil": [
+        "5.15.2"
+      ]
+    }
+  },
+  "proj": {
+    "description": "PROJ is a generic coordinate transformation software, that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations.",
+    "availability": {
+      "anvil": [
+        "5.2.0",
+        "6.2.0"
+      ]
+    }
+  },
+  "curl": {
+    "description": "cURL is an open source command line tool and library for transferring data with URL syntax",
+    "availability": {
+      "anvil": [
+        "7.76.1"
+      ]
+    }
+  },
+  "bzip2": {
+    "description": "bzip2 is a freely available, patent free high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
+    "availability": {
+      "anvil": [
+        "1.0.8"
+      ]
+    }
+  },
+  "hadoop": {
+    "description": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.",
+    "availability": {
+      "anvil": [
+        "3.3.0"
+      ]
+    }
+  },
+  "biocontainers": {
+    "description": "biocontainers - Load this first to make BioContainers application modules available.",
+    "availability": {
+      "anvil": [
+        "default"
+      ],
+      "gautschi": [
+        "default"
+      ]
+    }
+  },
+  "grads": {
+    "description": "The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth science data. GrADS has two data models for handling gridded and station data. GrADS supports many data file formats, including binary (stream or sequential), GRIB (version 1 and 2), NetCDF, HDF (version 4 and 5), and BUFR (for station data).",
+    "availability": {
+      "anvil": [
+        "2.2.1"
+      ]
+    }
+  },
+  "udunits": {
+    "description": "Automated units conversion",
+    "availability": {
+      "anvil": [
+        "2.2.28"
+      ]
+    }
+  },
+  "hwloc": {
+    "description": "The Hardware Locality (hwloc) software project. The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
+    "availability": {
+      "anvil": [
+        "1.11.13"
+      ]
+    }
+  },
+  "gettext": {
+    "description": "GNU internationalization (i18n) and localization (l10n) library.",
+    "availability": {
+      "anvil": [
+        "0.21"
+      ]
+    }
+  },
+  "libxslt": {
+    "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.",
+    "availability": {
+      "anvil": [
+        "1.1.33"
+      ],
+      "gautschi": [
+        "1.1.33"
+      ]
+    }
+  },
+  "gdbm": {
+    "description": "GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.",
+    "availability": {
+      "anvil": [
+        "1.19"
+      ]
+    }
+  },
+  "julia": {
+    "description": "The Julia Language: A fresh approach to technical computing",
+    "availability": {
+      "anvil": [
+        "1.10.9",
+        "1.11.4",
+        "1.6.2",
+        "1.9.3"
+      ],
+      "gautschi": [
+        "1.11.1",
+        "1.11.4"
+      ]
+    }
+  },
+  "protobuf": {
+    "description": "Google's data interchange format.",
+    "availability": {
+      "anvil": [
+        "3.11.4"
+      ]
+    }
+  },
+  "vmd": {
+    "description": "VMD provides user-editable materials which can be applied to molecular geometry. These material properties control the details of how VMD shades the molecular geometry, and how transparent or opaque the displayed molecular geometry is. With this feature, one can easily create nice looking transparent surfaces which allow inner structural details to be seen within a large molecular structure. The material controls can be particularly helpful when rendering molecular scenes using external ray tracers, each of which typically differ slightly.",
+    "availability": {
+      "anvil": [
+        "1.9.3"
+      ]
+    }
+  },
+  "parallel": {
+    "description": "GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input.",
+    "availability": {
+      "anvil": [
+        "20200822"
+      ],
+      "gautschi": [
+        "20241022"
+      ]
+    }
+  },
+  "libpng": {
+    "description": "libpng is the official PNG reference library.",
+    "availability": {
+      "anvil": [
+        "1.6.37"
+      ],
+      "gautschi": [
+        "1.6.37"
+      ]
+    }
+  },
+  "papi": {
+    "description": "PAPI provides the tool designer and application engineer with a consistent interface and methodology for use of the performance counter hardware found in most major microprocessors. PAPI enables software engineers to see, in near real time, the relation between software performance and processor events. In addition Component PAPI provides access to a collection of components that expose performance measurement opportunities across the hardware and software stack.",
+    "availability": {
+      "anvil": [
+        "6.0.0.1"
+      ]
+    }
+  },
+  "libffi": {
+    "description": "The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run time.",
+    "availability": {
+      "anvil": [
+        "3.3"
+      ]
+    }
+  },
+  "xcb-util-image": {
+    "description": "The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.",
+    "availability": {
+      "anvil": [
+        "0.4.0"
+      ],
+      "gautschi": [
+        "0.4.1"
+      ]
+    }
+  },
+  "gstreamer": {
+    "description": "This is a dummy package to install gstreamer within Spack. You must install Gstreamer from your OS distribution and point to it as an external.",
+    "availability": {
+      "anvil": [
+        "1.16.1"
+      ]
+    }
+  },
+  "libv8": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "6.7.17"
+      ]
+    }
+  },
+  "rstudio": {
+    "description": "This package installs Rstudio desktop from pre-compiled binaries available in the Rstudio website. The installer assumes that you are running on CentOS7/Redhat7/Fedora19. Please fix the download URL for other systems.",
+    "availability": {
+      "anvil": [
+        "2021.09.0",
+        "2024.04.2"
+      ],
+      "gautschi": [
+        "2024.09"
+      ]
+    }
+  },
+  "intel": {
+    "description": "Intel Parallel Studio.",
+    "availability": {
+      "anvil": [
+        "19.0.5.281",
+        "19.1.3.304",
+        "2024.1"
+      ],
+      "gautschi": [
+        "2024.1"
+      ]
+    }
+  },
+  "expat": {
+    "description": "Expat is an XML parser library written in C.",
+    "availability": {
+      "anvil": [
+        "2.4.1"
+      ]
+    }
+  },
+  "libpthread-stubs": {
+    "description": "The libpthread-stubs package provides weak aliases for pthread functions not provided in libc or otherwise available by default.",
+    "availability": {
+      "anvil": [
+        "0.4"
+      ]
+    }
+  },
+  "krb5": {
+    "description": "Network authentication protocol",
+    "availability": {
+      "anvil": [
+        "1.18.2"
+      ]
+    }
+  },
+  "totalview": {
+    "description": "RogueWave Totalview software",
+    "availability": {
+      "anvil": [
+        "2020.2.6",
+        "2025.1.13"
+      ],
+      "gautschi": [
+        "2025.1.13"
+      ]
+    }
+  },
+  "gdb": {
+    "description": "GDB, the GNU Project debugger, allows you to see what is going on 'inside' another program while it executes -- or what another program was doing at the moment it crashed.",
+    "availability": {
+      "anvil": [
+        "11.1"
+      ]
+    }
+  },
+  "libxcb": {
+    "description": "The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.",
+    "availability": {
+      "anvil": [
+        "1.14"
+      ]
+    }
+  },
+  "glib": {
+    "description": "GLib provides the core application building blocks for libraries and applications written in C. The GLib package contains a low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for such runtime functionality as an event loop, threads, dynamic loading and an object system.",
+    "availability": {
+      "anvil": [
+        "2.68.3"
+      ]
+    }
+  },
+  "gdal": {
+    "description": "GDAL (Geospatial Data Abstraction Library) is a translator library for raster and vector geospatial data formats that is released under an X/MIT style Open Source license by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful command line utilities for data translation and processing.",
+    "availability": {
+      "anvil": [
+        "2.4.4",
+        "3.2.0"
+      ]
+    }
+  },
+  "openblas": {
+    "description": "OpenBLAS: An optimized BLAS library",
+    "availability": {
+      "anvil": [
+        "0.3.17"
+      ],
+      "gautschi": [
+        "0.3.27"
+      ]
+    }
+  },
+  "tar": {
+    "description": "GNU Tar provides the ability to create tar archives, as well as various other kinds of manipulation.",
+    "availability": {
+      "anvil": [
+        "1.34"
+      ]
+    }
+  },
+  "libflame": {
+    "description": "libflame is a portable library for dense matrix computations, providing much of the functionality present in LAPACK, developed by current and former members of the Science of High-Performance Computing (SHPC) group in the Institute for Computational Engineering and Sciences at The University of Texas at Austin. libflame includes a compatibility layer, lapack2flame, which includes a complete LAPACK implementation.",
+    "availability": {
+      "anvil": [
+        "5.2.0"
+      ],
+      "gautschi": [
+        "5.2.0"
+      ]
+    }
+  },
+  "swig": {
+    "description": "SWIG is an interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl. It works by taking the declarations found in C/C++ header files and using them to generate the wrapper code that scripting languages need to access the underlying C/C++ code. In addition, SWIG provides a variety of customization features that let you tailor the wrapping process to suit your application.",
+    "availability": {
+      "anvil": [
+        "4.0.2"
+      ]
+    }
+  },
+  "berkeley-db": {
+    "description": "Oracle Berkeley DB",
+    "availability": {
+      "anvil": [
+        "18.1.40"
+      ]
+    }
+  },
+  "openjdk": {
+    "description": "The free and opensource java implementation",
+    "availability": {
+      "anvil": [
+        "1.8.0_265-b01",
+        "11.0.8_10"
+      ],
+      "gautschi": [
+        "17.0.2_8"
+      ]
+    }
+  },
+  "cairo": {
+    "description": "Cairo is a 2D graphics library with support for multiple output devices.",
+    "availability": {
+      "anvil": [
+        "1.16.0"
+      ]
+    }
+  },
+  "libfabric": {
+    "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting fabric communication services to applications.",
+    "availability": {
+      "anvil": [
+        "1.12.0"
+      ]
+    }
+  },
+  "libbsd": {
+    "description": "This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.",
+    "availability": {
+      "anvil": [
+        "0.11.3"
+      ]
+    }
+  },
+  "fftw": {
+    "description": "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST). We believe that FFTW, which is free software, should become the FFT library of choice for most applications.",
+    "availability": {
+      "anvil": [
+        "2.1.5",
+        "3.3.8"
+      ],
+      "gautschi": [
+        "3.3.10"
+      ]
+    }
+  },
+  "gfms": {
+    "description": "gfms - Load this first to make GFMs application modules available.",
+    "availability": {
+      "anvil": [
+        "default"
+      ]
+    }
+  },
+  "gsl": {
+    "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.",
+    "availability": {
+      "anvil": [
+        "2.4"
+      ]
+    }
+  },
+  "xcb-proto": {
+    "description": "xcb-proto provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API.",
+    "availability": {
+      "anvil": [
+        "1.14.1"
+      ]
+    }
+  },
+  "libxdmcp": {
+    "description": "libXdmcp - X Display Manager Control Protocol library.",
+    "availability": {
+      "anvil": [
+        "1.1.2"
+      ]
+    }
+  },
+  "freetype": {
+    "description": "FreeType is a freely available software library to render fonts. It is written in C, designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images) of most vector and bitmap font formats.",
+    "availability": {
+      "anvil": [
+        "2.7.1"
+      ]
+    }
+  },
+  "libtiff": {
+    "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.",
+    "availability": {
+      "anvil": [
+        "4.1.0"
+      ]
+    }
+  },
+  "sqlite": {
+    "description": "SQLite3 is an SQL database engine in a C library. Programs that link the SQLite3 library can have SQL database access without running a separate RDBMS process.",
+    "availability": {
+      "anvil": [
+        "3.35.5"
+      ]
+    }
+  },
+  "gurobi": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "9.5.1"
+      ],
+      "gautschi": [
+        "11.0.3"
+      ]
+    }
+  },
+  "libx11": {
+    "description": "libX11 - Core X11 protocol client library.",
+    "availability": {
+      "anvil": [
+        "1.7.0"
+      ]
+    }
+  },
+  "vlc": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "3.0.9.2"
+      ]
+    }
+  },
+  "python": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "3.9.5"
+      ]
+    }
+  },
+  "intel-rt": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2024.1.0"
+      ],
+      "gautschi": [
+        "2024.1.0"
+      ]
+    }
+  },
+  "oclfpga": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2024.1.0"
+      ],
+      "gautschi": [
+        "2024.1.0"
+      ]
+    }
+  },
+  "pcre": {
+    "description": "The PCRE package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.",
+    "availability": {
+      "anvil": [
+        "8.44"
+      ]
+    }
+  },
+  "libmd": {
+    "description": "This library provides message digest functions found on BSD systems either on their libc (NetBSD, OpenBSD) or libmd (FreeBSD, DragonflyBSD, macOS, Solaris) libraries and lacking on others like GNU systems.",
+    "availability": {
+      "anvil": [
+        "1.0.3"
+      ]
+    }
+  },
+  "octave": {
+    "description": "GNU Octave is a high-level language, primarily intended for numerical computations. It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.",
+    "availability": {
+      "anvil": [
+        "6.3.0"
+      ]
+    }
+  },
+  "xalt": {
+    "description": "",
+    "availability": {
+      "anvil": [
+        "2.10.45"
+      ],
+      "gautschi": [
+        "3.1.4"
+      ]
+    }
+  },
+  "conda": {
+    "description": "Python distribution, virtual environments, and package manager.",
+    "availability": {
+      "anvil": [
+        "2024.09",
+        "2025.02",
+        "2025.09"
+      ],
+      "gautschi": [
+        "2024.09",
+        "2025.09"
+      ]
+    }
+  },
+  "libszip": {
+    "description": "Szip is an implementation of the extended-Rice lossless compression algorithm. It provides lossless compression of scientific data, and is provided with HDF software products.",
+    "availability": {
+      "anvil": [
+        "2.1.1"
+      ]
+    }
+  },
+  "emacs": {
+    "description": "The Emacs programmable text editor.",
+    "availability": {
+      "anvil": [
+        "27.2"
+      ]
+    }
+  },
+  "mpc": {
+    "description": "Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.",
+    "availability": {
+      "anvil": [
+        "1.1.0"
+      ]
+    }
+  },
+  "py-matplotlib": {
+    "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    "availability": {
+      "gautschi": [
+        "3.9.0"
+      ]
+    }
+  },
+  "r-reshape2": {
+    "description": "Flexibly Reshape Data: A Reboot of the Reshape Package. Flexibly restructure and aggregate data using just two functions: melt and dcast (or acast).",
+    "availability": {
+      "gautschi": [
+        "1.4.4"
+      ]
+    }
+  },
+  "ansys": {
+    "description": "This module file loads Ansys 2025R2 (2025.7; v252).  \tUsers may experience reduced functionality, including model size restrictions, \tunless a research license is used.  If your research group has access to a \tresearch license, you may configure your system to use it. \tTo launch Ansys Workbench, please type  \t$ runwb2          To start the CFX solver in parallel for optmized performance, please use          $ cfx5solve --start-method \"${RCAC_ANSYS_MPI}\" ...",
+    "availability": {
+      "gautschi": [
+        "2024R2",
+        "2025R2"
+      ],
+      "negishi": [
+        "2022R2",
+        "2023R1",
+        "2023R2",
+        "2024R2",
+        "2025R2"
+      ]
+    }
+  },
+  "r-irkernel": {
+    "description": "Native R Kernel for the 'Jupyter Notebook'. The R kernel for the 'Jupyter' environment executes R code which the front-end ('Jupyter Notebook' or other front-ends) submits to the kernel via the network.",
+    "availability": {
+      "gautschi": [
+        "1.3.2"
+      ]
+    }
+  },
+  "netlib-lapack": {
+    "description": "LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community.",
+    "availability": {
+      "gautschi": [
+        "3.11.0"
+      ],
+      "negishi": [
+        "3.8.0"
+      ]
+    }
+  },
+  "netcdf-cxx4": {
+    "description": "NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. This is the C++ distribution.",
+    "availability": {
+      "gautschi": [
+        "4.3.1"
+      ],
+      "negishi": [
+        "4.3.1"
+      ]
+    }
+  },
+  "cuda": {
+    "description": "Name   : cuda",
+    "availability": {
+      "gautschi": [
+        "12.6.0"
+      ],
+      "gilbreth": [
+        "12.1.1",
+        "12.6.0"
+      ]
+    }
+  },
+  "nextflow": {
+    "description": "Data-driven computational pipelines.",
+    "availability": {
+      "gautschi": [
+        "24.04.3"
+      ],
+      "negishi": [
+        "22.10.1",
+        "23.04.1"
+      ]
+    }
+  },
+  "r-formatr": {
+    "description": "Format R Code Automatically. Provides a function tidy_source() to format R source code. Spaces and indent will be added to the code automatically, and comments will be preserved under certain conditions, so that R code will be more human-readable and tidy. There is also a Shiny app as a user interface in this package.",
+    "availability": {
+      "gautschi": [
+        "1.14"
+      ]
+    }
+  },
+  "stata": {
+    "description": "",
+    "availability": {
+      "gautschi": [
+        "18",
+        "19"
+      ]
+    }
+  },
+  "py-pandas": {
+    "description": "pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.",
+    "availability": {
+      "gautschi": [
+        "2.2.2"
+      ]
+    }
+  },
+  "amduprof": {
+    "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86 applications running on Windows, Linux and FreeBSD operating systems and provides event information unique to the AMD \"Zen\"-based processors and AMD Instinct(tm) MI Series accelerators. AMD uProf enables the developer to better understand the limiters of application performance and evaluate improvements.",
+    "availability": {
+      "gautschi": [
+        "5.1.701"
+      ],
+      "negishi": [
+        "3.4-502"
+      ]
+    }
+  },
+  "libxp": {
+    "description": "libXp - X Print Client Library.",
+    "availability": {
+      "gautschi": [
+        "1.0.3"
+      ]
+    }
+  },
+  "r-shiny": {
+    "description": "Web Application Framework for R. Makes it incredibly easy to build interactive web applications with R. Automatic \"reactive\" binding between inputs and outputs and extensive pre-built widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.",
+    "availability": {
+      "gautschi": [
+        "1.8.1.1"
+      ]
+    }
+  },
+  "py-numpy": {
+    "description": "Fundamental package for array computing in Python.",
+    "availability": {
+      "gautschi": [
+        "1.26.4"
+      ]
+    }
+  },
+  "mathematica": {
+    "description": "",
+    "availability": {
+      "gautschi": [
+        "14.1",
+        "14.2"
+      ]
+    }
+  },
+  "ngc": {
+    "description": "ngc - Load this first to make NVIDIA GPU Cloud (NGC) container modules available.",
+    "availability": {
+      "gautschi": [
+        "default"
+      ]
+    }
+  },
+  "r-plyr": {
+    "description": "Tools for Splitting, Applying and Combining Data. A set of tools that solves a common set of problems: you need to break a big problem down into manageable pieces, operate on each piece and then put all the pieces back together. For example, you might want to fit a model to each spatial location or time point in your study, summarise data by panels or collapse high-dimensional arrays to simpler summary statistics. The development of 'plyr' has been generously supported by 'Becton Dickinson'.",
+    "availability": {
+      "gautschi": [
+        "1.8.8"
+      ]
+    }
+  },
+  "comsol": {
+    "description": "",
+    "availability": {
+      "gautschi": [
+        "6.2",
+        "6.3"
+      ]
+    }
+  },
+  "imagemagick": {
+    "description": "ImageMagick is a software suite to create, edit, compose, or convert bitmap images.",
+    "availability": {
+      "gautschi": [
+        "7.1.1-29"
+      ]
+    }
+  },
+  "r-devtools": {
+    "description": "Tools to Make Developing R Packages Easier. Collection of package development tools.",
+    "availability": {
+      "gautschi": [
+        "2.4.5"
+      ]
+    }
+  },
+  "motif": {
+    "description": "\" Motif - Graphical user interface (GUI) specification and the widget toolkit",
+    "availability": {
+      "gautschi": [
+        "2.3.8"
+      ]
+    }
+  },
+  "netcdf-fortran": {
+    "description": "NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. This is the Fortran distribution.",
+    "availability": {
+      "gautschi": [
+        "4.6.1"
+      ],
+      "negishi": [
+        "4.6.0"
+      ]
+    }
+  },
+  "netcdf-c": {
+    "description": "NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. This is the C distribution.",
+    "availability": {
+      "gautschi": [
+        "4.9.2"
+      ],
+      "negishi": [
+        "4.9.0"
+      ]
+    }
+  },
+  "anaconda": {
+    "description": "Python distribution, virtual environments, and package manager.",
+    "availability": {
+      "gautschi": [
+        "2025.06-py313"
+      ],
+      "negishi": [
+        "2021.05-py38",
+        "2022.10-py39",
+        "2024.02-py311"
+      ]
+    }
+  },
+  "pandoc": {
+    "description": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
+    "availability": {
+      "gautschi": [
+        "2.19.2"
+      ]
+    }
+  },
+  "tecplot": {
+    "description": "",
+    "availability": {
+      "gautschi": [
+        "360-2024-R1"
+      ]
+    }
+  },
+  "cudnn": {
+    "description": "Name   : cudnn",
+    "availability": {
+      "gilbreth": [
+        "9.2.0.82-12"
+      ]
+    }
+  },
+  "nf-core": {
+    "description": "",
+    "availability": {
+      "negishi": [
+        "2.11.1",
+        "2.7.2",
+        "2.8"
+      ]
+    }
+  },
+  "ncview": {
+    "description": "Simple viewer for NetCDF files.",
+    "availability": {
+      "negishi": [
+        "2.1.9"
+      ]
+    }
+  },
+  "nco": {
+    "description": "The NCO toolkit manipulates and analyzes data stored in netCDF- accessible formats",
+    "availability": {
+      "negishi": [
+        "4.9.3"
+      ]
+    }
+  },
+  "ncurses": {
+    "description": "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
+    "availability": {
+      "negishi": [
+        "6.3"
+      ]
+    }
+  },
+  "numactl": {
+    "description": "NUMA support for Linux",
+    "availability": {
+      "negishi": [
+        "2.0.14"
+      ]
+    }
+  },
+  "aws-cli": {
+    "description": "The AWS Command Line Interface (CLI) is a unified tool to manage \tyour AWS services from command line.",
+    "availability": {
+      "negishi": [
+        "2.9.7"
+      ]
+    }
+  }
+}
