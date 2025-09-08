@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 libpng is the official PNG reference library.
 
+## Homepage
+
+[http://www.libpng.org/pub/png/libpng.html](http://www.libpng.org/pub/png/libpng.html){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|1.6.37|
-|**Gautschi**|1.6.37|
-|**Scholar**|1.6.37|
-|**Bell**|1.6.37|
+**ANVIL**|1.6.37
+**GAUTSCHI**|1.6.37
+**SCHOLAR**|1.6.37
+**BELL**|1.6.37
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libpng/version
+module load libpng
 ```
 
-!!! note "Note for using `libpng` on RCAC clusters"
+!!! note "Note for using `libpng`"
     Run `module spider libpng` beforehand to check if this version requires any prerequisite modules.

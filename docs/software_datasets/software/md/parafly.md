@@ -4,19 +4,26 @@
 
 ## Description
 
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|r2013|
-|**Gautschi**|r2013|
+**ANVIL**|r2013
+**GAUTSCHI**|r2013
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load parafly/version
+module load parafly
 ```
 
-!!! note "Note for using `parafly` on RCAC clusters"
+!!! note "Note for using `parafly`"
     Run `module spider parafly` beforehand to check if this version requires any prerequisite modules.

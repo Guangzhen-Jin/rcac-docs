@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|2.2.2|
+**GAUTSCHI**|2.2.2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load py-pandas/version
+module load py-pandas
 ```
 
-!!! note "Note for using `py-pandas` on RCAC clusters"
+!!! note "Note for using `py-pandas`"
     Run `module spider py-pandas` beforehand to check if this version requires any prerequisite modules.

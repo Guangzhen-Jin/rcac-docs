@@ -4,20 +4,27 @@
 
 ## Description
 
+STATA is a general-purpose statistical software package developed by StataCorp.
+
+## Homepage
+
+[https://www.stata.com/](https://www.stata.com/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|18, 19|
-|**Scholar**|17, 18|
-|**Bell**|18|
+**GAUTSCHI**|18, 19
+**SCHOLAR**|17, 18, 19
+**BELL**|18
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load stata/version
+module load stata
 ```
 
-!!! note "Note for using `stata` on RCAC clusters"
+!!! note "Note for using `stata`"
     Run `module spider stata` beforehand to check if this version requires any prerequisite modules.

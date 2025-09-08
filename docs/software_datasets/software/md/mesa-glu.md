@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-This package provides the Mesa OpenGL Utility library.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|9.0.2|
-|**Gautschi**|9.0.2|
-|**Scholar**|9.0.2|
-|**Bell**|9.0.2|
+**ANVIL**|9.0.2
+**GAUTSCHI**|9.0.2
+**SCHOLAR**|9.0.2
+**BELL**|9.0.2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load mesa-glu/version
+module load mesa-glu
 ```
 
-!!! note "Note for using `mesa-glu` on RCAC clusters"
+!!! note "Note for using `mesa-glu`"
     Run `module spider mesa-glu` beforehand to check if this version requires any prerequisite modules.

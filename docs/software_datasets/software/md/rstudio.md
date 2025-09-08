@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-This package installs Rstudio desktop from pre-compiled binaries available in the Rstudio website. The installer assumes that you are running on CentOS7/Redhat7/Fedora19. Please fix the download URL for other systems.
+
+RStudio is an integrated development environment (IDE) for R.
+
+## Homepage
+
+[https://www.rstudio.com/products/rstudio/](https://www.rstudio.com/products/rstudio/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|2021.09.0, 2024.04.2|
-|**Gautschi**|2024.09|
-|**Scholar**|2024.09|
-|**Bell**|2024.12|
+**ANVIL**|2021.09.0, 2024.04.2
+**GAUTSCHI**|2024.09
+**SCHOLAR**|2024.09
+**BELL**|2024.12
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load rstudio/version
+module load rstudio
 ```
 
-!!! note "Note for using `rstudio` on RCAC clusters"
+!!! note "Note for using `rstudio`"
     Run `module spider rstudio` beforehand to check if this version requires any prerequisite modules.

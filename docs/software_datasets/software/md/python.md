@@ -4,18 +4,25 @@
 
 ## Description
 
+The Python programming language.
+
+## Homepage
+
+[https://www.python.org/](https://www.python.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|3.9.5|
+**ANVIL**|3.9.5
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load python/version
+module load python
 ```
 
-!!! note "Note for using `python` on RCAC clusters"
+!!! note "Note for using `python`"
     Run `module spider python` beforehand to check if this version requires any prerequisite modules.

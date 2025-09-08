@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 The libXau package contains a library implementing the X11 Authorization Protocol. This is useful for restricting client access to the display.
 
+## Homepage
+
+[https://gitlab.freedesktop.org/xorg/lib/libXau/](https://gitlab.freedesktop.org/xorg/lib/libXau/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|1.0.8|
+**ANVIL**|1.0.8
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libxau/version
+module load libxau
 ```
 
-!!! note "Note for using `libxau` on RCAC clusters"
+!!! note "Note for using `libxau`"
     Run `module spider libxau` beforehand to check if this version requires any prerequisite modules.

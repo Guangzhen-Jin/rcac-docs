@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 Fontconfig is a library for configuring/customizing font access
 
+## Homepage
+
+[https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|2.12.3|
+**ANVIL**|2.12.3
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load fontconfig/version
+module load fontconfig
 ```
 
-!!! note "Note for using `fontconfig` on RCAC clusters"
+!!! note "Note for using `fontconfig`"
     Run `module spider fontconfig` beforehand to check if this version requires any prerequisite modules.

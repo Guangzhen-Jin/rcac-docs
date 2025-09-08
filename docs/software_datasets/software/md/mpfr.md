@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
 
+## Homepage
+
+[https://www.mpfr.org/](https://www.mpfr.org/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|4.0.2|
+**ANVIL**|4.0.2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load mpfr/version
+module load mpfr
 ```
 
-!!! note "Note for using `mpfr` on RCAC clusters"
+!!! note "Note for using `mpfr`"
     Run `module spider mpfr` beforehand to check if this version requires any prerequisite modules.

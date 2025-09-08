@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-libflame is a portable library for dense matrix computations, providing much of the functionality present in LAPACK, developed by current and former members of the Science of High-Performance Computing (SHPC) group in the Institute for Computational Engineering and Sciences at The University of Texas at Austin. libflame includes a compatibility layer, lapack2flame, which includes a complete LAPACK implementation.
+
+Base class for building Libflame, shared with the AMD optimized version of the library in the 'libflame' package
+
+## Homepage
+
+[https://www.cs.utexas.edu/~flame/web/libFLAME.html](https://www.cs.utexas.edu/~flame/web/libFLAME.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|5.2.0|
-|**Gautschi**|5.2.0|
-|**Scholar**|5.2.0|
-|**Bell**|5.2.0|
+**ANVIL**|5.2.0
+**GAUTSCHI**|5.2.0
+**SCHOLAR**|5.2.0
+**BELL**|5.2.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libflame/version
+module load libflame
 ```
 
-!!! note "Note for using `libflame` on RCAC clusters"
+!!! note "Note for using `libflame`"
     Run `module spider libflame` beforehand to check if this version requires any prerequisite modules.

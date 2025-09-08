@@ -3,21 +3,28 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-You can launch a pre-configured Windows-11-professional virtual machine by running the command 'windows11' after loading this module.  Notice: This copy of Windows is only licensed to be used on Anvil.
+
+QEMU is a generic and open source machine emulator and virtualizer.
+
+## Homepage
+
+[https://www.qemu.org](https://www.qemu.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|4.1.1, 6.2.0|
-|**Gautschi**|4.2.1|
-|**Scholar**|4.2.1|
+**ANVIL**|4.1.1, 6.2.0
+**GAUTSCHI**|4.2.1
+**SCHOLAR**|4.2.1
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load qemu/version
+module load qemu
 ```
 
-!!! note "Note for using `qemu` on RCAC clusters"
+!!! note "Note for using `qemu`"
     Run `module spider qemu` beforehand to check if this version requires any prerequisite modules.

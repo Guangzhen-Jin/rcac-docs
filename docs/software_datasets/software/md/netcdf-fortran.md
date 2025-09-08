@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. This is the Fortran distribution.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|4.6.1|
-|**Scholar**|4.6.1|
-|**Bell**|4.6.1|
-|**Negishi**|4.6.0|
+**GAUTSCHI**|4.6.1
+**SCHOLAR**|4.6.1
+**BELL**|4.6.1
+**NEGISHI**|4.6.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load netcdf-fortran/version
+module load netcdf-fortran
 ```
 
-!!! note "Note for using `netcdf-fortran` on RCAC clusters"
+!!! note "Note for using `netcdf-fortran`"
     Run `module spider netcdf-fortran` beforehand to check if this version requires any prerequisite modules.

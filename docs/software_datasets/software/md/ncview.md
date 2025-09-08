@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 Simple viewer for NetCDF files.
 
+## Homepage
+
+[https://cirrus.ucsd.edu/ncview/](https://cirrus.ucsd.edu/ncview/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Negishi**|2.1.9|
+**NEGISHI**|2.1.9
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load ncview/version
+module load ncview
 ```
 
-!!! note "Note for using `ncview` on RCAC clusters"
+!!! note "Note for using `ncview`"
     Run `module spider ncview` beforehand to check if this version requires any prerequisite modules.

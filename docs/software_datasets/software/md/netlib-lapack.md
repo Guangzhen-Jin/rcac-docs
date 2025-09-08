@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-LAPACK version 3.X is a comprehensive FORTRAN library that does linear algebra operations including matrix inversions, least squared solutions to linear sets of equations, eigenvector analysis, singular value decomposition, etc. It is a very comprehensive and reputable package that has found extensive use in the scientific community.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|3.11.0|
-|**Scholar**|3.11.0|
-|**Bell**|3.11.0|
-|**Negishi**|3.8.0|
+**GAUTSCHI**|3.11.0
+**SCHOLAR**|3.11.0
+**BELL**|3.11.0
+**NEGISHI**|3.8.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load netlib-lapack/version
+module load netlib-lapack
 ```
 
-!!! note "Note for using `netlib-lapack` on RCAC clusters"
+!!! note "Note for using `netlib-lapack`"
     Run `module spider netlib-lapack` beforehand to check if this version requires any prerequisite modules.

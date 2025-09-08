@@ -4,21 +4,28 @@
 
 ## Description
 
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|cpu, gpu|
-|**Gautschi**|cpu, gpu|
-|**Scholar**|all|
-|**Bell**|cpu|
+**ANVIL**|cpu, gpu
+**GAUTSCHI**|cpu, gpu
+**SCHOLAR**|all
+**BELL**|cpu
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load modtree/version
+module load modtree
 ```
 
-!!! note "Note for using `modtree` on RCAC clusters"
+!!! note "Note for using `modtree`"
     Run `module spider modtree` beforehand to check if this version requires any prerequisite modules.

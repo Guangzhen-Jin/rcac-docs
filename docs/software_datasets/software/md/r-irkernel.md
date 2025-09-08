@@ -3,21 +3,28 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Native R Kernel for the 'Jupyter Notebook'. The R kernel for the 'Jupyter' environment executes R code which the front-end ('Jupyter Notebook' or other front-ends) submits to the kernel via the network.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|1.3.2|
-|**Scholar**|1.3.2|
-|**Bell**|1.3.2|
+**GAUTSCHI**|1.3.2
+**SCHOLAR**|1.3.2
+**BELL**|1.3.2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load r-irkernel/version
+module load r-irkernel
 ```
 
-!!! note "Note for using `r-irkernel` on RCAC clusters"
+!!! note "Note for using `r-irkernel`"
     Run `module spider r-irkernel` beforehand to check if this version requires any prerequisite modules.

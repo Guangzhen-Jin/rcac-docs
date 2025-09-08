@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-The libpthread-stubs package provides weak aliases for pthread functions not provided in libc or otherwise available by default.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|0.4|
+**ANVIL**|0.4
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libpthread-stubs/version
+module load libpthread-stubs
 ```
 
-!!! note "Note for using `libpthread-stubs` on RCAC clusters"
+!!! note "Note for using `libpthread-stubs`"
     Run `module spider libpthread-stubs` beforehand to check if this version requires any prerequisite modules.

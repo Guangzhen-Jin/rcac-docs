@@ -3,21 +3,28 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Flexibly Reshape Data: A Reboot of the Reshape Package. Flexibly restructure and aggregate data using just two functions: melt and dcast (or acast).
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|1.4.4|
-|**Scholar**|1.4.4|
-|**Bell**|1.4.4|
+**GAUTSCHI**|1.4.4
+**SCHOLAR**|1.4.4
+**BELL**|1.4.4
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load r-reshape2/version
+module load r-reshape2
 ```
 
-!!! note "Note for using `r-reshape2` on RCAC clusters"
+!!! note "Note for using `r-reshape2`"
     Run `module spider r-reshape2` beforehand to check if this version requires any prerequisite modules.

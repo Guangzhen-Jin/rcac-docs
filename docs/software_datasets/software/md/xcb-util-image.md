@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|0.4.0|
-|**Gautschi**|0.4.1|
-|**Scholar**|0.4.1|
-|**Bell**|0.4.1|
+**ANVIL**|0.4.0
+**GAUTSCHI**|0.4.1
+**SCHOLAR**|0.4.1
+**BELL**|0.4.1
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load xcb-util-image/version
+module load xcb-util-image
 ```
 
-!!! note "Note for using `xcb-util-image` on RCAC clusters"
+!!! note "Note for using `xcb-util-image`"
     Run `module spider xcb-util-image` beforehand to check if this version requires any prerequisite modules.

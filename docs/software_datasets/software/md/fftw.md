@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST). We believe that FFTW, which is free software, should become the FFT library of choice for most applications.
+
+Base class for building Fftw, shared with the AMD optimized version of the library in the 'amdfftw' package.
+
+## Homepage
+
+[https://www.fftw.org](https://www.fftw.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|2.1.5, 3.3.8|
-|**Gautschi**|3.3.10|
-|**Scholar**|3.3.10|
-|**Bell**|3.3.10|
+**ANVIL**|2.1.5, 3.3.8
+**GAUTSCHI**|3.3.10
+**SCHOLAR**|3.3.10
+**BELL**|3.3.10
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load fftw/version
+module load fftw
 ```
 
-!!! note "Note for using `fftw` on RCAC clusters"
+!!! note "Note for using `fftw`"
     Run `module spider fftw` beforehand to check if this version requires any prerequisite modules.

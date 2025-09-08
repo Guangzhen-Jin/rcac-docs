@@ -4,21 +4,28 @@
 
 ## Description
 
+QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.
+
+## Homepage
+
+[https://qgis.org](https://qgis.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|3.40.1|
-|**Gautschi**|3.40.2|
-|**Scholar**|3.40.2|
-|**Bell**|3.42.0|
+**ANVIL**|3.40.1
+**GAUTSCHI**|3.40.2
+**SCHOLAR**|3.40.2
+**BELL**|3.42.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load qgis/version
+module load qgis
 ```
 
-!!! note "Note for using `qgis` on RCAC clusters"
+!!! note "Note for using `qgis`"
     Run `module spider qgis` beforehand to check if this version requires any prerequisite modules.

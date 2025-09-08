@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-This module file loads Ansys 2025R2 (2025.7; v252).  	Users may experience reduced functionality, including model size restrictions, 	unless a research license is used.  If your research group has access to a 	research license, you may configure your system to use it. 	To launch Ansys Workbench, please type  	$ runwb2          To start the CFX solver in parallel for optmized performance, please use          $ cfx5solve --start-method "${RCAC_ANSYS_MPI}" ...
+
+Ansys, Inc. is an American multinational company with its headquarters based in Canonsburg, Pennsylvania. It develops and markets CAE/multiphysics engineering simulation software for product design, testing and operation and offers its products and services to customers worldwide. On July 17, 2025, the company became a subsidiary of Synopsys.
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|2024R2, 2025R2|
-|**Scholar**|2022R1|
-|**Bell**|2023R1, 2024R2|
-|**Negishi**|2022R2, 2023R1, 2023R2, 2024R2, 2025R2|
+**GAUTSCHI**|2024R2, 2025R2
+**SCHOLAR**|2022R1
+**BELL**|2023R1, 2024R2
+**NEGISHI**|2022R2, 2023R1, 2023R2, 2024R2, 2025R2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load ansys/version
+module load ansys
 ```
 
-!!! note "Note for using `ansys` on RCAC clusters"
+!!! note "Note for using `ansys`"
     Run `module spider ansys` beforehand to check if this version requires any prerequisite modules.

@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# ./scripts/update_apps.sh
-# Full rebuild each run, but report new apps/versions since last run.
-# Output: ./apps_inventory.json
+# ./scripts/update_apps_inventory.sh
+# Full rebuild each run, using app_descriptions.json for description/homepage.
+# Output: ./rcac_apps_inventory.json
 # Requires: jq, perl
 
 set -euo pipefail
 
 OUTPUT_FILE="./rcac_apps_inventory.json"
 MODULEDIR="../modulefiles"
+APP_DESC_FILE="./app_descriptions.json"
 VERBOSE=0
 
 while getopts "v" opt; do
@@ -16,7 +17,7 @@ while getopts "v" opt; do
   esac
 done
 
-# skip helper
+# skip files or folders 
 skip_file() {
   local filepath="$1"
   local filename="${filepath##*/}"
@@ -34,6 +35,19 @@ if [ ! -d "$MODULEDIR" ]; then
   exit 1
 fi
 
+if [ ! -f "$APP_DESC_FILE" ]; then
+  echo "Error: app_descriptions.json not found at $APP_DESC_FILE" >&2
+  exit 1
+fi
+
+# Read descriptions and homepages from app_descriptions.json
+declare -A DESC_MAP
+declare -A HOME_MAP
+while IFS="=" read -r key val; do
+  DESC_MAP["$key"]=$(echo "$val" | jq -r '.description')
+  HOME_MAP["$key"]=$(echo "$val" | jq -r '.homepage')
+done < <(jq -r 'to_entries[] | "\(.key)=\(.value|@json)"' "$APP_DESC_FILE")
+
 # Backup old file for diffing
 OLD_FILE="$(mktemp --suffix=.json)"
 if [ -f "$OUTPUT_FILE" ]; then
@@ -44,6 +58,9 @@ fi
 
 NEW_TMP="$(mktemp --suffix=.jsonl)"
 trap 'rm -f "$NEW_TMP" "$OLD_FILE"' EXIT
+
+# Delete expired link from "$MODULEDIR" as they could cause error for mkdocs
+find "$MODULEDIR" -type l -exec test ! -e {} \; -print -delete 2>/dev/null
 
 # Collect all entries
 find "$MODULEDIR" -type f -name "*.lua" ! -name "default" -print0 |
@@ -57,22 +74,25 @@ while IFS= read -r -d '' filepath; do
   [ -z "$cluster" ] || [ -z "$compiler" ] || [ -z "$app_dir" ] || [ -z "$filename_rest" ] && continue
   version="${filename_rest%.*}"
 
-  desc=$(perl -0777 -ne 'if(/\bhelp\(\[\[(.*?)\]\]\)/s){print "$1\n"}' "$filepath" 2>/dev/null \
-         | tr '\n' ' ' | sed 's/^[ \t]*//;s/[ \t]*$//')
+  # Get description and homepage from app_descriptions.json
+  desc="${DESC_MAP[$app_dir]:-}"
+  homepage="${HOME_MAP[$app_dir]:-}"
 
   jq -n --arg app "$app_dir" \
         --arg cluster "$cluster" \
         --arg version "$version" \
         --arg desc "$desc" \
-        '{app:$app, cluster:$cluster, version:$version, description:$desc}' >> "$NEW_TMP"
+        --arg homepage "$homepage" \
+        '{app:$app, cluster:$cluster, version:$version, description:$desc, homepage:$homepage}' >> "$NEW_TMP"
 done
 
 # Build new full JSON
 jq --slurp '
   reduce .[] as $it ({}; 
-    .[$it.app] |= ( . // {description:"", availability:{}} ) |
+    .[$it.app] |= ( . // {description:"", homepage:"", availability:{}} ) |
     .[$it.app].availability[$it.cluster] |= ((. // []) + [$it.version]) |
-    .[$it.app].description |= (if . == "" and $it.description != "" then $it.description else . end)
+    .[$it.app].description |= (if . == "" and $it.description != "" then $it.description else . end) |
+    .[$it.app].homepage |= (if . == "" and $it.homepage != "" then $it.homepage else . end)
   )
   | to_entries
   | map({ key: .key, value: (.value | .availability |= (with_entries(.value |= (unique | sort)))) })
@@ -121,9 +141,6 @@ if [ "$VERBOSE" -eq 1 ]; then
   echo "========================================"
 fi
 
-
-
 # Replace old inventory
 mv "${OUTPUT_FILE}.new" "$OUTPUT_FILE"
 echo "Full update complete: $OUTPUT_FILE"
- 

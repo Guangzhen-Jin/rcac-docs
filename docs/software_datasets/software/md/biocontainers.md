@@ -3,22 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-biocontainers - Load this first to make BioContainers application modules available.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|default|
-|**Gautschi**|default|
-|**Scholar**|default|
-|**Bell**|default|
+**ANVIL**|default
+**GAUTSCHI**|default
+**SCHOLAR**|default
+**BELL**|default
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load biocontainers/version
+module load biocontainers
 ```
 
-!!! note "Note for using `biocontainers` on RCAC clusters"
+!!! note "Note for using `biocontainers`"
     Run `module spider biocontainers` beforehand to check if this version requires any prerequisite modules.

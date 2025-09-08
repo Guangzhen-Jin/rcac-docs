@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+
+OVITO is a scientific visualization and analysis software for atomistic and particle simulation data. It helps scientists gain better insights into materials phenomena and physical processes. OVITO Basic is freely available for all major platforms under an open source license. It has served in a growing number of computational simulation studies as a powerful tool to analyze, understand and illustrate simulation results.
+
+## Homepage
+
+[https://www.ovito.org](https://www.ovito.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|3.12.2|
+**ANVIL**|3.12.2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load ovito/version
+module load ovito
 ```
 
-!!! note "Note for using `ovito` on RCAC clusters"
+!!! note "Note for using `ovito`"
     Run `module spider ovito` beforehand to check if this version requires any prerequisite modules.

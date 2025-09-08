@@ -3,21 +3,28 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Web Application Framework for R. Makes it incredibly easy to build interactive web applications with R. Automatic "reactive" binding between inputs and outputs and extensive pre-built widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Gautschi**|1.8.1.1|
-|**Scholar**|1.8.1.1|
-|**Bell**|1.9.1|
+**GAUTSCHI**|1.8.1.1
+**SCHOLAR**|1.8.1.1
+**BELL**|1.9.1
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load r-shiny/version
+module load r-shiny
 ```
 
-!!! note "Note for using `r-shiny` on RCAC clusters"
+!!! note "Note for using `r-shiny`"
     Run `module spider r-shiny` beforehand to check if this version requires any prerequisite modules.

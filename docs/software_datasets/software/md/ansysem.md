@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-To launch ansysedt, please type  	$ run_ansysedt  This will set the project folder to be ${RCAC_SCRATCH}/Ansoft. For  the Workbench cluster, the folder is set to be /tmp/$USER/Ansoft.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Scholar**|2021r2|
+**SCHOLAR**|2021r2
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load ansysem/version
+module load ansysem
 ```
 
-!!! note "Note for using `ansysem` on RCAC clusters"
+!!! note "Note for using `ansysem`"
     Run `module spider ansysem` beforehand to check if this version requires any prerequisite modules.

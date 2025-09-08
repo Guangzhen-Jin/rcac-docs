@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-rocmcontainers - Load this first to make available modules for         ROCm-based application containers with AMD GPU support.
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Bell**|default|
+**BELL**|default
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load rocmcontainers/version
+module load rocmcontainers
 ```
 
-!!! note "Note for using `rocmcontainers` on RCAC clusters"
+!!! note "Note for using `rocmcontainers`"
     Run `module spider rocmcontainers` beforehand to check if this version requires any prerequisite modules.

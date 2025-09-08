@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-SQLite3 is an SQL database engine in a C library. Programs that link the SQLite3 library can have SQL database access without running a separate RDBMS process.
+
+SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+
+## Homepage
+
+[https://www.sqlite.org](https://www.sqlite.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|3.35.5|
+**ANVIL**|3.35.5
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load sqlite/version
+module load sqlite
 ```
 
-!!! note "Note for using `sqlite` on RCAC clusters"
+!!! note "Note for using `sqlite`"
     Run `module spider sqlite` beforehand to check if this version requires any prerequisite modules.

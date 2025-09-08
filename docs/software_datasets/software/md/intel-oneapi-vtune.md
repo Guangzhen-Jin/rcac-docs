@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Name   : intel-oneapi-vtune
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Bell**|2025.0.0|
+**BELL**|2025.0.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load intel-oneapi-vtune/version
+module load intel-oneapi-vtune
 ```
 
-!!! note "Note for using `intel-oneapi-vtune` on RCAC clusters"
+!!! note "Note for using `intel-oneapi-vtune`"
     Run `module spider intel-oneapi-vtune` beforehand to check if this version requires any prerequisite modules.

@@ -3,21 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 The Julia Language: A fresh approach to technical computing
 
+## Homepage
+
+[https://julialang.org](https://julialang.org){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|1.10.9, 1.11.4, 1.6.2, 1.9.3|
-|**Gautschi**|1.11.1, 1.11.4|
-|**Bell**|1.9.3|
+**ANVIL**|1.10.9, 1.11.4, 1.6.2, 1.9.3
+**GAUTSCHI**|1.11.1, 1.11.4
+**SCHOLAR**|1.11.4
+**BELL**|1.9.3
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load julia/version
+module load julia
 ```
 
-!!! note "Note for using `julia` on RCAC clusters"
+!!! note "Note for using `julia`"
     Run `module spider julia` beforehand to check if this version requires any prerequisite modules.

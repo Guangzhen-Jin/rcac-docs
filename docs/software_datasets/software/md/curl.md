@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 cURL is an open source command line tool and library for transferring data with URL syntax
 
+## Homepage
+
+[https://curl.se/](https://curl.se/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|7.76.1|
+**ANVIL**|7.76.1
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load curl/version
+module load curl
 ```
 
-!!! note "Note for using `curl` on RCAC clusters"
+!!! note "Note for using `curl`"
     Run `module spider curl` beforehand to check if this version requires any prerequisite modules.

@@ -3,21 +3,29 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-RogueWave Totalview software
+
+Totalview parallel debugger. Select the version associated with your machine architecture' '.
+
+## Homepage
+
+[https://totalview.io](https://totalview.io){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|2020.2.6, 2025.1.13|
-|**Gautschi**|2025.1.13|
-|**Bell**|2024.3-x86-64|
+**ANVIL**|2020.2.6, 2025.1.13
+**GAUTSCHI**|2025.1.13
+**SCHOLAR**|2025.1.13
+**BELL**|2024.3-x86-64
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load totalview/version
+module load totalview
 ```
 
-!!! note "Note for using `totalview` on RCAC clusters"
+!!! note "Note for using `totalview`"
     Run `module spider totalview` beforehand to check if this version requires any prerequisite modules.

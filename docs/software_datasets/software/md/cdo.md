@@ -3,20 +3,27 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.
 
+## Homepage
+
+[https://code.mpimet.mpg.de/projects/cdo](https://code.mpimet.mpg.de/projects/cdo){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|1.9.9|
-|**Gilbreth**|2.3.0|
+**ANVIL**|1.9.9
+**GILBRETH**|2.3.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load cdo/version
+module load cdo
 ```
 
-!!! note "Note for using `cdo` on RCAC clusters"
+!!! note "Note for using `cdo`"
     Run `module spider cdo` beforehand to check if this version requires any prerequisite modules.

@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 LibTIFF - Tag Image File Format (TIFF) Library and Utilities.
 
+## Homepage
+
+[http://www.simplesystems.org/libtiff/](http://www.simplesystems.org/libtiff/){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|4.1.0|
+**ANVIL**|4.1.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libtiff/version
+module load libtiff
 ```
 
-!!! note "Note for using `libtiff` on RCAC clusters"
+!!! note "Note for using `libtiff`"
     Run `module spider libtiff` beforehand to check if this version requires any prerequisite modules.

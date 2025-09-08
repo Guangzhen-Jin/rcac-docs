@@ -4,18 +4,25 @@
 
 ## Description
 
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|6.7.17|
+**ANVIL**|6.7.17
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load libv8/version
+module load libv8
 ```
 
-!!! note "Note for using `libv8` on RCAC clusters"
+!!! note "Note for using `libv8`"
     Run `module spider libv8` beforehand to check if this version requires any prerequisite modules.

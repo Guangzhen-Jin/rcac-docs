@@ -4,19 +4,26 @@
 
 ## Description
 
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Scholar**|17, 18|
-|**Bell**|18|
+**SCHOLAR**|17, 18, 19
+**BELL**|18
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load stata-mp/version
+module load stata-mp
 ```
 
-!!! note "Note for using `stata-mp` on RCAC clusters"
+!!! note "Note for using `stata-mp`"
     Run `module spider stata-mp` beforehand to check if this version requires any prerequisite modules.

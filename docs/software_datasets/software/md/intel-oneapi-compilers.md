@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Name   : intel-oneapi-compilers
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Bell**|2024.2.0|
+**BELL**|2024.2.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load intel-oneapi-compilers/version
+module load intel-oneapi-compilers
 ```
 
-!!! note "Note for using `intel-oneapi-compilers` on RCAC clusters"
+!!! note "Note for using `intel-oneapi-compilers`"
     Run `module spider intel-oneapi-compilers` beforehand to check if this version requires any prerequisite modules.

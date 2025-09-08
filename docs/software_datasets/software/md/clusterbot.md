@@ -4,18 +4,25 @@
 
 ## Description
 
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|2.0.0|
+**ANVIL**|2.0.0
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load clusterbot/version
+module load clusterbot
 ```
 
-!!! note "Note for using `clusterbot` on RCAC clusters"
+!!! note "Note for using `clusterbot`"
     Run `module spider clusterbot` beforehand to check if this version requires any prerequisite modules.

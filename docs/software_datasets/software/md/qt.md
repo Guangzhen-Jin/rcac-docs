@@ -3,20 +3,27 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
+
 Qt is a comprehensive cross-platform C++ application framework.
 
+## Homepage
+
+[https://qt.io](https://qt.io){:target="_blank"}
+
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|5.15.2|
-|**Bell**|5.15.15|
+**ANVIL**|5.15.2
+**BELL**|5.15.15
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load qt/version
+module load qt
 ```
 
-!!! note "Note for using `qt` on RCAC clusters"
+!!! note "Note for using `qt`"
     Run `module spider qt` beforehand to check if this version requires any prerequisite modules.

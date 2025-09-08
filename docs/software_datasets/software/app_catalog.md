@@ -38,6 +38,7 @@ hide:
 * [gaussian16](md/gaussian16.md)
 * [gaussview](md/gaussview.md)
 * [gcc](md/gcc.md)
+* [gcc-runtime](md/gcc-runtime.md)
 * [gdal](md/gdal.md)
 * [gdb](md/gdb.md)
 * [gdbm](md/gdbm.md)

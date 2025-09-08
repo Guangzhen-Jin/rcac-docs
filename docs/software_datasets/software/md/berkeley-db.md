@@ -3,19 +3,26 @@
 [Back to application catalog](../app_catalog.md)
 
 ## Description
-Oracle Berkeley DB
+
+TODO: add description
+
+## Homepage
+
+N/A
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|18.1.40|
+**ANVIL**|18.1.40
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load berkeley-db/version
+module load berkeley-db
 ```
 
-!!! note "Note for using `berkeley-db` on RCAC clusters"
+!!! note "Note for using `berkeley-db`"
     Run `module spider berkeley-db` beforehand to check if this version requires any prerequisite modules.

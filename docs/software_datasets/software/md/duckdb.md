@@ -4,21 +4,28 @@
 
 ## Description
 
+DuckDB is an in-process SQL OLAP Database Management System.
+
+## Homepage
+
+[https://duckdb.org](https://duckdb.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
+
 |Cluster|Versions|
 |---|---|
-|**Anvil**|1.0.0|
-|**Gautschi**|1.1.3|
-|**Scholar**|1.0.0|
-|**Bell**|1.1.3|
+**ANVIL**|1.0.0
+**GAUTSCHI**|1.1.3
+**SCHOLAR**|1.0.0
+**BELL**|1.1.3
 
 ## Module
+
 You can load the module by:
 
 ```bash
-module load duckdb/version
+module load duckdb
 ```
 
-!!! note "Note for using `duckdb` on RCAC clusters"
+!!! note "Note for using `duckdb`"
     Run `module spider duckdb` beforehand to check if this version requires any prerequisite modules.
