@@ -1,0 +1,21 @@
+name: Run Make on modulefiles change
+
+on:
+  push:
+    branches:
+      - auto_app
+    paths:
+      - 'docs/software_datasets/modulefiles/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs/software_datasets/scripts
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run make
+        run: make
