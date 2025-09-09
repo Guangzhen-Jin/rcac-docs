@@ -14,6 +14,7 @@ NUMA support for Linux
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|2.0.14
 **NEGISHI**|2.0.14
 
 ## Module

@@ -14,6 +14,7 @@ The ncurses (new curses) library is a free software emulation of curses in Syste
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|6.2
 **NEGISHI**|6.3
 
 ## Module

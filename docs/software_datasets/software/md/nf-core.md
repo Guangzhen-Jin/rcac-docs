@@ -14,6 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|2.7.2, 2.8
 **BELL**|2.11.1
 **NEGISHI**|2.11.1, 2.7.2, 2.8
 

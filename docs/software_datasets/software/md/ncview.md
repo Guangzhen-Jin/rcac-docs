@@ -14,6 +14,7 @@ Simple viewer for NetCDF files.
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|2.1.8
 **GILBRETH**|2.1.9
 **NEGISHI**|2.1.9
 

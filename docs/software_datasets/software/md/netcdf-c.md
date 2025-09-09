@@ -14,6 +14,7 @@ NetCDF C library for array-oriented scientific data storage and access.
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|4.7.4
 **BELL**|4.9.2
 **GAUTSCHI**|4.9.2
 **GILBRETH**|4.9.2

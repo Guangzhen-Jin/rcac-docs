@@ -7,7 +7,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **September 09, 2025**, there have been a total of **195** applications with **644** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 09, 2025**, there have been a total of **197** applications with **662** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 Here is a full list:
 
@@ -15,6 +15,7 @@ Here is a full list:
 * [anaconda](md/anaconda.md)
 * [ansysem](md/ansysem.md)
 * [ansys](md/ansys.md)
+* [aocc](md/aocc.md)
 * [aws-cli](md/aws-cli.md)
 * [berkeley-db](md/berkeley-db.md)
 * [blis](md/blis.md)
@@ -116,6 +117,7 @@ Here is a full list:
 * [mpc](md/mpc.md)
 * [mpfr](md/mpfr.md)
 * [mvapich2](md/mvapich2.md)
+* [ncl](md/ncl.md)
 * [nco](md/nco.md)
 * [ncurses](md/ncurses.md)
 * [ncview](md/ncview.md)

@@ -14,6 +14,7 @@ AMD uProf ("MICRO-prof") is a software profiling analysis tool for x86 applicati
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|5.0
 **GAUTSCHI**|5.1.701
 **NEGISHI**|3.4-502
 
