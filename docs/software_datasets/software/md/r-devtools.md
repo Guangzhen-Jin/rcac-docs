@@ -4,19 +4,20 @@
 
 ## Description
 
-TODO: add description
+R devtools package provides tools to simplify R package development.
 
 ## Homepage
 
-N/A
+[https://cran.r-project.org/web/packages/devtools/index.html](https://cran.r-project.org/web/packages/devtools/index.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|2.4.5
-**SCHOLAR**|2.4.5
 **BELL**|2.4.5
+**GAUTSCHI**|2.4.5
+**GILBRETH**|2.4.5
+**SCHOLAR**|2.4.5
 
 ## Module
 

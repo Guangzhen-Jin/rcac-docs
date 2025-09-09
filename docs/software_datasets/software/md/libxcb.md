@@ -15,6 +15,7 @@ The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a sm
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.14
+**NEGISHI**|1.14
 
 ## Module
 

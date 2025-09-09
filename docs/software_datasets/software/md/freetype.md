@@ -15,6 +15,7 @@ FreeType is a freely available software library to render fonts. It is written i
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.7.1
+**NEGISHI**|2.7.1
 
 ## Module
 

@@ -4,20 +4,21 @@
 
 ## Description
 
-TODO: add description
+Linear Algebra PACKage (LAPACK) for high-performance linear algebra computations.
 
 ## Homepage
 
-N/A
+[http://www.netlib.org/lapack/](http://www.netlib.org/lapack/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|3.11.0
-**SCHOLAR**|3.11.0
 **BELL**|3.11.0
+**GAUTSCHI**|3.11.0
+**GILBRETH**|3.11.0
 **NEGISHI**|3.8.0
+**SCHOLAR**|3.11.0
 
 ## Module
 

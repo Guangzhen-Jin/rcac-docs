@@ -16,6 +16,7 @@ Apache Spark is a fast and general engine for large-scale data processing.
 |---|---|
 **ANVIL**|3.1.1
 **BELL**|3.5.1
+**NEGISHI**|3.1.1
 
 ## Module
 

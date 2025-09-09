@@ -4,7 +4,7 @@
 
 ## Description
 
-Szip is an implementation of the extended-Rice lossless compression algorithm. It provides lossless compression of scientific data, and is provided with HDF software products.
+Szip is an implementation of the extended-Rice lossless compression algorithm.  It provides lossless compression of scientific data, and is provided with HDF software products.
 
 ## Homepage
 
@@ -16,6 +16,7 @@ Szip is an implementation of the extended-Rice lossless compression algorithm. I
 |---|---|
 **ANVIL**|2.1.1
 **BELL**|2.1.1
+**NEGISHI**|2.1.1
 
 ## Module
 

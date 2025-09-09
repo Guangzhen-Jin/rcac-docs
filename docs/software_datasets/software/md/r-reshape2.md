@@ -4,19 +4,20 @@
 
 ## Description
 
-TODO: add description
+Reshape2 provides tools for reshaping R data structures.
 
 ## Homepage
 
-N/A
+[https://cran.r-project.org/web/packages/reshape2/index.html](https://cran.r-project.org/web/packages/reshape2/index.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|1.4.4
-**SCHOLAR**|1.4.4
 **BELL**|1.4.4
+**GAUTSCHI**|1.4.4
+**GILBRETH**|1.4.4
+**SCHOLAR**|1.4.4
 
 ## Module
 

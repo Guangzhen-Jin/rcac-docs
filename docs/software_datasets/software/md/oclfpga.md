@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Intel OpenCL FPGA runtime and utilities for FPGA application development.
 
 ## Homepage
 
-N/A
+[https://www.intel.com/content/www/us/en/software/programmable/sdk.html](https://www.intel.com/content/www/us/en/software/programmable/sdk.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

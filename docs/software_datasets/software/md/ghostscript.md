@@ -16,6 +16,8 @@ An interpreter for the PostScript language and for PDF.
 |---|---|
 **ANVIL**|9.56.1
 **GAUTSCHI**|9.56.1
+**GILBRETH**|9.56.1
+**NEGISHI**|9.56.1
 **SCHOLAR**|9.56.1
 
 ## Module

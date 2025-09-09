@@ -4,20 +4,22 @@
 
 ## Description
 
-TODO: add description
+X11 utility for window management.
 
 ## Homepage
 
-N/A
+[https://xcb.freedesktop.org/](https://xcb.freedesktop.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.4.1
-**GAUTSCHI**|0.4.2
-**SCHOLAR**|0.4.2
 **BELL**|0.4.2
+**GAUTSCHI**|0.4.2
+**GILBRETH**|0.4.2
+**NEGISHI**|0.4.1
+**SCHOLAR**|0.4.2
 
 ## Module
 

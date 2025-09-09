@@ -4,11 +4,11 @@
 
 ## Description
 
-A panoply is a complete suit of armor. The word represents the Ancient Greek πανοπλία (panoplía), where the word πᾶν (pân) means "all", and ὅπλον (hóplon) means "arms". Thus, panoply refers to the full armor of a hoplite or heavily armed soldier, i.e. the shield, breastplate, helmet, and greaves, together with the sword and spear.
+Panoply is a cross-platform application developed by NASA for plotting geo-gridded and other arrays from netCDF, HDF, GRIB, and other datasets.
 
 ## Homepage
 
-N/A
+[https://www.giss.nasa.gov/tools/panoply/](https://www.giss.nasa.gov/tools/panoply/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

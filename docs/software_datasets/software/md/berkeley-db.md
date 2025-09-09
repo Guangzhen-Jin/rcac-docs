@@ -4,17 +4,18 @@
 
 ## Description
 
-TODO: add description
+Berkeley DB is an embedded database software library providing scalable high-performance database technology.
 
 ## Homepage
 
-N/A
+[https://www.oracle.com/database/technologies/related/berkeleydb.html](https://www.oracle.com/database/technologies/related/berkeleydb.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|18.1.40
+**NEGISHI**|18.1.40
 
 ## Module
 

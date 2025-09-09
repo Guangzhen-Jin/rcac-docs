@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+Generalized Finite Element Method Software for structural mechanics simulations.
 
 ## Homepage
 

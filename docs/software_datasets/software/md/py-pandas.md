@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Pandas is a Python library for data manipulation, analysis, and table-like data structures.
 
 ## Homepage
 
-N/A
+[https://pandas.pydata.org/](https://pandas.pydata.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

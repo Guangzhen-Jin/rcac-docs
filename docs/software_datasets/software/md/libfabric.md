@@ -15,6 +15,7 @@ The Open Fabrics Interfaces (OFI) is a framework focused on exporting fabric com
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.12.0
+**NEGISHI**|1.12.0
 
 ## Module
 

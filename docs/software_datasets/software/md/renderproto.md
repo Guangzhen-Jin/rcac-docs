@@ -4,7 +4,7 @@
 
 ## Description
 
-X Rendering Extension. This extension defines the protcol for a digital image composition as the foundation of a new rendering model within the X Window System.
+X Rendering Extension.  This extension defines the protcol for a digital image composition as the foundation of a new rendering model within the X Window System.
 
 ## Homepage
 
@@ -15,6 +15,7 @@ X Rendering Extension. This extension defines the protcol for a digital image co
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.11.1
+**NEGISHI**|0.11.1
 
 ## Module
 

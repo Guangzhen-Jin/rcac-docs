@@ -14,9 +14,10 @@
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|2.3.8
-**SCHOLAR**|2.3.8
 **BELL**|2.3.8
+**GAUTSCHI**|2.3.8
+**NEGISHI**|2.3.8
+**SCHOLAR**|2.3.8
 
 ## Module
 

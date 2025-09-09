@@ -4,19 +4,20 @@
 
 ## Description
 
-TODO: add description
+IRKernel provides the R kernel for Jupyter notebooks.
 
 ## Homepage
 
-N/A
+[https://irkernel.github.io/](https://irkernel.github.io/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|1.3.2
-**SCHOLAR**|1.3.2
 **BELL**|1.3.2
+**GAUTSCHI**|1.3.2
+**GILBRETH**|1.3.2
+**SCHOLAR**|1.3.2
 
 ## Module
 

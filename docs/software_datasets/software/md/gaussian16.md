@@ -4,18 +4,19 @@
 
 ## Description
 
-TODO: add description
+Gaussian 16 is the latest release of the Gaussian series for electronic structure modeling and computational chemistry.
 
 ## Homepage
 
-N/A
+[https://gaussian.com/g16citation/](https://gaussian.com/g16citation/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**SCHOLAR**|B.01
 **BELL**|B.01
+**NEGISHI**|B.01
+**SCHOLAR**|B.01
 
 ## Module
 

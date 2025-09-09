@@ -15,6 +15,7 @@ PROJ is a generic coordinate transformation software, that transforms geospatial
 |Cluster|Versions|
 |---|---|
 **ANVIL**|5.2.0, 6.2.0
+**NEGISHI**|5.2.0, 6.2.0, 8.1.0
 
 ## Module
 

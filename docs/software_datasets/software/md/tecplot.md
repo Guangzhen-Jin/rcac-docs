@@ -14,9 +14,10 @@ Tecplot 360 is a Computational Fluid Dynamics (CFD) and numerical simulation sof
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|360-2024-R1
-**SCHOLAR**|360-2024-R1
 **BELL**|360-2024-R1
+**GAUTSCHI**|360-2024-R1
+**NEGISHI**|360-2022-R2, 360-2024-R1
+**SCHOLAR**|360-2024-R1
 
 ## Module
 

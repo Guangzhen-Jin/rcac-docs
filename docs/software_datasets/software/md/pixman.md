@@ -15,6 +15,7 @@ The Pixman package contains a library that provides low-level pixel manipulation
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.40.0
+**NEGISHI**|0.40.0
 
 ## Module
 

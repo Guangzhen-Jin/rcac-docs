@@ -15,6 +15,7 @@ libXrender - library for the Render Extension to the X11 protocol.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.9.10
+**NEGISHI**|0.9.10
 
 ## Module
 

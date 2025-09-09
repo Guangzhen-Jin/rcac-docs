@@ -15,6 +15,7 @@ Emacs is an extensible, customizable, free/libre text editor. At its core is an 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|27.2
+**NEGISHI**|28.2
 
 ## Module
 

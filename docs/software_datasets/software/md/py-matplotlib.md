@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 
 ## Homepage
 
-N/A
+[https://matplotlib.org/](https://matplotlib.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

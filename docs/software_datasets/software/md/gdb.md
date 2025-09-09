@@ -16,6 +16,7 @@ GDB, the GNU Project debugger, allows you to see what is going on 'inside' anoth
 |---|---|
 **ANVIL**|11.1
 **BELL**|15.2
+**NEGISHI**|11.1, 12.1
 
 ## Module
 

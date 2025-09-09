@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Intel Threading Building Blocks (TBB) is a library for parallel programming in C++.
 
 ## Homepage
 
-N/A
+[https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

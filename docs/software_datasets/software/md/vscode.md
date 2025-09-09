@@ -4,11 +4,11 @@
 
 ## Description
 
-Visual Studio Code is an extensible code editor developed by Microsoft for Windows, Linux, macOS and web browsers. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git. Users can change the theme, keyboard shortcuts and preferences, as well as install extensions that add functionality.
+Visual Studio Code (VS Code) is a lightweight but powerful open-source code editor developed by Microsoft, featuring debugging, task running, and version control support for many programming languages and platforms.
 
 ## Homepage
 
-N/A
+[https://code.visualstudio.com](https://code.visualstudio.com){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
@@ -16,6 +16,7 @@ N/A
 |---|---|
 **ANVIL**|1.61.2
 **BELL**|1.79.2
+**NEGISHI**|1.79.2
 
 ## Module
 

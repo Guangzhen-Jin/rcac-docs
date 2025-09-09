@@ -4,7 +4,7 @@
 
 ## Description
 
-Perl is a high-level, general-purpose, interpreted, dynamic programming language. Though Perl is not officially an acronym, there are various backronyms in use, including "Practical Extraction and Reporting Language".
+Perl as a Python package
 
 ## Homepage
 
@@ -15,6 +15,7 @@ Perl is a high-level, general-purpose, interpreted, dynamic programming language
 |Cluster|Versions|
 |---|---|
 **ANVIL**|5.32.0
+**NEGISHI**|5.32.0, 5.36.0
 
 ## Module
 

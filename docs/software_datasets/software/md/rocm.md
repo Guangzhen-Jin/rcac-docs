@@ -4,17 +4,18 @@
 
 ## Description
 
-ROCm is an Advanced Micro Devices (AMD) software stack for graphics processing unit (GPU) programming. ROCm spans several domains, including general-purpose computing on graphics processing units (GPGPU), high performance computing (HPC), and heterogeneous computing. It offers several programming models: HIP, OpenMP, and OpenCL.
+AMD ROCm (Radeon Open Compute) is an open-source software platform for GPU computing, designed to support high-performance computing (HPC), machine learning, and scientific workloads on AMD GPUs.
 
 ## Homepage
 
-N/A
+[https://rocmdocs.amd.com](https://rocmdocs.amd.com){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **BELL**|6.2.2
+**NEGISHI**|6.0.0, 6.1.2
 
 ## Module
 

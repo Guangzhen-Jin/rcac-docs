@@ -4,11 +4,11 @@
 
 ## Description
 
-Intel Corporation is an American multinational technology company headquartered in Santa Clara, California. Intel designs, manufactures, and sells computer components such as central processing units (CPUs) and related products for business and consumer markets. It was the world's third-largest semiconductor chip manufacturer by revenue in 2024 and has been included in the Fortune 500 list of the largest United States corporations by revenue since 2007. It was one of the first companies listed on Nasdaq. Since 2025, it is partially owned by the United States government.
+Intel provides a wide range of software development tools and performance libraries for high performance computing (HPC), including compilers, performance analyzers, and optimized libraries under the Intel oneAPI initiative.
 
 ## Homepage
 
-N/A
+[https://www.intel.com/content/www/us/en/developer/tools/overview.html](https://www.intel.com/content/www/us/en/developer/tools/overview.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
@@ -16,6 +16,7 @@ N/A
 |---|---|
 **ANVIL**|19.0.5.281, 19.1.3.304, 2024.1
 **GAUTSCHI**|2024.1
+**NEGISHI**|19.1.3.304
 **SCHOLAR**|2024.1
 
 ## Module

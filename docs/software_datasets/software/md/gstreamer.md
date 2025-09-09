@@ -4,11 +4,11 @@
 
 ## Description
 
-GStreamer is a pipeline-based multimedia framework that links together a wide variety of media processing systems to complete complex workflows. For instance, GStreamer can be used to build a system that reads files in one format, processes them, and exports them in another. The formats and processes can be changed in a plug and play fashion.
+GStreamer is an open-source multimedia framework for building streaming media applications, supporting audio and video playback, recording, streaming, and editing.
 
 ## Homepage
 
-N/A
+[https://gstreamer.freedesktop.org](https://gstreamer.freedesktop.org){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

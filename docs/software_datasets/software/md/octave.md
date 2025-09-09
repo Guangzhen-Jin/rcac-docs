@@ -4,7 +4,7 @@
 
 ## Description
 
-GNU Octave is a high-level language, primarily intended for numerical computations. It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.
+GNU Octave is a high-level language, primarily intended for numerical computations.  It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.
 
 ## Homepage
 
@@ -16,6 +16,7 @@ GNU Octave is a high-level language, primarily intended for numerical computatio
 |---|---|
 **ANVIL**|6.3.0
 **BELL**|9.1.0
+**NEGISHI**|7.3.0
 
 ## Module
 

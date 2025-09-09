@@ -15,6 +15,7 @@ Cairo is a 2D graphics library with support for multiple output devices.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.16.0
+**NEGISHI**|1.16.0
 
 ## Module
 

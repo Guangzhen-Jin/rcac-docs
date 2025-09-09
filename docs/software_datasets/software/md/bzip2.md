@@ -15,6 +15,7 @@ bzip2 is a freely available, patent free high-quality data compressor. It typica
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.0.8
+**NEGISHI**|1.0.8
 
 ## Module
 

@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+SPICE server simulation environment for electronic circuit design and analysis.
 
 ## Homepage
 

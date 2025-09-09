@@ -15,6 +15,7 @@ GNU dbm (or GDBM, for short) is a library of database functions that use extensi
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.19
+**NEGISHI**|1.23
 
 ## Module
 

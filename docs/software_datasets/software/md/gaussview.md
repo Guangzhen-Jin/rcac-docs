@@ -4,18 +4,19 @@
 
 ## Description
 
-TODO: add description
+GaussView is a graphical user interface designed to build Gaussian input and analyze output files.
 
 ## Homepage
 
-N/A
+[https://gaussian.com/gaussview6/](https://gaussian.com/gaussview6/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**SCHOLAR**|5.0.8, 6.0.16
 **BELL**|6.0.16
+**NEGISHI**|6.0.16
+**SCHOLAR**|5.0.8, 6.0.16
 
 ## Module
 

@@ -15,6 +15,7 @@ Base class for building BLIS, shared with the AMD optimized version of the libra
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.8.1
+**NEGISHI**|0.9.0
 
 ## Module
 

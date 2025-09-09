@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+GCC runtime libraries required for compiled applications.
 
 ## Homepage
 
-N/A
+[https://gcc.gnu.org/](https://gcc.gnu.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

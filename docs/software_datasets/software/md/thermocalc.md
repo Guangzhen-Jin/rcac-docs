@@ -4,17 +4,18 @@
 
 ## Description
 
-TODO: add description
+Thermo-Calc software for thermodynamic calculations of multicomponent systems.
 
 ## Homepage
 
-N/A
+[https://www.thermocalc.com/](https://www.thermocalc.com/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **BELL**|2022b
+**NEGISHI**|2022b
 
 ## Module
 

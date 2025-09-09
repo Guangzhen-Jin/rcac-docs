@@ -15,6 +15,7 @@ This library provides useful functions commonly found on BSD systems, and lackin
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.11.3
+**NEGISHI**|0.11.5
 
 ## Module
 

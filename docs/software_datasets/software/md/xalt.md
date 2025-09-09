@@ -4,19 +4,20 @@
 
 ## Description
 
-TODO: add description
+XALT is a tool for tracking HPC software usage and build environment provenance.
 
 ## Homepage
 
-N/A
+[https://xalt.readthedocs.io/](https://xalt.readthedocs.io/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.10.45
-**GAUTSCHI**|3.1.4
 **BELL**|3.0.2
+**GAUTSCHI**|3.1.4
+**NEGISHI**|3.0.2
 
 ## Module
 

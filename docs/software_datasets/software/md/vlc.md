@@ -4,17 +4,18 @@
 
 ## Description
 
-TODO: add description
+VLC media player for multimedia playback.
 
 ## Homepage
 
-N/A
+[https://www.videolan.org/vlc/](https://www.videolan.org/vlc/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.0.9.2
+**NEGISHI**|3.0.9.2
 
 ## Module
 

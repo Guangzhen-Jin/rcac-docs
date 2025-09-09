@@ -4,20 +4,21 @@
 
 ## Description
 
-TODO: add description
+NetCDF Fortran library providing Fortran APIs to access scientific datasets.
 
 ## Homepage
 
-N/A
+[https://www.unidata.ucar.edu/software/netcdf/](https://www.unidata.ucar.edu/software/netcdf/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|4.6.1
-**SCHOLAR**|4.6.1
 **BELL**|4.6.1
+**GAUTSCHI**|4.6.1
+**GILBRETH**|4.6.1
 **NEGISHI**|4.6.0
+**SCHOLAR**|4.6.1
 
 ## Module
 

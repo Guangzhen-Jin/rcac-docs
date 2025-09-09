@@ -14,9 +14,10 @@ STATA is a general-purpose statistical software package developed by StataCorp.
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|18, 19
-**SCHOLAR**|17, 18, 19
 **BELL**|18
+**GAUTSCHI**|18, 19
+**NEGISHI**|18, 19
+**SCHOLAR**|17, 18, 19
 
 ## Module
 

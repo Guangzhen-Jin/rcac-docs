@@ -15,6 +15,7 @@ The GNU Readline library provides a set of functions for use by applications tha
 |Cluster|Versions|
 |---|---|
 **ANVIL**|8.1
+**NEGISHI**|8.1.2
 
 ## Module
 

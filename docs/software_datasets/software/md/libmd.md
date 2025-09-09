@@ -15,6 +15,7 @@ This library provides message digest functions found on BSD systems either on th
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.0.3
+**NEGISHI**|1.0.4
 
 ## Module
 

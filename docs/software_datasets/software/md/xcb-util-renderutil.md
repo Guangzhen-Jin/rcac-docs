@@ -4,20 +4,22 @@
 
 ## Description
 
-TODO: add description
+X11 utility for rendering operations.
 
 ## Homepage
 
-N/A
+[https://xcb.freedesktop.org/](https://xcb.freedesktop.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.3.9
-**GAUTSCHI**|0.3.10
-**SCHOLAR**|0.3.10
 **BELL**|0.3.10
+**GAUTSCHI**|0.3.10
+**GILBRETH**|0.3.10
+**NEGISHI**|0.3.9
+**SCHOLAR**|0.3.10
 
 ## Module
 

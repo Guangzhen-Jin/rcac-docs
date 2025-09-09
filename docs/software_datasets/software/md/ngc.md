@@ -15,6 +15,7 @@ N/A
 |Cluster|Versions|
 |---|---|
 **GAUTSCHI**|default
+**GILBRETH**|default
 **SCHOLAR**|default
 
 ## Module

@@ -16,6 +16,7 @@ The free and opensource java implementation
 |---|---|
 **ANVIL**|1.8.0_265-b01, 11.0.8_10
 **GAUTSCHI**|17.0.2_8
+**NEGISHI**|1.8.0_265-b01, 11.0.17_8
 
 ## Module
 

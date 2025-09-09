@@ -4,18 +4,19 @@
 
 ## Description
 
-TODO: add description
+ncdf4 package provides R bindings for NetCDF scientific data.
 
 ## Homepage
 
-N/A
+[https://cran.r-project.org/web/packages/ncdf4/index.html](https://cran.r-project.org/web/packages/ncdf4/index.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**SCHOLAR**|1.21
 **BELL**|1.23
+**GILBRETH**|1.21
+**SCHOLAR**|1.21
 
 ## Module
 

@@ -15,9 +15,11 @@ XScreenSaver - X11 Screen Saver extension client library
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.2.2
-**GAUTSCHI**|1.2.2
-**SCHOLAR**|1.2.2
 **BELL**|1.2.2, 1.2.4
+**GAUTSCHI**|1.2.2
+**GILBRETH**|1.2.2
+**NEGISHI**|1.2.2
+**SCHOLAR**|1.2.2
 
 ## Module
 

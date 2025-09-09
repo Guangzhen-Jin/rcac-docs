@@ -15,6 +15,7 @@ X Protocol Extensions.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|7.3.0
+**NEGISHI**|7.3.0
 
 ## Module
 

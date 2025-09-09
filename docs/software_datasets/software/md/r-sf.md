@@ -4,18 +4,19 @@
 
 ## Description
 
-TODO: add description
+Simple Features (sf) is an R package for handling spatial vector data.
 
 ## Homepage
 
-N/A
+[https://cran.r-project.org/web/packages/sf/index.html](https://cran.r-project.org/web/packages/sf/index.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**SCHOLAR**|1.0-12
 **BELL**|1.0-16
+**GILBRETH**|1.0-12
+**SCHOLAR**|1.0-12
 
 ## Module
 

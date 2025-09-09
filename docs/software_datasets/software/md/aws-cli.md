@@ -4,19 +4,19 @@
 
 ## Description
 
-TODO: add description
+The AWS Command Line Interface (CLI) is a unified tool to manage Amazon Web Services.
 
 ## Homepage
 
-N/A
+[https://aws.amazon.com/cli/](https://aws.amazon.com/cli/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**SCHOLAR**|2.4.15
 **BELL**|2.9.7
 **NEGISHI**|2.9.7
+**SCHOLAR**|2.4.15
 
 ## Module
 

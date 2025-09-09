@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Gaussian 09 is a software package for computational chemistry for electronic structure modeling.
 
 ## Homepage
 
-N/A
+[https://gaussian.com/g09citation/](https://gaussian.com/g09citation/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

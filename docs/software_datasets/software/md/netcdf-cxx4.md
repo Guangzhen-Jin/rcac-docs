@@ -4,20 +4,21 @@
 
 ## Description
 
-TODO: add description
+NetCDF C++4 library for scientific data management and access.
 
 ## Homepage
 
-N/A
+[https://www.unidata.ucar.edu/software/netcdf/](https://www.unidata.ucar.edu/software/netcdf/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|4.3.1
-**SCHOLAR**|4.3.1
 **BELL**|4.3.1
+**GAUTSCHI**|4.3.1
+**GILBRETH**|4.3.1
 **NEGISHI**|4.3.1
+**SCHOLAR**|4.3.1
 
 ## Module
 

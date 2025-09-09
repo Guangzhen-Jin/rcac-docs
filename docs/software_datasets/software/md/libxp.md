@@ -14,9 +14,10 @@ libXp - X Print Client Library.
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|1.0.3
-**SCHOLAR**|1.0.3
 **BELL**|1.0.3
+**GAUTSCHI**|1.0.3
+**NEGISHI**|1.0.3
+**SCHOLAR**|1.0.3
 
 ## Module
 

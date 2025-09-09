@@ -15,6 +15,7 @@ Fontconfig is a library for configuring/customizing font access
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.12.3
+**NEGISHI**|2.12.3
 
 ## Module
 

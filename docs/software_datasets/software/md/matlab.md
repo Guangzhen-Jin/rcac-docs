@@ -4,7 +4,7 @@
 
 ## Description
 
-MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and fourth-generation programming language. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python. Note: MATLAB is licensed software. You will need to create an account on the MathWorks homepage and download MATLAB yourself. Spack will search your current directory for the download file. Alternatively, add this file to a mirror so that Spack can find it. For instructions on how to set up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html
+MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and programming language used widely in science and engineering.
 
 ## Homepage
 
@@ -15,9 +15,10 @@ MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment a
 |Cluster|Versions|
 |---|---|
 **ANVIL**|R2020b, R2021b, R2022a, R2023a
-**GAUTSCHI**|R2024a
-**SCHOLAR**|R2024a
 **BELL**|R2024a
+**GAUTSCHI**|R2024a
+**NEGISHI**|R2021b, R2022a, R2023a, R2024b
+**SCHOLAR**|R2024a
 
 ## Module
 

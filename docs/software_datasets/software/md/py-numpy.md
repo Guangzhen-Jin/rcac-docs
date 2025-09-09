@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+NumPy is a fundamental package for scientific computing with Python, providing array objects and operations.
 
 ## Homepage
 
-N/A
+[https://numpy.org/](https://numpy.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

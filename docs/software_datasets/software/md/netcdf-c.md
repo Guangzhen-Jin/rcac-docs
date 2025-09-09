@@ -4,20 +4,21 @@
 
 ## Description
 
-TODO: add description
+NetCDF C library for array-oriented scientific data storage and access.
 
 ## Homepage
 
-N/A
+[https://www.unidata.ucar.edu/software/netcdf/](https://www.unidata.ucar.edu/software/netcdf/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|4.9.2
-**SCHOLAR**|4.9.2
 **BELL**|4.9.2
+**GAUTSCHI**|4.9.2
+**GILBRETH**|4.9.2
 **NEGISHI**|4.9.0
+**SCHOLAR**|4.9.2
 
 ## Module
 

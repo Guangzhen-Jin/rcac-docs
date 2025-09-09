@@ -15,6 +15,7 @@ GNU internationalization (i18n) and localization (l10n) library.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.21
+**NEGISHI**|0.21.1
 
 ## Module
 

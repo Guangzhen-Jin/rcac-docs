@@ -4,17 +4,18 @@
 
 ## Description
 
-TODO: add description
+XCB protocol descriptions for building X11 applications.
 
 ## Homepage
 
-N/A
+[https://xcb.freedesktop.org/](https://xcb.freedesktop.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.14.1
+**NEGISHI**|1.14.1
 
 ## Module
 

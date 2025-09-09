@@ -15,6 +15,7 @@ libXext - library for common extensions to the X11 protocol.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.3.3
+**NEGISHI**|1.3.3
 
 ## Module
 

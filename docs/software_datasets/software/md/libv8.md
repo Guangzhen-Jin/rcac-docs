@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+V8 JavaScript engine library for embedding JS in C++ applications.
 
 ## Homepage
 
-N/A
+[https://v8.dev/](https://v8.dev/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

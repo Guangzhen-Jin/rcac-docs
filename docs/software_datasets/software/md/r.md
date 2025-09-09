@@ -15,9 +15,11 @@ R is 'GNU S', a freely available language and environment for statistical comput
 |Cluster|Versions|
 |---|---|
 **ANVIL**|4.0.5, 4.1.0, 4.4.1
-**GAUTSCHI**|4.4.1
-**SCHOLAR**|4.4.1
 **BELL**|4.4.1
+**GAUTSCHI**|4.4.1
+**GILBRETH**|4.4.1
+**NEGISHI**|4.2.2, 4.3.1, 4.4.1
+**SCHOLAR**|4.4.1
 
 ## Module
 

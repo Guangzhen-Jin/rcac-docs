@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+Utilities to query, configure, and manage fonts on Linux/Unix systems.
 
 ## Homepage
 
@@ -15,6 +15,7 @@ N/A
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.3.2
+**NEGISHI**|1.3.2
 
 ## Module
 

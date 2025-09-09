@@ -44,7 +44,13 @@ jq -r 'keys[]' "$INV_FILE" | while IFS= read -r app; do
     echo ""
     echo "|Cluster|Versions|"
     echo "|---|---|"
-    jq -r --arg app "$app" '.[$app].availability | to_entries[] | "**\(.key | ascii_upcase)**|" + (.value | join(", "))' "$INV_FILE"
+    jq -r --arg app "$app" '
+      .[$app].availability
+      | to_entries
+      | sort_by(.key)   # sort clusters alphabetically
+      | .[]
+      | "**\(.key | ascii_upcase)**|" + (.value | join(", "))
+    ' "$INV_FILE"
     echo ""
     echo "## Module"
     echo ""

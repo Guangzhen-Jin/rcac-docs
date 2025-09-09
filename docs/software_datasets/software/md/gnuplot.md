@@ -15,8 +15,10 @@ Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS W
 |Cluster|Versions|
 |---|---|
 **ANVIL**|5.4.2
-**GAUTSCHI**|6.0.0
 **BELL**|6.0.0
+**GAUTSCHI**|6.0.0
+**GILBRETH**|6.0.0
+**NEGISHI**|5.4.2
 
 ## Module
 

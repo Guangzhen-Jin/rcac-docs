@@ -4,20 +4,20 @@
 
 ## Description
 
-Ansys, Inc. is an American multinational company with its headquarters based in Canonsburg, Pennsylvania. It develops and markets CAE/multiphysics engineering simulation software for product design, testing and operation and offers its products and services to customers worldwide. On July 17, 2025, the company became a subsidiary of Synopsys.
+ANSYS is a comprehensive software suite for engineering simulation covering finite element analysis (FEA), computational fluid dynamics (CFD), and more.
 
 ## Homepage
 
-N/A
+[https://www.ansys.com](https://www.ansys.com){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|2024R2, 2025R2
-**SCHOLAR**|2022R1
 **BELL**|2023R1, 2024R2
+**GAUTSCHI**|2024R2, 2025R2
 **NEGISHI**|2022R2, 2023R1, 2023R2, 2024R2, 2025R2
+**SCHOLAR**|2022R1
 
 ## Module
 

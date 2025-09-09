@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+Intel runtime libraries needed for executing compiled Intel applications.
 
 ## Homepage
 

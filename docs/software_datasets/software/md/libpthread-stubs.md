@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+Minimal pthread stubs for systems without a complete pthread implementation.
 
 ## Homepage
 
@@ -15,6 +15,7 @@ N/A
 |Cluster|Versions|
 |---|---|
 **ANVIL**|0.4
+**NEGISHI**|0.4
 
 ## Module
 

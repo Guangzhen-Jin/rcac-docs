@@ -15,6 +15,7 @@ OVITO is a scientific visualization and analysis software for atomistic and part
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.12.2
+**NEGISHI**|3.11.0
 
 ## Module
 

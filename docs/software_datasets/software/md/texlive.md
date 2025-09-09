@@ -15,9 +15,11 @@ TeX Live is an easy (we hope) way to get up and running with the TeX document pr
 |Cluster|Versions|
 |---|---|
 **ANVIL**|20200406
-**GAUTSCHI**|20220321
-**SCHOLAR**|20220321
 **BELL**|20220321
+**GAUTSCHI**|20220321
+**GILBRETH**|20220321
+**NEGISHI**|20220321
+**SCHOLAR**|20220321
 
 ## Module
 

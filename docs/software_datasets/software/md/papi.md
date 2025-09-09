@@ -15,6 +15,7 @@ PAPI provides the tool designer and application engineer with a consistent inter
 |Cluster|Versions|
 |---|---|
 **ANVIL**|6.0.0.1
+**NEGISHI**|6.0.0.1
 
 ## Module
 

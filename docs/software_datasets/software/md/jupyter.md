@@ -4,7 +4,7 @@
 
 ## Description
 
-Project Jupyter is a project to develop open-source software, open standards, and services for interactive computing across multiple programming languages.
+Jupyter metapackage. Install all the Jupyter components in one go.
 
 ## Homepage
 
@@ -15,9 +15,10 @@ N/A
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2022.04, 2025.07
-**GAUTSCHI**|1.1.1
-**SCHOLAR**|1.1.1, 2025.09
 **BELL**|3.4.4
+**GAUTSCHI**|1.1.1
+**NEGISHI**|3.1.1
+**SCHOLAR**|1.1.1, 2025.09
 
 ## Module
 

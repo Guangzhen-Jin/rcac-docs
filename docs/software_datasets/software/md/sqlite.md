@@ -15,6 +15,7 @@ SQLite is a C-language library that implements a small, fast, self-contained, hi
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.35.5
+**NEGISHI**|3.39.4
 
 ## Module
 

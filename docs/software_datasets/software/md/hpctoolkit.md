@@ -15,6 +15,7 @@ HPCToolkit is an integrated suite of tools for measurement and analysis of progr
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2021.03.01
+**NEGISHI**|2022.05.15
 
 ## Module
 

@@ -16,6 +16,7 @@ N/A
 |---|---|
 **ANVIL**|3.9
 **GAUTSCHI**|3.9
+**NEGISHI**|3.9
 
 ## Module
 

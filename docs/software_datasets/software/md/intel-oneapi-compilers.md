@@ -4,17 +4,19 @@
 
 ## Description
 
-TODO: add description
+Intel oneAPI compilers for building high-performance C, C++, and Fortran applications.
 
 ## Homepage
 
-N/A
+[https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
 **BELL**|2024.2.0
+**GILBRETH**|2024.2.1
+**NEGISHI**|2023.0.0
 
 ## Module
 

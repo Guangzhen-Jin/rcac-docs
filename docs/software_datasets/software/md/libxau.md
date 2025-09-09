@@ -15,6 +15,7 @@ The libXau package contains a library implementing the X11 Authorization Protoco
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.0.8
+**NEGISHI**|1.0.8
 
 ## Module
 

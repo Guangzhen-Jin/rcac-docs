@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO: add description
+CUE login environment scripts for user session management on HPC systems.
 
 ## Homepage
 

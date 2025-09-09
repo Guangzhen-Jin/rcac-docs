@@ -15,6 +15,7 @@ GNU Tar provides the ability to create tar archives, as well as various other ki
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.34
+**NEGISHI**|1.34
 
 ## Module
 

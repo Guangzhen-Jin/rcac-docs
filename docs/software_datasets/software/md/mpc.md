@@ -15,6 +15,7 @@ Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily hi
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.1.0
+**NEGISHI**|1.1.0
 
 ## Module
 

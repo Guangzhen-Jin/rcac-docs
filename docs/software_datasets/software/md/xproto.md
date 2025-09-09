@@ -4,7 +4,7 @@
 
 ## Description
 
-X Window System Core Protocol. This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11. It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.
+X Window System Core Protocol.  This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11.  It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.
 
 ## Homepage
 
@@ -15,6 +15,7 @@ X Window System Core Protocol. This package provides the headers and specificati
 |Cluster|Versions|
 |---|---|
 **ANVIL**|7.0.31
+**NEGISHI**|7.0.31
 
 ## Module
 

@@ -16,6 +16,8 @@ Qt is a comprehensive cross-platform C++ application framework.
 |---|---|
 **ANVIL**|5.15.2
 **BELL**|5.15.15
+**GILBRETH**|5.15.15
+**NEGISHI**|5.15.2
 
 ## Module
 

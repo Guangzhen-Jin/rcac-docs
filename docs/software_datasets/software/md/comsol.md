@@ -4,19 +4,20 @@
 
 ## Description
 
-COMSOL Multiphysics is a finite element analyzer, solver, and simulation software package for various physics and engineering applications, especially coupled phenomena and multiphysics. The software facilitates conventional physics-based user interfaces and coupled systems of partial differential equations (PDEs). COMSOL Multiphysics provides an IDE and unified workflow for electrical, mechanical, fluid, acoustics, and chemical applications.
+COMSOL Multiphysics is a simulation platform for modeling designs, devices, and processes in all fields of engineering, manufacturing, and scientific research using multiphysics finite element analysis.
 
 ## Homepage
 
-N/A
+[https://www.comsol.com](https://www.comsol.com){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|6.2, 6.3
-**SCHOLAR**|6.2
 **BELL**|6.0, 6.2
+**GAUTSCHI**|6.2, 6.3
+**NEGISHI**|6.0, 6.1, 6.2
+**SCHOLAR**|6.2
 
 ## Module
 

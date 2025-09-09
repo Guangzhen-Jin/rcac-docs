@@ -15,6 +15,7 @@ libX11 - Core X11 protocol client library.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.7.0
+**NEGISHI**|1.7.0
 
 ## Module
 

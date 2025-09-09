@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Intel Math Kernel Library (MKL) provides highly optimized math routines for science, engineering, and financial applications.
 
 ## Homepage
 
-N/A
+[https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

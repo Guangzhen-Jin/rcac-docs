@@ -15,6 +15,7 @@ The libffi library provides a portable, high level programming interface to vari
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.3
+**NEGISHI**|3.4.2
 
 ## Module
 

@@ -15,6 +15,7 @@ XZ Utils is free general-purpose data compression software with high compression
 |Cluster|Versions|
 |---|---|
 **ANVIL**|5.2.5
+**NEGISHI**|5.2.6, 5.2.7
 
 ## Module
 

@@ -4,19 +4,20 @@
 
 ## Description
 
-TODO: add description
+FormatR is an R package to format R code consistently.
 
 ## Homepage
 
-N/A
+[https://cran.r-project.org/web/packages/formatR/index.html](https://cran.r-project.org/web/packages/formatR/index.html){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
 |Cluster|Versions|
 |---|---|
-**GAUTSCHI**|1.14
-**SCHOLAR**|1.14
 **BELL**|1.14
+**GAUTSCHI**|1.14
+**GILBRETH**|1.14
+**SCHOLAR**|1.14
 
 ## Module
 

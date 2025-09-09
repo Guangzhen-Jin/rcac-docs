@@ -4,7 +4,7 @@
 
 ## Description
 
-CUDA is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU). Note: This package does not currently install the drivers necessary to run CUDA. These will need to be installed manually. See: https://docs.nvidia.com/cuda/ for details.
+CUDA is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU).  Note: This package does not currently install the drivers necessary to run CUDA. These will need to be installed manually. See: https://docs.nvidia.com/cuda/ for details.
 
 ## Homepage
 
@@ -15,8 +15,8 @@ CUDA is a parallel computing platform and programming model invented by NVIDIA. 
 |Cluster|Versions|
 |---|---|
 **GAUTSCHI**|12.6.0
-**SCHOLAR**|12.1.0
 **GILBRETH**|12.1.1, 12.6.0
+**SCHOLAR**|12.1.0
 
 ## Module
 

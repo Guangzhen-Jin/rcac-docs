@@ -15,6 +15,7 @@ The GNU Scientific Library (GSL) is a numerical library for C and C++ programmer
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.4
+**NEGISHI**|2.4
 
 ## Module
 
