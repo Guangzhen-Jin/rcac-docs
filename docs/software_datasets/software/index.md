@@ -15,7 +15,7 @@ Check the most popular software in different domains below:
 
 <div class="grid cards" markdown>
 
--   :material-application:{ .lg .middle } __Chemistry__
+-   :material-application:{ .lg .middle } __Computational Chemistry__
 
     ---
 
