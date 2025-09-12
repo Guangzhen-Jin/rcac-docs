@@ -31,6 +31,6 @@ jobs:
           git config --global user.name "Guangzhen-Jin"
           git config --global user.email "jin456@purdue.edu"
           
-          git add ../software/md ../software/app_catalog.md
+          git add ../software/apps_md ../software/app_catalog.md ../software/index.md
           git commit -m "Auto-update app catalog and markdown files" || echo "No changes to commit"
           git push
