@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - auto_app
+      - main
     paths:
       - 'docs/software_datasets/modulefiles/**'
 
