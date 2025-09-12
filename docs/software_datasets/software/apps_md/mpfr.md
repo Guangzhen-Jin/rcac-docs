@@ -14,7 +14,7 @@ The MPFR library is a C library for multiple-precision floating-point computatio
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|4.0.2
+**ANVIL**|3.1.6, 4.0.2
 **NEGISHI**|4.0.2
 
 ## Module

@@ -16,7 +16,7 @@ The NCO toolkit manipulates and analyzes data stored in netCDF-accessible format
 |---|---|
 **ANVIL**|4.9.3
 **GILBRETH**|5.2.4
-**NEGISHI**|4.9.3
+**NEGISHI**|4.9.3, 5.0.1
 
 ## Module
 

@@ -318,5 +318,15 @@
       "description": "xcb-util-cursor is a utility library for the XCB library, offering convenience functions to load and manipulate cursors in X11 applications.",
       "homepage": "https://xcb.freedesktop.org",
       "source": "curated"
-    }
+    },
+    "abaqus": {
+    "description": "Abaqus is a commercial finite element analysis (FEA) software suite developed by Dassault Systèmes SIMULIA. It is widely used in engineering and scientific applications to simulate the behavior of structures and materials under various conditions, including static, dynamic, thermal, and multiphysics environments. Abaqus supports advanced nonlinear analysis, contact modeling, composite materials, and coupled simulations with fluid dynamics or electromagnetics. It is particularly valued in aerospace, automotive, and civil engineering industries, as well as academic research requiring high-fidelity structural simulations.",
+    "homepage": "https://www.3ds.com/products-services/simulia/products/abaqus/",
+    "source": "curated"
+    },
+   "vtune": {
+    "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+    "source": "curated"
+   }
 }

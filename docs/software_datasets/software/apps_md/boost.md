@@ -18,7 +18,7 @@ Boost provides free peer-reviewed portable C++ source libraries, emphasizing lib
 **BELL**|1.85.0
 **GAUTSCHI**|1.85.0
 **GILBRETH**|1.79.0, 1.85.0
-**NEGISHI**|1.80.0
+**NEGISHI**|1.79.0, 1.80.0
 **SCHOLAR**|1.85.0, 1.86.0
 
 ## Module

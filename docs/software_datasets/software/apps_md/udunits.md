@@ -15,6 +15,7 @@ Automated units conversion
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.2.28
+**NEGISHI**|2.2.28
 
 ## Module
 

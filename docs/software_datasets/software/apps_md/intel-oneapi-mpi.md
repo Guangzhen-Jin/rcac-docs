@@ -15,6 +15,7 @@ Intel MPI Library provides high-performance and scalable message passing for HPC
 |Cluster|Versions|
 |---|---|
 **BELL**|2021.14.0
+**GILBRETH**|2021.13.1
 
 ## Module
 

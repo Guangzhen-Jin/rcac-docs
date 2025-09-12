@@ -2,7 +2,7 @@
 # ./scripts/update_apps_inventory.sh
 # Full rebuild each run, availability only (no description/homepage).
 # Output: ./rcac_apps_inventory.json
-# Requires: jq, perl
+# Requires: jq
 
 set -euo pipefail
 
@@ -27,6 +27,9 @@ skip_file() {
   [[ "$relpath" == */modtree/* ]] && return 0
   [[ "$relpath" == */biocontainers/* ]] && return 0
   [[ "$relpath" == */rocmcontainers/* ]] && return 0
+  [[ "$relpath" == */ngc/* ]] && return 0
+  # skip Core/*.lua (not real apps, just environment/compiler modules)
+  [[ "$relpath" =~ /Core/[^/]+\.lua$ ]] && return 0
   return 1
 }
 
@@ -46,7 +49,7 @@ fi
 NEW_TMP="$(mktemp --suffix=.jsonl)"
 trap 'rm -f "$NEW_TMP" "$OLD_FILE"' EXIT
 
-# Delete expired link from "$MODULEDIR" as they could cause error for mkdocs
+# Delete expired symlinks from "$MODULEDIR"
 find "$MODULEDIR" -type l -exec test ! -e {} \; -print -delete 2>/dev/null
 
 # Collect all entries
@@ -57,9 +60,13 @@ while IFS= read -r -d '' filepath; do
   relpath="${filepath#$MODULEDIR/}"
   filename="${filepath##*/}"
 
-  IFS='/' read -r cluster compiler app_dir filename_rest <<< "$relpath"
-  [ -z "$cluster" ] || [ -z "$compiler" ] || [ -z "$app_dir" ] || [ -z "$filename_rest" ] && continue
-  version="${filename_rest%.*}"
+  # split path into cluster / (compiler...ignored) / app / version.lua
+  IFS='/' read -r cluster rest <<< "$relpath"
+  [ -z "$cluster" ] && continue
+
+  # app = second-to-last component, version = filename w/o .lua
+  app_dir=$(basename "$(dirname "$filepath")")
+  version="${filename%.*}"
 
   jq -n --arg app "$app_dir" \
         --arg cluster "$cluster" \
@@ -67,18 +74,22 @@ while IFS= read -r -d '' filepath; do
         '{app:$app, cluster:$cluster, version:$version}' >> "$NEW_TMP"
 done
 
-# Build new full JSON
+# Aggregate all entries into a single JSON structure:
+# { app: { availability: { cluster: [versions] } } }
 jq --slurp '
   reduce .[] as $it ({}; 
     .[$it.app] |= ( . // {availability:{}} ) |
     .[$it.app].availability[$it.cluster] |= ((. // []) + [$it.version])
   )
   | to_entries
-  | map({ key: .key, value: (.value | .availability |= (with_entries(.value |= (unique | sort)))) })
+  | map({ key: .key,
+          value: (.value
+            | .availability |= (with_entries(.value |= (unique | sort)))) })
+  | sort_by(.key)
   | from_entries
 ' "$NEW_TMP" > "${OUTPUT_FILE}.new"
 
-# Show diffs: newly added and removed since last run
+# If verbose, show a diff of changes since last run
 if [ "$VERBOSE" -eq 1 ]; then
   jq -r 'to_entries[] as $app 
          | ($app.value.availability // {}) 
@@ -92,6 +103,7 @@ if [ "$VERBOSE" -eq 1 ]; then
          | $c.value[] 
          | "\($app.key)|\($c.key)|\(.)"' "${OUTPUT_FILE}.new" 2>/dev/null | sort > /tmp/new_flat.txt
 
+  # Find added and removed entries
   added=$(comm -13 /tmp/old_flat.txt /tmp/new_flat.txt)
   removed=$(comm -23 /tmp/old_flat.txt /tmp/new_flat.txt)
 

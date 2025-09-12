@@ -983,5 +983,190 @@
     "description": "NCL is an interpreted language designed specifically for scientific data analysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-EOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are built-in.",
     "homepage": "https://www.ncl.ucar.edu",
     "source": "spack"
+  },
+  "cython": {
+    "description": "The Cython compiler for writing C extensions in the Python language.",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "matplotlib": {
+    "description": "Python plotting package",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "numba": {
+    "description": "compiling Python code using LLVM",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "numpy": {
+    "description": "Fundamental package for array computing in Python",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "pandas": {
+    "description": "Powerful data structures for data analysis, time series, and statistics",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "pip": {
+    "description": "The PyPA recommended tool for installing Python packages.",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "scikit-learn": {
+    "description": "A set of python modules for machine learning and data mining",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "scipy": {
+    "description": "Fundamental algorithms for scientific computing in Python",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "seaborn": {
+    "description": "Statistical data visualization",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "setuptools": {
+    "description": "Easily download, build, install, upgrade, and uninstall Python packages",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "virtualenv": {
+    "description": "Virtual Python Environment builder",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "wheel": {
+    "description": "A built-package format for Python",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "abaqus": {
+    "description": "Abaqus is a commercial finite element analysis (FEA) software suite developed by Dassault Systèmes SIMULIA. It is widely used in engineering and scientific applications to simulate the behavior of structures and materials under various conditions, including static, dynamic, thermal, and multiphysics environments. Abaqus supports advanced nonlinear analysis, contact modeling, composite materials, and coupled simulations with fluid dynamics or electromagnetics. It is particularly valued in aerospace, automotive, and civil engineering industries, as well as academic research requiring high-fidelity structural simulations.",
+    "homepage": "https://www.3ds.com/products-services/simulia/products/abaqus/",
+    "source": "curated"
+  },
+  "impi": {
+    "description": "Intel(R) MPI Runtime",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "vasp": {
+    "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.",
+    "homepage": "https://vasp.at",
+    "source": "spack"
+  },
+  "vtune": {
+    "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+    "source": "curated"
+  },
+  "bamtools": {
+    "description": "C++ API & command-line toolkit for working with BAM data.",
+    "homepage": "https://github.com/pezmaster31/bamtools",
+    "source": "spack"
+  },
+  "beagle": {
+    "description": "Beagle is a software package for phasing genotypes and for imputing ungenotyped markers.",
+    "homepage": "https://faculty.washington.edu/browning/beagle/beagle.html",
+    "source": "spack"
+  },
+  "beast2": {
+    "description": "BEAST is a cross-platform program for Bayesian inference using MCMC of molecular sequences. It is entirely orientated towards rooted, time-measured phylogenies inferred using strict or relaxed molecular clock models. It can be used as a method of reconstructing phylogenies but is also a framework for testing evolutionary hypotheses without conditioning on a single tree topology.",
+    "homepage": "http://beast2.org/",
+    "source": "spack"
+  },
+  "bismark": {
+    "description": "A tool to map bisulfite converted sequence reads and determine cytosine methylation states",
+    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/bismark",
+    "source": "spack"
+  },
+  "blast-plus": {
+    "description": "TODO: add description",
+    "homepage": null,
+    "source": "none"
+  },
+  "bowtie2": {
+    "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences",
+    "homepage": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+    "source": "spack"
+  },
+  "bwa": {
+    "description": "Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.",
+    "homepage": "https://github.com/lh3/bwa",
+    "source": "spack"
+  },
+  "cufflinks": {
+    "description": "Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples.",
+    "homepage": "https://cole-trapnell-lab.github.io/cufflinks",
+    "source": "spack"
+  },
+  "cutadapt": {
+    "description": "Adapter trimming and other preprocessing of high-throughput sequencing reads",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "fastqc": {
+    "description": "A quality control tool for high throughput sequence data.",
+    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+    "source": "spack"
+  },
+  "fasttree": {
+    "description": "FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.",
+    "homepage": "http://www.microbesonline.org/fasttree",
+    "source": "spack"
+  },
+  "fastx-toolkit": {
+    "description": "TODO: add description",
+    "homepage": null,
+    "source": "none"
+  },
+  "gatk": {
+    "description": "Genome Analysis Toolkit Variant Discovery in High-Throughput Sequencing Data",
+    "homepage": "https://gatk.broadinstitute.org/hc/en-us",
+    "source": "spack"
+  },
+  "htseq": {
+    "description": "A framework to process and analyze data from high-throughput sequencing (HTS) assays",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "perl-bioperl": {
+    "description": "TODO: add description",
+    "homepage": null,
+    "source": "none"
+  },
+  "picard": {
+    "description": "Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
+    "homepage": "https://broadinstitute.github.io/picard/",
+    "source": "spack"
+  },
+  "samtools": {
+    "description": "SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format",
+    "homepage": "https://www.htslib.org",
+    "source": "spack"
+  },
+  "sratoolkit": {
+    "description": "The NCBI SRA Toolkit enables reading (\"dumping\") of sequencing files from the SRA database and writing (\"loading\") files into the .sra format.",
+    "homepage": "https://trace.ncbi.nlm.nih.gov/Traces/sra",
+    "source": "spack"
+  },
+  "tophat": {
+    "description": "Spliced read mapper for RNA-Seq.",
+    "homepage": "https://ccb.jhu.edu/software/tophat/index.shtml",
+    "source": "spack"
+  },
+  "trimmomatic": {
+    "description": "A flexible read trimming tool for Illumina NGS data.",
+    "homepage": "http://www.usadellab.org/cms/?page=trimmomatic",
+    "source": "spack"
+  },
+  "vcftools": {
+    "description": "VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.",
+    "homepage": "https://vcftools.github.io/",
+    "source": "spack"
   }
 }
