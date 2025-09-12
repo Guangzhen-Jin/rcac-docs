@@ -1,0 +1,29 @@
+# bzip2
+
+[Back to application catalog](../app_catalog.md)
+
+## Description
+
+bzip2 is a freely available, patent free high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+
+## Homepage
+
+[https://sourceware.org/bzip2/](https://sourceware.org/bzip2/){:target="_blank"}
+
+## Available Versions on RCAC Clusters
+
+|Cluster|Versions|
+|---|---|
+**ANVIL**|1.0.8
+**NEGISHI**|1.0.8
+
+## Module
+
+You can load the module by:
+
+```bash
+module load bzip2
+```
+
+!!! note "Note for using `bzip2`"
+    Run `module spider bzip2` beforehand to check if this version requires any prerequisite modules.

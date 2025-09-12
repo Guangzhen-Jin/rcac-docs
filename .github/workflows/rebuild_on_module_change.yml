@@ -1,0 +1,36 @@
+name: Run Make on modulefiles change
+
+on:
+  push:
+    branches:
+      - auto_app
+    paths:
+      - 'docs/software_datasets/modulefiles/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs/software_datasets/scripts
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true 
+
+      - name: Run make
+        run: make
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Guangzhen-Jin"
+          git config --global user.email "jin456@purdue.edu"
+          
+          git add ../software/apps_md ../software/app_catalog.md ../software/index.md
+          git commit -m "Auto-update app catalog and markdown files" || echo "No changes to commit"
+          git push

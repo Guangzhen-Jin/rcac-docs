@@ -1,0 +1,33 @@
+-- -*- lua -*-
+-- Module file created by spack (https://github.com/spack/spack) on 2025-02-21 14:54:16.510148
+--
+-- xcb-util-renderutil@0.3.10%gcc@8.5.0 build_system=autotools arch=linux-rocky8-zen/pbyawh3
+--
+
+whatis([[Name : xcb-util-renderutil]])
+whatis([[Version : 0.3.10]])
+whatis([[Target : zen]])
+whatis([[Short description : The XCB util modules provides a number of libraries which sit on top of libxcb, the core X protocol library, and some of the extension libraries. These experimental libraries provide convenience functions and interfaces which make the raw X protocol more usable. Some of the libraries also provide client-side code which is not strictly part of the X protocol but which have traditionally been provided by Xlib.]])
+
+help([[Name   : xcb-util-renderutil]])
+help([[Version: 0.3.10]])
+help([[Target : zen]])
+help()
+help([[The XCB util modules provides a number of libraries which sit on top of
+libxcb, the core X protocol library, and some of the extension
+libraries. These experimental libraries provide convenience functions
+and interfaces which make the raw X protocol more usable. Some of the
+libraries also provide client-side code which is not strictly part of
+the X protocol but which have traditionally been provided by Xlib.]])
+
+
+
+prepend_path("LIBRARY_PATH", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3/lib", ":")
+prepend_path("LD_LIBRARY_PATH", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3/lib", ":")
+prepend_path("CPATH", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3/include", ":")
+prepend_path("PKG_CONFIG_PATH", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3/lib/pkgconfig", ":")
+prepend_path("CMAKE_PREFIX_PATH", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3/.", ":")
+setenv("XCB_UTIL_RENDERUTIL_HOME", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3")
+setenv("RCAC_XCB_UTIL_RENDERUTIL_ROOT", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3")
+setenv("RCAC_XCB_UTIL_RENDERUTIL_VERSION", "/apps/spack/bell-20250305/apps/xcb-util-renderutil/0.3.10-gcc-8.5.0-pbyawh3")
+

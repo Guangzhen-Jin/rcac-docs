@@ -60,6 +60,7 @@ plugins:
         - index.md
         - contact.md
         - blog/*
+        - software_datasets/*
   - macros
 
 nav:
@@ -83,23 +84,25 @@ nav:
     - software_datasets/index.md
     - Software:
       - software_datasets/software/index.md
-      - Computational chemistry: 
-        - amber: software_datasets/software/amber.md
-        - cp2k: software_datasets/software/cp2k.md
-        - gamess: software_datasets/software/gamess.md
-        - gaussian09: software_datasets/software/gaussian09.md
-        - gaussian16: software_datasets/software/gaussian16.md
-        - gaussview: software_datasets/software/gaussview.md
-        - gromacs: software_datasets/software/gromacs.md
-        - lammps: software_datasets/software/lammps.md
-        - namd: software_datasets/software/namd.md
-        - nwchem: software_datasets/software/nwchem.md
-        - quantum-espresso: software_datasets/software/quantum-espresso.md
-        - vasp: software_datasets/software/vasp.md
-        - vmd: software_datasets/software/vmd.md
-        - wannier90: software_datasets/software/wannier90.md
-      - Fluid dynamics:
-        - abaqus: software_datasets/software/abaqus.md
+      - All Software: software_datasets/software/app_catalog.md
+      - Computational chemistry: software_datasets/software/chemistry_catalog.md
+        # - amber: software_datasets/software/amber.md
+        # - cp2k: software_datasets/software/cp2k.md
+        # - gamess: software_datasets/software/gamess.md
+        # - gaussian09: software_datasets/software/gaussian09.md
+        # - gaussian16: software_datasets/software/gaussian16.md
+        # - gaussview: software_datasets/software/gaussview.md
+        # - gromacs: software_datasets/software/gromacs.md
+        # - lammps: software_datasets/software/lammps.md
+        # - namd: software_datasets/software/namd.md
+        # - nwchem: software_datasets/software/nwchem.md
+        # - quantum-espresso: software_datasets/software/quantum-espresso.md
+        # - vasp: software_datasets/software/vasp.md
+        # - vmd: software_datasets/software/vmd.md
+        # - wannier90: software_datasets/software/wannier90.md
+      - Fluid dynamics: software_datasets/software/fluid_catalog.md
+      - MPIs: software_datasets/software/mpi_catalog.md
+        # - abaqus: software_datasets/software/abaqus.md
     - Datasets:
       - software_datasets/datasets/index.md
       - Hydrological: software_datasets/datasets/hydrological.md
