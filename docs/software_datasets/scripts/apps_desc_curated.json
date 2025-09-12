@@ -1,0 +1,337 @@
+{
+    "ANSYS": {
+      "description": "ANSYS is a comprehensive software suite for engineering simulation covering finite element analysis (FEA), computational fluid dynamics (CFD), and more.",
+      "homepage": "https://www.ansys.com",
+      "source": "curated"
+    },
+    "MATLAB": {
+      "description": "MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and programming language used widely in science and engineering.",
+      "homepage": "https://www.mathworks.com/products/matlab.html",
+      "source": "curated"
+    },
+    "Gaussian09": {
+      "description": "Gaussian 09 is a software package for computational chemistry for electronic structure modeling.",
+      "homepage": "https://gaussian.com/g09citation/",
+      "source": "curated"
+    },
+    "Gaussian16": {
+      "description": "Gaussian 16 is the latest release of the Gaussian series for electronic structure modeling and computational chemistry.",
+      "homepage": "https://gaussian.com/g16citation/",
+      "source": "curated"
+    },
+    "GROMACS": {
+      "description": "GROMACS is a high-performance molecular dynamics package primarily designed for simulations of proteins, lipids, and nucleic acids.",
+      "homepage": "http://www.gromacs.org",
+      "source": "curated"
+    },
+    "aws-cli": {
+      "description": "The AWS Command Line Interface (CLI) is a unified tool to manage Amazon Web Services.",
+      "homepage": "https://aws.amazon.com/cli/",
+      "source": "curated"
+    },
+    "berkeley-db": {
+      "description": "Berkeley DB is an embedded database software library providing scalable high-performance database technology.",
+      "homepage": "https://www.oracle.com/database/technologies/related/berkeleydb.html",
+      "source": "curated"
+    },
+    "cue-login-env": {
+      "description": "CUE login environment scripts for user session management on HPC systems.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "font-util": {
+      "description": "Utilities to query, configure, and manage fonts on Linux/Unix systems.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "gaussview": {
+      "description": "GaussView is a graphical user interface designed to build Gaussian input and analyze output files.",
+      "homepage": "https://gaussian.com/gaussview6/",
+      "source": "curated"
+    },
+    "gcc-runtime": {
+      "description": "GCC runtime libraries required for compiled applications.",
+      "homepage": "https://gcc.gnu.org/",
+      "source": "curated"
+    },
+    "gfms": {
+      "description": "Generalized Finite Element Method Software for structural mechanics simulations.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "hspice": {
+      "description": "HSPICE is a leading circuit simulator used for integrated circuit design and verification.",
+      "homepage": "https://www.synopsys.com/verification/analog-mixed-signal/hspice.html",
+      "source": "curated"
+    },
+    "intel-mkl": {
+      "description": "Intel Math Kernel Library (MKL) provides highly optimized math routines for science, engineering, and financial applications.",
+      "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
+      "source": "curated"
+    },
+    "intel-oneapi-compilers": {
+      "description": "Intel oneAPI compilers for building high-performance C, C++, and Fortran applications.",
+      "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html",
+      "source": "curated"
+    },
+    "intel-oneapi-mpi": {
+      "description": "Intel MPI Library provides high-performance and scalable message passing for HPC applications.",
+      "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html",
+      "source": "curated"
+    },
+    "intel-oneapi-tbb": {
+      "description": "Intel Threading Building Blocks (TBB) is a library for parallel programming in C++.",
+      "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html",
+      "source": "curated"
+    },
+    "intel-oneapi-vtune": {
+      "description": "Intel VTune Profiler is a performance analysis tool for optimizing CPU, GPU, and FPGA workloads.",
+      "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+      "source": "curated"
+    },
+    "intel-rt": {
+      "description": "Intel runtime libraries needed for executing compiled Intel applications.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "libpthread-stubs": {
+      "description": "Minimal pthread stubs for systems without a complete pthread implementation.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "libv8": {
+      "description": "V8 JavaScript engine library for embedding JS in C++ applications.",
+      "homepage": "https://v8.dev/",
+      "source": "curated"
+    },
+    "mesa-glu": {
+      "description": "Mesa OpenGL Utility library (GLU) for 3D graphics rendering.",
+      "homepage": "https://www.mesa3d.org/",
+      "source": "curated"
+    },
+    "netcdf-c": {
+      "description": "NetCDF C library for array-oriented scientific data storage and access.",
+      "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+      "source": "curated"
+    },
+    "netcdf-cxx4": {
+      "description": "NetCDF C++4 library for scientific data management and access.",
+      "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+      "source": "curated"
+    },
+    "netcdf-fortran": {
+      "description": "NetCDF Fortran library providing Fortran APIs to access scientific datasets.",
+      "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+      "source": "curated"
+    },
+    "netlib-lapack": {
+      "description": "Linear Algebra PACKage (LAPACK) for high-performance linear algebra computations.",
+      "homepage": "http://www.netlib.org/lapack/",
+      "source": "curated"
+    },
+    "oclfpga": {
+      "description": "Intel OpenCL FPGA runtime and utilities for FPGA application development.",
+      "homepage": "https://www.intel.com/content/www/us/en/software/programmable/sdk.html",
+      "source": "curated"
+    },
+    "parafly": {
+      "description": "ParaFly is a parallel launcher for running independent computational jobs.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "py-matplotlib": {
+      "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+      "homepage": "https://matplotlib.org/",
+      "source": "curated"
+    },
+    "py-numpy": {
+      "description": "NumPy is a fundamental package for scientific computing with Python, providing array objects and operations.",
+      "homepage": "https://numpy.org/",
+      "source": "curated"
+    },
+    "py-pandas": {
+      "description": "Pandas is a Python library for data manipulation, analysis, and table-like data structures.",
+      "homepage": "https://pandas.pydata.org/",
+      "source": "curated"
+    },
+    "quantumatk": {
+      "description": "QuantumATK is a software platform for atomic-scale modeling of materials and devices.",
+      "homepage": "https://www.synopsys.com/silicon/quantumatk.html",
+      "source": "curated"
+    },
+    "r-devtools": {
+      "description": "R devtools package provides tools to simplify R package development.",
+      "homepage": "https://cran.r-project.org/web/packages/devtools/index.html",
+      "source": "curated"
+    },
+    "r-formatr": {
+      "description": "FormatR is an R package to format R code consistently.",
+      "homepage": "https://cran.r-project.org/web/packages/formatR/index.html",
+      "source": "curated"
+    },
+    "r-irkernel": {
+      "description": "IRKernel provides the R kernel for Jupyter notebooks.",
+      "homepage": "https://irkernel.github.io/",
+      "source": "curated"
+    },
+    "r-ncdf4": {
+      "description": "ncdf4 package provides R bindings for NetCDF scientific data.",
+      "homepage": "https://cran.r-project.org/web/packages/ncdf4/index.html",
+      "source": "curated"
+    },
+    "r-plyr": {
+      "description": "Plyr is an R package for splitting, applying, and combining data.",
+      "homepage": "https://cran.r-project.org/web/packages/plyr/index.html",
+      "source": "curated"
+    },
+    "r-reshape2": {
+      "description": "Reshape2 provides tools for reshaping R data structures.",
+      "homepage": "https://cran.r-project.org/web/packages/reshape2/index.html",
+      "source": "curated"
+    },
+    "r-sf": {
+      "description": "Simple Features (sf) is an R package for handling spatial vector data.",
+      "homepage": "https://cran.r-project.org/web/packages/sf/index.html",
+      "source": "curated"
+    },
+    "r-shiny": {
+      "description": "Shiny is an R package for building interactive web applications directly from R.",
+      "homepage": "https://cran.r-project.org/web/packages/shiny/index.html",
+      "source": "curated"
+    },
+    "sentaurus": {
+      "description": "Synopsys Sentaurus software suite for TCAD simulation of semiconductor devices.",
+      "homepage": "https://www.synopsys.com/silicon/tcad.html",
+      "source": "curated"
+    },
+    "spice-server": {
+      "description": "SPICE server simulation environment for electronic circuit design and analysis.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "stata-mp": {
+      "description": "Stata/MP is the multiprocessor version of Stata for statistical analysis.",
+      "homepage": "https://www.stata.com/products/mp/",
+      "source": "curated"
+    },
+    "thermocalc": {
+      "description": "Thermo-Calc software for thermodynamic calculations of multicomponent systems.",
+      "homepage": "https://www.thermocalc.com/",
+      "source": "curated"
+    },
+    "util-linux-uuid": {
+      "description": "UUID generation utility from the util-linux package.",
+      "homepage": "",
+      "source": "curated"
+    },
+    "vlc": {
+      "description": "VLC media player for multimedia playback.",
+      "homepage": "https://www.videolan.org/vlc/",
+      "source": "curated"
+    },
+    "xalt": {
+      "description": "XALT is a tool for tracking HPC software usage and build environment provenance.",
+      "homepage": "https://xalt.readthedocs.io/",
+      "source": "curated"
+    },
+    "xcb-proto": {
+      "description": "XCB protocol descriptions for building X11 applications.",
+      "homepage": "https://xcb.freedesktop.org/",
+      "source": "curated"
+    },
+    "xcb-util-image": {
+      "description": "Utility library for manipulating images in X11 applications.",
+      "homepage": "https://xcb.freedesktop.org/",
+      "source": "curated"
+    },
+    "xcb-util-keysyms": {
+      "description": "X11 utility for key symbols mapping.",
+      "homepage": "https://xcb.freedesktop.org/",
+      "source": "curated"
+    },
+    "xcb-util-renderutil": {
+      "description": "X11 utility for rendering operations.",
+      "homepage": "https://xcb.freedesktop.org/",
+      "source": "curated"
+    },
+    "xcb-util-wm": {
+      "description": "X11 utility for window management.",
+      "homepage": "https://xcb.freedesktop.org/",
+      "source": "curated"
+    },
+    "Panoply": {
+        "description": "Panoply is a cross-platform application developed by NASA for plotting geo-gridded and other arrays from netCDF, HDF, GRIB, and other datasets.",
+        "homepage": "https://www.giss.nasa.gov/tools/panoply/",
+        "source": "curated"
+    },
+    "ansysem": {
+        "description": "ANSYS Electromagnetics (ANSYS EM or Ansys Electronics Desktop) is a suite of simulation tools for designing and analyzing electromagnetic fields, including HFSS, Maxwell, and other solvers for RF, antenna, signal integrity, and power electronics applications.",
+        "homepage": "https://www.ansys.com/products/electronics",
+        "source": "curated"
+    },
+    "comsol": {
+        "description": "COMSOL Multiphysics is a simulation platform for modeling designs, devices, and processes in all fields of engineering, manufacturing, and scientific research using multiphysics finite element analysis.",
+        "homepage": "https://www.comsol.com",
+        "source": "curated"
+    },
+    "gstreamer": {
+        "description": "GStreamer is an open-source multimedia framework for building streaming media applications, supporting audio and video playback, recording, streaming, and editing.",
+        "homepage": "https://gstreamer.freedesktop.org",
+        "source": "curated"
+    },
+    "intel": {
+        "description": "Intel provides a wide range of software development tools and performance libraries for high performance computing (HPC), including compilers, performance analyzers, and optimized libraries under the Intel oneAPI initiative.",
+        "homepage": "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
+        "source": "curated"
+    },
+    "openssl": {
+        "description": "OpenSSL is a robust, full-featured open-source toolkit implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols as well as a general-purpose cryptography library.",
+        "homepage": "https://www.openssl.org",
+        "source": "curated"
+    },
+    "rocm": {
+        "description": "AMD ROCm (Radeon Open Compute) is an open-source software platform for GPU computing, designed to support high-performance computing (HPC), machine learning, and scientific workloads on AMD GPUs.",
+        "homepage": "https://rocmdocs.amd.com",
+        "source": "curated"
+    },
+    "vscode": {
+        "description": "Visual Studio Code (VS Code) is a lightweight but powerful open-source code editor developed by Microsoft, featuring debugging, task running, and version control support for many programming languages and platforms.",
+        "homepage": "https://code.visualstudio.com",
+        "source": "curated"
+    },
+    "cosmosscope": {
+      "description": "CosmosScope is a scientific visualization and analysis tool used for exploring cosmological and astrophysical simulation data, providing interactive interfaces for large-scale structure and particle-based datasets.",
+      "homepage": "https://ui.adsabs.harvard.edu/abs/2019A&C....27..111C/abstract",
+      "source": "curated"
+    },
+    "edacfg": {
+      "description": "edacfg (Error Detection and Correction configuration) is a Linux utility for configuring and managing the EDAC kernel subsystem, which handles detection and reporting of hardware memory errors.",
+      "homepage": "https://github.com/mchehab/edac-utils",
+      "source": "curated"
+    },
+    "xcb-util": {
+      "description": "xcb-util is a set of libraries complementing the XCB (X protocol C-language Binding) library, providing convenient functions and abstractions for working with the X Window System.",
+      "homepage": "https://xcb.freedesktop.org",
+      "source": "curated"
+    },
+    "xcb-util-cursor": {
+      "description": "xcb-util-cursor is a utility library for the XCB library, offering convenience functions to load and manipulate cursors in X11 applications.",
+      "homepage": "https://xcb.freedesktop.org",
+      "source": "curated"
+    },
+    "abaqus": {
+    "description": "Abaqus is a commercial finite element analysis (FEA) software suite developed by Dassault Systèmes SIMULIA. It is widely used in engineering and scientific applications to simulate the behavior of structures and materials under various conditions, including static, dynamic, thermal, and multiphysics environments. Abaqus supports advanced nonlinear analysis, contact modeling, composite materials, and coupled simulations with fluid dynamics or electromagnetics. It is particularly valued in aerospace, automotive, and civil engineering industries, as well as academic research requiring high-fidelity structural simulations.",
+    "homepage": "https://www.3ds.com/products-services/simulia/products/abaqus/",
+    "source": "curated"
+    },
+   "vtune": {
+    "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+    "source": "curated"
+   },
+  "quantum-espresso": {
+    "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
+    "homepage": "https://www.quantum-espresso.org/",
+    "source": "curated"
+  }
+}

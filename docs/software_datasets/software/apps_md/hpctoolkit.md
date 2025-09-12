@@ -1,0 +1,29 @@
+# hpctoolkit
+
+[Back to application catalog](../app_catalog.md)
+
+## Description
+
+HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers. By using statistical sampling of timers and hardware performance counters, HPCToolkit collects accurate measurements of a program's work, resource consumption, and inefficiency and attributes them to the full calling context in which they occur.
+
+## Homepage
+
+[https://hpctoolkit.org](https://hpctoolkit.org){:target="_blank"}
+
+## Available Versions on RCAC Clusters
+
+|Cluster|Versions|
+|---|---|
+**ANVIL**|2021.03.01
+**NEGISHI**|2022.05.15
+
+## Module
+
+You can load the module by:
+
+```bash
+module load hpctoolkit
+```
+
+!!! note "Note for using `hpctoolkit`"
+    Run `module spider hpctoolkit` beforehand to check if this version requires any prerequisite modules.

@@ -1,0 +1,11 @@
+local appname = 'duckdb'
+local version = '1.0.0'
+local appsdir = '/apps/anvil/external/apps'
+local modroot = pathJoin(appsdir, appname, version)
+
+whatis('Name: ' .. appname)
+whatis('Version: ' .. version)
+whatis([[DuckDB is an in-process SQL OLAP database management system.
+Simple, feature-rich, fast & open source.]])
+
+prepend_path('PATH', pathJoin(modroot, 'bin'))
