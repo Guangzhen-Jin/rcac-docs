@@ -60,18 +60,32 @@ while IFS= read -r -d '' filepath; do
   relpath="${filepath#$MODULEDIR/}"
   filename="${filepath##*/}"
 
-  # split path into cluster / (compiler...ignored) / app / version.lua
-  IFS='/' read -r cluster rest <<< "$relpath"
-  [ -z "$cluster" ] && continue
+  # # split path into cluster / (compiler...ignored) / app / version.lua
+  # IFS='/' read -r cluster rest <<< "$relpath"
+  # [ -z "$cluster" ] && continue
 
-  # app = second-to-last component, version = filename w/o .lua
-  app_dir=$(basename "$(dirname "$filepath")")
+  # # app = second-to-last component, version = filename w/o .lua
+  # app_dir=$(basename "$(dirname "$filepath")")
+  # version="${filename%.*}"
+
+  # jq -n --arg app "$app_dir" \
+  #       --arg cluster "$cluster" \
+  #       --arg version "$version" \
+  #       '{app:$app, cluster:$cluster, version:$version}' >> "$NEW_TMP"
+
+  # Split the path into an array
+  IFS='/' read -ra path_parts <<< "$relpath"
+  [ "${#path_parts[@]}" -lt 3 ] && continue  # skip if not enough depth
+
+  cluster="${path_parts[0]}"
+  app_dir="${path_parts[-2]}"
   version="${filename%.*}"
 
   jq -n --arg app "$app_dir" \
         --arg cluster "$cluster" \
         --arg version "$version" \
         '{app:$app, cluster:$cluster, version:$version}' >> "$NEW_TMP"
+
 done
 
 # Aggregate all entries into a single JSON structure:

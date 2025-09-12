@@ -328,5 +328,10 @@
     "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
     "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
     "source": "curated"
-   }
+   },
+  "quantum-espresso": {
+    "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
+    "homepage": "https://www.quantum-espresso.org/",
+    "source": "curated"
+  }
 }

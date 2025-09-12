@@ -15,6 +15,7 @@ CDO is a collection of command line Operators to manipulate and analyse Climate 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.9.9
+**GAUTSCHI**|2.3.0
 **GILBRETH**|2.3.0
 **NEGISHI**|1.9.9
 
