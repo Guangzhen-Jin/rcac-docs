@@ -14,6 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|1.11.2
 **GAUTSCHI**|1.12.3
 
 ## Module
