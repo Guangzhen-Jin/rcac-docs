@@ -78,7 +78,8 @@ while IFS= read -r -d '' filepath; do
   [ "${#path_parts[@]}" -lt 3 ] && continue  # skip if not enough depth
 
   cluster="${path_parts[0]}"
-  app_dir="${path_parts[-2]}"
+  len=${#path_parts[@]}
+  app_dir="${path_parts[$((len-2))]}"
   version="${filename%.*}"
 
   jq -n --arg app "$app_dir" \
@@ -98,7 +99,15 @@ jq --slurp '
   | to_entries
   | map({ key: .key,
           value: (.value
-            | .availability |= (with_entries(.value |= (unique | sort)))) })
+            | .availability |= (
+                with_entries(
+                  .value |= (
+                    unique
+                    | sort_by(split(".") | map(tonumber? // 0))
+                  )
+                )
+              )
+          ) })
   | sort_by(.key)
   | from_entries
 ' "$NEW_TMP" > "${OUTPUT_FILE}.new"
