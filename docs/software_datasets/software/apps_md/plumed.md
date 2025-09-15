@@ -15,6 +15,7 @@ PLUMED is an open source library for free energy calculations in molecular syste
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.9.1
+**GILBRETH**|2.9.1
 
 ## Module
 

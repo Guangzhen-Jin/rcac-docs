@@ -17,6 +17,7 @@ NCL is an interpreted language designed specifically for scientific data analysi
 **ANVIL**|6.4.0
 **BELL**|6.6.2
 **GAUTSCHI**|6.6.2
+**GILBRETH**|6.6.2
 **NEGISHI**|6.6.2
 
 ## Module

@@ -17,6 +17,7 @@ Totalview parallel debugger.  Select the version associated with your machine ar
 **ANVIL**|2020.2.6, 2025.1.13
 **BELL**|2024.3-x86-64, 2025.1.13
 **GAUTSCHI**|2025.1.13
+**GILBRETH**|2025.1.13
 **NEGISHI**|2021.4.10, 2025.1.13
 **SCHOLAR**|2025.1.13
 

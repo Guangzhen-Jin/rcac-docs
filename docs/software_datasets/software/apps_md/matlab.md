@@ -17,6 +17,7 @@ MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment a
 **ANVIL**|R2020b, R2021b, R2022a, R2023a
 **BELL**|R2024a
 **GAUTSCHI**|R2024a
+**GILBRETH**|R2024a
 **NEGISHI**|R2021b, R2022a, R2023a, R2024b
 **SCHOLAR**|R2024a
 

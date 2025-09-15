@@ -17,6 +17,7 @@ Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scie
 **ANVIL**|1.11.2
 **BELL**|1.12.3
 **GAUTSCHI**|1.12.3
+**GILBRETH**|1.12.3
 **NEGISHI**|1.11.2
 
 ## Module

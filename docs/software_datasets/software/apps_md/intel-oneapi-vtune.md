@@ -15,6 +15,7 @@ Intel VTune Profiler is a performance analysis tool for optimizing CPU, GPU, and
 |Cluster|Versions|
 |---|---|
 **BELL**|2025.0.0
+**GILBRETH**|2024.2.1
 
 ## Module
 

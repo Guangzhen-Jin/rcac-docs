@@ -17,6 +17,7 @@ LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator.
 **ANVIL**|20210310-kokkos, 20210310, 20230802, 20240829.1
 **BELL**|20240829.1
 **GAUTSCHI**|20240829
+**GILBRETH**|20240829
 **NEGISHI**|20220623
 
 ## Module

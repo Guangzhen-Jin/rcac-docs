@@ -15,6 +15,7 @@ Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathe
 |Cluster|Versions|
 |---|---|
 **BELL**|2024.2.2
+**GILBRETH**|2024.2.1
 **NEGISHI**|2023.0.0
 
 ## Module

@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **September 15, 2025**, there have been a total of **266** applications with **2207** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 15, 2025**, there have been a total of **268** applications with **2344** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 Here is a full list:
 
@@ -70,6 +70,7 @@ Here is a full list:
 * [fontconfig](apps_md/fontconfig.md)
 * [freetype](apps_md/freetype.md)
 * [gatk](apps_md/gatk.md)
+* [gaussian](apps_md/gaussian.md)
 * [gaussian09](apps_md/gaussian09.md)
 * [gaussian16](apps_md/gaussian16.md)
 * [gaussview](apps_md/gaussview.md)
@@ -121,6 +122,7 @@ Here is a full list:
 * [lammps](apps_md/lammps.md)
 * [launcher](apps_md/launcher.md)
 * [learning](apps_md/learning.md)
+* [libaio](apps_md/libaio.md)
 * [libbsd](apps_md/libbsd.md)
 * [libfabric](apps_md/libfabric.md)
 * [libffi](apps_md/libffi.md)
