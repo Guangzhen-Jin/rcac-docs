@@ -19,6 +19,7 @@ GROMACS is a high-performance molecular dynamics package primarily designed for 
 **GAUTSCHI**|2024.3
 **GILBRETH**|2023, 2024.3
 **NEGISHI**|2022.3
+**SCHOLAR**|2024.3
 
 ## Module
 

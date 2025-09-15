@@ -19,6 +19,7 @@ Simple viewer for NetCDF files.
 **GAUTSCHI**|2.1.9
 **GILBRETH**|2.1.9
 **NEGISHI**|2.1.9
+**SCHOLAR**|2.1.9
 
 ## Module
 

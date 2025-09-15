@@ -18,6 +18,7 @@ Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structu
 **BELL**|7.4
 **GAUTSCHI**|7.3.1
 **NEGISHI**|7.1
+**SCHOLAR**|7.3.1
 
 ## Module
 
