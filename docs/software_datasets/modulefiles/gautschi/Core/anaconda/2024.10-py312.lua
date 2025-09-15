@@ -1,11 +1,11 @@
 
 whatis([[Name : anaconda]])
-whatis([[Version : 2025.06-py313]])
+whatis([[Version : 2024.10-py312]])
 whatis([[Short description : Python distribution, virtual environments, and package manager. ]])
 
 help([[Python distribution, virtual environments, and package manager.]])
 
-local modroot="/apps/external/anaconda/2025.06"
+local modroot="/apps/external/anaconda/2024.10"
 
 prepend_path("PATH", modroot.."/bin", ":")
 --prepend_path("LIBRARY_PATH", modroot.."/lib", ":")  -- this causes problems and is not needed
@@ -19,7 +19,7 @@ prepend_path("CMAKE_PREFIX_PATH", modroot.."/", ":")
 
 setenv("ANACONDA_HOME", modroot)
 setenv("RCAC_ANACONDA_ROOT", modroot)
-setenv("RCAC_ANACONDA_VERSION", "2025.06-py313")
+setenv("RCAC_ANACONDA_VERSION", "2024.10-py312")
 setenv("MKL_DEBUG_CPU_TYPE", "5")
 setenv("MKL_CBWR", "AUTO")
 
