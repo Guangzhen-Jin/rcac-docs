@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+ARPACK-NG is an open-source project for solving large-scale eigenvalue problems. It is a reimplementation of ARPACK with bug fixes and improvements, supporting both symmetric and nonsymmetric eigenvalue problems in large sparse matrices.
 
 ## Homepage
 
-N/A
+[https://github.com/opencollab/arpack-ng](https://github.com/opencollab/arpack-ng){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

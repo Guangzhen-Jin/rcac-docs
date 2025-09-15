@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+The FASTX-Toolkit is a collection of command-line tools for preprocessing and manipulating FASTA/FASTQ files, commonly used in next-generation sequencing workflows. It supports tasks like quality filtering, trimming, and nucleotide conversion.
 
 ## Homepage
 
-N/A
+[http://hannonlab.cshl.edu/fastx_toolkit/](http://hannonlab.cshl.edu/fastx_toolkit/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

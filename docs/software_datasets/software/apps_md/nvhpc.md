@@ -14,6 +14,8 @@ The NVIDIA HPC SDK is a comprehensive suite of compilers, libraries and tools es
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|21.7, 23.3
+**GAUTSCHI**|24.7
 **GILBRETH**|23.5, 24.7
 
 ## Module

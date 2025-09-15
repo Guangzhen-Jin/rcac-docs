@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+mpi4py is a Python package providing bindings for the Message Passing Interface (MPI) standard. It enables Python programs to exploit multiple processors and distributed-memory systems for parallel computation.
 
 ## Homepage
 
-N/A
+[https://mpi4py.readthedocs.io/](https://mpi4py.readthedocs.io/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

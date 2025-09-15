@@ -14,6 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|2.0.2
 **SCHOLAR**|2.5.2
 
 ## Module

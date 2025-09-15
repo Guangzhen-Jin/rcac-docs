@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scientific data in the NetCDF format. It allows multiple processes in MPI programs to efficiently read and write large array-oriented datasets.
 
 ## Homepage
 
-N/A
+[https://parallel-netcdf.github.io/](https://parallel-netcdf.github.io/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

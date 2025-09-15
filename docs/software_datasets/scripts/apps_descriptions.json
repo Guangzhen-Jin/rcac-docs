@@ -1085,9 +1085,9 @@
     "source": "spack"
   },
   "blast-plus": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
+    "description": "BLAST+ (Basic Local Alignment Search Tool) is a suite of bioinformatics programs for comparing nucleotide or protein sequences against sequence databases. It is widely used for identifying homologous sequences, annotating genes, and studying evolutionary relationships.",
+    "homepage": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "source": "curated"
   },
   "bowtie2": {
     "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences",
@@ -1120,9 +1120,9 @@
     "source": "spack"
   },
   "fastx-toolkit": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
+    "description": "The FASTX-Toolkit is a collection of command-line tools for preprocessing and manipulating FASTA/FASTQ files, commonly used in next-generation sequencing workflows. It supports tasks like quality filtering, trimming, and nucleotide conversion.",
+    "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/",
+    "source": "curated"
   },
   "gatk": {
     "description": "Genome Analysis Toolkit Variant Discovery in High-Throughput Sequencing Data",
@@ -1135,9 +1135,9 @@
     "source": "pypi"
   },
   "perl-bioperl": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
+    "description": "BioPerl is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides reusable components for tasks such as sequence analysis, parsing biological databases, and working with alignments and protein structures.",
+    "homepage": "https://bioperl.org/",
+    "source": "curated"
   },
   "picard": {
     "description": "Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
@@ -1195,9 +1195,9 @@
     "source": "spack"
   },
   "parallel-netcdf": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
+    "description": "Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scientific data in the NetCDF format. It allows multiple processes in MPI programs to efficiently read and write large array-oriented datasets.",
+    "homepage": "https://parallel-netcdf.github.io/",
+    "source": "curated"
   },
   "paraview": {
     "description": "ParaView is an open-source, multi-platform data analysis and visualization application. This package includes the Catalyst in-situ library for versions 5.7 and greater, otherwise use the catalyst package.",
@@ -1205,13 +1205,128 @@
     "source": "spack"
   },
   "py-mpi4py": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
+    "description": "mpi4py is a Python package providing bindings for the Message Passing Interface (MPI) standard. It enables Python programs to exploit multiple processors and distributed-memory systems for parallel computation.",
+    "homepage": "https://mpi4py.readthedocs.io/",
+    "source": "curated"
   },
   "quantum-espresso": {
     "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
     "homepage": "https://www.quantum-espresso.org/",
     "source": "curated"
+  },
+  "amber": {
+    "description": "Amber is a suite of biomolecular simulation programs together with Amber tools.  A manual download is required for Ambers. Spack will search your current directory for the download files. Alternatively, add the files to a mirror so that Spack can find them. For instructions on how to set up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html  Note: Only certain versions of ambertools are compatible with amber. Only the latter version of ambertools for each amber version is supported.",
+    "homepage": "https://ambermd.org/",
+    "source": "spack"
+  },
+  "amdblis": {
+    "description": "AMD Optimized BLIS.  BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries. The framework was designed to isolate essential kernels of computation that, when optimized, immediately enable optimized implementations of most of its commonly used and computationally intensive operations.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-BLIS license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula/blas-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula/blas-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/blis.html",
+    "source": "spack"
+  },
+  "amdfftw": {
+    "description": "FFTW (AMD Optimized version) is a comprehensive collection of fast C routines for computing the Discrete Fourier Transform (DFT) and various special cases thereof.  It is an open-source implementation of the Fast Fourier transform algorithm. It can compute transforms of real and complex-values arrays of arbitrary size and dimension. AMD Optimized FFTW is the optimized FFTW implementation targeted for AMD CPUs.  For single precision build, please use precision value as float. Example : spack install amdfftw precision=float  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/fftw.html",
+    "source": "spack"
+  },
+  "amdlibflame": {
+    "description": "libFLAME (AMD Optimized version) is a portable library for dense matrix computations, providing much of the functionality present in Linear Algebra Package (LAPACK). It includes a compatibility layer, FLAPACK, which includes complete LAPACK implementation.  The library provides scientific and numerical computing communities with a modern, high-performance dense linear algebra library that is extensible, easy to use, and available under an open source license. libFLAME is a C-only implementation and does not depend on any external FORTRAN libraries including LAPACK. There is an optional backward compatibility layer, lapack2flame that maps LAPACK routine invocations to their corresponding native C implementations in libFLAME. This allows legacy applications to start taking advantage of libFLAME with virtually no changes to their source code.  In combination with BLIS library which includes optimizations for the AMD EPYC processor family, libFLAME enables running high performing LAPACK functionalities on AMD platform.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-libFLAME license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/blis.html#libflame",
+    "source": "spack"
+  },
+  "amdlibm": {
+    "description": "AMD LibM is a software library containing a collection of basic math functions optimized for x86-64 processor-based machines. It provides many routines from the list of standard C99 math functions. Applications can link into AMD LibM library and invoke math functions instead of compiler's math functions for better accuracy and performance.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/libm/eula/libm-4-2-eula.html https://www.amd.com/en/developer/aocl/libm/libm-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/libm.html",
+    "source": "spack"
+  },
+  "amdscalapack": {
+    "description": "ScaLAPACK is a library of high-performance linear algebra routines for parallel distributed memory machines. It depends on external libraries including BLAS and LAPACK for Linear Algebra computations.  AMD's optimized version of ScaLAPACK enables using BLIS and LibFLAME library that have optimized dense matrix functions and solvers for AMD EPYC processor family CPUs.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-ScaLAPACK license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/scalapack.html",
+    "source": "spack"
+  },
+  "arpack-ng": {
+    "description": "ARPACK-NG is an open-source project for solving large-scale eigenvalue problems. It is a reimplementation of ARPACK with bug fixes and improvements, supporting both symmetric and nonsymmetric eigenvalue problems in large sparse matrices.",
+    "homepage": "https://github.com/opencollab/arpack-ng",
+    "source": "curated"
+  },
+  "charmpp": {
+    "description": "Charm++ is a parallel programming framework in C++ supported by an adaptive runtime system, which enhances user productivity and allows programs to run portably from small multicore computers (your laptop) to the largest supercomputers.",
+    "homepage": "https://charmplusplus.org",
+    "source": "spack"
+  },
+  "cp2k": {
+    "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems",
+    "homepage": "https://www.cp2k.org",
+    "source": "spack"
+  },
+  "gpaw": {
+    "description": "GPAW: DFT and beyond within the projector-augmented wave method",
+    "homepage": null,
+    "source": "pypi"
+  },
+  "intel-oneapi-mkl": {
+    "description": "Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathematical functions for scientific, engineering, and machine learning applications. It provides optimized routines for linear algebra, fast Fourier transforms, vector math, and random number generation, tuned for Intel architectures.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
+    "source": "curated"
+  },
+  "kokkos": {
+    "description": "Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms.",
+    "homepage": "https://github.com/kokkos/kokkos",
+    "source": "spack"
+  },
+  "libmesh": {
+    "description": "The libMesh library provides a framework for the numerical simulation of partial differential equations using arbitrary unstructured discretizations on serial and parallel platforms.",
+    "homepage": "https://libmesh.github.io/",
+    "source": "spack"
+  },
+  "meep": {
+    "description": "Meep (or MEEP) is a free finite-difference time-domain (FDTD) simulation software package developed at MIT to model electromagnetic systems.",
+    "homepage": "http://ab-initio.mit.edu/wiki/index.php/Meep",
+    "source": "spack"
+  },
+  "mrbayes": {
+    "description": "MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.",
+    "homepage": "https://mrbayes.sourceforge.net",
+    "source": "spack"
+  },
+  "nwchem": {
+    "description": "High-performance computational chemistry software",
+    "homepage": "https://nwchemgit.github.io",
+    "source": "spack"
+  },
+  "petsc": {
+    "description": "PETSc is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.",
+    "homepage": "https://petsc.org",
+    "source": "spack"
+  },
+  "plumed": {
+    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.  Free energy calculations can be performed as a function of many order parameters with a particular focus on biological problems, using state of the art methods such as metadynamics, umbrella sampling and Jarzynski-equation based steered MD.  The software, written in C++, can be easily interfaced with both fortran and C/C++ codes.",
+    "homepage": "https://www.plumed.org/",
+    "source": "spack"
+  },
+  "vtk": {
+    "description": "The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization.",
+    "homepage": "https://www.vtk.org",
+    "source": "spack"
+  },
+  "wannier90": {
+    "description": "Wannier90 calculates maximally-localised Wannier functions (MLWFs).  Wannier90 is released under the GNU General Public License.",
+    "homepage": "https://wannier.org",
+    "source": "spack"
+  },
+  "ambertools": {
+    "description": "AmberTools is a free, useful standalone package and a prerequisite for installing Amber itself. The AmberTools suite is free of charge, and its components are mostly released under the GNU General Public License (GPL). A few components are included that are in the public domain or which have other, open-source, licenses. The libsander and libpbsa libraries use the LGPL license.",
+    "homepage": "https://ambermd.org/AmberTools.php",
+    "source": "spack"
+  },
+  "nccl": {
+    "description": "Optimized primitives for collective multi-GPU communication.",
+    "homepage": "https://github.com/NVIDIA/nccl",
+    "source": "spack"
+  },
+  "ucx": {
+    "description": "a communication library implementing high-performance messaging for MPI/PGAS frameworks",
+    "homepage": "https://www.openucx.org",
+    "source": "spack"
   }
 }

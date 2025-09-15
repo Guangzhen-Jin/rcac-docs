@@ -140,7 +140,7 @@ def main(apps):
 
     for app in apps:
         if app in db and db[app].get("description") and db[app]["description"] != "TODO: add description":
-            print(f"[skip] {app} already in DB")
+            # print(f"[skip] {app} already in DB")
             continue
 
         print(f"Fetching description for {app}...")

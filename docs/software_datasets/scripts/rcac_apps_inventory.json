@@ -17,6 +17,62 @@
       ]
     }
   },
+  "amber": {
+    "availability": {
+      "anvil": [
+        "20"
+      ],
+      "gautschi": [
+        "24"
+      ],
+      "negishi": [
+        "20",
+        "24"
+      ]
+    }
+  },
+  "ambertools": {
+    "availability": {
+      "gautschi": [
+        "25"
+      ]
+    }
+  },
+  "amdblis": {
+    "availability": {
+      "anvil": [
+        "3.0"
+      ]
+    }
+  },
+  "amdfftw": {
+    "availability": {
+      "anvil": [
+        "3.0"
+      ]
+    }
+  },
+  "amdlibflame": {
+    "availability": {
+      "anvil": [
+        "3.0"
+      ]
+    }
+  },
+  "amdlibm": {
+    "availability": {
+      "anvil": [
+        "3.0"
+      ]
+    }
+  },
+  "amdscalapack": {
+    "availability": {
+      "anvil": [
+        "3.0"
+      ]
+    }
+  },
   "amduprof": {
     "availability": {
       "anvil": [
@@ -38,6 +94,7 @@
         "2025.06-py313"
       ],
       "gautschi": [
+        "2024.10-py312",
         "2025.06-py313"
       ],
       "scholar": [
@@ -88,10 +145,23 @@
       ]
     }
   },
+  "arpack-ng": {
+    "availability": {
+      "anvil": [
+        "3.8.0"
+      ],
+      "negishi": [
+        "3.8.0"
+      ]
+    }
+  },
   "aws-cli": {
     "availability": {
       "anvil": [
         "2.4.15"
+      ],
+      "gautschi": [
+        "2.9.7"
       ],
       "scholar": [
         "2.4.15"
@@ -163,7 +233,8 @@
   "boost": {
     "availability": {
       "anvil": [
-        "1.74.0"
+        "1.74.0",
+        "1.86.0"
       ],
       "gautschi": [
         "1.85.0"
@@ -245,6 +316,13 @@
       ]
     }
   },
+  "charmpp": {
+    "availability": {
+      "anvil": [
+        "8.0.0"
+      ]
+    }
+  },
   "clusterbot": {
     "availability": {
       "anvil": [
@@ -292,6 +370,7 @@
       ],
       "gautschi": [
         "2024.09",
+        "2025.02",
         "2025.09"
       ],
       "scholar": [
@@ -314,10 +393,29 @@
       ]
     }
   },
+  "cp2k": {
+    "availability": {
+      "anvil": [
+        "8.2"
+      ],
+      "negishi": [
+        "2022.1"
+      ]
+    }
+  },
   "cuda": {
     "availability": {
+      "anvil": [
+        "11.0.3",
+        "11.2.2",
+        "11.4.2",
+        "12.0.1"
+      ],
       "gautschi": [
-        "12.6.0"
+        "12.6.0",
+        "12.6.1",
+        "12.8.0",
+        "12.9.0"
       ],
       "scholar": [
         "12.1.0"
@@ -330,6 +428,16 @@
   },
   "cudnn": {
     "availability": {
+      "anvil": [
+        "cuda-11.0_8.0",
+        "cuda-11.2_8.1",
+        "cuda-11.4_8.2",
+        "cuda-12.0_8.8"
+      ],
+      "gautschi": [
+        "9.2.0.82-12",
+        "9.12.0.46-12"
+      ],
       "gilbreth": [
         "9.2.0.82-12"
       ]
@@ -468,7 +576,8 @@
     "availability": {
       "anvil": [
         "2.1.5",
-        "3.3.8"
+        "3.3.8",
+        "3.3.10"
       ],
       "gautschi": [
         "3.3.10"
@@ -662,6 +771,9 @@
     "availability": {
       "anvil": [
         "default"
+      ],
+      "gautschi": [
+        "default"
       ]
     }
   },
@@ -740,6 +852,13 @@
       ]
     }
   },
+  "gpaw": {
+    "availability": {
+      "anvil": [
+        "21.1.0"
+      ]
+    }
+  },
   "grace": {
     "availability": {
       "negishi": [
@@ -762,15 +881,26 @@
   },
   "gromacs": {
     "availability": {
+      "anvil": [
+        "2019.6",
+        "2021",
+        "2021.2",
+        "2023",
+        "2024.1"
+      ],
       "gautschi": [
         "2024.3"
+      ],
+      "negishi": [
+        "2022.3"
       ]
     }
   },
   "gsl": {
     "availability": {
       "anvil": [
-        "2.4"
+        "2.4",
+        "2.7"
       ],
       "bell": [
         "2.8"
@@ -836,7 +966,8 @@
   "hdf5": {
     "availability": {
       "anvil": [
-        "1.10.7"
+        "1.10.7",
+        "1.14.5"
       ],
       "gautschi": [
         "1.14.3"
@@ -891,6 +1022,9 @@
   },
   "hyper-shell": {
     "availability": {
+      "anvil": [
+        "2.0.2"
+      ],
       "scholar": [
         "2.5.2"
       ]
@@ -1009,6 +1143,13 @@
       ]
     }
   },
+  "intel-oneapi-mkl": {
+    "availability": {
+      "negishi": [
+        "2023.0.0"
+      ]
+    }
+  },
   "intel-oneapi-mpi": {
     "availability": {
       "bell": [
@@ -1016,6 +1157,9 @@
       ],
       "gilbreth": [
         "2021.13.1"
+      ],
+      "negishi": [
+        "2021.8.0"
       ]
     }
   },
@@ -1023,6 +1167,9 @@
     "availability": {
       "bell": [
         "2022.0.0"
+      ],
+      "negishi": [
+        "2021.8.0"
       ]
     }
   },
@@ -1056,7 +1203,8 @@
       ],
       "gautschi": [
         "1.11.1",
-        "1.11.4"
+        "1.11.4",
+        "1.11.6"
       ],
       "scholar": [
         "1.11.4"
@@ -1074,11 +1222,13 @@
   "jupyter": {
     "availability": {
       "anvil": [
+        "2.0.0",
         "2022.04",
         "2025.07"
       ],
       "gautschi": [
-        "1.1.1"
+        "1.1.1",
+        "2025.09"
       ],
       "scholar": [
         "1.1.1",
@@ -1099,6 +1249,13 @@
       ]
     }
   },
+  "kokkos": {
+    "availability": {
+      "anvil": [
+        "4.4.01"
+      ]
+    }
+  },
   "krb5": {
     "availability": {
       "anvil": [
@@ -1108,8 +1265,17 @@
   },
   "lammps": {
     "availability": {
+      "anvil": [
+        "20210310-kokkos",
+        "20210310",
+        "20230802",
+        "20240829.1"
+      ],
       "gautschi": [
         "20240829"
+      ],
+      "negishi": [
+        "20220623"
       ]
     }
   },
@@ -1129,7 +1295,8 @@
   "learning": {
     "availability": {
       "anvil": [
-        "conda-2021.05-py38-cpu"
+        "conda-2021.05-py38-cpu",
+        "conda-2021.05-py38-gpu"
       ]
     }
   },
@@ -1202,6 +1369,16 @@
       ],
       "negishi": [
         "1.0.4"
+      ]
+    }
+  },
+  "libmesh": {
+    "availability": {
+      "anvil": [
+        "1.6.2"
+      ],
+      "negishi": [
+        "1.7.1"
       ]
     }
   },
@@ -1457,6 +1634,16 @@
       ]
     }
   },
+  "meep": {
+    "availability": {
+      "anvil": [
+        "1.20.0"
+      ],
+      "negishi": [
+        "1.20.0"
+      ]
+    }
+  },
   "mesa-glu": {
     "availability": {
       "anvil": [
@@ -1539,6 +1726,13 @@
       ]
     }
   },
+  "mrbayes": {
+    "availability": {
+      "anvil": [
+        "3.2.7a"
+      ]
+    }
+  },
   "mvapich2": {
     "availability": {
       "anvil": [
@@ -1560,8 +1754,24 @@
   },
   "namd": {
     "availability": {
+      "anvil": [
+        "2.14",
+        "3.0"
+      ],
       "gautschi": [
         "3.0"
+      ],
+      "negishi": [
+        "2.14"
+      ]
+    }
+  },
+  "nccl": {
+    "availability": {
+      "anvil": [
+        "cuda-11.2_2.8.4",
+        "cuda-11.0_2.11.4",
+        "cuda-11.4_2.11.4"
       ]
     }
   },
@@ -1768,9 +1978,26 @@
   },
   "nvhpc": {
     "availability": {
+      "anvil": [
+        "21.7",
+        "23.3"
+      ],
+      "gautschi": [
+        "24.7"
+      ],
       "gilbreth": [
         "23.5",
         "24.7"
+      ]
+    }
+  },
+  "nwchem": {
+    "availability": {
+      "anvil": [
+        "7.0.2"
+      ],
+      "negishi": [
+        "7.0.2"
       ]
     }
   },
@@ -1825,7 +2052,15 @@
   },
   "openfoam": {
     "availability": {
+      "anvil": [
+        "8-20210316",
+        "2406"
+      ],
       "gautschi": [
+        "2312"
+      ],
+      "negishi": [
+        "9-20211122",
         "2312"
       ]
     }
@@ -1849,6 +2084,7 @@
     "availability": {
       "anvil": [
         "3.1.6",
+        "4.0.6-cu11.0.3",
         "4.0.6",
         "4.1.6",
         "5.0.5"
@@ -1967,13 +2203,25 @@
       ],
       "gautschi": [
         "1.12.3"
+      ],
+      "negishi": [
+        "1.11.2"
       ]
     }
   },
   "paraview": {
     "availability": {
+      "anvil": [
+        "5.9.1",
+        "5.10.1"
+      ],
       "gautschi": [
         "5.13.0"
+      ],
+      "negishi": [
+        "5.9.1",
+        "5.12.1-xdmf",
+        "5.12.1"
       ]
     }
   },
@@ -2009,6 +2257,17 @@
       ]
     }
   },
+  "petsc": {
+    "availability": {
+      "anvil": [
+        "3.15.3"
+      ],
+      "negishi": [
+        "3.17.5",
+        "3.18.3"
+      ]
+    }
+  },
   "picard": {
     "availability": {
       "anvil": [
@@ -2037,6 +2296,13 @@
       ],
       "negishi": [
         "0.40.0"
+      ]
+    }
+  },
+  "plumed": {
+    "availability": {
+      "anvil": [
+        "2.9.1"
       ]
     }
   },
@@ -2080,6 +2346,9 @@
   },
   "py-mpi4py": {
     "availability": {
+      "anvil": [
+        "3.0.3"
+      ],
       "gautschi": [
         "3.1.6"
       ]
@@ -2166,8 +2435,17 @@
   },
   "quantum-espresso": {
     "availability": {
+      "anvil": [
+        "6.7",
+        "7.2",
+        "7.3",
+        "7.4"
+      ],
       "gautschi": [
         "7.3.1"
+      ],
+      "negishi": [
+        "7.1"
       ]
     }
   },
@@ -2642,6 +2920,13 @@
       ]
     }
   },
+  "ucx": {
+    "availability": {
+      "anvil": [
+        "1.11.2"
+      ]
+    }
+  },
   "udunits": {
     "availability": {
       "anvil": [
@@ -2686,10 +2971,25 @@
   },
   "vasp": {
     "availability": {
+      "anvil": [
+        "5.4.4.pl2",
+        "5.4.4.pl2-vtst",
+        "6.3.0",
+        "6.3.0-beef",
+        "6.3.0-gpu",
+        "6.3.0-sol",
+        "6.3.0-vtst",
+        "6.3.0-wannier90"
+      ],
       "gautschi": [
         "6.4.3-beef",
         "6.4.3-vtst",
         "6.4.3"
+      ],
+      "negishi": [
+        "5.4.4.pl2",
+        "6.4.1_vtst",
+        "6.4.1"
       ]
     }
   },
@@ -2716,6 +3016,9 @@
   },
   "visit": {
     "availability": {
+      "anvil": [
+        "3.1.4"
+      ],
       "negishi": [
         "3.3.3"
       ]
@@ -2751,6 +3054,16 @@
       ]
     }
   },
+  "vtk": {
+    "availability": {
+      "anvil": [
+        "9.0.0"
+      ],
+      "negishi": [
+        "9.0.0"
+      ]
+    }
+  },
   "vtune": {
     "availability": {
       "gautschi": [
@@ -2758,6 +3071,13 @@
       ],
       "scholar": [
         "2024.1"
+      ]
+    }
+  },
+  "wannier90": {
+    "availability": {
+      "anvil": [
+        "3.1.0"
       ]
     }
   },

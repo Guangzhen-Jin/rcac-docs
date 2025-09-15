@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+BioPerl is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides reusable components for tasks such as sequence analysis, parsing biological databases, and working with alignments and protein structures.
 
 ## Homepage
 
-N/A
+[https://bioperl.org/](https://bioperl.org/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

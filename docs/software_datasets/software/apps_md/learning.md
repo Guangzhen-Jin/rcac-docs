@@ -14,7 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|conda-2021.05-py38-cpu
+**ANVIL**|conda-2021.05-py38-cpu, conda-2021.05-py38-gpu
 
 ## Module
 

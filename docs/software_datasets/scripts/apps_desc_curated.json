@@ -333,5 +333,40 @@
     "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
     "homepage": "https://www.quantum-espresso.org/",
     "source": "curated"
+  },
+  "blast-plus": {
+    "description": "BLAST+ (Basic Local Alignment Search Tool) is a suite of bioinformatics programs for comparing nucleotide or protein sequences against sequence databases. It is widely used for identifying homologous sequences, annotating genes, and studying evolutionary relationships.",
+    "homepage": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "source": "curated"
+  },
+  "fastx-toolkit": {
+    "description": "The FASTX-Toolkit is a collection of command-line tools for preprocessing and manipulating FASTA/FASTQ files, commonly used in next-generation sequencing workflows. It supports tasks like quality filtering, trimming, and nucleotide conversion.",
+    "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/",
+    "source": "curated"
+  },
+  "perl-bioperl": {
+    "description": "BioPerl is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides reusable components for tasks such as sequence analysis, parsing biological databases, and working with alignments and protein structures.",
+    "homepage": "https://bioperl.org/",
+    "source": "curated"
+  },
+  "parallel-netcdf": {
+    "description": "Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scientific data in the NetCDF format. It allows multiple processes in MPI programs to efficiently read and write large array-oriented datasets.",
+    "homepage": "https://parallel-netcdf.github.io/",
+    "source": "curated"
+  },
+  "py-mpi4py": {
+    "description": "mpi4py is a Python package providing bindings for the Message Passing Interface (MPI) standard. It enables Python programs to exploit multiple processors and distributed-memory systems for parallel computation.",
+    "homepage": "https://mpi4py.readthedocs.io/",
+    "source": "curated"
+  },
+  "arpack-ng": {
+    "description": "ARPACK-NG is an open-source project for solving large-scale eigenvalue problems. It is a reimplementation of ARPACK with bug fixes and improvements, supporting both symmetric and nonsymmetric eigenvalue problems in large sparse matrices.",
+    "homepage": "https://github.com/opencollab/arpack-ng",
+    "source": "curated"
+  },
+  "intel-oneapi-mkl": {
+    "description": "Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathematical functions for scientific, engineering, and machine learning applications. It provides optimized routines for linear algebra, fast Fourier transforms, vector math, and random number generation, tuned for Intel architectures.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
+    "source": "curated"
   }
 }

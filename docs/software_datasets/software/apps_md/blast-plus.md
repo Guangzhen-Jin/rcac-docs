@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+BLAST+ (Basic Local Alignment Search Tool) is a suite of bioinformatics programs for comparing nucleotide or protein sequences against sequence databases. It is widely used for identifying homologous sequences, annotating genes, and studying evolutionary relationships.
 
 ## Homepage
 
-N/A
+[https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
