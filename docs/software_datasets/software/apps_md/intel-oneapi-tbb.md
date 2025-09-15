@@ -15,6 +15,7 @@ Intel Threading Building Blocks (TBB) is a library for parallel programming in C
 |Cluster|Versions|
 |---|---|
 **BELL**|2022.0.0
+**NEGISHI**|2021.8.0
 
 ## Module
 

@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **September 15, 2025**, there have been a total of **251** applications with **1725** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 15, 2025**, there have been a total of **252** applications with **1767** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 Here is a full list:
 
@@ -99,6 +99,7 @@ Here is a full list:
 * [inputproto](apps_md/inputproto.md)
 * [intel-mkl](apps_md/intel-mkl.md)
 * [intel-oneapi-compilers](apps_md/intel-oneapi-compilers.md)
+* [intel-oneapi-mkl](apps_md/intel-oneapi-mkl.md)
 * [intel-oneapi-mpi](apps_md/intel-oneapi-mpi.md)
 * [intel-oneapi-tbb](apps_md/intel-oneapi-tbb.md)
 * [intel-oneapi-vtune](apps_md/intel-oneapi-vtune.md)
