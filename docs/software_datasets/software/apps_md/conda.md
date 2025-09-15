@@ -4,11 +4,11 @@
 
 ## Description
 
-OS-agnostic, system-level binary package manager.
+Conda is an open-source package, dependency, and environment management system. It allows users to quickly install, run, and update packages and their dependencies across platforms, and to create isolated environments for reproducible software workflows. Conda is widely used in data science, machine learning, and scientific computing.
 
 ## Homepage
 
-N/A
+[https://docs.conda.io/](https://docs.conda.io/){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 

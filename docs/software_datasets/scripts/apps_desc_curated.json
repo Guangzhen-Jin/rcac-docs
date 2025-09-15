@@ -368,5 +368,10 @@
     "description": "Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathematical functions for scientific, engineering, and machine learning applications. It provides optimized routines for linear algebra, fast Fourier transforms, vector math, and random number generation, tuned for Intel architectures.",
     "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
     "source": "curated"
+  },
+  "conda": {
+    "description": "Conda is an open-source package, dependency, and environment management system. It allows users to quickly install, run, and update packages and their dependencies across platforms, and to create isolated environments for reproducible software workflows. Conda is widely used in data science, machine learning, and scientific computing.",
+    "homepage": "https://docs.conda.io/",
+    "source": "curated"
   }
 }
