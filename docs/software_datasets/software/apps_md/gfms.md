@@ -15,6 +15,7 @@ N/A
 |Cluster|Versions|
 |---|---|
 **ANVIL**|default
+**GAUTSCHI**|default
 
 ## Module
 
