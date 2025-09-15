@@ -31,6 +31,7 @@ setenv("MATLAB_CLUSTER_PROFILES_LOCATION", MATLAB_CLUSTER_PROFILES_LOCATION)
 append_path("PATH", modroot.."/bin/glnxa64:"..modroot.."/bin", ":")
 append_path("CMAKE_PREFIX_PATH", modroot.."/", ":")
 append_path("LD_LIBRARY_PATH", modroot.."/runtime/glnxa64:"..modroot.."/bin/glnxa64", ":")
+append_path("LD_LIBRARY_PATH", "/opt/amdgpu/lib64", ":")
 append_path("PATH", pathJoin(SUPPORT_PACKAGES,"matlab_parallel_server/bin"))
 
 prepend_path("MATLABPATH", MATLAB_CLUSTER_PROFILES_LOCATION)

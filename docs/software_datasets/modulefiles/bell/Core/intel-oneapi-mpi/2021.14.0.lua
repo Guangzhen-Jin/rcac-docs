@@ -50,5 +50,22 @@ prepend_path("PKG_CONFIG_PATH", "/apps/spack/bell-20250305/apps/intel-oneapi-mpi
 setenv("INTEL_ONEAPI_MPI_HOME", "/apps/spack/bell-20250305/apps/intel-oneapi-mpi/2021.14.0-gcc-8.5.0-ioo4zz4")
 setenv("RCAC_INTEL_ONEAPI_MPI_ROOT", "/apps/spack/bell-20250305/apps/intel-oneapi-mpi/2021.14.0-gcc-8.5.0-ioo4zz4")
 setenv("RCAC_INTEL_ONEAPI_MPI_VERSION", "/apps/spack/bell-20250305/apps/intel-oneapi-mpi/2021.14.0-gcc-8.5.0-ioo4zz4")
+
+setenv("MPICC","mpiicx")
+setenv("MPICXX","mpiicx")
+setenv("MPIF77","mpiifx")
+setenv("MPIF90","mpiifx")
+setenv("MPIFC","mpiifx")
+setenv("CC","mpiicx")
+setenv("CXX","mpiicpx")
+setenv("FC","mpiifx")
+setenv("F90","mpiifx")
+setenv("F77","mpiifx")
+setenv("I_MPI_CC","icx")
+setenv("I_MPI_CXX","icpx")
+setenv("I_MPI_FC","ifx")
+setenv("I_MPI_F77","ifx")
+setenv("I_MPI_F90","ifx")
+
 append_path("MANPATH", "", ":")
 
