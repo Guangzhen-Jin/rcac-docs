@@ -16,6 +16,7 @@ N/A
 |---|---|
 **ANVIL**|1.11.2
 **GAUTSCHI**|1.12.3
+**NEGISHI**|1.11.2
 
 ## Module
 

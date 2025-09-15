@@ -15,6 +15,7 @@ Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structu
 |Cluster|Versions|
 |---|---|
 **GAUTSCHI**|7.3.1
+**NEGISHI**|7.1
 
 ## Module
 
