@@ -15,6 +15,7 @@ The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic 
 |Cluster|Versions|
 |---|---|
 **GAUTSCHI**|6.4.3-beef, 6.4.3-vtst, 6.4.3
+**NEGISHI**|5.4.4.pl2, 6.4.1_vtst, 6.4.1
 
 ## Module
 
