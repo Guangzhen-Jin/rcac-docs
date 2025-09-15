@@ -6,6 +6,6 @@ whatis('Name: Jupyter')
 whatis('Version: ' .. version)
 whatis('Description: Standalone Jupyter Lab/Notebook installation.')
 
---depends_on('texlive') -- for PDF export
+depends_on('texlive') -- for PDF export
 prepend_path('PATH', pathJoin(modroot, 'bin'))
 
