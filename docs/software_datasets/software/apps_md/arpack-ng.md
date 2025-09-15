@@ -14,6 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|3.8.0
 **NEGISHI**|3.8.0
 
 ## Module

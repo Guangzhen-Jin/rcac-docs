@@ -14,6 +14,7 @@ The libMesh library provides a framework for the numerical simulation of partial
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|1.6.2
 **NEGISHI**|1.7.1
 
 ## Module

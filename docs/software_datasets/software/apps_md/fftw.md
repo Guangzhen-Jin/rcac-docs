@@ -14,7 +14,7 @@ Base class for building Fftw, shared with the AMD optimized version of the libra
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|2.1.5, 3.3.8
+**ANVIL**|2.1.5, 3.3.8, 3.3.10
 **BELL**|3.3.10
 **GAUTSCHI**|3.3.10
 **GILBRETH**|3.3.10

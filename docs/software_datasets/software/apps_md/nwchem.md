@@ -14,6 +14,7 @@ High-performance computational chemistry software
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|7.0.2
 **NEGISHI**|7.0.2
 
 ## Module

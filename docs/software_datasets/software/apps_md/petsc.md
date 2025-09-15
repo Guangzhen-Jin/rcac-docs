@@ -14,6 +14,7 @@ PETSc is a suite of data structures and routines for the scalable (parallel) sol
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|3.15.3
 **NEGISHI**|3.17.5, 3.18.3
 
 ## Module

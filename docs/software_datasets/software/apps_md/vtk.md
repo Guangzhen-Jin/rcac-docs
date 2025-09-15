@@ -14,6 +14,7 @@ The Visualization Toolkit (VTK) is an open-source, freely available software sys
 
 |Cluster|Versions|
 |---|---|
+**ANVIL**|9.0.0
 **NEGISHI**|9.0.0
 
 ## Module

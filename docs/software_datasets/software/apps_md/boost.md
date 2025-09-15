@@ -14,7 +14,7 @@ Boost provides free peer-reviewed portable C++ source libraries, emphasizing lib
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|1.74.0
+**ANVIL**|1.74.0, 1.86.0
 **BELL**|1.85.0
 **GAUTSCHI**|1.85.0
 **GILBRETH**|1.79.0, 1.85.0

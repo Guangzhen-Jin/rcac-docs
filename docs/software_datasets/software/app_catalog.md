@@ -9,12 +9,17 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **September 15, 2025**, there have been a total of **252** applications with **1767** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 15, 2025**, there have been a total of **263** applications with **2040** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 Here is a full list:
 
 * [abaqus](apps_md/abaqus.md)
 * [amber](apps_md/amber.md)
+* [amdblis](apps_md/amdblis.md)
+* [amdfftw](apps_md/amdfftw.md)
+* [amdlibflame](apps_md/amdlibflame.md)
+* [amdlibm](apps_md/amdlibm.md)
+* [amdscalapack](apps_md/amdscalapack.md)
 * [amduprof](apps_md/amduprof.md)
 * [anaconda](apps_md/anaconda.md)
 * [ansys](apps_md/ansys.md)
@@ -36,6 +41,7 @@ Here is a full list:
 * [cairo](apps_md/cairo.md)
 * [cdo](apps_md/cdo.md)
 * [cgal](apps_md/cgal.md)
+* [charmpp](apps_md/charmpp.md)
 * [clusterbot](apps_md/clusterbot.md)
 * [cmake](apps_md/cmake.md)
 * [comsol](apps_md/comsol.md)
@@ -79,6 +85,7 @@ Here is a full list:
 * [gmp](apps_md/gmp.md)
 * [gmt](apps_md/gmt.md)
 * [gnuplot](apps_md/gnuplot.md)
+* [gpaw](apps_md/gpaw.md)
 * [grace](apps_md/grace.md)
 * [grads](apps_md/grads.md)
 * [gromacs](apps_md/gromacs.md)
@@ -108,6 +115,7 @@ Here is a full list:
 * [julia](apps_md/julia.md)
 * [jupyter](apps_md/jupyter.md)
 * [kbproto](apps_md/kbproto.md)
+* [kokkos](apps_md/kokkos.md)
 * [krb5](apps_md/krb5.md)
 * [lammps](apps_md/lammps.md)
 * [launcher](apps_md/launcher.md)
@@ -145,6 +153,7 @@ Here is a full list:
 * [mpc](apps_md/mpc.md)
 * [mpfr](apps_md/mpfr.md)
 * [mpi4py](apps_md/mpi4py.md)
+* [mrbayes](apps_md/mrbayes.md)
 * [mvapich2](apps_md/mvapich2.md)
 * [namd](apps_md/namd.md)
 * [ncl](apps_md/ncl.md)
@@ -188,6 +197,7 @@ Here is a full list:
 * [pigz](apps_md/pigz.md)
 * [pip](apps_md/pip.md)
 * [pixman](apps_md/pixman.md)
+* [plumed](apps_md/plumed.md)
 * [proj](apps_md/proj.md)
 * [protobuf](apps_md/protobuf.md)
 * [py-matplotlib](apps_md/py-matplotlib.md)
@@ -250,6 +260,7 @@ Here is a full list:
 * [vscode](apps_md/vscode.md)
 * [vtk](apps_md/vtk.md)
 * [vtune](apps_md/vtune.md)
+* [wannier90](apps_md/wannier90.md)
 * [wheel](apps_md/wheel.md)
 * [xalt](apps_md/xalt.md)
 * [xcb-proto](apps_md/xcb-proto.md)
