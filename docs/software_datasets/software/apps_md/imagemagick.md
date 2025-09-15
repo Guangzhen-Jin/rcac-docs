@@ -14,6 +14,7 @@ ImageMagick is a software suite to create, edit, compose, or convert bitmap imag
 
 |Cluster|Versions|
 |---|---|
+**BELL**|7.1.1-39
 **GAUTSCHI**|7.1.1-29
 **NEGISHI**|7.0.8-7
 

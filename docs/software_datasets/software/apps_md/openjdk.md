@@ -15,6 +15,7 @@ The free and opensource java implementation
 |Cluster|Versions|
 |---|---|
 **ANVIL**|1.8.0_265-b01, 11.0.8_10
+**BELL**|17.0.11_9, 17.0.8.1_1
 **GAUTSCHI**|17.0.2_8
 **NEGISHI**|1.8.0_265-b01, 11.0.17_8
 

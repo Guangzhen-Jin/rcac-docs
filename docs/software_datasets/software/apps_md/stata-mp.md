@@ -14,7 +14,7 @@ Stata/MP is the multiprocessor version of Stata for statistical analysis.
 
 |Cluster|Versions|
 |---|---|
-**BELL**|18
+**BELL**|18, 19
 **SCHOLAR**|17, 18, 19
 
 ## Module

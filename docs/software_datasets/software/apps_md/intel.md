@@ -15,6 +15,7 @@ Intel provides a wide range of software development tools and performance librar
 |Cluster|Versions|
 |---|---|
 **ANVIL**|19.0.5.281, 19.1.3.304, 2024.1
+**BELL**|19.1.3.304
 **GAUTSCHI**|2024.1
 **NEGISHI**|19.1.3.304
 **SCHOLAR**|2024.1

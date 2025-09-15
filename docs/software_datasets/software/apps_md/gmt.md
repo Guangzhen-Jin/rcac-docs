@@ -15,6 +15,7 @@ GMT (Generic Mapping Tools) is an open source collection of about 80 command-lin
 |Cluster|Versions|
 |---|---|
 **ANVIL**|6.1.0
+**BELL**|6.4.0
 **GILBRETH**|6.4.0
 **NEGISHI**|5.4.4, 6.2.0
 **SCHOLAR**|6.5.0

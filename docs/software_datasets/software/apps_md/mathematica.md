@@ -14,7 +14,7 @@ Mathematica: high-powered computation with thousands of Wolfram Language functio
 
 |Cluster|Versions|
 |---|---|
-**BELL**|14.1
+**BELL**|14.1, 14.2
 **GAUTSCHI**|14.1, 14.2
 **NEGISHI**|13.1, 14.1, 14.2
 **SCHOLAR**|14.1
