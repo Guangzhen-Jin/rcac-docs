@@ -14,7 +14,14 @@ today=$(date +"%B %d, %Y")
 app_count=$(find "$MD_DIR" -type f -name "*.md" | wc -l)
 
 # version_count=$(jq '[to_entries[] | .value.availability | to_entries[] | .value | length] | add' "$INV_FILE")
-version_count=$(find ../modulefiles -type f -name "*.lua" | wc -l)
+version_count=$(find ../modulefiles -type f -name "*.lua" \
+  ! -name ".*" \
+  ! -name "*.modulerc.lua" \
+  ! -regex '.*-[a-zA-Z0-9]\{7\}\.lua$' \
+  ! -path "*/modtree/*" \
+  ! -path "*/biocontainers/*" \
+  ! -path "*/rocmcontainers/*" \
+  | wc -l)
 
 cluster_count=$(jq '[to_entries[] | .value.availability | keys[]] | unique | length' "$INV_FILE")
 cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upcase] | unique | sort | join(", ")' "$INV_FILE")
