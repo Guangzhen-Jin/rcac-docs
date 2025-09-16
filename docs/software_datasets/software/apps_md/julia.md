@@ -14,7 +14,7 @@ The Julia Language: A fresh approach to technical computing
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|1.6.2, 1.9.3, 1.10.9, 1.11.4
+**ANVIL**|1.6.2, 1.9.3, 1.10.9, 1.11.4, 1.11.6
 **BELL**|1.9.3, 1.11.4
 **GAUTSCHI**|1.11.1, 1.11.4, 1.11.6
 **GILBRETH**|1.11.3, 1.11.4, 1.11.6
