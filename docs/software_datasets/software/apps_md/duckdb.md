@@ -14,7 +14,7 @@ DuckDB is an in-process SQL OLAP Database Management System.
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|1.0.0
+**ANVIL**|1.0.0, 1.4.0
 **BELL**|1.1.3
 **GAUTSCHI**|1.1.3, 1.4.0
 **GILBRETH**|1.1.3
