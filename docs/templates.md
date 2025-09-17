@@ -1,6 +1,8 @@
 ---
 hide:
   - footer
+search:
+  exclude: true
 host: anvil.rcac.purdue.edu
 # icon: /fontawesome/regular/home
 ---

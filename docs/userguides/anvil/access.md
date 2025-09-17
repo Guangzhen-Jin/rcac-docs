@@ -5,7 +5,7 @@ tags:
 authors:
   - jin456
 search:
-  boost: 1
+  boost: 2
 ---
 
 # Accessing the System

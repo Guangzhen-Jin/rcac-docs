@@ -4,7 +4,7 @@
 authors:
   - jin456
 search:
-  boost: 1
+  boost: 2
 ---
 
 # Gautschi User Guide

@@ -4,7 +4,7 @@ tags:
 authors:
   - jin456
 search:
-  boost: 1
+  boost: 2
 ---
 
 Purdue University is the home of Anvil, a powerful new supercomputer that provides advanced computing capabilities to support a wide range of computational and data-intensive research spanning from traditional high-performance computing to modern artificial intelligence applications.

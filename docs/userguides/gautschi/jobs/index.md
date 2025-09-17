@@ -5,7 +5,7 @@ authors:
   - jin456
 cluster: Gautschi
 search:
-  boost: 1
+  boost: 2
 ---
 
 There is one method for submitting jobs to {{ cluster }}. You may use Slurm to submit jobs to a partition on {{ cluster }}. Slurm performs job scheduling. Jobs may be any type of program. You may use either the batch or interactive mode to run your jobs. Use the batch mode for finished programs; use the interactive mode only for debugging.

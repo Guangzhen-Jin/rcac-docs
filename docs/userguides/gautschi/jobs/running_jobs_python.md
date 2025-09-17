@@ -6,7 +6,7 @@ authors:
   - jin456
 cluster: Gautschi
 search:
-  boost: 1
+  boost: 2
 ---
 
 # Using Python on {{ cluster }} cluster
