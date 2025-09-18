@@ -14,7 +14,7 @@ CP2K is a quantum chemistry and solid state physics software package that can pe
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|8.2
+**ANVIL**|8.2, 2024.3
 **BELL**|2024.3
 **NEGISHI**|2022.1
 
