@@ -14,7 +14,7 @@ Amber is a suite of biomolecular simulation programs together with Amber tools. 
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|20
+**ANVIL**|20, 24
 **BELL**|24
 **GAUTSCHI**|24
 **GILBRETH**|24
