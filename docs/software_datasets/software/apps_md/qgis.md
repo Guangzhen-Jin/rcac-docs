@@ -18,7 +18,7 @@ QGIS is a free and open-source cross-platform desktop geographic information sys
 **BELL**|3.42.0
 **GAUTSCHI**|3.40.2
 **GILBRETH**|3.42.0
-**NEGISHI**|3.40.1
+**NEGISHI**|3.40.1, 3.44.3
 **SCHOLAR**|3.40.2
 
 ## Module

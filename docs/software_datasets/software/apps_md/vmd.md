@@ -16,6 +16,7 @@ VMD provides user-editable materials which can be applied to molecular geometry.
 |---|---|
 **ANVIL**|1.9.3
 **GILBRETH**|1.9.3
+**NEGISHI**|1.9.3
 
 ## Module
 
