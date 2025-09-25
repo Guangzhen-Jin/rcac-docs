@@ -42,6 +42,7 @@ Although these two distributions behave similarly, the components within them va
 * Miniforge: 
 
     The "Miniforge" distribution of conda (loaded with the `conda` module) provides only the package manager and a minimal suite of default packages. Further, when fetching new packages it will default to the open `conda-forge` channel.
+    
   * `conda-forge` channel
   * Small number of base packages
   * Open Source Licence
