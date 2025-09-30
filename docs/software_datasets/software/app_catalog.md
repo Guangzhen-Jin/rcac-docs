@@ -9,8 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-
-As of **September 30, 2025**, there have been a total of **268** applications with **2421** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 30, 2025**, there have been a total of **267** applications with **2413** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
@@ -26,8 +25,8 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**amdscalapack**](apps_md/amdscalapack.md) | Library, Math/Stat | ANVIL |
 | [**amduprof**](apps_md/amduprof.md) | MPI, Compilers | ANVIL, GAUTSCHI, NEGISHI |
 | [**anaconda**](apps_md/anaconda.md) | Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**ansysem**](apps_md/ansysem.md) | Misc | SCHOLAR |
 | [**ansys**](apps_md/ansys.md) | Misc | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**ansysem**](apps_md/ansysem.md) | Misc | SCHOLAR |
 | [**aocc**](apps_md/aocc.md) | Compilers | ANVIL |
 | [**arpack-ng**](apps_md/arpack-ng.md) | Misc | ANVIL, NEGISHI |
 | [**aws-cli**](apps_md/aws-cli.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
@@ -69,16 +68,16 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**fastx-toolkit**](apps_md/fastx-toolkit.md) | Misc | ANVIL |
 | [**ffmpeg**](apps_md/ffmpeg.md) | Utilities, Audio/Visual | ANVIL, BELL, GILBRETH, NEGISHI |
 | [**fftw**](apps_md/fftw.md) | Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**fontconfig**](apps_md/fontconfig.md) | Misc | ANVIL, NEGISHI |
 | [**font-util**](apps_md/font-util.md) | Misc | ANVIL, NEGISHI |
+| [**fontconfig**](apps_md/fontconfig.md) | Misc | ANVIL, NEGISHI |
 | [**freetype**](apps_md/freetype.md) | Misc | ANVIL, NEGISHI |
 | [**gatk**](apps_md/gatk.md) | Library, Workflow | ANVIL |
+| [**gaussian**](apps_md/gaussian.md) | Chemistry, Material Science | GILBRETH |
 | [**gaussian09**](apps_md/gaussian09.md) | Chemistry, Material Science | SCHOLAR |
 | [**gaussian16**](apps_md/gaussian16.md) | Chemistry, Material Science | BELL, NEGISHI, SCHOLAR |
-| [**gaussian**](apps_md/gaussian.md) | Chemistry, Material Science | GILBRETH |
 | [**gaussview**](apps_md/gaussview.md) | Chemistry, Material Science | BELL, GILBRETH, NEGISHI, SCHOLAR |
-| [**gcc**](apps_md/gcc.md) | Compilers | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**gcc-runtime**](apps_md/gcc-runtime.md) | Compilers | SCHOLAR |
+| [**gcc**](apps_md/gcc.md) | Compilers | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**gdal**](apps_md/gdal.md) | Geoscience, Climate | ANVIL, BELL, NEGISHI |
 | [**gdb**](apps_md/gdb.md) | Misc | ANVIL, BELL, NEGISHI |
 | [**gdbm**](apps_md/gdbm.md) | Misc | ANVIL, NEGISHI |
@@ -98,8 +97,8 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**gstreamer**](apps_md/gstreamer.md) | Math/Stat, Programming | ANVIL |
 | [**gurobi**](apps_md/gurobi.md) | Math/Stat, Engineering | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**hadoop**](apps_md/hadoop.md) | Misc | ANVIL, BELL, NEGISHI |
-| [**hdf5**](apps_md/hdf5.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**hdf**](apps_md/hdf.md) | Geoscience, Library | ANVIL, BELL, NEGISHI |
+| [**hdf5**](apps_md/hdf5.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**hpctoolkit**](apps_md/hpctoolkit.md) | Misc | ANVIL, NEGISHI |
 | [**hspice**](apps_md/hspice.md) | Misc | BELL, NEGISHI |
 | [**htseq**](apps_md/htseq.md) | Library, Workflow | ANVIL |
@@ -109,7 +108,6 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**imagemagick**](apps_md/imagemagick.md) | Utilities, Audio/Visual | BELL, GAUTSCHI, NEGISHI |
 | [**impi**](apps_md/impi.md) | MPI | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**inputproto**](apps_md/inputproto.md) | Misc | NEGISHI |
-| [**intel**](apps_md/intel.md) | Compilers | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**intel-mkl**](apps_md/intel-mkl.md) | Compilers, Library | ANVIL, BELL, NEGISHI |
 | [**intel-oneapi-compilers**](apps_md/intel-oneapi-compilers.md) | Compilers | BELL, GILBRETH, NEGISHI |
 | [**intel-oneapi-mkl**](apps_md/intel-oneapi-mkl.md) | Compilers, Library | BELL, GILBRETH, NEGISHI |
@@ -117,6 +115,7 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**intel-oneapi-tbb**](apps_md/intel-oneapi-tbb.md) | Compilers | BELL, NEGISHI |
 | [**intel-oneapi-vtune**](apps_md/intel-oneapi-vtune.md) | Compilers | BELL, GILBRETH |
 | [**intel-rt**](apps_md/intel-rt.md) | Compilers | ANVIL, GAUTSCHI, SCHOLAR |
+| [**intel**](apps_md/intel.md) | Compilers | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**julia**](apps_md/julia.md) | Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**jupyter**](apps_md/jupyter.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**kbproto**](apps_md/kbproto.md) | Misc | NEGISHI |
@@ -191,11 +190,11 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**panoply**](apps_md/panoply.md) | Geoscience, Climate | SCHOLAR |
 | [**papi**](apps_md/papi.md) | Misc | ANVIL, NEGISHI |
 | [**parafly**](apps_md/parafly.md) | Material Science, Engineering | ANVIL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**parallel**](apps_md/parallel.md) | Material Science, Engineering | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
 | [**parallel-netcdf**](apps_md/parallel-netcdf.md) | Material Science, Geoscience | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**parallel**](apps_md/parallel.md) | Material Science, Engineering | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
 | [**paraview**](apps_md/paraview.md) | Material Science, Engineering | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**pcre2**](apps_md/pcre2.md) | Misc | NEGISHI |
 | [**pcre**](apps_md/pcre.md) | Misc | ANVIL |
+| [**pcre2**](apps_md/pcre2.md) | Misc | NEGISHI |
 | [**perl-bioperl**](apps_md/perl-bioperl.md) | Misc | ANVIL |
 | [**perl**](apps_md/perl.md) | Misc | ANVIL, NEGISHI |
 | [**petsc**](apps_md/petsc.md) | Fluid Dynamics, Math/Stat | ANVIL, NEGISHI |
@@ -214,20 +213,20 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**qemu**](apps_md/qemu.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**qgis**](apps_md/qgis.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**qt**](apps_md/qt.md) | Misc | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**quantumatk**](apps_md/quantumatk.md) | Chemistry, Material Science | BELL, NEGISHI |
 | [**quantum-espresso**](apps_md/quantum-espresso.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**quantumatk**](apps_md/quantumatk.md) | Chemistry, Material Science | BELL, NEGISHI |
 | [**r-devtools**](apps_md/r-devtools.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**readline**](apps_md/readline.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**renderproto**](apps_md/renderproto.md) | Misc | ANVIL, NEGISHI |
 | [**r-formatr**](apps_md/r-formatr.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
 | [**r-irkernel**](apps_md/r-irkernel.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r**](apps_md/r.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**r-ncdf4**](apps_md/r-ncdf4.md) | Math/Stat, Programming | BELL, GILBRETH, SCHOLAR |
-| [**rocm**](apps_md/rocm.md) | MPI, Compilers | BELL, NEGISHI |
 | [**r-plyr**](apps_md/r-plyr.md) | Math/Stat, Programming | GAUTSCHI, SCHOLAR |
 | [**r-reshape2**](apps_md/r-reshape2.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
 | [**r-sf**](apps_md/r-sf.md) | Math/Stat, Programming | BELL, GILBRETH, SCHOLAR |
 | [**r-shiny**](apps_md/r-shiny.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
+| [**r**](apps_md/r.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**readline**](apps_md/readline.md) | Library, Utilities | ANVIL, NEGISHI |
+| [**renderproto**](apps_md/renderproto.md) | Misc | ANVIL, NEGISHI |
+| [**rocm**](apps_md/rocm.md) | MPI, Compilers | BELL, NEGISHI |
 | [**rstudio**](apps_md/rstudio.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**samtools**](apps_md/samtools.md) | Library, Workflow | ANVIL |
 | [**sas**](apps_md/sas.md) | Misc | BELL, SCHOLAR |
@@ -240,8 +239,8 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**spice-server**](apps_md/spice-server.md) | Math/Stat, Programming | ANVIL |
 | [**sqlite**](apps_md/sqlite.md) | Library, Utilities | ANVIL, NEGISHI |
 | [**sratoolkit**](apps_md/sratoolkit.md) | Library, Workflow | ANVIL |
-| [**stata**](apps_md/stata.md) | Misc | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**stata-mp**](apps_md/stata-mp.md) | Misc | BELL, SCHOLAR |
+| [**stata**](apps_md/stata.md) | Misc | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
 | [**swig**](apps_md/swig.md) | Misc | ANVIL, NEGISHI |
 | [**tar**](apps_md/tar.md) | Library, Math/Stat | ANVIL, NEGISHI |
 | [**tbb**](apps_md/tbb.md) | Misc | ANVIL, GAUTSCHI, SCHOLAR |
@@ -274,9 +273,9 @@ As of **September 30, 2025**, there have been a total of **268** applications wi
 | [**xcb-util-cursor**](apps_md/xcb-util-cursor.md) | Math/Stat, Programming | BELL, GILBRETH |
 | [**xcb-util-image**](apps_md/xcb-util-image.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**xcb-util-keysyms**](apps_md/xcb-util-keysyms.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**xcb-util**](apps_md/xcb-util.md) | Misc | NEGISHI |
 | [**xcb-util-renderutil**](apps_md/xcb-util-renderutil.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
 | [**xcb-util-wm**](apps_md/xcb-util-wm.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**xcb-util**](apps_md/xcb-util.md) | Misc | NEGISHI |
 | [**xextproto**](apps_md/xextproto.md) | Misc | ANVIL, NEGISHI |
 | [**xproto**](apps_md/xproto.md) | Misc | ANVIL, NEGISHI |
 | [**xtrans**](apps_md/xtrans.md) | Misc | NEGISHI |
