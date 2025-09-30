@@ -9,275 +9,166 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **September 27, 2025**, there have been a total of **268** applications with **2420** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **September 30, 2025**, there have been a total of **268** applications with **2421** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
-Here is a full list:
+## Applications Catalog
 
-* [abaqus](apps_md/abaqus.md)
-* [amber](apps_md/amber.md)
-* [ambertools](apps_md/ambertools.md)
-* [amdblis](apps_md/amdblis.md)
-* [amdfftw](apps_md/amdfftw.md)
-* [amdlibflame](apps_md/amdlibflame.md)
-* [amdlibm](apps_md/amdlibm.md)
-* [amdscalapack](apps_md/amdscalapack.md)
-* [amduprof](apps_md/amduprof.md)
-* [anaconda](apps_md/anaconda.md)
-* [ansys](apps_md/ansys.md)
-* [ansysem](apps_md/ansysem.md)
-* [aocc](apps_md/aocc.md)
-* [arpack-ng](apps_md/arpack-ng.md)
-* [aws-cli](apps_md/aws-cli.md)
-* [bamtools](apps_md/bamtools.md)
-* [beagle](apps_md/beagle.md)
-* [beast2](apps_md/beast2.md)
-* [berkeley-db](apps_md/berkeley-db.md)
-* [bismark](apps_md/bismark.md)
-* [blast-plus](apps_md/blast-plus.md)
-* [blis](apps_md/blis.md)
-* [boost](apps_md/boost.md)
-* [bowtie2](apps_md/bowtie2.md)
-* [bwa](apps_md/bwa.md)
-* [bzip2](apps_md/bzip2.md)
-* [cairo](apps_md/cairo.md)
-* [cdo](apps_md/cdo.md)
-* [cgal](apps_md/cgal.md)
-* [charmpp](apps_md/charmpp.md)
-* [clusterbot](apps_md/clusterbot.md)
-* [cmake](apps_md/cmake.md)
-* [comsol](apps_md/comsol.md)
-* [conda](apps_md/conda.md)
-* [cosmosscope](apps_md/cosmosscope.md)
-* [cp2k](apps_md/cp2k.md)
-* [cuda](apps_md/cuda.md)
-* [cudnn](apps_md/cudnn.md)
-* [cue-login-env](apps_md/cue-login-env.md)
-* [cufflinks](apps_md/cufflinks.md)
-* [curl](apps_md/curl.md)
-* [cutadapt](apps_md/cutadapt.md)
-* [cython](apps_md/cython.md)
-* [duckdb](apps_md/duckdb.md)
-* [edacfg](apps_md/edacfg.md)
-* [eigen](apps_md/eigen.md)
-* [emacs](apps_md/emacs.md)
-* [expat](apps_md/expat.md)
-* [fastqc](apps_md/fastqc.md)
-* [fasttree](apps_md/fasttree.md)
-* [fastx-toolkit](apps_md/fastx-toolkit.md)
-* [ffmpeg](apps_md/ffmpeg.md)
-* [fftw](apps_md/fftw.md)
-* [font-util](apps_md/font-util.md)
-* [fontconfig](apps_md/fontconfig.md)
-* [freetype](apps_md/freetype.md)
-* [gatk](apps_md/gatk.md)
-* [gaussian](apps_md/gaussian.md)
-* [gaussian09](apps_md/gaussian09.md)
-* [gaussian16](apps_md/gaussian16.md)
-* [gaussview](apps_md/gaussview.md)
-* [gcc-runtime](apps_md/gcc-runtime.md)
-* [gcc](apps_md/gcc.md)
-* [gdal](apps_md/gdal.md)
-* [gdb](apps_md/gdb.md)
-* [gdbm](apps_md/gdbm.md)
-* [geos](apps_md/geos.md)
-* [gettext](apps_md/gettext.md)
-* [gfms](apps_md/gfms.md)
-* [ghostscript](apps_md/ghostscript.md)
-* [glib](apps_md/glib.md)
-* [gmp](apps_md/gmp.md)
-* [gmt](apps_md/gmt.md)
-* [gnuplot](apps_md/gnuplot.md)
-* [gpaw](apps_md/gpaw.md)
-* [grace](apps_md/grace.md)
-* [grads](apps_md/grads.md)
-* [gromacs](apps_md/gromacs.md)
-* [gsl](apps_md/gsl.md)
-* [gstreamer](apps_md/gstreamer.md)
-* [gurobi](apps_md/gurobi.md)
-* [hadoop](apps_md/hadoop.md)
-* [hdf](apps_md/hdf.md)
-* [hdf5](apps_md/hdf5.md)
-* [hpctoolkit](apps_md/hpctoolkit.md)
-* [hspice](apps_md/hspice.md)
-* [htseq](apps_md/htseq.md)
-* [hwloc](apps_md/hwloc.md)
-* [hyper-shell](apps_md/hyper-shell.md)
-* [hypershell](apps_md/hypershell.md)
-* [imagemagick](apps_md/imagemagick.md)
-* [impi](apps_md/impi.md)
-* [inputproto](apps_md/inputproto.md)
-* [intel-mkl](apps_md/intel-mkl.md)
-* [intel-oneapi-compilers](apps_md/intel-oneapi-compilers.md)
-* [intel-oneapi-mkl](apps_md/intel-oneapi-mkl.md)
-* [intel-oneapi-mpi](apps_md/intel-oneapi-mpi.md)
-* [intel-oneapi-tbb](apps_md/intel-oneapi-tbb.md)
-* [intel-oneapi-vtune](apps_md/intel-oneapi-vtune.md)
-* [intel-rt](apps_md/intel-rt.md)
-* [intel](apps_md/intel.md)
-* [julia](apps_md/julia.md)
-* [jupyter](apps_md/jupyter.md)
-* [kbproto](apps_md/kbproto.md)
-* [kokkos](apps_md/kokkos.md)
-* [krb5](apps_md/krb5.md)
-* [lammps](apps_md/lammps.md)
-* [launcher](apps_md/launcher.md)
-* [learning](apps_md/learning.md)
-* [libaio](apps_md/libaio.md)
-* [libbsd](apps_md/libbsd.md)
-* [libfabric](apps_md/libfabric.md)
-* [libffi](apps_md/libffi.md)
-* [libflame](apps_md/libflame.md)
-* [libiconv](apps_md/libiconv.md)
-* [libmd](apps_md/libmd.md)
-* [libmesh](apps_md/libmesh.md)
-* [libpng](apps_md/libpng.md)
-* [libpthread-stubs](apps_md/libpthread-stubs.md)
-* [libszip](apps_md/libszip.md)
-* [libtiff](apps_md/libtiff.md)
-* [libtirpc](apps_md/libtirpc.md)
-* [libv8](apps_md/libv8.md)
-* [libx11](apps_md/libx11.md)
-* [libxau](apps_md/libxau.md)
-* [libxcb](apps_md/libxcb.md)
-* [libxdmcp](apps_md/libxdmcp.md)
-* [libxext](apps_md/libxext.md)
-* [libxml2](apps_md/libxml2.md)
-* [libxp](apps_md/libxp.md)
-* [libxrender](apps_md/libxrender.md)
-* [libxscrnsaver](apps_md/libxscrnsaver.md)
-* [libxslt](apps_md/libxslt.md)
-* [mathematica](apps_md/mathematica.md)
-* [matlab](apps_md/matlab.md)
-* [matplotlib](apps_md/matplotlib.md)
-* [meep](apps_md/meep.md)
-* [mesa-glu](apps_md/mesa-glu.md)
-* [monitor](apps_md/monitor.md)
-* [motif](apps_md/motif.md)
-* [mpc](apps_md/mpc.md)
-* [mpfr](apps_md/mpfr.md)
-* [mpi4py](apps_md/mpi4py.md)
-* [mrbayes](apps_md/mrbayes.md)
-* [mvapich2](apps_md/mvapich2.md)
-* [namd](apps_md/namd.md)
-* [nccl](apps_md/nccl.md)
-* [ncl](apps_md/ncl.md)
-* [nco](apps_md/nco.md)
-* [ncurses](apps_md/ncurses.md)
-* [ncview](apps_md/ncview.md)
-* [netcdf-c](apps_md/netcdf-c.md)
-* [netcdf-cxx4](apps_md/netcdf-cxx4.md)
-* [netcdf-fortran](apps_md/netcdf-fortran.md)
-* [netlib-lapack](apps_md/netlib-lapack.md)
-* [nextflow](apps_md/nextflow.md)
-* [nf-core](apps_md/nf-core.md)
-* [ngc](apps_md/ngc.md)
-* [numactl](apps_md/numactl.md)
-* [numba](apps_md/numba.md)
-* [numpy](apps_md/numpy.md)
-* [nvhpc](apps_md/nvhpc.md)
-* [nwchem](apps_md/nwchem.md)
-* [oclfpga](apps_md/oclfpga.md)
-* [octave](apps_md/octave.md)
-* [openblas](apps_md/openblas.md)
-* [openfoam](apps_md/openfoam.md)
-* [openjdk](apps_md/openjdk.md)
-* [openmpi](apps_md/openmpi.md)
-* [openssl](apps_md/openssl.md)
-* [ovito](apps_md/ovito.md)
-* [pandas](apps_md/pandas.md)
-* [pandoc](apps_md/pandoc.md)
-* [panoply](apps_md/panoply.md)
-* [papi](apps_md/papi.md)
-* [parafly](apps_md/parafly.md)
-* [parallel-netcdf](apps_md/parallel-netcdf.md)
-* [parallel](apps_md/parallel.md)
-* [paraview](apps_md/paraview.md)
-* [pcre](apps_md/pcre.md)
-* [pcre2](apps_md/pcre2.md)
-* [perl-bioperl](apps_md/perl-bioperl.md)
-* [perl](apps_md/perl.md)
-* [petsc](apps_md/petsc.md)
-* [picard](apps_md/picard.md)
-* [pigz](apps_md/pigz.md)
-* [pip](apps_md/pip.md)
-* [pixman](apps_md/pixman.md)
-* [plumed](apps_md/plumed.md)
-* [proj](apps_md/proj.md)
-* [protobuf](apps_md/protobuf.md)
-* [py-matplotlib](apps_md/py-matplotlib.md)
-* [py-mpi4py](apps_md/py-mpi4py.md)
-* [py-numpy](apps_md/py-numpy.md)
-* [py-pandas](apps_md/py-pandas.md)
-* [python](apps_md/python.md)
-* [qemu](apps_md/qemu.md)
-* [qgis](apps_md/qgis.md)
-* [qt](apps_md/qt.md)
-* [quantum-espresso](apps_md/quantum-espresso.md)
-* [quantumatk](apps_md/quantumatk.md)
-* [r-devtools](apps_md/r-devtools.md)
-* [r-formatr](apps_md/r-formatr.md)
-* [r-irkernel](apps_md/r-irkernel.md)
-* [r-ncdf4](apps_md/r-ncdf4.md)
-* [r-plyr](apps_md/r-plyr.md)
-* [r-reshape2](apps_md/r-reshape2.md)
-* [r-sf](apps_md/r-sf.md)
-* [r-shiny](apps_md/r-shiny.md)
-* [r](apps_md/r.md)
-* [readline](apps_md/readline.md)
-* [renderproto](apps_md/renderproto.md)
-* [rocm](apps_md/rocm.md)
-* [rstudio](apps_md/rstudio.md)
-* [samtools](apps_md/samtools.md)
-* [sas](apps_md/sas.md)
-* [scikit-learn](apps_md/scikit-learn.md)
-* [scipy](apps_md/scipy.md)
-* [seaborn](apps_md/seaborn.md)
-* [sentaurus](apps_md/sentaurus.md)
-* [setuptools](apps_md/setuptools.md)
-* [spark](apps_md/spark.md)
-* [spice-server](apps_md/spice-server.md)
-* [sqlite](apps_md/sqlite.md)
-* [sratoolkit](apps_md/sratoolkit.md)
-* [stata-mp](apps_md/stata-mp.md)
-* [stata](apps_md/stata.md)
-* [swig](apps_md/swig.md)
-* [tar](apps_md/tar.md)
-* [tbb](apps_md/tbb.md)
-* [tcl](apps_md/tcl.md)
-* [tecplot](apps_md/tecplot.md)
-* [texlive](apps_md/texlive.md)
-* [thermocalc](apps_md/thermocalc.md)
-* [tk](apps_md/tk.md)
-* [tophat](apps_md/tophat.md)
-* [totalview](apps_md/totalview.md)
-* [trimmomatic](apps_md/trimmomatic.md)
-* [ucx](apps_md/ucx.md)
-* [udunits](apps_md/udunits.md)
-* [util-linux-uuid](apps_md/util-linux-uuid.md)
-* [valgrind](apps_md/valgrind.md)
-* [vasp](apps_md/vasp.md)
-* [vcftools](apps_md/vcftools.md)
-* [vim](apps_md/vim.md)
-* [virtualenv](apps_md/virtualenv.md)
-* [visit](apps_md/visit.md)
-* [vlc](apps_md/vlc.md)
-* [vmd](apps_md/vmd.md)
-* [vscode](apps_md/vscode.md)
-* [vtk](apps_md/vtk.md)
-* [vtune](apps_md/vtune.md)
-* [wannier90](apps_md/wannier90.md)
-* [wheel](apps_md/wheel.md)
-* [xalt](apps_md/xalt.md)
-* [xcb-proto](apps_md/xcb-proto.md)
-* [xcb-util-cursor](apps_md/xcb-util-cursor.md)
-* [xcb-util-image](apps_md/xcb-util-image.md)
-* [xcb-util-keysyms](apps_md/xcb-util-keysyms.md)
-* [xcb-util-renderutil](apps_md/xcb-util-renderutil.md)
-* [xcb-util-wm](apps_md/xcb-util-wm.md)
-* [xcb-util](apps_md/xcb-util.md)
-* [xextproto](apps_md/xextproto.md)
-* [xproto](apps_md/xproto.md)
-* [xtrans](apps_md/xtrans.md)
-* [xz](apps_md/xz.md)
-* [zlib](apps_md/zlib.md)
-* [zstd](apps_md/zstd.md)
+| Application | Topic | Available at |
+|-------------|-------|--------------|
+| [**abaqus**](apps_md/abaqus.md) |  | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**amber**](apps_md/amber.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**ambertools**](apps_md/ambertools.md) |  | BELL, GAUTSCHI, GILBRETH |
+| [**amdblis**](apps_md/amdblis.md) |  | ANVIL |
+| [**amdfftw**](apps_md/amdfftw.md) |  | ANVIL |
+| [**amdlibflame**](apps_md/amdlibflame.md) |  | ANVIL |
+| [**amdlibm**](apps_md/amdlibm.md) |  | ANVIL |
+| [**amdscalapack**](apps_md/amdscalapack.md) |  | ANVIL |
+| [**amduprof**](apps_md/amduprof.md) |  | ANVIL, GAUTSCHI, NEGISHI |
+| [**anaconda**](apps_md/anaconda.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**ansysem**](apps_md/ansysem.md) |  | SCHOLAR |
+| [**ansys**](apps_md/ansys.md) |  | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**aocc**](apps_md/aocc.md) |  | ANVIL |
+| [**arpack-ng**](apps_md/arpack-ng.md) |  | ANVIL, NEGISHI |
+| [**aws-cli**](apps_md/aws-cli.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**bamtools**](apps_md/bamtools.md) |  | ANVIL |
+| [**beagle**](apps_md/beagle.md) |  | ANVIL |
+| [**beast2**](apps_md/beast2.md) |  | ANVIL |
+| [**berkeley-db**](apps_md/berkeley-db.md) |  | ANVIL, NEGISHI |
+| [**bismark**](apps_md/bismark.md) |  | ANVIL |
+| [**blast-plus**](apps_md/blast-plus.md) |  | ANVIL |
+| [**blis**](apps_md/blis.md) |  | ANVIL, NEGISHI |
+| [**boost**](apps_md/boost.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**bowtie2**](apps_md/bowtie2.md) |  | ANVIL |
+| [**bwa**](apps_md/bwa.md) |  | ANVIL |
+| [**bzip2**](apps_md/bzip2.md) |  | ANVIL, NEGISHI |
+| [**cairo**](apps_md/cairo.md) |  | ANVIL, NEGISHI |
+| [**cdo**](apps_md/cdo.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**cgal**](apps_md/cgal.md) |  | NEGISHI, SCHOLAR |
+| [**charmpp**](apps_md/charmpp.md) |  | ANVIL |
+| [**clusterbot**](apps_md/clusterbot.md) |  | ANVIL |
+| [**cmake**](apps_md/cmake.md) |  | ANVIL, NEGISHI |
+| [**comsol**](apps_md/comsol.md) |  | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**conda**](apps_md/conda.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**cosmosscope**](apps_md/cosmosscope.md) |  | NEGISHI |
+| [**cp2k**](apps_md/cp2k.md) |  | ANVIL, BELL, NEGISHI |
+| [**cuda**](apps_md/cuda.md) |  | ANVIL, GAUTSCHI, GILBRETH, SCHOLAR |
+| [**cudnn**](apps_md/cudnn.md) |  | ANVIL, GAUTSCHI, GILBRETH |
+| [**cue-login-env**](apps_md/cue-login-env.md) |  | ANVIL |
+| [**cufflinks**](apps_md/cufflinks.md) |  | ANVIL |
+| [**curl**](apps_md/curl.md) |  | ANVIL, NEGISHI |
+| [**cutadapt**](apps_md/cutadapt.md) |  | ANVIL |
+| [**cython**](apps_md/cython.md) |  | GAUTSCHI |
+| [**duckdb**](apps_md/duckdb.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**edacfg**](apps_md/edacfg.md) |  | NEGISHI |
+| [**eigen**](apps_md/eigen.md) |  | ANVIL, NEGISHI |
+| [**emacs**](apps_md/emacs.md) |  | ANVIL, NEGISHI |
+| [**expat**](apps_md/expat.md) |  | ANVIL |
+| [**fastqc**](apps_md/fastqc.md) |  | ANVIL |
+| [**fasttree**](apps_md/fasttree.md) |  | ANVIL |
+| [**fastx-toolkit**](apps_md/fastx-toolkit.md) |  | ANVIL |
+| [**ffmpeg**](apps_md/ffmpeg.md) |  | ANVIL, BELL, GILBRETH, NEGISHI |
+| [**fftw**](apps_md/fftw.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**fontconfig**](apps_md/fontconfig.md) |  | ANVIL, NEGISHI |
+| [**font-util**](apps_md/font-util.md) |  | ANVIL, NEGISHI |
+| [**freetype**](apps_md/freetype.md) |  | ANVIL, NEGISHI |
+| [**gatk**](apps_md/gatk.md) |  | ANVIL |
+| [**gaussian09**](apps_md/gaussian09.md) |  | SCHOLAR |
+| [**gaussian16**](apps_md/gaussian16.md) |  | BELL, NEGISHI, SCHOLAR |
+| [**gaussian**](apps_md/gaussian.md) |  | GILBRETH |
+| [**gaussview**](apps_md/gaussview.md) |  | BELL, GILBRETH, NEGISHI, SCHOLAR |
+| [**gcc**](apps_md/gcc.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**gcc-runtime**](apps_md/gcc-runtime.md) |  | SCHOLAR |
+| [**gdal**](apps_md/gdal.md) |  | ANVIL, BELL, NEGISHI |
+| [**gdb**](apps_md/gdb.md) |  | ANVIL, BELL, NEGISHI |
+| [**gdbm**](apps_md/gdbm.md) |  | ANVIL, NEGISHI |
+| [**geos**](apps_md/geos.md) |  | ANVIL, NEGISHI |
+| [**gettext**](apps_md/gettext.md) |  | ANVIL, NEGISHI |
+| [**gfms**](apps_md/gfms.md) |  | ANVIL, GAUTSCHI, GILBRETH |
+| [**ghostscript**](apps_md/ghostscript.md) |  | ANVIL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**glib**](apps_md/glib.md) |  | ANVIL, NEGISHI |
+| [**gmp**](apps_md/gmp.md) |  | ANVIL, NEGISHI |
+| [**gmt**](apps_md/gmt.md) |  | ANVIL, BELL, GILBRETH, NEGISHI, SCHOLAR |
+| [**gnuplot**](apps_md/gnuplot.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**gpaw**](apps_md/gpaw.md) |  | ANVIL |
+| [**grace**](apps_md/grace.md) |  | NEGISHI |
+| [**grads**](apps_md/grads.md) |  | ANVIL, BELL, GILBRETH, NEGISHI |
+| [**gromacs**](apps_md/gromacs.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**gsl**](apps_md/gsl.md) |  | ANVIL, BELL, GILBRETH, NEGISHI |
+| [**gstreamer**](apps_md/gstreamer.md) |  | ANVIL |
+| [**gurobi**](apps_md/gurobi.md) |  | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**hadoop**](apps_md/hadoop.md) |  | ANVIL, BELL, NEGISHI |
+| [**hdf5**](apps_md/hdf5.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**hdf**](apps_md/hdf.md) |  | ANVIL, BELL, NEGISHI |
+| [**hpctoolkit**](apps_md/hpctoolkit.md) |  | ANVIL, NEGISHI |
+| [**hspice**](apps_md/hspice.md) |  | BELL, NEGISHI |
+| [**htseq**](apps_md/htseq.md) |  | ANVIL |
+| [**hwloc**](apps_md/hwloc.md) |  | ANVIL |
+| [**hyper-shell**](apps_md/hyper-shell.md) |  | ANVIL, SCHOLAR |
+| [**hypershell**](apps_md/hypershell.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**imagemagick**](apps_md/imagemagick.md) |  | BELL, GAUTSCHI, NEGISHI |
+| [**impi**](apps_md/impi.md) |  | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**inputproto**](apps_md/inputproto.md) |  | NEGISHI |
+| [**intel**](apps_md/intel.md) |  | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**intel-mkl**](apps_md/intel-mkl.md) |  | ANVIL, BELL, NEGISHI |
+| [**intel-oneapi-compilers**](apps_md/intel-oneapi-compilers.md) |  | BELL, GILBRETH, NEGISHI |
+| [**intel-oneapi-mkl**](apps_md/intel-oneapi-mkl.md) |  | BELL, GILBRETH, NEGISHI |
+| [**intel-oneapi-mpi**](apps_md/intel-oneapi-mpi.md) |  | BELL, GILBRETH, NEGISHI |
+| [**intel-oneapi-tbb**](apps_md/intel-oneapi-tbb.md) |  | BELL, NEGISHI |
+| [**intel-oneapi-vtune**](apps_md/intel-oneapi-vtune.md) |  | BELL, GILBRETH |
+| [**intel-rt**](apps_md/intel-rt.md) |  | ANVIL, GAUTSCHI, SCHOLAR |
+| [**julia**](apps_md/julia.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**jupyter**](apps_md/jupyter.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**kbproto**](apps_md/kbproto.md) |  | NEGISHI |
+| [**kokkos**](apps_md/kokkos.md) |  | ANVIL |
+| [**krb5**](apps_md/krb5.md) |  | ANVIL |
+| [**lammps**](apps_md/lammps.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**launcher**](apps_md/launcher.md) |  | ANVIL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**learning**](apps_md/learning.md) |  | ANVIL |
+| [**libaio**](apps_md/libaio.md) |  | GILBRETH |
+| [**libbsd**](apps_md/libbsd.md) |  | ANVIL, NEGISHI |
+| [**libfabric**](apps_md/libfabric.md) |  | ANVIL, NEGISHI |
+| [**libffi**](apps_md/libffi.md) |  | ANVIL, NEGISHI |
+| [**libflame**](apps_md/libflame.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**libiconv**](apps_md/libiconv.md) |  | ANVIL, NEGISHI |
+| [**libmd**](apps_md/libmd.md) |  | ANVIL, NEGISHI |
+| [**libmesh**](apps_md/libmesh.md) |  | ANVIL, NEGISHI |
+| [**libpng**](apps_md/libpng.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**libpthread-stubs**](apps_md/libpthread-stubs.md) |  | ANVIL, NEGISHI |
+| [**libszip**](apps_md/libszip.md) |  | ANVIL, BELL, NEGISHI |
+| [**libtiff**](apps_md/libtiff.md) |  | ANVIL, NEGISHI |
+| [**libtirpc**](apps_md/libtirpc.md) |  | ANVIL |
+| [**libv8**](apps_md/libv8.md) |  | ANVIL |
+| [**libx11**](apps_md/libx11.md) |  | ANVIL, NEGISHI |
+| [**libxau**](apps_md/libxau.md) |  | ANVIL, NEGISHI |
+| [**libxcb**](apps_md/libxcb.md) |  | ANVIL, NEGISHI |
+| [**libxdmcp**](apps_md/libxdmcp.md) |  | ANVIL, NEGISHI |
+| [**libxext**](apps_md/libxext.md) |  | ANVIL, NEGISHI |
+| [**libxml2**](apps_md/libxml2.md) |  | ANVIL, NEGISHI |
+| [**libxp**](apps_md/libxp.md) |  | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**libxrender**](apps_md/libxrender.md) |  | ANVIL, NEGISHI |
+| [**libxscrnsaver**](apps_md/libxscrnsaver.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**libxslt**](apps_md/libxslt.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**mathematica**](apps_md/mathematica.md) |  | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**matlab**](apps_md/matlab.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**matplotlib**](apps_md/matplotlib.md) |  | GAUTSCHI |
+| [**meep**](apps_md/meep.md) |  | ANVIL, NEGISHI |
+| [**mesa-glu**](apps_md/mesa-glu.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**monitor**](apps_md/monitor.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**motif**](apps_md/motif.md) |  | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
+| [**mpc**](apps_md/mpc.md) |  | ANVIL, NEGISHI |
+| [**mpfr**](apps_md/mpfr.md) |  | ANVIL, NEGISHI |
+| [**mpi4py**](apps_md/mpi4py.md) |  | GAUTSCHI |
+| [**mrbayes**](apps_md/mrbayes.md) |  | ANVIL |
+| [**mvapich2**](apps_md/mvapich2.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**namd**](apps_md/namd.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
+| [**nccl**](apps_md/nccl.md) |  | ANVIL |
+| [**ncl**](apps_md/ncl.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**nco**](apps_md/nco.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**ncurses**](apps_md/ncurses.md) |  | ANVIL, NEGISHI |
+| [**ncview**](apps_md/ncview.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**netcdf-c**](apps_md/netcdf-c.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**netcdf-cxx4**](apps_md/netcdf-cxx4.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**netcdf-fortran**](apps_md/netcdf-fortran.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**netlib-lapack**](apps_md/netlib-lapack.md) |  | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
+| [**nextflow**](apps_md/nextflow.md) |  | ANVIL, BELL, GAUTSCHI, NEGISHI |
+| [**nf-core**](apps_md/nf-core.md) |  | ANVIL, BELL, NEGISHI |

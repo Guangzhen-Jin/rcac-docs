@@ -13,7 +13,6 @@ mkdir -p "$(dirname "$INDEX_FILE")"
 today=$(date +"%B %d, %Y")
 app_count=$(find "$MD_DIR" -type f -name "*.md" | wc -l)
 
-# version_count=$(jq '[to_entries[] | .value.availability | to_entries[] | .value | length] | add' "$INV_FILE")
 version_count=$(find ../modulefiles -type f -name "*.lua" \
   ! -name ".*" \
   ! -name "*.modulerc.lua" \
@@ -40,13 +39,24 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo "## Overview"
   echo "As of **$today**, there have been a total of **$app_count** applications with **$version_count** available versions deployed across **$cluster_count** RCAC HPC clusters: **$cluster_names**."
   echo
-  echo "Here is a full list:"
+  echo "## Applications Catalog"
   echo
+  echo "| Application | Topic | Available at |"
+  echo "|-------------|-------|--------------|"
 
-  # Find all markdown files in MD_DIR, strip path and extension, sort
+  # Iterate through apps
   find "$MD_DIR" -type f -name "*.md" | sort | while read -r filepath; do
     app=$(basename "$filepath" .md)
-    echo "* [$app](apps_md/$app.md)"
+
+    # Query cluster availability for the app (uppercase + comma separated)
+    clusters=$(jq -r --arg app "$app" \
+      '.[$app].availability | keys[]? | ascii_upcase' "$INV_FILE" 2>/dev/null \
+      | sort -u | paste -sd "," - | sed 's/,/, /g')
+    
+    # If no clusters, leave blank
+    clusters=${clusters:-""}
+
+    echo "| [**$app**](apps_md/$app.md) |  | $clusters |"
   done
 
 } > "$CATALOG_FILE"
