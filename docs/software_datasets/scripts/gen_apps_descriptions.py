@@ -17,6 +17,7 @@ import requests
 # Output JSON file
 OUTFILE = Path("./apps_descriptions.json")
 CURATED_FILE = Path("./apps_desc_curated.json")
+TOPICS_FILE = Path("./apps_topics.json")
 
 # # Known aliases for Wikipedia titles
 # WIKI_ALIASES = {
@@ -128,6 +129,19 @@ def load_db(file_path):
         return json.loads(file_path.read_text(encoding="utf-8"))
     return {}
 
+def get_topics_for_app(app, topics_db):
+    """Return topic list for app (case-insensitive), default []. Accepts string or list."""
+    if not topics_db:
+        return []
+    key = next((k for k in topics_db if k.lower() == app.lower()), None)
+    if key is None:
+        return []
+    val = topics_db[key]
+    if isinstance(val, list):
+        return val
+    if isinstance(val, str):
+        return [val]
+    return []
 
 def save_db(db):
     """Save the descriptions database."""
@@ -136,6 +150,7 @@ def save_db(db):
 
 def main(apps):
     curated_db = load_db(CURATED_FILE)
+    topics_db = load_db(TOPICS_FILE)           # load topics
     db = load_db(OUTFILE)
 
     for app in apps:
@@ -145,17 +160,19 @@ def main(apps):
 
         print(f"Fetching description for {app}...")
         desc, homepage, source = get_description(app, curated_db)
+        topics = get_topics_for_app(app, topics_db)   # attach topics
+
         db[app] = {
             "description": desc,
             "homepage": homepage,
             "source": source,
+            "topic": topics,
         }
         preview = desc.replace("\n", " ")[:80]
         print(f"[ok] {app}: {preview}{'...' if len(desc) > 80 else ''} (source: {source})")
 
     save_db(db)
     print(f"✅ Written to {OUTFILE}")
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

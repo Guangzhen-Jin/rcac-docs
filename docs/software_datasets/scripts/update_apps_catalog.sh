@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-set -euo pipefail
+# set -euo pipefail
 
 MD_DIR="../software/apps_md"
 INV_FILE="./rcac_apps_inventory.json"
+DESC_FILE="./apps_descriptions.json" 
 CATALOG_FILE="../software/app_catalog.md"
 INDEX_FILE="../software/index.md"
 
@@ -13,13 +14,13 @@ mkdir -p "$(dirname "$INDEX_FILE")"
 today=$(date +"%B %d, %Y")
 app_count=$(find "$MD_DIR" -type f -name "*.md" | wc -l)
 
-# version_count=$(jq '[to_entries[] | .value.availability | to_entries[] | .value | length] | add' "$INV_FILE")
 version_count=$(find ../modulefiles -type f -name "*.lua" \
   ! -name ".*" \
   ! -name "*.modulerc.lua" \
   ! -regex '.*-[a-zA-Z0-9]\{7\}\.lua$' \
   ! -path "*/modtree/*" \
   ! -path "*/biocontainers/*" \
+  ! -path "*/ngc/*" \
   ! -path "*/rocmcontainers/*" \
   | wc -l)
 
@@ -40,13 +41,28 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo "## Overview"
   echo "As of **$today**, there have been a total of **$app_count** applications with **$version_count** available versions deployed across **$cluster_count** RCAC HPC clusters: **$cluster_names**."
   echo
-  echo "Here is a full list:"
+  echo "## Applications Catalog"
   echo
+  echo "| Application | Topic | Available at |"
+  echo "|-------------|-------|--------------|"
 
-  # Find all markdown files in MD_DIR, strip path and extension, sort
+  # Iterate through apps
   find "$MD_DIR" -type f -name "*.md" | sort | while read -r filepath; do
     app=$(basename "$filepath" .md)
-    echo "* [$app](apps_md/$app.md)"
+
+    # Query cluster availability for the app (uppercase + comma separated)
+    clusters=$(jq -r --arg app "$app" \
+      '.[$app].availability | keys[]? | ascii_upcase' "$INV_FILE" 2>/dev/null \
+      | sort -u | paste -sd "," - | sed 's/,/, /g')
+    
+    # If no clusters, leave blank
+    clusters=${clusters:-""}
+
+    # Query topics from apps_descriptions.json (comma separated). fall back to empty.
+    topics=$(jq -r --arg app "$app" '.[$app].topic // [] | join(", ")' "$DESC_FILE" 2>/dev/null || echo "")
+    topics=${topics:-""}
+
+    echo "| [**$app**](apps_md/$app.md) | $topics | $clusters |"
   done
 
 } > "$CATALOG_FILE"

@@ -1,0 +1,919 @@
+{
+  "abaqus": [
+    "Engineering"
+  ],
+  "amber": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "ambertools": [
+    "Misc"
+  ],
+  "amdblis": [
+    "Misc"
+  ],
+  "amdfftw": [
+    "Library",
+    "Math/Stat"
+  ],
+  "amdlibflame": [
+    "Misc"
+  ],
+  "amdlibm": [
+    "Misc"
+  ],
+  "amdscalapack": [
+    "Library",
+    "Math/Stat"
+  ],
+  "amduprof": [
+    "MPI",
+    "Compilers"
+  ],
+  "anaconda": [
+    "Programming"
+  ],
+  "ansys": [
+    "Misc"
+  ],
+  "ansysem": [
+    "Misc"
+  ],
+  "aocc": [
+    "Compilers"
+  ],
+  "arpack-ng": [
+    "Misc"
+  ],
+  "aws-cli": [
+    "Misc"
+  ],
+  "bamtools": [
+    "Misc"
+  ],
+  "beagle": [
+    "Misc"
+  ],
+  "beast2": [
+    "Misc"
+  ],
+  "berkeley-db": [
+    "Misc"
+  ],
+  "bismark": [
+    "Misc"
+  ],
+  "blast-plus": [
+    "Library",
+    "Math/Stat"
+  ],
+  "blis": [
+    "Misc"
+  ],
+  "boost": [
+    "Library",
+    "Math/Stat"
+  ],
+  "bowtie2": [
+    "Library",
+    "Workflow"
+  ],
+  "bwa": [
+    "Library",
+    "Workflow"
+  ],
+  "bzip2": [
+    "Library",
+    "Utilities"
+  ],
+  "cairo": [
+    "Misc"
+  ],
+  "cdo": [
+    "Geoscience",
+    "Climate"
+  ],
+  "cgal": [
+    "Misc"
+  ],
+  "charmpp": [
+    "Misc"
+  ],
+  "clusterbot": [
+    "Misc"
+  ],
+  "cmake": [
+    "Misc"
+  ],
+  "comsol": [
+    "Misc"
+  ],
+  "conda": [
+    "Programming"
+  ],
+  "cosmosscope": [
+    "Misc"
+  ],
+  "cp2k": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "cuda": [
+    "MPI",
+    "Compilers"
+  ],
+  "cudnn": [
+    "MPI",
+    "Compilers"
+  ],
+  "cue-login-env": [
+    "Misc"
+  ],
+  "cufflinks": [
+    "Misc"
+  ],
+  "curl": [
+    "Library",
+    "Utilities"
+  ],
+  "cutadapt": [
+    "Misc"
+  ],
+  "cython": [
+    "Misc"
+  ],
+  "duckdb": [
+    "Misc"
+  ],
+  "edacfg": [
+    "Misc"
+  ],
+  "eigen": [
+    "Library",
+    "Math/Stat"
+  ],
+  "emacs": [
+    "Misc"
+  ],
+  "expat": [
+    "Misc"
+  ],
+  "fastqc": [
+    "Misc"
+  ],
+  "fasttree": [
+    "Misc"
+  ],
+  "fastx-toolkit": [
+    "Misc"
+  ],
+  "ffmpeg": [
+    "Utilities",
+    "Audio/Visual"
+  ],
+  "fftw": [
+    "Library"
+  ],
+  "font-util": [
+    "Misc"
+  ],
+  "fontconfig": [
+    "Misc"
+  ],
+  "freetype": [
+    "Misc"
+  ],
+  "gatk": [
+    "Library",
+    "Workflow"
+  ],
+  "gaussian": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "gaussian09": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "gaussian16": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "gaussview": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "gcc": [
+    "Compilers"
+  ],
+  "gcc-runtime": [
+    "Compilers"
+  ],
+  "gdal": [
+    "Geoscience",
+    "Climate"
+  ],
+  "gdb": [
+    "Misc"
+  ],
+  "gdbm": [
+    "Misc"
+  ],
+  "geos": [
+    "Geoscience"
+  ],
+  "gettext": [
+    "Misc"
+  ],
+  "gfms": [
+    "Misc"
+  ],
+  "ghostscript": [
+    "Misc"
+  ],
+  "glib": [
+    "Misc"
+  ],
+  "gmp": [
+    "Misc"
+  ],
+  "gmt": [
+    "Misc"
+  ],
+  "gnuplot": [
+    "Misc"
+  ],
+  "gpaw": [
+    "Misc"
+  ],
+  "grace": [
+    "Misc"
+  ],
+  "grads": [
+    "Geoscience",
+    "Climate"
+  ],
+  "gromacs": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "gsl": [
+    "Math/Stat",
+    "Engineering"
+  ],
+  "gstreamer": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "gurobi": [
+    "Math/Stat",
+    "Engineering"
+  ],
+  "hadoop": [
+    "Misc"
+  ],
+  "hdf": [
+    "Geoscience",
+    "Library"
+  ],
+  "hdf5": [
+    "Geoscience",
+    "Library"
+  ],
+  "hpctoolkit": [
+    "Misc"
+  ],
+  "hspice": [
+    "Misc"
+  ],
+  "htseq": [
+    "Library",
+    "Workflow"
+  ],
+  "hwloc": [
+    "Misc"
+  ],
+  "hyper-shell": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "hypershell": [
+    "Misc"
+  ],
+  "imagemagick": [
+    "Utilities",
+    "Audio/Visual"
+  ],
+  "impi": [
+    "MPI"
+  ],
+  "inputproto": [
+    "Misc"
+  ],
+  "intel": [
+    "Compilers"
+  ],
+  "intel-mkl": [
+    "Compilers",
+    "Library"
+  ],
+  "intel-oneapi-compilers": [
+    "Compilers"
+  ],
+  "intel-oneapi-mkl": [
+    "Compilers",
+    "Library"
+  ],
+  "intel-oneapi-mpi": [
+    "MPI",
+    "Compilers"
+  ],
+  "intel-oneapi-tbb": [
+    "Compilers"
+  ],
+  "intel-oneapi-vtune": [
+    "Compilers"
+  ],
+  "intel-rt": [
+    "Compilers"
+  ],
+  "julia": [
+    "Programming"
+  ],
+  "jupyter": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "kbproto": [
+    "Misc"
+  ],
+  "kokkos": [
+    "Misc"
+  ],
+  "krb5": [
+    "Misc"
+  ],
+  "lammps": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "launcher": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "learning": [
+    "Misc"
+  ],
+  "libaio": [
+    "Library"
+  ],
+  "libbsd": [
+    "Library"
+  ],
+  "libfabric": [
+    "Library"
+  ],
+  "libffi": [
+    "Library"
+  ],
+  "libflame": [
+    "Library"
+  ],
+  "libiconv": [
+    "Library"
+  ],
+  "libmd": [
+    "Library"
+  ],
+  "libmesh": [
+    "Geoscience",
+    "Library"
+  ],
+  "libpng": [
+    "Library"
+  ],
+  "libpthread-stubs": [
+    "Library"
+  ],
+  "libszip": [
+    "Library",
+    "Utilities"
+  ],
+  "libtiff": [
+    "Library"
+  ],
+  "libtirpc": [
+    "Library"
+  ],
+  "libv8": [
+    "Library"
+  ],
+  "libx11": [
+    "Library"
+  ],
+  "libxau": [
+    "Library"
+  ],
+  "libxcb": [
+    "Library"
+  ],
+  "libxdmcp": [
+    "Library"
+  ],
+  "libxext": [
+    "Library"
+  ],
+  "libxml2": [
+    "Library",
+    "Utilities"
+  ],
+  "libxp": [
+    "Library"
+  ],
+  "libxrender": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "libxscrnsaver": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "libxslt": [
+    "Library"
+  ],
+  "mathematica": [
+    "Math/Stat",
+    "Engineering"
+  ],
+  "matlab": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "matplotlib": [
+    "Library",
+    "Math/Stat"
+  ],
+  "meep": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "mesa-glu": [
+    "Misc"
+  ],
+  "monitor": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "motif": [
+    "Misc"
+  ],
+  "mpc": [
+    "Misc"
+  ],
+  "mpfr": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "mpi4py": [
+    "MPI",
+    "Programming"
+  ],
+  "mrbayes": [
+    "Misc"
+  ],
+  "mvapich2": [
+    "MPI"
+  ],
+  "namd": [
+    "Misc"
+  ],
+  "nccl": [
+    "MPI",
+    "Compilers"
+  ],
+  "ncl": [
+    "Geoscience",
+    "Climate"
+  ],
+  "nco": [
+    "Geoscience",
+    "Climate"
+  ],
+  "ncurses": [
+    "Misc"
+  ],
+  "ncview": [
+    "Geoscience",
+    "Climate"
+  ],
+  "netcdf-c": [
+    "Geoscience",
+    "Library"
+  ],
+  "netcdf-cxx4": [
+    "Geoscience",
+    "Library"
+  ],
+  "netcdf-fortran": [
+    "Geoscience",
+    "Library"
+  ],
+  "netlib-lapack": [
+    "Library",
+    "Math/Stat"
+  ],
+  "nextflow": [
+    "Workflow"
+  ],
+  "nf-core": [
+    "Workflow"
+  ],
+  "numactl": [
+    "Misc"
+  ],
+  "numba": [
+    "Library",
+    "Math/Stat"
+  ],
+  "numpy": [
+    "Library",
+    "Math/Stat"
+  ],
+  "nvhpc": [
+    "Compilers"
+  ],
+  "nwchem": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "oclfpga": [
+    "Misc"
+  ],
+  "octave": [
+    "Math/Stat",
+    "Engineering"
+  ],
+  "openblas": [
+    "Library",
+    "Math/Stat"
+  ],
+  "openfoam": [
+    "Fluid Dynamics",
+    "Engineering"
+  ],
+  "openjdk": [
+    "Programming"
+  ],
+  "openmpi": [
+    "MPI"
+  ],
+  "openssl": [
+    "Library",
+    "Utilities"
+  ],
+  "ovito": [
+    "Utilities",
+    "Audio/Visual"
+  ],
+  "pandas": [
+    "Library",
+    "Math/Stat"
+  ],
+  "pandoc": [
+    "Misc"
+  ],
+  "panoply": [
+    "Geoscience",
+    "Climate"
+  ],
+  "papi": [
+    "Misc"
+  ],
+  "parafly": [
+    "Material Science",
+    "Engineering"
+  ],
+  "parallel": [
+    "Material Science",
+    "Engineering"
+  ],
+  "parallel-netcdf": [
+    "Material Science",
+    "Geoscience"
+  ],
+  "paraview": [
+    "Material Science",
+    "Engineering"
+  ],
+  "pcre": [
+    "Misc"
+  ],
+  "pcre2": [
+    "Misc"
+  ],
+  "perl": [
+    "Misc"
+  ],
+  "perl-bioperl": [
+    "Misc"
+  ],
+  "petsc": [
+    "Fluid Dynamics",
+    "Math/Stat"
+  ],
+  "picard": [
+    "Misc"
+  ],
+  "pigz": [
+    "Library",
+    "Utilities"
+  ],
+  "pip": [
+    "Programming",
+    "Utilities"
+  ],
+  "pixman": [
+    "Misc"
+  ],
+  "plumed": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "proj": [
+    "Geoscience"
+  ],
+  "protobuf": [
+    "Misc"
+  ],
+  "py-matplotlib": [
+    "Library",
+    "Math/Stat"
+  ],
+  "py-mpi4py": [
+    "MPI"
+  ],
+  "py-numpy": [
+    "Library",
+    "Math/Stat"
+  ],
+  "py-pandas": [
+    "Library",
+    "Math/Stat"
+  ],
+  "python": [
+    "Programming"
+  ],
+  "qemu": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "qgis": [
+    "Misc"
+  ],
+  "qt": [
+    "Misc"
+  ],
+  "quantum-espresso": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "quantumatk": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "r": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-devtools": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-formatr": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-irkernel": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-ncdf4": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-plyr": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-reshape2": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-sf": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "r-shiny": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "readline": [
+    "Library",
+    "Utilities"
+  ],
+  "renderproto": [
+    "Misc"
+  ],
+  "rocm": [
+    "MPI",
+    "Compilers"
+  ],
+  "rstudio": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "samtools": [
+    "Library",
+    "Workflow"
+  ],
+  "sas": [
+    "Misc"
+  ],
+  "scikit-learn": [
+    "Library",
+    "Math/Stat"
+  ],
+  "scipy": [
+    "Library",
+    "Math/Stat"
+  ],
+  "seaborn": [
+    "Misc"
+  ],
+  "sentaurus": [
+    "Misc"
+  ],
+  "setuptools": [
+    "Misc"
+  ],
+  "spark": [
+    "Programming",
+    "Workflow"
+  ],
+  "spice-server": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "sqlite": [
+    "Library",
+    "Utilities"
+  ],
+  "sratoolkit": [
+    "Library",
+    "Workflow"
+  ],
+  "stata": [
+    "Misc"
+  ],
+  "stata-mp": [
+    "Misc"
+  ],
+  "swig": [
+    "Misc"
+  ],
+  "tar": [
+    "Library",
+    "Math/Stat"
+  ],
+  "tbb": [
+    "Misc"
+  ],
+  "tcl": [
+    "Misc"
+  ],
+  "tecplot": [
+    "Misc"
+  ],
+  "texlive": [
+    "Misc"
+  ],
+  "thermocalc": [
+    "Misc"
+  ],
+  "tk": [
+    "Misc"
+  ],
+  "tophat": [
+    "Misc"
+  ],
+  "totalview": [
+    "Misc"
+  ],
+  "trimmomatic": [
+    "Misc"
+  ],
+  "ucx": [
+    "MPI"
+  ],
+  "udunits": [
+    "Misc"
+  ],
+  "util-linux-uuid": [
+    "Library",
+    "Utilities"
+  ],
+  "valgrind": [
+    "Misc"
+  ],
+  "vasp": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "vcftools": [
+    "Library",
+    "Workflow"
+  ],
+  "vim": [
+    "Misc"
+  ],
+  "virtualenv": [
+    "Programming",
+    "Utilities"
+  ],
+  "visit": [
+    "Material Science",
+    "Engineering"
+  ],
+  "vlc": [
+    "Utilities",
+    "Audio/Visual"
+  ],
+  "vmd": [
+    "Utilities",
+    "Audio/Visual"
+  ],
+  "vscode": [
+    "Programming",
+    "Utilities"
+  ],
+  "vtk": [
+    "Material Science",
+    "Engineering"
+  ],
+  "vtune": [
+    "Misc"
+  ],
+  "wannier90": [
+    "Chemistry",
+    "Material Science"
+  ],
+  "wheel": [
+    "Misc"
+  ],
+  "xalt": [
+    "Library",
+    "Utilities"
+  ],
+  "xcb-proto": [
+    "Misc"
+  ],
+  "xcb-util": [
+    "Misc"
+  ],
+  "xcb-util-cursor": [
+    "Math/Stat",
+    "Programming"
+  ],
+  "xcb-util-image": [
+    "Misc"
+  ],
+  "xcb-util-keysyms": [
+    "Misc"
+  ],
+  "xcb-util-renderutil": [
+    "Misc"
+  ],
+  "xcb-util-wm": [
+    "Misc"
+  ],
+  "xextproto": [
+    "Misc"
+  ],
+  "xproto": [
+    "Misc"
+  ],
+  "xtrans": [
+    "Misc"
+  ],
+  "xz": [
+    "Misc"
+  ],
+  "zlib": [
+    "Library",
+    "Utilities"
+  ],
+  "zstd": [
+    "Library",
+    "Utilities"
+  ]
+}

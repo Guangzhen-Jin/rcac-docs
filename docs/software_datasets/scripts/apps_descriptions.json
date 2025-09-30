@@ -1,1342 +1,2254 @@
 {
-  "matlab": {
-    "description": "MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and programming language used widely in science and engineering.",
-    "homepage": "https://www.mathworks.com/products/matlab.html",
-    "source": "curated"
-  },
-  "panoply": {
-    "description": "Panoply is a cross-platform application developed by NASA for plotting geo-gridded and other arrays from netCDF, HDF, GRIB, and other datasets.",
-    "homepage": "https://www.giss.nasa.gov/tools/panoply/",
-    "source": "curated"
-  },
-  "amduprof": {
-    "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86 applications running on Windows, Linux and FreeBSD operating systems and provides event information unique to the AMD \"Zen\"-based processors and AMD Instinct(tm) MI Series accelerators. AMD uProf enables the developer to better understand the limiters of application performance and evaluate improvements.",
-    "homepage": "https://www.amd.com/en/developer/uprof.html",
-    "source": "spack"
-  },
-  "anaconda": {
-    "description": "Please use the Anaconda installer.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "ansys": {
-    "description": "ANSYS is a comprehensive software suite for engineering simulation covering finite element analysis (FEA), computational fluid dynamics (CFD), and more.",
-    "homepage": "https://www.ansys.com",
-    "source": "curated"
-  },
-  "ansysem": {
-    "description": "ANSYS Electromagnetics (ANSYS EM or Ansys Electronics Desktop) is a suite of simulation tools for designing and analyzing electromagnetic fields, including HFSS, Maxwell, and other solvers for RF, antenna, signal integrity, and power electronics applications.",
-    "homepage": "https://www.ansys.com/products/electronics",
-    "source": "curated"
-  },
-  "aws-cli": {
-    "description": "The AWS Command Line Interface (CLI) is a unified tool to manage Amazon Web Services.",
-    "homepage": "https://aws.amazon.com/cli/",
-    "source": "curated"
-  },
-  "berkeley-db": {
-    "description": "Berkeley DB is an embedded database software library providing scalable high-performance database technology.",
-    "homepage": "https://www.oracle.com/database/technologies/related/berkeleydb.html",
-    "source": "curated"
-  },
-  "blis": {
-    "description": "Base class for building BLIS, shared with the AMD optimized version of the library in the 'amdblis' package.",
-    "homepage": "https://github.com/flame/blis",
-    "source": "spack"
-  },
-  "boost": {
-    "description": "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library.  Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use.",
-    "homepage": "https://www.boost.org",
-    "source": "spack"
-  },
-  "bzip2": {
-    "description": "bzip2 is a freely available, patent free high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
-    "homepage": "https://sourceware.org/bzip2/",
-    "source": "spack"
-  },
-  "cairo": {
-    "description": "Cairo is a 2D graphics library with support for multiple output devices.",
-    "homepage": "https://www.cairographics.org/",
-    "source": "spack"
-  },
-  "cdo": {
-    "description": "CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.",
-    "homepage": "https://code.mpimet.mpg.de/projects/cdo",
-    "source": "spack"
-  },
-  "clusterbot": {
-    "description": "TODO: add description",
-    "homepage": null,
-    "source": "none"
-  },
-  "cmake": {
-    "description": "A cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
-    "homepage": "https://www.cmake.org",
-    "source": "spack"
-  },
-  "comsol": {
-    "description": "COMSOL Multiphysics is a simulation platform for modeling designs, devices, and processes in all fields of engineering, manufacturing, and scientific research using multiphysics finite element analysis.",
-    "homepage": "https://www.comsol.com",
-    "source": "curated"
-  },
-  "cuda": {
-    "description": "CUDA is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU).  Note: This package does not currently install the drivers necessary to run CUDA. These will need to be installed manually. See: https://docs.nvidia.com/cuda/ for details.",
-    "homepage": "https://developer.nvidia.com/cuda-zone",
-    "source": "spack"
-  },
-  "cudnn": {
-    "description": "NVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural networks",
-    "homepage": "https://developer.nvidia.com/cudnn",
-    "source": "spack"
-  },
-  "cue-login-env": {
-    "description": "CUE login environment scripts for user session management on HPC systems.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "curl": {
-    "description": "cURL is an open source command line tool and library for transferring data with URL syntax",
-    "homepage": "https://curl.se/",
-    "source": "spack"
-  },
-  "duckdb": {
-    "description": "DuckDB is an in-process SQL OLAP Database Management System.",
-    "homepage": "https://duckdb.org",
-    "source": "spack"
-  },
-  "eigen": {
-    "description": "Eigen is a C++ template library for linear algebra matrices, vectors, numerical solvers, and related algorithms.",
-    "homepage": "https://eigen.tuxfamily.org/",
-    "source": "spack"
-  },
-  "emacs": {
-    "description": "Emacs is an extensible, customizable, free/libre text editor. At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.",
-    "homepage": "https://www.gnu.org/software/emacs",
-    "source": "spack"
-  },
-  "expat": {
-    "description": "Expat is an XML parser library written in C.",
-    "homepage": "https://libexpat.github.io/",
-    "source": "spack"
-  },
-  "ffmpeg": {
-    "description": "FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.",
-    "homepage": "https://ffmpeg.org",
-    "source": "spack"
-  },
-  "fftw": {
-    "description": "Base class for building Fftw, shared with the AMD optimized version of the library in the 'amdfftw' package.",
-    "homepage": "https://www.fftw.org",
-    "source": "spack"
-  },
-  "fontconfig": {
-    "description": "Fontconfig is a library for configuring/customizing font access",
-    "homepage": "https://www.freedesktop.org/wiki/Software/fontconfig/",
-    "source": "spack"
-  },
-  "font-util": {
-    "description": "Utilities to query, configure, and manage fonts on Linux/Unix systems.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "freetype": {
-    "description": "FreeType is a freely available software library to render fonts. It is written in C, designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images) of most vector and bitmap font formats.",
-    "homepage": "https://www.freetype.org/index.html",
-    "source": "spack"
-  },
-  "gaussian09": {
-    "description": "Gaussian 09 is a software package for computational chemistry for electronic structure modeling.",
-    "homepage": "https://gaussian.com/g09citation/",
-    "source": "curated"
-  },
-  "gaussian16": {
-    "description": "Gaussian 16 is the latest release of the Gaussian series for electronic structure modeling and computational chemistry.",
-    "homepage": "https://gaussian.com/g16citation/",
-    "source": "curated"
-  },
-  "gaussview": {
-    "description": "GaussView is a graphical user interface designed to build Gaussian input and analyze output files.",
-    "homepage": "https://gaussian.com/gaussview6/",
-    "source": "curated"
-  },
-  "gcc": {
-    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages.",
-    "homepage": "https://gcc.gnu.org",
-    "source": "spack"
-  },
-  "gcc-runtime": {
-    "description": "GCC runtime libraries required for compiled applications.",
-    "homepage": "https://gcc.gnu.org/",
-    "source": "curated"
-  },
-  "gdal": {
-    "description": "GDAL: Geospatial Data Abstraction Library.  GDAL is a translator library for raster and vector geospatial data formats that is released under an MIT style Open Source License by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and single vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful command line utilities for data translation and processing.",
-    "homepage": "https://www.gdal.org/",
-    "source": "spack"
-  },
-  "gdb": {
-    "description": "GDB, the GNU Project debugger, allows you to see what is going on 'inside' another program while it executes -- or what another program was doing at the moment it crashed.",
-    "homepage": "https://www.gnu.org/software/gdb",
-    "source": "spack"
-  },
-  "gdbm": {
-    "description": "GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.",
-    "homepage": "https://www.gnu.org.ua/software/gdbm/gdbm.html",
-    "source": "spack"
-  },
-  "geos": {
-    "description": "GEOS (Geometry Engine, Open Source).  GEOS is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is a core dependency of PostGIS, QGIS, GDAL, and Shapely.",
-    "homepage": "https://libgeos.org/",
-    "source": "spack"
-  },
-  "gettext": {
-    "description": "GNU internationalization (i18n) and localization (l10n) library.",
-    "homepage": "https://www.gnu.org/software/gettext/",
-    "source": "spack"
-  },
-  "gfms": {
-    "description": "Generalized Finite Element Method Software for structural mechanics simulations.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "ghostscript": {
-    "description": "An interpreter for the PostScript language and for PDF.",
-    "homepage": "https://ghostscript.com/",
-    "source": "spack"
-  },
-  "glib": {
-    "description": "GLib provides the core application building blocks for libraries and applications written in C.  The GLib package contains a low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for such runtime functionality as an event loop, threads, dynamic loading and an object system.",
-    "homepage": "https://developer.gnome.org/glib/",
-    "source": "spack"
-  },
-  "gmp": {
-    "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.",
-    "homepage": "https://gmplib.org",
-    "source": "spack"
-  },
-  "gmt": {
-    "description": "GMT (Generic Mapping Tools) is an open source collection of about 80 command-line tools for manipulating geographic and Cartesian data sets (including filtering, trend fitting, gridding, projecting, etc.) and producing PostScript illustrations ranging from simple x-y plots via contour maps to artificially illuminated surfaces and 3D perspective views.",
-    "homepage": "https://www.generic-mapping-tools.org/",
-    "source": "spack"
-  },
-  "gnuplot": {
-    "description": "Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. The source code is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Gnuplot has been supported and under active development since 1986",
-    "homepage": "http://www.gnuplot.info",
-    "source": "spack"
-  },
-  "grads": {
-    "description": "The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth science data. GrADS has two data models for handling gridded and station data. GrADS supports many data file formats, including binary (stream or sequential), GRIB (version 1 and 2), NetCDF, HDF (version 4 and 5), and BUFR (for station data).",
-    "homepage": "http://cola.gmu.edu/grads/grads.php",
-    "source": "spack"
-  },
-  "gsl": {
-    "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.",
-    "homepage": "https://www.gnu.org/software/gsl",
-    "source": "spack"
-  },
-  "gstreamer": {
-    "description": "GStreamer is an open-source multimedia framework for building streaming media applications, supporting audio and video playback, recording, streaming, and editing.",
-    "homepage": "https://gstreamer.freedesktop.org",
-    "source": "curated"
-  },
-  "gurobi": {
-    "description": "The Gurobi Optimizer was designed from the ground up to be the fastest, most powerful solver available for your LP, QP, QCP, and MIP (MILP, MIQP, and MIQCP) problems.",
-    "homepage": "https://www.gurobi.com",
-    "source": "spack"
-  },
-  "hadoop": {
-    "description": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.",
-    "homepage": "https://hadoop.apache.org/",
-    "source": "spack"
-  },
-  "hdf": {
-    "description": "HDF4 (also known as HDF) is a library and multi-object file format for storing and managing data between machines.",
-    "homepage": "https://portal.hdfgroup.org",
-    "source": "spack"
-  },
-  "hdf5": {
-    "description": "HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data.",
-    "homepage": "https://support.hdfgroup.org",
-    "source": "spack"
-  },
-  "hpctoolkit": {
-    "description": "HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers. By using statistical sampling of timers and hardware performance counters, HPCToolkit collects accurate measurements of a program's work, resource consumption, and inefficiency and attributes them to the full calling context in which they occur.",
-    "homepage": "https://hpctoolkit.org",
-    "source": "spack"
-  },
-  "hspice": {
-    "description": "HSPICE is a leading circuit simulator used for integrated circuit design and verification.",
-    "homepage": "https://www.synopsys.com/verification/analog-mixed-signal/hspice.html",
-    "source": "curated"
-  },
-  "hwloc": {
-    "description": "The Hardware Locality (hwloc) software project.  The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
-    "homepage": "https://www.open-mpi.org/projects/hwloc/",
-    "source": "spack"
-  },
-  "hyper-shell": {
-    "description": "A cross-platform, high-throughput computing utility for processing shell commands over a distributed, asynchronous queue.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "hypershell": {
-    "description": "A cross-platform, high-throughput computing utility for processing shell commands over a distributed, asynchronous queue.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "imagemagick": {
-    "description": "ImageMagick is a software suite to create, edit, compose, or convert bitmap images.",
-    "homepage": "https://www.imagemagick.org",
-    "source": "spack"
-  },
-  "intel": {
-    "description": "Intel provides a wide range of software development tools and performance libraries for high performance computing (HPC), including compilers, performance analyzers, and optimized libraries under the Intel oneAPI initiative.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
-    "source": "curated"
-  },
-  "intel-mkl": {
-    "description": "Intel Math Kernel Library (MKL) provides highly optimized math routines for science, engineering, and financial applications.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
-    "source": "curated"
-  },
-  "intel-oneapi-compilers": {
-    "description": "Intel oneAPI compilers for building high-performance C, C++, and Fortran applications.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html",
-    "source": "curated"
-  },
-  "intel-oneapi-mpi": {
-    "description": "Intel MPI Library provides high-performance and scalable message passing for HPC applications.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html",
-    "source": "curated"
-  },
-  "intel-oneapi-tbb": {
-    "description": "Intel Threading Building Blocks (TBB) is a library for parallel programming in C++.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html",
-    "source": "curated"
-  },
-  "intel-oneapi-vtune": {
-    "description": "Intel VTune Profiler is a performance analysis tool for optimizing CPU, GPU, and FPGA workloads.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
-    "source": "curated"
-  },
-  "intel-rt": {
-    "description": "Intel runtime libraries needed for executing compiled Intel applications.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "julia": {
-    "description": "The Julia Language: A fresh approach to technical computing",
-    "homepage": "https://julialang.org",
-    "source": "spack"
-  },
-  "jupyter": {
-    "description": "Jupyter metapackage. Install all the Jupyter components in one go.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "krb5": {
-    "description": "Network authentication protocol",
-    "homepage": "https://kerberos.org",
-    "source": "spack"
-  },
-  "launcher": {
-    "description": "Launches any python program",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "learning": {
-    "description": "For data-intern",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "libbsd": {
-    "description": "This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.",
-    "homepage": "https://libbsd.freedesktop.org/wiki/",
-    "source": "spack"
-  },
-  "libfabric": {
-    "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting fabric communication services to applications.",
-    "homepage": "https://libfabric.org/",
-    "source": "spack"
-  },
-  "libffi": {
-    "description": "The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run time.",
-    "homepage": "https://sourceware.org/libffi/",
-    "source": "spack"
-  },
-  "libflame": {
-    "description": "Base class for building Libflame, shared with the AMD optimized version of the library in the 'libflame' package",
-    "homepage": "https://www.cs.utexas.edu/~flame/web/libFLAME.html",
-    "source": "spack"
-  },
-  "libiconv": {
-    "description": "GNU libiconv provides an implementation of the iconv() function and the iconv program for character set conversion.",
-    "homepage": "https://www.gnu.org/software/libiconv/",
-    "source": "spack"
-  },
-  "libmd": {
-    "description": "This library provides message digest functions found on BSD systems either on their libc (NetBSD, OpenBSD) or libmd (FreeBSD, DragonflyBSD, macOS, Solaris) libraries and lacking on others like GNU systems.",
-    "homepage": "https://www.hadrons.org/software/libmd/",
-    "source": "spack"
-  },
-  "libpng": {
-    "description": "libpng is the official PNG reference library.",
-    "homepage": "http://www.libpng.org/pub/png/libpng.html",
-    "source": "spack"
-  },
-  "libpthread-stubs": {
-    "description": "Minimal pthread stubs for systems without a complete pthread implementation.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "libszip": {
-    "description": "Szip is an implementation of the extended-Rice lossless compression algorithm.  It provides lossless compression of scientific data, and is provided with HDF software products.",
-    "homepage": "https://support.hdfgroup.org/doc_resource/SZIP/",
-    "source": "spack"
-  },
-  "libtiff": {
-    "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.",
-    "homepage": "http://www.simplesystems.org/libtiff/",
-    "source": "spack"
-  },
-  "libtirpc": {
-    "description": "Libtirpc is a port of Suns Transport-Independent RPC library to Linux.",
-    "homepage": "https://sourceforge.net/projects/libtirpc/",
-    "source": "spack"
-  },
-  "libv8": {
-    "description": "V8 JavaScript engine library for embedding JS in C++ applications.",
-    "homepage": "https://v8.dev/",
-    "source": "curated"
-  },
-  "libx11": {
-    "description": "libX11 - Core X11 protocol client library.",
-    "homepage": "https://www.x.org/",
-    "source": "spack"
-  },
-  "libxau": {
-    "description": "The libXau package contains a library implementing the X11 Authorization Protocol. This is useful for restricting client access to the display.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXau/",
-    "source": "spack"
-  },
-  "libxcb": {
-    "description": "The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "spack"
-  },
-  "libxdmcp": {
-    "description": "libXdmcp - X Display Manager Control Protocol library.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXdmcp",
-    "source": "spack"
-  },
-  "libxext": {
-    "description": "libXext - library for common extensions to the X11 protocol.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXext",
-    "source": "spack"
-  },
-  "libxml2": {
-    "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.",
-    "homepage": "https://gitlab.gnome.org/GNOME/libxml2/-/wikis",
-    "source": "spack"
-  },
-  "libxp": {
-    "description": "libXp - X Print Client Library.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXp",
-    "source": "spack"
-  },
-  "libxrender": {
-    "description": "libXrender - library for the Render Extension to the X11 protocol.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXrender",
-    "source": "spack"
-  },
-  "libxscrnsaver": {
-    "description": "XScreenSaver - X11 Screen Saver extension client library",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXScrnSaver",
-    "source": "spack"
-  },
-  "libxslt": {
-    "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.",
-    "homepage": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
-    "source": "spack"
-  },
-  "mathematica": {
-    "description": "Mathematica: high-powered computation with thousands of Wolfram Language functions, natural language input, real-world data, mobile support.  Note: A manual download is required for Mathematica. Spack will search your current directory for the download file. Alternatively, add this file to a mirror so that Spack can find it. For instructions on how to set up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html",
-    "homepage": "https://www.wolfram.com/mathematica/",
-    "source": "spack"
-  },
-  "mesa-glu": {
-    "description": "Mesa OpenGL Utility library (GLU) for 3D graphics rendering.",
-    "homepage": "https://www.mesa3d.org/",
-    "source": "curated"
-  },
-  "monitor": {
-    "description": "A daemon to monitor system behavior",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "motif": {
-    "description": "\" Motif - Graphical user interface (GUI) specification and the widget toolkit",
-    "homepage": "https://motif.ics.com/",
-    "source": "spack"
-  },
-  "mpc": {
-    "description": "Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.",
-    "homepage": "https://www.multiprecision.org",
-    "source": "spack"
-  },
-  "mpfr": {
-    "description": "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
-    "homepage": "https://www.mpfr.org/",
-    "source": "spack"
-  },
-  "mvapich2": {
-    "description": "Mvapich2 is a High-Performance MPI Library for clusters with diverse networks (InfiniBand, Omni-Path, Ethernet/iWARP, and RoCE) and computing platforms (x86 (Intel and AMD), ARM and OpenPOWER)",
-    "homepage": "https://mvapich.cse.ohio-state.edu/userguide/userguide_spack/",
-    "source": "spack"
-  },
-  "nco": {
-    "description": "The NCO toolkit manipulates and analyzes data stored in netCDF-accessible formats",
-    "homepage": "https://nco.sourceforge.net/",
-    "source": "spack"
-  },
-  "ncurses": {
-    "description": "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
-    "homepage": "https://invisible-island.net/ncurses/ncurses.html",
-    "source": "spack"
-  },
-  "ncview": {
-    "description": "Simple viewer for NetCDF files.",
-    "homepage": "https://cirrus.ucsd.edu/ncview/",
-    "source": "spack"
-  },
-  "netcdf-c": {
-    "description": "NetCDF C library for array-oriented scientific data storage and access.",
-    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
-    "source": "curated"
-  },
-  "netcdf-cxx4": {
-    "description": "NetCDF C++4 library for scientific data management and access.",
-    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
-    "source": "curated"
-  },
-  "netcdf-fortran": {
-    "description": "NetCDF Fortran library providing Fortran APIs to access scientific datasets.",
-    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
-    "source": "curated"
-  },
-  "netlib-lapack": {
-    "description": "Linear Algebra PACKage (LAPACK) for high-performance linear algebra computations.",
-    "homepage": "http://www.netlib.org/lapack/",
-    "source": "curated"
-  },
-  "nextflow": {
-    "description": "Data-driven computational pipelines.",
-    "homepage": "https://www.nextflow.io",
-    "source": "spack"
-  },
-  "nf-core": {
-    "description": "Helper tools for use with nf-core Nextflow pipelines.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "ngc": {
-    "description": "Python New General Common Tool",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "numactl": {
-    "description": "NUMA support for Linux",
-    "homepage": "https://github.com/numactl/numactl",
-    "source": "spack"
-  },
-  "oclfpga": {
-    "description": "Intel OpenCL FPGA runtime and utilities for FPGA application development.",
-    "homepage": "https://www.intel.com/content/www/us/en/software/programmable/sdk.html",
-    "source": "curated"
-  },
-  "octave": {
-    "description": "GNU Octave is a high-level language, primarily intended for numerical computations.  It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.",
-    "homepage": "https://www.gnu.org/software/octave/",
-    "source": "spack"
-  },
-  "openblas": {
-    "description": "OpenBLAS: An optimized BLAS library",
-    "homepage": "https://www.openblas.net",
-    "source": "spack"
-  },
-  "openjdk": {
-    "description": "The free and opensource java implementation",
-    "homepage": "https://openjdk.org/",
-    "source": "spack"
-  },
-  "openmpi": {
-    "description": "An open source Message Passing Interface implementation.  The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
-    "homepage": "https://www.open-mpi.org",
-    "source": "spack"
-  },
-  "openssl": {
-    "description": "OpenSSL is a robust, full-featured open-source toolkit implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols as well as a general-purpose cryptography library.",
-    "homepage": "https://www.openssl.org",
-    "source": "curated"
-  },
-  "ovito": {
-    "description": "OVITO is a scientific visualization and analysis software for atomistic and particle simulation data. It helps scientists gain better insights into materials phenomena and physical processes. OVITO Basic is freely available for all major platforms under an open source license. It has served in a growing number of computational simulation studies as a powerful tool to analyze, understand and illustrate simulation results.",
-    "homepage": "https://www.ovito.org",
-    "source": "spack"
-  },
-  "pandoc": {
-    "description": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
-    "homepage": "https://pandoc.org",
-    "source": "spack"
-  },
-  "papi": {
-    "description": "PAPI provides the tool designer and application engineer with a consistent interface and methodology for use of the performance counter hardware found in most major microprocessors. PAPI enables software engineers to see, in near real time, the relation between software performance and processor events.  In addition Component PAPI provides access to a collection of components that expose performance measurement opportunities across the hardware and software stack.",
-    "homepage": "https://icl.utk.edu/papi/",
-    "source": "spack"
-  },
-  "parafly": {
-    "description": "ParaFly is a parallel launcher for running independent computational jobs.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "parallel": {
-    "description": "GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input.",
-    "homepage": "https://www.gnu.org/software/parallel/",
-    "source": "spack"
-  },
-  "pcre": {
-    "description": "The PCRE package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.",
-    "homepage": "https://www.pcre.org",
-    "source": "spack"
-  },
-  "perl": {
-    "description": "Perl as a Python package",
-    "homepage": "https://www.perl.org",
-    "source": "pypi"
-  },
-  "pixman": {
-    "description": "The Pixman package contains a library that provides low-level pixel manipulation features such as image compositing and trapezoid rasterization.",
-    "homepage": "https://www.pixman.org",
-    "source": "spack"
-  },
-  "proj": {
-    "description": "PROJ is a generic coordinate transformation software, that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations.",
-    "homepage": "https://proj.org/",
-    "source": "spack"
-  },
-  "protobuf": {
-    "description": "Google's data interchange format.",
-    "homepage": "https://developers.google.com/protocol-buffers",
-    "source": "spack"
-  },
-  "py-matplotlib": {
-    "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
-    "homepage": "https://matplotlib.org/",
-    "source": "curated"
-  },
-  "py-numpy": {
-    "description": "NumPy is a fundamental package for scientific computing with Python, providing array objects and operations.",
-    "homepage": "https://numpy.org/",
-    "source": "curated"
-  },
-  "py-pandas": {
-    "description": "Pandas is a Python library for data manipulation, analysis, and table-like data structures.",
-    "homepage": "https://pandas.pydata.org/",
-    "source": "curated"
-  },
-  "python": {
-    "description": "The Python programming language.",
-    "homepage": "https://www.python.org/",
-    "source": "spack"
-  },
-  "qemu": {
-    "description": "QEMU is a generic and open source machine emulator and virtualizer.",
-    "homepage": "https://www.qemu.org",
-    "source": "spack"
-  },
-  "qgis": {
-    "description": "QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.",
-    "homepage": "https://qgis.org",
-    "source": "spack"
-  },
-  "qt": {
-    "description": "Qt is a comprehensive cross-platform C++ application framework.",
-    "homepage": "https://qt.io",
-    "source": "spack"
-  },
-  "quantumatk": {
-    "description": "QuantumATK is a software platform for atomic-scale modeling of materials and devices.",
-    "homepage": "https://www.synopsys.com/silicon/quantumatk.html",
-    "source": "curated"
-  },
-  "r": {
-    "description": "R is 'GNU S', a freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc. Please consult the R project homepage for further information.",
-    "homepage": "https://www.r-project.org",
-    "source": "spack"
-  },
-  "r-devtools": {
-    "description": "R devtools package provides tools to simplify R package development.",
-    "homepage": "https://cran.r-project.org/web/packages/devtools/index.html",
-    "source": "curated"
-  },
-  "readline": {
-    "description": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
-    "homepage": "https://tiswww.case.edu/php/chet/readline/rltop.html",
-    "source": "spack"
-  },
-  "renderproto": {
-    "description": "X Rendering Extension.  This extension defines the protcol for a digital image composition as the foundation of a new rendering model within the X Window System.",
-    "homepage": "https://cgit.freedesktop.org/xorg/proto/renderproto",
-    "source": "spack"
-  },
-  "r-formatr": {
-    "description": "FormatR is an R package to format R code consistently.",
-    "homepage": "https://cran.r-project.org/web/packages/formatR/index.html",
-    "source": "curated"
-  },
-  "r-irkernel": {
-    "description": "IRKernel provides the R kernel for Jupyter notebooks.",
-    "homepage": "https://irkernel.github.io/",
-    "source": "curated"
-  },
-  "r-ncdf4": {
-    "description": "ncdf4 package provides R bindings for NetCDF scientific data.",
-    "homepage": "https://cran.r-project.org/web/packages/ncdf4/index.html",
-    "source": "curated"
-  },
-  "rocm": {
-    "description": "AMD ROCm (Radeon Open Compute) is an open-source software platform for GPU computing, designed to support high-performance computing (HPC), machine learning, and scientific workloads on AMD GPUs.",
-    "homepage": "https://rocmdocs.amd.com",
-    "source": "curated"
-  },
-  "r-plyr": {
-    "description": "Plyr is an R package for splitting, applying, and combining data.",
-    "homepage": "https://cran.r-project.org/web/packages/plyr/index.html",
-    "source": "curated"
-  },
-  "r-reshape2": {
-    "description": "Reshape2 provides tools for reshaping R data structures.",
-    "homepage": "https://cran.r-project.org/web/packages/reshape2/index.html",
-    "source": "curated"
-  },
-  "r-sf": {
-    "description": "Simple Features (sf) is an R package for handling spatial vector data.",
-    "homepage": "https://cran.r-project.org/web/packages/sf/index.html",
-    "source": "curated"
-  },
-  "r-shiny": {
-    "description": "Shiny is an R package for building interactive web applications directly from R.",
-    "homepage": "https://cran.r-project.org/web/packages/shiny/index.html",
-    "source": "curated"
-  },
-  "rstudio": {
-    "description": "RStudio is an integrated development environment (IDE) for R.",
-    "homepage": "https://www.rstudio.com/products/rstudio/",
-    "source": "spack"
-  },
-  "sas": {
-    "description": "Python split annotations library",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "sentaurus": {
-    "description": "Synopsys Sentaurus software suite for TCAD simulation of semiconductor devices.",
-    "homepage": "https://www.synopsys.com/silicon/tcad.html",
-    "source": "curated"
-  },
-  "spark": {
-    "description": "Apache Spark is a fast and general engine for large-scale data processing.",
-    "homepage": "https://spark.apache.org",
-    "source": "spack"
-  },
-  "spice-server": {
-    "description": "SPICE server simulation environment for electronic circuit design and analysis.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "sqlite": {
-    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
-    "homepage": "https://www.sqlite.org",
-    "source": "spack"
-  },
-  "stata": {
-    "description": "STATA is a general-purpose statistical software package developed by StataCorp.",
-    "homepage": "https://www.stata.com/",
-    "source": "spack"
-  },
-  "stata-mp": {
-    "description": "Stata/MP is the multiprocessor version of Stata for statistical analysis.",
-    "homepage": "https://www.stata.com/products/mp/",
-    "source": "curated"
-  },
-  "swig": {
-    "description": "SWIG is an interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl. It works by taking the declarations found in C/C++ header files and using them to generate the wrapper code that scripting languages need to access the underlying C/C++ code. In addition, SWIG provides a variety of customization features that let you tailor the wrapping process to suit your application.",
-    "homepage": "https://www.swig.org",
-    "source": "spack"
-  },
-  "tar": {
-    "description": "GNU Tar provides the ability to create tar archives, as well as various other kinds of manipulation.",
-    "homepage": "https://www.gnu.org/software/tar/",
-    "source": "spack"
-  },
-  "tbb": {
-    "description": "Intel® oneAPI Threading Building Blocks (oneTBB)",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "tcl": {
-    "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, administration, testing and many more. Open source and business-friendly, Tcl is a mature yet evolving language that is truly cross platform, easily deployed and highly extensible.",
-    "homepage": "https://www.tcl.tk/",
-    "source": "spack"
-  },
-  "tecplot": {
-    "description": "Tecplot 360 is a Computational Fluid Dynamics (CFD) and numerical simulation software package used in post-processing simulation results. It is also used in chemistry applications to visualize molecule structure by post-processing charge density data.",
-    "homepage": "https://www.tecplot.com/",
-    "source": "spack"
-  },
-  "texlive": {
-    "description": "TeX Live is an easy (we hope) way to get up and running with the TeX document production system. It provides a comprehensive TeX system with binaries for most flavors of Unix, including GNU/Linux, macOS, and also Windows. It includes all the major TeX-related programs, macro packages, and fonts that are free software, including support for many languages around the world.",
-    "homepage": "https://www.tug.org/texlive",
-    "source": "spack"
-  },
-  "thermocalc": {
-    "description": "Thermo-Calc software for thermodynamic calculations of multicomponent systems.",
-    "homepage": "https://www.thermocalc.com/",
-    "source": "curated"
-  },
-  "tk": {
-    "description": "Tk is a graphical user interface toolkit that takes developing desktop applications to a higher level than conventional approaches. Tk is the standard GUI not only for Tcl, but for many other dynamic languages, and can produce rich, native applications that run unchanged across Windows, Mac OS X, Linux and more.",
-    "homepage": "https://www.tcl.tk",
-    "source": "spack"
-  },
-  "totalview": {
-    "description": "Totalview parallel debugger.  Select the version associated with your machine architecture' '.",
-    "homepage": "https://totalview.io",
-    "source": "spack"
-  },
-  "udunits": {
-    "description": "Automated units conversion",
-    "homepage": "https://www.unidata.ucar.edu/software/udunits",
-    "source": "spack"
-  },
-  "util-linux-uuid": {
-    "description": "UUID generation utility from the util-linux package.",
-    "homepage": "",
-    "source": "curated"
-  },
-  "vim": {
-    "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.  Vim is often called a \"programmer's editor,\" and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files.",
-    "homepage": "https://www.vim.org",
-    "source": "spack"
-  },
-  "vlc": {
-    "description": "VLC media player for multimedia playback.",
-    "homepage": "https://www.videolan.org/vlc/",
-    "source": "curated"
-  },
-  "vmd": {
-    "description": "VMD provides user-editable materials which can be applied to molecular geometry.  These material properties control the details of how VMD shades the molecular geometry, and how transparent or opaque the displayed molecular geometry is. With this feature, one can easily create nice looking transparent surfaces which allow inner structural details to be seen within a large molecular structure. The material controls can be particularly helpful when rendering molecular scenes using external ray tracers, each of which typically differ slightly.",
-    "homepage": "https://www.ks.uiuc.edu/Research/vmd/",
-    "source": "spack"
-  },
-  "vscode": {
-    "description": "Visual Studio Code (VS Code) is a lightweight but powerful open-source code editor developed by Microsoft, featuring debugging, task running, and version control support for many programming languages and platforms.",
-    "homepage": "https://code.visualstudio.com",
-    "source": "curated"
-  },
-  "xalt": {
-    "description": "XALT is a tool for tracking HPC software usage and build environment provenance.",
-    "homepage": "https://xalt.readthedocs.io/",
-    "source": "curated"
-  },
-  "xcb-proto": {
-    "description": "XCB protocol descriptions for building X11 applications.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "curated"
-  },
-  "xcb-util-image": {
-    "description": "Utility library for manipulating images in X11 applications.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "curated"
-  },
-  "xcb-util-keysyms": {
-    "description": "X11 utility for key symbols mapping.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "curated"
-  },
-  "xcb-util-renderutil": {
-    "description": "X11 utility for rendering operations.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "curated"
-  },
-  "xcb-util-wm": {
-    "description": "X11 utility for window management.",
-    "homepage": "https://xcb.freedesktop.org/",
-    "source": "curated"
-  },
-  "xextproto": {
-    "description": "X Protocol Extensions.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xextproto",
-    "source": "spack"
-  },
-  "xproto": {
-    "description": "X Window System Core Protocol.  This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11.  It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/x11proto",
-    "source": "spack"
-  },
-  "xz": {
-    "description": "XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
-    "homepage": "https://tukaani.org/xz/",
-    "source": "spack"
-  },
-  "zlib": {
-    "description": "A free, general-purpose, legally unencumbered lossless data-compression library.",
-    "homepage": "https://zlib.net",
-    "source": "spack"
-  },
-  "cgal": {
-    "description": "The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. CGAL is used in various areas needing geometric computation, such as geographic information systems, computer aided design, molecular biology, medical imaging, computer graphics, and robotics.",
-    "homepage": "https://www.cgal.org/",
-    "source": "spack"
-  },
-  "cosmosscope": {
-    "description": "CosmosScope is a scientific visualization and analysis tool used for exploring cosmological and astrophysical simulation data, providing interactive interfaces for large-scale structure and particle-based datasets.",
-    "homepage": "https://ui.adsabs.harvard.edu/abs/2019A&C....27..111C/abstract",
-    "source": "curated"
-  },
-  "edacfg": {
-    "description": "edacfg (Error Detection and Correction configuration) is a Linux utility for configuring and managing the EDAC kernel subsystem, which handles detection and reporting of hardware memory errors.",
-    "homepage": "https://github.com/mchehab/edac-utils",
-    "source": "curated"
-  },
-  "grace": {
-    "description": "Grace is a WYSIWYG 2D plotting tool for the X Window System and M*tif.",
-    "homepage": "https://plasma-gate.weizmann.ac.il/Grace",
-    "source": "spack"
-  },
-  "inputproto": {
-    "description": "X Input Extension.  This extension defines a protocol to provide additional input devices management such as graphic tablets.",
-    "homepage": "https://cgit.freedesktop.org/xorg/proto/inputproto",
-    "source": "spack"
-  },
-  "kbproto": {
-    "description": "X Keyboard Extension.  This extension defines a protcol to provide a number of new capabilities and controls for text keyboards.",
-    "homepage": "https://cgit.freedesktop.org/xorg/proto/kbproto",
-    "source": "spack"
-  },
-  "pcre2": {
-    "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.",
-    "homepage": "https://www.pcre.org",
-    "source": "spack"
-  },
-  "pigz": {
-    "description": "A parallel implementation of gzip for modern multi-processor, multi-core machines.",
-    "homepage": "https://zlib.net/pigz/",
-    "source": "spack"
-  },
-  "valgrind": {
-    "description": "An instrumentation framework for building dynamic analysis.  There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile your programs in detail. You can also use Valgrind to build new tools.  Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.",
-    "homepage": "https://valgrind.org/",
-    "source": "spack"
-  },
-  "visit": {
-    "description": "VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool.",
-    "homepage": "https://wci.llnl.gov/simulation/computer-codes/visit/",
-    "source": "spack"
-  },
-  "xcb-util": {
-    "description": "xcb-util is a set of libraries complementing the XCB (X protocol C-language Binding) library, providing convenient functions and abstractions for working with the X Window System.",
-    "homepage": "https://xcb.freedesktop.org",
-    "source": "curated"
-  },
-  "xtrans": {
-    "description": "xtrans is a library of code that is shared among various X packages to handle network protocol transport in a modular fashion, allowing a single place to add new transport types.  It is used by the X server, libX11, libICE, the X font server, and related components.",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxtrans",
-    "source": "spack"
-  },
-  "zstd": {
-    "description": "Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.",
-    "homepage": "https://facebook.github.io/zstd/",
-    "source": "spack"
-  },
-  "nvhpc": {
-    "description": "The NVIDIA HPC SDK is a comprehensive suite of compilers, libraries and tools essential to maximizing developer productivity and the performance and portability of HPC applications. The NVIDIA HPC SDK C, C++, and Fortran compilers support GPU acceleration of HPC modeling and simulation applications with standard C++ and Fortran, OpenACC directives, and CUDA. GPU-accelerated math libraries maximize performance on common HPC algorithms, and optimized communications libraries enable standards-based multi-GPU and scalable systems programming. Performance profiling and debugging tools simplify porting and optimization of HPC applications.",
-    "homepage": "https://developer.nvidia.com/hpc-sdk",
-    "source": "spack"
-  },
-  "xcb-util-cursor": {
-    "description": "xcb-util-cursor is a utility library for the XCB library, offering convenience functions to load and manipulate cursors in X11 applications.",
-    "homepage": "https://xcb.freedesktop.org",
-    "source": "curated"
-  },
-  "aocc": {
-    "description": "The AOCC compiler system is a high performance, production quality code generation tool.  The AOCC environment provides various options to developers when building and optimizing C, C++, and Fortran applications targeting 32-bit and 64-bit Linux platforms.  The AOCC compiler system offers a high level of advanced optimizations, multi-threading and processor support that includes global optimization, vectorization, inter-procedural analyses, loop transformations, and code generation.  AMD also provides highly optimized libraries, which extract the optimal performance from each x86 processor core when utilized.  The AOCC Compiler Suite simplifies and accelerates development and tuning for x86 applications.  Installation requires acceptance of the EULA by setting the +license-agreed variant. https://www.amd.com/en/developer/aocc/aocc-compiler/eula.html  Example for installation: \\'spack install aocc +license-agreed\\'",
-    "homepage": "https://www.amd.com/en/developer/aocc.html",
-    "source": "spack"
-  },
-  "ncl": {
-    "description": "NCL is an interpreted language designed specifically for scientific data analysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-EOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are built-in.",
-    "homepage": "https://www.ncl.ucar.edu",
-    "source": "spack"
-  },
-  "cython": {
-    "description": "The Cython compiler for writing C extensions in the Python language.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "matplotlib": {
-    "description": "Python plotting package",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "numba": {
-    "description": "compiling Python code using LLVM",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "numpy": {
-    "description": "Fundamental package for array computing in Python",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "pandas": {
-    "description": "Powerful data structures for data analysis, time series, and statistics",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "pip": {
-    "description": "The PyPA recommended tool for installing Python packages.",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "scikit-learn": {
-    "description": "A set of python modules for machine learning and data mining",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "scipy": {
-    "description": "Fundamental algorithms for scientific computing in Python",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "seaborn": {
-    "description": "Statistical data visualization",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "setuptools": {
-    "description": "Easily download, build, install, upgrade, and uninstall Python packages",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "virtualenv": {
-    "description": "Virtual Python Environment builder",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "wheel": {
-    "description": "A built-package format for Python",
-    "homepage": null,
-    "source": "pypi"
-  },
   "abaqus": {
     "description": "Abaqus is a commercial finite element analysis (FEA) software suite developed by Dassault Systèmes SIMULIA. It is widely used in engineering and scientific applications to simulate the behavior of structures and materials under various conditions, including static, dynamic, thermal, and multiphysics environments. Abaqus supports advanced nonlinear analysis, contact modeling, composite materials, and coupled simulations with fluid dynamics or electromagnetics. It is particularly valued in aerospace, automotive, and civil engineering industries, as well as academic research requiring high-fidelity structural simulations.",
     "homepage": "https://www.3ds.com/products-services/simulia/products/abaqus/",
-    "source": "curated"
-  },
-  "impi": {
-    "description": "Intel(R) MPI Runtime",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "vasp": {
-    "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.",
-    "homepage": "https://vasp.at",
-    "source": "spack"
-  },
-  "vtune": {
-    "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
-    "source": "curated"
-  },
-  "bamtools": {
-    "description": "C++ API & command-line toolkit for working with BAM data.",
-    "homepage": "https://github.com/pezmaster31/bamtools",
-    "source": "spack"
-  },
-  "beagle": {
-    "description": "Beagle is a software package for phasing genotypes and for imputing ungenotyped markers.",
-    "homepage": "https://faculty.washington.edu/browning/beagle/beagle.html",
-    "source": "spack"
-  },
-  "beast2": {
-    "description": "BEAST is a cross-platform program for Bayesian inference using MCMC of molecular sequences. It is entirely orientated towards rooted, time-measured phylogenies inferred using strict or relaxed molecular clock models. It can be used as a method of reconstructing phylogenies but is also a framework for testing evolutionary hypotheses without conditioning on a single tree topology.",
-    "homepage": "http://beast2.org/",
-    "source": "spack"
-  },
-  "bismark": {
-    "description": "A tool to map bisulfite converted sequence reads and determine cytosine methylation states",
-    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/bismark",
-    "source": "spack"
-  },
-  "blast-plus": {
-    "description": "BLAST+ (Basic Local Alignment Search Tool) is a suite of bioinformatics programs for comparing nucleotide or protein sequences against sequence databases. It is widely used for identifying homologous sequences, annotating genes, and studying evolutionary relationships.",
-    "homepage": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
-    "source": "curated"
-  },
-  "bowtie2": {
-    "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences",
-    "homepage": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
-    "source": "spack"
-  },
-  "bwa": {
-    "description": "Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.",
-    "homepage": "https://github.com/lh3/bwa",
-    "source": "spack"
-  },
-  "cufflinks": {
-    "description": "Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples.",
-    "homepage": "https://cole-trapnell-lab.github.io/cufflinks",
-    "source": "spack"
-  },
-  "cutadapt": {
-    "description": "Adapter trimming and other preprocessing of high-throughput sequencing reads",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "fastqc": {
-    "description": "A quality control tool for high throughput sequence data.",
-    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
-    "source": "spack"
-  },
-  "fasttree": {
-    "description": "FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.",
-    "homepage": "http://www.microbesonline.org/fasttree",
-    "source": "spack"
-  },
-  "fastx-toolkit": {
-    "description": "The FASTX-Toolkit is a collection of command-line tools for preprocessing and manipulating FASTA/FASTQ files, commonly used in next-generation sequencing workflows. It supports tasks like quality filtering, trimming, and nucleotide conversion.",
-    "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/",
-    "source": "curated"
-  },
-  "gatk": {
-    "description": "Genome Analysis Toolkit Variant Discovery in High-Throughput Sequencing Data",
-    "homepage": "https://gatk.broadinstitute.org/hc/en-us",
-    "source": "spack"
-  },
-  "htseq": {
-    "description": "A framework to process and analyze data from high-throughput sequencing (HTS) assays",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "perl-bioperl": {
-    "description": "BioPerl is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides reusable components for tasks such as sequence analysis, parsing biological databases, and working with alignments and protein structures.",
-    "homepage": "https://bioperl.org/",
-    "source": "curated"
-  },
-  "picard": {
-    "description": "Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
-    "homepage": "https://broadinstitute.github.io/picard/",
-    "source": "spack"
-  },
-  "samtools": {
-    "description": "SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format",
-    "homepage": "https://www.htslib.org",
-    "source": "spack"
-  },
-  "sratoolkit": {
-    "description": "The NCBI SRA Toolkit enables reading (\"dumping\") of sequencing files from the SRA database and writing (\"loading\") files into the .sra format.",
-    "homepage": "https://trace.ncbi.nlm.nih.gov/Traces/sra",
-    "source": "spack"
-  },
-  "tophat": {
-    "description": "Spliced read mapper for RNA-Seq.",
-    "homepage": "https://ccb.jhu.edu/software/tophat/index.shtml",
-    "source": "spack"
-  },
-  "trimmomatic": {
-    "description": "A flexible read trimming tool for Illumina NGS data.",
-    "homepage": "http://www.usadellab.org/cms/?page=trimmomatic",
-    "source": "spack"
-  },
-  "vcftools": {
-    "description": "VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.",
-    "homepage": "https://vcftools.github.io/",
-    "source": "spack"
-  },
-  "gromacs": {
-    "description": "GROMACS is a high-performance molecular dynamics package primarily designed for simulations of proteins, lipids, and nucleic acids.",
-    "homepage": "http://www.gromacs.org",
-    "source": "curated"
-  },
-  "lammps": {
-    "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator.",
-    "homepage": "https://www.lammps.org/",
-    "source": "spack"
-  },
-  "mpi4py": {
-    "description": "Python bindings for MPI",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "namd": {
-    "description": "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.",
-    "homepage": "https://www.ks.uiuc.edu/Research/namd/",
-    "source": "spack"
-  },
-  "openfoam": {
-    "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. This offering is supported by OpenCFD Ltd, producer and distributor of the OpenFOAM software via www.openfoam.com, and owner of the OPENFOAM trademark. OpenCFD Ltd has been developing and releasing OpenFOAM since its debut in 2004.",
-    "homepage": "https://www.openfoam.com/",
-    "source": "spack"
-  },
-  "parallel-netcdf": {
-    "description": "Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scientific data in the NetCDF format. It allows multiple processes in MPI programs to efficiently read and write large array-oriented datasets.",
-    "homepage": "https://parallel-netcdf.github.io/",
-    "source": "curated"
-  },
-  "paraview": {
-    "description": "ParaView is an open-source, multi-platform data analysis and visualization application. This package includes the Catalyst in-situ library for versions 5.7 and greater, otherwise use the catalyst package.",
-    "homepage": "https://www.paraview.org",
-    "source": "spack"
-  },
-  "py-mpi4py": {
-    "description": "mpi4py is a Python package providing bindings for the Message Passing Interface (MPI) standard. It enables Python programs to exploit multiple processors and distributed-memory systems for parallel computation.",
-    "homepage": "https://mpi4py.readthedocs.io/",
-    "source": "curated"
-  },
-  "quantum-espresso": {
-    "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
-    "homepage": "https://www.quantum-espresso.org/",
-    "source": "curated"
+    "source": "curated",
+    "topic": [
+      "Engineering"
+    ]
   },
   "amber": {
     "description": "Amber is a suite of biomolecular simulation programs together with Amber tools.  A manual download is required for Ambers. Spack will search your current directory for the download files. Alternatively, add the files to a mirror so that Spack can find them. For instructions on how to set up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html  Note: Only certain versions of ambertools are compatible with amber. Only the latter version of ambertools for each amber version is supported.",
     "homepage": "https://ambermd.org/",
-    "source": "spack"
-  },
-  "amdblis": {
-    "description": "AMD Optimized BLIS.  BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries. The framework was designed to isolate essential kernels of computation that, when optimized, immediately enable optimized implementations of most of its commonly used and computationally intensive operations.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-BLIS license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula/blas-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula/blas-eula.html",
-    "homepage": "https://www.amd.com/en/developer/aocl/blis.html",
-    "source": "spack"
-  },
-  "amdfftw": {
-    "description": "FFTW (AMD Optimized version) is a comprehensive collection of fast C routines for computing the Discrete Fourier Transform (DFT) and various special cases thereof.  It is an open-source implementation of the Fast Fourier transform algorithm. It can compute transforms of real and complex-values arrays of arbitrary size and dimension. AMD Optimized FFTW is the optimized FFTW implementation targeted for AMD CPUs.  For single precision build, please use precision value as float. Example : spack install amdfftw precision=float  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-eula.html",
-    "homepage": "https://www.amd.com/en/developer/aocl/fftw.html",
-    "source": "spack"
-  },
-  "amdlibflame": {
-    "description": "libFLAME (AMD Optimized version) is a portable library for dense matrix computations, providing much of the functionality present in Linear Algebra Package (LAPACK). It includes a compatibility layer, FLAPACK, which includes complete LAPACK implementation.  The library provides scientific and numerical computing communities with a modern, high-performance dense linear algebra library that is extensible, easy to use, and available under an open source license. libFLAME is a C-only implementation and does not depend on any external FORTRAN libraries including LAPACK. There is an optional backward compatibility layer, lapack2flame that maps LAPACK routine invocations to their corresponding native C implementations in libFLAME. This allows legacy applications to start taking advantage of libFLAME with virtually no changes to their source code.  In combination with BLIS library which includes optimizations for the AMD EPYC processor family, libFLAME enables running high performing LAPACK functionalities on AMD platform.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-libFLAME license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-eula.html",
-    "homepage": "https://www.amd.com/en/developer/aocl/blis.html#libflame",
-    "source": "spack"
-  },
-  "amdlibm": {
-    "description": "AMD LibM is a software library containing a collection of basic math functions optimized for x86-64 processor-based machines. It provides many routines from the list of standard C99 math functions. Applications can link into AMD LibM library and invoke math functions instead of compiler's math functions for better accuracy and performance.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/libm/eula/libm-4-2-eula.html https://www.amd.com/en/developer/aocl/libm/libm-eula.html",
-    "homepage": "https://www.amd.com/en/developer/aocl/libm.html",
-    "source": "spack"
-  },
-  "amdscalapack": {
-    "description": "ScaLAPACK is a library of high-performance linear algebra routines for parallel distributed memory machines. It depends on external libraries including BLAS and LAPACK for Linear Algebra computations.  AMD's optimized version of ScaLAPACK enables using BLIS and LibFLAME library that have optimized dense matrix functions and solvers for AMD EPYC processor family CPUs.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-ScaLAPACK license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-eula.html",
-    "homepage": "https://www.amd.com/en/developer/aocl/scalapack.html",
-    "source": "spack"
-  },
-  "arpack-ng": {
-    "description": "ARPACK-NG is an open-source project for solving large-scale eigenvalue problems. It is a reimplementation of ARPACK with bug fixes and improvements, supporting both symmetric and nonsymmetric eigenvalue problems in large sparse matrices.",
-    "homepage": "https://github.com/opencollab/arpack-ng",
-    "source": "curated"
-  },
-  "charmpp": {
-    "description": "Charm++ is a parallel programming framework in C++ supported by an adaptive runtime system, which enhances user productivity and allows programs to run portably from small multicore computers (your laptop) to the largest supercomputers.",
-    "homepage": "https://charmplusplus.org",
-    "source": "spack"
-  },
-  "cp2k": {
-    "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems",
-    "homepage": "https://www.cp2k.org",
-    "source": "spack"
-  },
-  "gpaw": {
-    "description": "GPAW: DFT and beyond within the projector-augmented wave method",
-    "homepage": null,
-    "source": "pypi"
-  },
-  "intel-oneapi-mkl": {
-    "description": "Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathematical functions for scientific, engineering, and machine learning applications. It provides optimized routines for linear algebra, fast Fourier transforms, vector math, and random number generation, tuned for Intel architectures.",
-    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
-    "source": "curated"
-  },
-  "kokkos": {
-    "description": "Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms.",
-    "homepage": "https://github.com/kokkos/kokkos",
-    "source": "spack"
-  },
-  "libmesh": {
-    "description": "The libMesh library provides a framework for the numerical simulation of partial differential equations using arbitrary unstructured discretizations on serial and parallel platforms.",
-    "homepage": "https://libmesh.github.io/",
-    "source": "spack"
-  },
-  "meep": {
-    "description": "Meep (or MEEP) is a free finite-difference time-domain (FDTD) simulation software package developed at MIT to model electromagnetic systems.",
-    "homepage": "http://ab-initio.mit.edu/wiki/index.php/Meep",
-    "source": "spack"
-  },
-  "mrbayes": {
-    "description": "MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.",
-    "homepage": "https://mrbayes.sourceforge.net",
-    "source": "spack"
-  },
-  "nwchem": {
-    "description": "High-performance computational chemistry software",
-    "homepage": "https://nwchemgit.github.io",
-    "source": "spack"
-  },
-  "petsc": {
-    "description": "PETSc is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.",
-    "homepage": "https://petsc.org",
-    "source": "spack"
-  },
-  "plumed": {
-    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.  Free energy calculations can be performed as a function of many order parameters with a particular focus on biological problems, using state of the art methods such as metadynamics, umbrella sampling and Jarzynski-equation based steered MD.  The software, written in C++, can be easily interfaced with both fortran and C/C++ codes.",
-    "homepage": "https://www.plumed.org/",
-    "source": "spack"
-  },
-  "vtk": {
-    "description": "The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization.",
-    "homepage": "https://www.vtk.org",
-    "source": "spack"
-  },
-  "wannier90": {
-    "description": "Wannier90 calculates maximally-localised Wannier functions (MLWFs).  Wannier90 is released under the GNU General Public License.",
-    "homepage": "https://wannier.org",
-    "source": "spack"
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
   },
   "ambertools": {
     "description": "AmberTools is a free, useful standalone package and a prerequisite for installing Amber itself. The AmberTools suite is free of charge, and its components are mostly released under the GNU General Public License (GPL). A few components are included that are in the public domain or which have other, open-source, licenses. The libsander and libpbsa libraries use the LGPL license.",
     "homepage": "https://ambermd.org/AmberTools.php",
-    "source": "spack"
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
   },
-  "nccl": {
-    "description": "Optimized primitives for collective multi-GPU communication.",
-    "homepage": "https://github.com/NVIDIA/nccl",
-    "source": "spack"
+  "amdblis": {
+    "description": "AMD Optimized BLIS.  BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries. The framework was designed to isolate essential kernels of computation that, when optimized, immediately enable optimized implementations of most of its commonly used and computationally intensive operations.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-BLIS license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula/blas-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula/blas-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/blis.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
   },
-  "ucx": {
-    "description": "a communication library implementing high-performance messaging for MPI/PGAS frameworks",
-    "homepage": "https://www.openucx.org",
-    "source": "spack"
+  "amdfftw": {
+    "description": "FFTW (AMD Optimized version) is a comprehensive collection of fast C routines for computing the Discrete Fourier Transform (DFT) and various special cases thereof.  It is an open-source implementation of the Fast Fourier transform algorithm. It can compute transforms of real and complex-values arrays of arbitrary size and dimension. AMD Optimized FFTW is the optimized FFTW implementation targeted for AMD CPUs.  For single precision build, please use precision value as float. Example : spack install amdfftw precision=float  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/fftw/eula/fftw-libraries-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/fftw.html",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
   },
-  "gaussian": {
-    "description": "Gaussian is a computer program for computational chemistry",
-    "homepage": "http://www.gaussian.com/",
-    "source": "spack"
+  "amdlibflame": {
+    "description": "libFLAME (AMD Optimized version) is a portable library for dense matrix computations, providing much of the functionality present in Linear Algebra Package (LAPACK). It includes a compatibility layer, FLAPACK, which includes complete LAPACK implementation.  The library provides scientific and numerical computing communities with a modern, high-performance dense linear algebra library that is extensible, easy to use, and available under an open source license. libFLAME is a C-only implementation and does not depend on any external FORTRAN libraries including LAPACK. There is an optional backward compatibility layer, lapack2flame that maps LAPACK routine invocations to their corresponding native C implementations in libFLAME. This allows legacy applications to start taking advantage of libFLAME with virtually no changes to their source code.  In combination with BLIS library which includes optimizations for the AMD EPYC processor family, libFLAME enables running high performing LAPACK functionalities on AMD platform.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-libFLAME license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-4-2-eula.html https://www.amd.com/en/developer/aocl/dense/eula-libflame/libflame-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/blis.html#libflame",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
   },
-  "libaio": {
-    "description": "Linux native Asynchronous I/O interface library.  AIO enables even a single application thread to overlap I/O operations with other processing, by providing an interface for submitting one or more I/O requests in one system call (io_submit()) without waiting for completion, and a separate interface (io_getevents()) to reap completed I/O operations associated with a given completion group.",
-    "homepage": "https://lse.sourceforge.net/io/aio.html",
-    "source": "spack"
+  "amdlibm": {
+    "description": "AMD LibM is a software library containing a collection of basic math functions optimized for x86-64 processor-based machines. It provides many routines from the list of standard C99 math functions. Applications can link into AMD LibM library and invoke math functions instead of compiler's math functions for better accuracy and performance.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-FFTW license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/libm/eula/libm-4-2-eula.html https://www.amd.com/en/developer/aocl/libm/libm-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/libm.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "amdscalapack": {
+    "description": "ScaLAPACK is a library of high-performance linear algebra routines for parallel distributed memory machines. It depends on external libraries including BLAS and LAPACK for Linear Algebra computations.  AMD's optimized version of ScaLAPACK enables using BLIS and LibFLAME library that have optimized dense matrix functions and solvers for AMD EPYC processor family CPUs.  LICENSING INFORMATION: By downloading, installing and using this software, you agree to the terms and conditions of the AMD AOCL-ScaLAPACK license agreement.  You may obtain a copy of this license agreement from https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-4-2-eula.html https://www.amd.com/en/developer/aocl/scalapack/eula/scalapack-libraries-eula.html",
+    "homepage": "https://www.amd.com/en/developer/aocl/scalapack.html",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "amduprof": {
+    "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86 applications running on Windows, Linux and FreeBSD operating systems and provides event information unique to the AMD \"Zen\"-based processors and AMD Instinct(tm) MI Series accelerators. AMD uProf enables the developer to better understand the limiters of application performance and evaluate improvements.",
+    "homepage": "https://www.amd.com/en/developer/uprof.html",
+    "source": "spack",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "anaconda": {
+    "description": "Please use the Anaconda installer.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Programming"
+    ]
+  },
+  "ansys": {
+    "description": "ANSYS is a comprehensive software suite for engineering simulation covering finite element analysis (FEA), computational fluid dynamics (CFD), and more.",
+    "homepage": "https://www.ansys.com",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "ansysem": {
+    "description": "ANSYS Electromagnetics (ANSYS EM or Ansys Electronics Desktop) is a suite of simulation tools for designing and analyzing electromagnetic fields, including HFSS, Maxwell, and other solvers for RF, antenna, signal integrity, and power electronics applications.",
+    "homepage": "https://www.ansys.com/products/electronics",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "aocc": {
+    "description": "The AOCC compiler system is a high performance, production quality code generation tool.  The AOCC environment provides various options to developers when building and optimizing C, C++, and Fortran applications targeting 32-bit and 64-bit Linux platforms.  The AOCC compiler system offers a high level of advanced optimizations, multi-threading and processor support that includes global optimization, vectorization, inter-procedural analyses, loop transformations, and code generation.  AMD also provides highly optimized libraries, which extract the optimal performance from each x86 processor core when utilized.  The AOCC Compiler Suite simplifies and accelerates development and tuning for x86 applications.  Installation requires acceptance of the EULA by setting the +license-agreed variant. https://www.amd.com/en/developer/aocc/aocc-compiler/eula.html  Example for installation: \\'spack install aocc +license-agreed\\'",
+    "homepage": "https://www.amd.com/en/developer/aocc.html",
+    "source": "spack",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "arpack-ng": {
+    "description": "ARPACK-NG is an open-source project for solving large-scale eigenvalue problems. It is a reimplementation of ARPACK with bug fixes and improvements, supporting both symmetric and nonsymmetric eigenvalue problems in large sparse matrices.",
+    "homepage": "https://github.com/opencollab/arpack-ng",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "aws-cli": {
+    "description": "The AWS Command Line Interface (CLI) is a unified tool to manage Amazon Web Services.",
+    "homepage": "https://aws.amazon.com/cli/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "bamtools": {
+    "description": "C++ API & command-line toolkit for working with BAM data.",
+    "homepage": "https://github.com/pezmaster31/bamtools",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "beagle": {
+    "description": "Beagle is a software package for phasing genotypes and for imputing ungenotyped markers.",
+    "homepage": "https://faculty.washington.edu/browning/beagle/beagle.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "beast2": {
+    "description": "BEAST is a cross-platform program for Bayesian inference using MCMC of molecular sequences. It is entirely orientated towards rooted, time-measured phylogenies inferred using strict or relaxed molecular clock models. It can be used as a method of reconstructing phylogenies but is also a framework for testing evolutionary hypotheses without conditioning on a single tree topology.",
+    "homepage": "http://beast2.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "berkeley-db": {
+    "description": "Berkeley DB is an embedded database software library providing scalable high-performance database technology.",
+    "homepage": "https://www.oracle.com/database/technologies/related/berkeleydb.html",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "bismark": {
+    "description": "A tool to map bisulfite converted sequence reads and determine cytosine methylation states",
+    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/bismark",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "blast-plus": {
+    "description": "BLAST+ (Basic Local Alignment Search Tool) is a suite of bioinformatics programs for comparing nucleotide or protein sequences against sequence databases. It is widely used for identifying homologous sequences, annotating genes, and studying evolutionary relationships.",
+    "homepage": "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "blis": {
+    "description": "Base class for building BLIS, shared with the AMD optimized version of the library in the 'amdblis' package.",
+    "homepage": "https://github.com/flame/blis",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "boost": {
+    "description": "Boost provides free peer-reviewed portable C++ source libraries, emphasizing libraries that work well with the C++ Standard Library.  Boost libraries are intended to be widely useful, and usable across a broad spectrum of applications. The Boost license encourages both commercial and non-commercial use.",
+    "homepage": "https://www.boost.org",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "bowtie2": {
+    "description": "Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences",
+    "homepage": "https://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "bwa": {
+    "description": "Burrow-Wheeler Aligner for pairwise alignment between DNA sequences.",
+    "homepage": "https://github.com/lh3/bwa",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "bzip2": {
+    "description": "bzip2 is a freely available, patent free high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
+    "homepage": "https://sourceware.org/bzip2/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "cairo": {
+    "description": "Cairo is a 2D graphics library with support for multiple output devices.",
+    "homepage": "https://www.cairographics.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "cdo": {
+    "description": "CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.",
+    "homepage": "https://code.mpimet.mpg.de/projects/cdo",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "cgal": {
+    "description": "The Computational Geometry Algorithms Library (CGAL) is a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry. CGAL is used in various areas needing geometric computation, such as geographic information systems, computer aided design, molecular biology, medical imaging, computer graphics, and robotics.",
+    "homepage": "https://www.cgal.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "charmpp": {
+    "description": "Charm++ is a parallel programming framework in C++ supported by an adaptive runtime system, which enhances user productivity and allows programs to run portably from small multicore computers (your laptop) to the largest supercomputers.",
+    "homepage": "https://charmplusplus.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "clusterbot": {
+    "description": "TODO: add description",
+    "homepage": null,
+    "source": "none",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "cmake": {
+    "description": "A cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
+    "homepage": "https://www.cmake.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "comsol": {
+    "description": "COMSOL Multiphysics is a simulation platform for modeling designs, devices, and processes in all fields of engineering, manufacturing, and scientific research using multiphysics finite element analysis.",
+    "homepage": "https://www.comsol.com",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
   },
   "conda": {
     "description": "Conda is an open-source package, dependency, and environment management system. It allows users to quickly install, run, and update packages and their dependencies across platforms, and to create isolated environments for reproducible software workflows. Conda is widely used in data science, machine learning, and scientific computing.",
     "homepage": "https://docs.conda.io/",
-    "source": "curated"
+    "source": "curated",
+    "topic": [
+      "Programming"
+    ]
+  },
+  "cosmosscope": {
+    "description": "CosmosScope is a scientific visualization and analysis tool used for exploring cosmological and astrophysical simulation data, providing interactive interfaces for large-scale structure and particle-based datasets.",
+    "homepage": "https://ui.adsabs.harvard.edu/abs/2019A&C....27..111C/abstract",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "cp2k": {
+    "description": "CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems",
+    "homepage": "https://www.cp2k.org",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "cuda": {
+    "description": "CUDA is a parallel computing platform and programming model invented by NVIDIA. It enables dramatic increases in computing performance by harnessing the power of the graphics processing unit (GPU).  Note: This package does not currently install the drivers necessary to run CUDA. These will need to be installed manually. See: https://docs.nvidia.com/cuda/ for details.",
+    "homepage": "https://developer.nvidia.com/cuda-zone",
+    "source": "spack",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "cudnn": {
+    "description": "NVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural networks",
+    "homepage": "https://developer.nvidia.com/cudnn",
+    "source": "spack",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "cue-login-env": {
+    "description": "CUE login environment scripts for user session management on HPC systems.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "cufflinks": {
+    "description": "Cufflinks assembles transcripts, estimates their abundances, and tests for differential expression and regulation in RNA-Seq samples.",
+    "homepage": "https://cole-trapnell-lab.github.io/cufflinks",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "curl": {
+    "description": "cURL is an open source command line tool and library for transferring data with URL syntax",
+    "homepage": "https://curl.se/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "cutadapt": {
+    "description": "Adapter trimming and other preprocessing of high-throughput sequencing reads",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "cython": {
+    "description": "The Cython compiler for writing C extensions in the Python language.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "duckdb": {
+    "description": "DuckDB is an in-process SQL OLAP Database Management System.",
+    "homepage": "https://duckdb.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "edacfg": {
+    "description": "edacfg (Error Detection and Correction configuration) is a Linux utility for configuring and managing the EDAC kernel subsystem, which handles detection and reporting of hardware memory errors.",
+    "homepage": "https://github.com/mchehab/edac-utils",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "eigen": {
+    "description": "Eigen is a C++ template library for linear algebra matrices, vectors, numerical solvers, and related algorithms.",
+    "homepage": "https://eigen.tuxfamily.org/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "emacs": {
+    "description": "Emacs is an extensible, customizable, free/libre text editor. At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.",
+    "homepage": "https://www.gnu.org/software/emacs",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "expat": {
+    "description": "Expat is an XML parser library written in C.",
+    "homepage": "https://libexpat.github.io/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "fastqc": {
+    "description": "A quality control tool for high throughput sequence data.",
+    "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "fasttree": {
+    "description": "FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.",
+    "homepage": "http://www.microbesonline.org/fasttree",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "fastx-toolkit": {
+    "description": "The FASTX-Toolkit is a collection of command-line tools for preprocessing and manipulating FASTA/FASTQ files, commonly used in next-generation sequencing workflows. It supports tasks like quality filtering, trimming, and nucleotide conversion.",
+    "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "ffmpeg": {
+    "description": "FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.",
+    "homepage": "https://ffmpeg.org",
+    "source": "spack",
+    "topic": [
+      "Utilities",
+      "Audio/Visual"
+    ]
+  },
+  "fftw": {
+    "description": "Base class for building Fftw, shared with the AMD optimized version of the library in the 'amdfftw' package.",
+    "homepage": "https://www.fftw.org",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "fontconfig": {
+    "description": "Fontconfig is a library for configuring/customizing font access",
+    "homepage": "https://www.freedesktop.org/wiki/Software/fontconfig/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "font-util": {
+    "description": "Utilities to query, configure, and manage fonts on Linux/Unix systems.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "freetype": {
+    "description": "FreeType is a freely available software library to render fonts. It is written in C, designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images) of most vector and bitmap font formats.",
+    "homepage": "https://www.freetype.org/index.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gatk": {
+    "description": "Genome Analysis Toolkit Variant Discovery in High-Throughput Sequencing Data",
+    "homepage": "https://gatk.broadinstitute.org/hc/en-us",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "gaussian": {
+    "description": "Gaussian is a computer program for computational chemistry",
+    "homepage": "http://www.gaussian.com/",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "gaussian09": {
+    "description": "Gaussian 09 is a software package for computational chemistry for electronic structure modeling.",
+    "homepage": "https://gaussian.com/g09citation/",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "gaussian16": {
+    "description": "Gaussian 16 is the latest release of the Gaussian series for electronic structure modeling and computational chemistry.",
+    "homepage": "https://gaussian.com/g16citation/",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "gaussview": {
+    "description": "GaussView is a graphical user interface designed to build Gaussian input and analyze output files.",
+    "homepage": "https://gaussian.com/gaussview6/",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "gcc": {
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, and Go, as well as libraries for these languages.",
+    "homepage": "https://gcc.gnu.org",
+    "source": "spack",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "gcc-runtime": {
+    "description": "GCC runtime libraries required for compiled applications.",
+    "homepage": "https://gcc.gnu.org/",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "gdal": {
+    "description": "GDAL: Geospatial Data Abstraction Library.  GDAL is a translator library for raster and vector geospatial data formats that is released under an MIT style Open Source License by the Open Source Geospatial Foundation. As a library, it presents a single raster abstract data model and single vector abstract data model to the calling application for all supported formats. It also comes with a variety of useful command line utilities for data translation and processing.",
+    "homepage": "https://www.gdal.org/",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "gdb": {
+    "description": "GDB, the GNU Project debugger, allows you to see what is going on 'inside' another program while it executes -- or what another program was doing at the moment it crashed.",
+    "homepage": "https://www.gnu.org/software/gdb",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gdbm": {
+    "description": "GNU dbm (or GDBM, for short) is a library of database functions that use extensible hashing and work similar to the standard UNIX dbm. These routines are provided to a programmer needing to create and manipulate a hashed database.",
+    "homepage": "https://www.gnu.org.ua/software/gdbm/gdbm.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "geos": {
+    "description": "GEOS (Geometry Engine, Open Source).  GEOS is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is a core dependency of PostGIS, QGIS, GDAL, and Shapely.",
+    "homepage": "https://libgeos.org/",
+    "source": "spack",
+    "topic": [
+      "Geoscience"
+    ]
+  },
+  "gettext": {
+    "description": "GNU internationalization (i18n) and localization (l10n) library.",
+    "homepage": "https://www.gnu.org/software/gettext/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gfms": {
+    "description": "Generalized Finite Element Method Software for structural mechanics simulations.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "ghostscript": {
+    "description": "An interpreter for the PostScript language and for PDF.",
+    "homepage": "https://ghostscript.com/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "glib": {
+    "description": "GLib provides the core application building blocks for libraries and applications written in C.  The GLib package contains a low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for such runtime functionality as an event loop, threads, dynamic loading and an object system.",
+    "homepage": "https://developer.gnome.org/glib/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gmp": {
+    "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating-point numbers.",
+    "homepage": "https://gmplib.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gmt": {
+    "description": "GMT (Generic Mapping Tools) is an open source collection of about 80 command-line tools for manipulating geographic and Cartesian data sets (including filtering, trend fitting, gridding, projecting, etc.) and producing PostScript illustrations ranging from simple x-y plots via contour maps to artificially illuminated surfaces and 3D perspective views.",
+    "homepage": "https://www.generic-mapping-tools.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gnuplot": {
+    "description": "Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. The source code is copyrighted but freely distributed (i.e., you don't have to pay for it). It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Gnuplot has been supported and under active development since 1986",
+    "homepage": "http://www.gnuplot.info",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "gpaw": {
+    "description": "GPAW: DFT and beyond within the projector-augmented wave method",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "grace": {
+    "description": "Grace is a WYSIWYG 2D plotting tool for the X Window System and M*tif.",
+    "homepage": "https://plasma-gate.weizmann.ac.il/Grace",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "grads": {
+    "description": "The Grid Analysis and Display System (GrADS) is an interactive desktop tool that is used for easy access, manipulation, and visualization of earth science data. GrADS has two data models for handling gridded and station data. GrADS supports many data file formats, including binary (stream or sequential), GRIB (version 1 and 2), NetCDF, HDF (version 4 and 5), and BUFR (for station data).",
+    "homepage": "http://cola.gmu.edu/grads/grads.php",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "gromacs": {
+    "description": "GROMACS is a high-performance molecular dynamics package primarily designed for simulations of proteins, lipids, and nucleic acids.",
+    "homepage": "http://www.gromacs.org",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "gsl": {
+    "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.",
+    "homepage": "https://www.gnu.org/software/gsl",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Engineering"
+    ]
+  },
+  "gstreamer": {
+    "description": "GStreamer is an open-source multimedia framework for building streaming media applications, supporting audio and video playback, recording, streaming, and editing.",
+    "homepage": "https://gstreamer.freedesktop.org",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "gurobi": {
+    "description": "The Gurobi Optimizer was designed from the ground up to be the fastest, most powerful solver available for your LP, QP, QCP, and MIP (MILP, MIQP, and MIQCP) problems.",
+    "homepage": "https://www.gurobi.com",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Engineering"
+    ]
+  },
+  "hadoop": {
+    "description": "The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.",
+    "homepage": "https://hadoop.apache.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "hdf": {
+    "description": "HDF4 (also known as HDF) is a library and multi-object file format for storing and managing data between machines.",
+    "homepage": "https://portal.hdfgroup.org",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "hdf5": {
+    "description": "HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of datatypes, and is designed for flexible and efficient I/O and for high volume and complex data.",
+    "homepage": "https://support.hdfgroup.org",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "hpctoolkit": {
+    "description": "HPCToolkit is an integrated suite of tools for measurement and analysis of program performance on computers ranging from multicore desktop systems to the nation's largest supercomputers. By using statistical sampling of timers and hardware performance counters, HPCToolkit collects accurate measurements of a program's work, resource consumption, and inefficiency and attributes them to the full calling context in which they occur.",
+    "homepage": "https://hpctoolkit.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "hspice": {
+    "description": "HSPICE is a leading circuit simulator used for integrated circuit design and verification.",
+    "homepage": "https://www.synopsys.com/verification/analog-mixed-signal/hspice.html",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "htseq": {
+    "description": "A framework to process and analyze data from high-throughput sequencing (HTS) assays",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "hwloc": {
+    "description": "The Hardware Locality (hwloc) software project.  The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
+    "homepage": "https://www.open-mpi.org/projects/hwloc/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "hyper-shell": {
+    "description": "A cross-platform, high-throughput computing utility for processing shell commands over a distributed, asynchronous queue.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "hypershell": {
+    "description": "A cross-platform, high-throughput computing utility for processing shell commands over a distributed, asynchronous queue.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "imagemagick": {
+    "description": "ImageMagick is a software suite to create, edit, compose, or convert bitmap images.",
+    "homepage": "https://www.imagemagick.org",
+    "source": "spack",
+    "topic": [
+      "Utilities",
+      "Audio/Visual"
+    ]
+  },
+  "impi": {
+    "description": "Intel(R) MPI Runtime",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "MPI"
+    ]
+  },
+  "inputproto": {
+    "description": "X Input Extension.  This extension defines a protocol to provide additional input devices management such as graphic tablets.",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/inputproto",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "intel": {
+    "description": "Intel provides a wide range of software development tools and performance libraries for high performance computing (HPC), including compilers, performance analyzers, and optimized libraries under the Intel oneAPI initiative.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "intel-mkl": {
+    "description": "Intel Math Kernel Library (MKL) provides highly optimized math routines for science, engineering, and financial applications.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
+    "source": "curated",
+    "topic": [
+      "Compilers",
+      "Library"
+    ]
+  },
+  "intel-oneapi-compilers": {
+    "description": "Intel oneAPI compilers for building high-performance C, C++, and Fortran applications.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compiler.html",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "intel-oneapi-mkl": {
+    "description": "Intel oneAPI Math Kernel Library (oneMKL) is a high-performance library of mathematical functions for scientific, engineering, and machine learning applications. It provides optimized routines for linear algebra, fast Fourier transforms, vector math, and random number generation, tuned for Intel architectures.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html",
+    "source": "curated",
+    "topic": [
+      "Compilers",
+      "Library"
+    ]
+  },
+  "intel-oneapi-mpi": {
+    "description": "Intel MPI Library provides high-performance and scalable message passing for HPC applications.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library.html",
+    "source": "curated",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "intel-oneapi-tbb": {
+    "description": "Intel Threading Building Blocks (TBB) is a library for parallel programming in C++.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "intel-oneapi-vtune": {
+    "description": "Intel VTune Profiler is a performance analysis tool for optimizing CPU, GPU, and FPGA workloads.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "intel-rt": {
+    "description": "Intel runtime libraries needed for executing compiled Intel applications.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "julia": {
+    "description": "The Julia Language: A fresh approach to technical computing",
+    "homepage": "https://julialang.org",
+    "source": "spack",
+    "topic": [
+      "Programming"
+    ]
+  },
+  "jupyter": {
+    "description": "Jupyter metapackage. Install all the Jupyter components in one go.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "kbproto": {
+    "description": "X Keyboard Extension.  This extension defines a protcol to provide a number of new capabilities and controls for text keyboards.",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/kbproto",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "kokkos": {
+    "description": "Kokkos implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms.",
+    "homepage": "https://github.com/kokkos/kokkos",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "krb5": {
+    "description": "Network authentication protocol",
+    "homepage": "https://kerberos.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "lammps": {
+    "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel Simulator.",
+    "homepage": "https://www.lammps.org/",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "launcher": {
+    "description": "Launches any python program",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "learning": {
+    "description": "For data-intern",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "libaio": {
+    "description": "Linux native Asynchronous I/O interface library.  AIO enables even a single application thread to overlap I/O operations with other processing, by providing an interface for submitting one or more I/O requests in one system call (io_submit()) without waiting for completion, and a separate interface (io_getevents()) to reap completed I/O operations associated with a given completion group.",
+    "homepage": "https://lse.sourceforge.net/io/aio.html",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libbsd": {
+    "description": "This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.",
+    "homepage": "https://libbsd.freedesktop.org/wiki/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libfabric": {
+    "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting fabric communication services to applications.",
+    "homepage": "https://libfabric.org/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libffi": {
+    "description": "The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run time.",
+    "homepage": "https://sourceware.org/libffi/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libflame": {
+    "description": "Base class for building Libflame, shared with the AMD optimized version of the library in the 'libflame' package",
+    "homepage": "https://www.cs.utexas.edu/~flame/web/libFLAME.html",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libiconv": {
+    "description": "GNU libiconv provides an implementation of the iconv() function and the iconv program for character set conversion.",
+    "homepage": "https://www.gnu.org/software/libiconv/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libmd": {
+    "description": "This library provides message digest functions found on BSD systems either on their libc (NetBSD, OpenBSD) or libmd (FreeBSD, DragonflyBSD, macOS, Solaris) libraries and lacking on others like GNU systems.",
+    "homepage": "https://www.hadrons.org/software/libmd/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libmesh": {
+    "description": "The libMesh library provides a framework for the numerical simulation of partial differential equations using arbitrary unstructured discretizations on serial and parallel platforms.",
+    "homepage": "https://libmesh.github.io/",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "libpng": {
+    "description": "libpng is the official PNG reference library.",
+    "homepage": "http://www.libpng.org/pub/png/libpng.html",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libpthread-stubs": {
+    "description": "Minimal pthread stubs for systems without a complete pthread implementation.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libszip": {
+    "description": "Szip is an implementation of the extended-Rice lossless compression algorithm.  It provides lossless compression of scientific data, and is provided with HDF software products.",
+    "homepage": "https://support.hdfgroup.org/doc_resource/SZIP/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "libtiff": {
+    "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.",
+    "homepage": "http://www.simplesystems.org/libtiff/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libtirpc": {
+    "description": "Libtirpc is a port of Suns Transport-Independent RPC library to Linux.",
+    "homepage": "https://sourceforge.net/projects/libtirpc/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libv8": {
+    "description": "V8 JavaScript engine library for embedding JS in C++ applications.",
+    "homepage": "https://v8.dev/",
+    "source": "curated",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libx11": {
+    "description": "libX11 - Core X11 protocol client library.",
+    "homepage": "https://www.x.org/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxau": {
+    "description": "The libXau package contains a library implementing the X11 Authorization Protocol. This is useful for restricting client access to the display.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXau/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxcb": {
+    "description": "The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxdmcp": {
+    "description": "libXdmcp - X Display Manager Control Protocol library.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXdmcp",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxext": {
+    "description": "libXext - library for common extensions to the X11 protocol.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXext",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxml2": {
+    "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform), it is free software available under the MIT License.",
+    "homepage": "https://gitlab.gnome.org/GNOME/libxml2/-/wikis",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "libxp": {
+    "description": "libXp - X Print Client Library.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXp",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "libxrender": {
+    "description": "libXrender - library for the Render Extension to the X11 protocol.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXrender",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "libxscrnsaver": {
+    "description": "XScreenSaver - X11 Screen Saver extension client library",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXScrnSaver",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "libxslt": {
+    "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT itself is a an XML language to define transformation for XML. Libxslt is based on libxml2 the XML C library developed for the GNOME project. It also implements most of the EXSLT set of processor-portable extensions functions and some of Saxon's evaluate and expressions extensions.",
+    "homepage": "https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home",
+    "source": "spack",
+    "topic": [
+      "Library"
+    ]
+  },
+  "mathematica": {
+    "description": "Mathematica: high-powered computation with thousands of Wolfram Language functions, natural language input, real-world data, mobile support.  Note: A manual download is required for Mathematica. Spack will search your current directory for the download file. Alternatively, add this file to a mirror so that Spack can find it. For instructions on how to set up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html",
+    "homepage": "https://www.wolfram.com/mathematica/",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Engineering"
+    ]
+  },
+  "matlab": {
+    "description": "MATLAB (MATrix LABoratory) is a multi-paradigm numerical computing environment and programming language used widely in science and engineering.",
+    "homepage": "https://www.mathworks.com/products/matlab.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "matplotlib": {
+    "description": "Python plotting package",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "meep": {
+    "description": "Meep (or MEEP) is a free finite-difference time-domain (FDTD) simulation software package developed at MIT to model electromagnetic systems.",
+    "homepage": "http://ab-initio.mit.edu/wiki/index.php/Meep",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "mesa-glu": {
+    "description": "Mesa OpenGL Utility library (GLU) for 3D graphics rendering.",
+    "homepage": "https://www.mesa3d.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "monitor": {
+    "description": "A daemon to monitor system behavior",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "motif": {
+    "description": "\" Motif - Graphical user interface (GUI) specification and the widget toolkit",
+    "homepage": "https://motif.ics.com/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "mpc": {
+    "description": "Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result.",
+    "homepage": "https://www.multiprecision.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "mpfr": {
+    "description": "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
+    "homepage": "https://www.mpfr.org/",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "mpi4py": {
+    "description": "Python bindings for MPI",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "MPI",
+      "Programming"
+    ]
+  },
+  "mrbayes": {
+    "description": "MrBayes is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters.",
+    "homepage": "https://mrbayes.sourceforge.net",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "mvapich2": {
+    "description": "Mvapich2 is a High-Performance MPI Library for clusters with diverse networks (InfiniBand, Omni-Path, Ethernet/iWARP, and RoCE) and computing platforms (x86 (Intel and AMD), ARM and OpenPOWER)",
+    "homepage": "https://mvapich.cse.ohio-state.edu/userguide/userguide_spack/",
+    "source": "spack",
+    "topic": [
+      "MPI"
+    ]
+  },
+  "namd": {
+    "description": "NAMD is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.",
+    "homepage": "https://www.ks.uiuc.edu/Research/namd/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "nccl": {
+    "description": "Optimized primitives for collective multi-GPU communication.",
+    "homepage": "https://github.com/NVIDIA/nccl",
+    "source": "spack",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "ncl": {
+    "description": "NCL is an interpreted language designed specifically for scientific data analysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-EOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are built-in.",
+    "homepage": "https://www.ncl.ucar.edu",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "nco": {
+    "description": "The NCO toolkit manipulates and analyzes data stored in netCDF-accessible formats",
+    "homepage": "https://nco.sourceforge.net/",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "ncurses": {
+    "description": "The ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD curses.",
+    "homepage": "https://invisible-island.net/ncurses/ncurses.html",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "ncview": {
+    "description": "Simple viewer for NetCDF files.",
+    "homepage": "https://cirrus.ucsd.edu/ncview/",
+    "source": "spack",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "netcdf-c": {
+    "description": "NetCDF C library for array-oriented scientific data storage and access.",
+    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+    "source": "curated",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "netcdf-cxx4": {
+    "description": "NetCDF C++4 library for scientific data management and access.",
+    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+    "source": "curated",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "netcdf-fortran": {
+    "description": "NetCDF Fortran library providing Fortran APIs to access scientific datasets.",
+    "homepage": "https://www.unidata.ucar.edu/software/netcdf/",
+    "source": "curated",
+    "topic": [
+      "Geoscience",
+      "Library"
+    ]
+  },
+  "netlib-lapack": {
+    "description": "Linear Algebra PACKage (LAPACK) for high-performance linear algebra computations.",
+    "homepage": "http://www.netlib.org/lapack/",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "nextflow": {
+    "description": "Data-driven computational pipelines.",
+    "homepage": "https://www.nextflow.io",
+    "source": "spack",
+    "topic": [
+      "Workflow"
+    ]
+  },
+  "nf-core": {
+    "description": "Helper tools for use with nf-core Nextflow pipelines.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Workflow"
+    ]
+  },
+  "numactl": {
+    "description": "NUMA support for Linux",
+    "homepage": "https://github.com/numactl/numactl",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "numba": {
+    "description": "compiling Python code using LLVM",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "numpy": {
+    "description": "Fundamental package for array computing in Python",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "nvhpc": {
+    "description": "The NVIDIA HPC SDK is a comprehensive suite of compilers, libraries and tools essential to maximizing developer productivity and the performance and portability of HPC applications. The NVIDIA HPC SDK C, C++, and Fortran compilers support GPU acceleration of HPC modeling and simulation applications with standard C++ and Fortran, OpenACC directives, and CUDA. GPU-accelerated math libraries maximize performance on common HPC algorithms, and optimized communications libraries enable standards-based multi-GPU and scalable systems programming. Performance profiling and debugging tools simplify porting and optimization of HPC applications.",
+    "homepage": "https://developer.nvidia.com/hpc-sdk",
+    "source": "spack",
+    "topic": [
+      "Compilers"
+    ]
+  },
+  "nwchem": {
+    "description": "High-performance computational chemistry software",
+    "homepage": "https://nwchemgit.github.io",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "oclfpga": {
+    "description": "Intel OpenCL FPGA runtime and utilities for FPGA application development.",
+    "homepage": "https://www.intel.com/content/www/us/en/software/programmable/sdk.html",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "octave": {
+    "description": "GNU Octave is a high-level language, primarily intended for numerical computations.  It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.",
+    "homepage": "https://www.gnu.org/software/octave/",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Engineering"
+    ]
+  },
+  "openblas": {
+    "description": "OpenBLAS: An optimized BLAS library",
+    "homepage": "https://www.openblas.net",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "openfoam": {
+    "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. This offering is supported by OpenCFD Ltd, producer and distributor of the OpenFOAM software via www.openfoam.com, and owner of the OPENFOAM trademark. OpenCFD Ltd has been developing and releasing OpenFOAM since its debut in 2004.",
+    "homepage": "https://www.openfoam.com/",
+    "source": "spack",
+    "topic": [
+      "Fluid Dynamics",
+      "Engineering"
+    ]
+  },
+  "openjdk": {
+    "description": "The free and opensource java implementation",
+    "homepage": "https://openjdk.org/",
+    "source": "spack",
+    "topic": [
+      "Programming"
+    ]
+  },
+  "openmpi": {
+    "description": "An open source Message Passing Interface implementation.  The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners. Open MPI is therefore able to combine the expertise, technologies, and resources from all across the High Performance Computing community in order to build the best MPI library available. Open MPI offers advantages for system and software vendors, application developers and computer science researchers.",
+    "homepage": "https://www.open-mpi.org",
+    "source": "spack",
+    "topic": [
+      "MPI"
+    ]
+  },
+  "openssl": {
+    "description": "OpenSSL is a robust, full-featured open-source toolkit implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols as well as a general-purpose cryptography library.",
+    "homepage": "https://www.openssl.org",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "ovito": {
+    "description": "OVITO is a scientific visualization and analysis software for atomistic and particle simulation data. It helps scientists gain better insights into materials phenomena and physical processes. OVITO Basic is freely available for all major platforms under an open source license. It has served in a growing number of computational simulation studies as a powerful tool to analyze, understand and illustrate simulation results.",
+    "homepage": "https://www.ovito.org",
+    "source": "spack",
+    "topic": [
+      "Utilities",
+      "Audio/Visual"
+    ]
+  },
+  "pandas": {
+    "description": "Powerful data structures for data analysis, time series, and statistics",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "pandoc": {
+    "description": "If you need to convert files from one markup format into another, pandoc is your swiss-army knife.",
+    "homepage": "https://pandoc.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "panoply": {
+    "description": "Panoply is a cross-platform application developed by NASA for plotting geo-gridded and other arrays from netCDF, HDF, GRIB, and other datasets.",
+    "homepage": "https://www.giss.nasa.gov/tools/panoply/",
+    "source": "curated",
+    "topic": [
+      "Geoscience",
+      "Climate"
+    ]
+  },
+  "papi": {
+    "description": "PAPI provides the tool designer and application engineer with a consistent interface and methodology for use of the performance counter hardware found in most major microprocessors. PAPI enables software engineers to see, in near real time, the relation between software performance and processor events.  In addition Component PAPI provides access to a collection of components that expose performance measurement opportunities across the hardware and software stack.",
+    "homepage": "https://icl.utk.edu/papi/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "parafly": {
+    "description": "ParaFly is a parallel launcher for running independent computational jobs.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Material Science",
+      "Engineering"
+    ]
+  },
+  "parallel": {
+    "description": "GNU parallel is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input.",
+    "homepage": "https://www.gnu.org/software/parallel/",
+    "source": "spack",
+    "topic": [
+      "Material Science",
+      "Engineering"
+    ]
+  },
+  "parallel-netcdf": {
+    "description": "Parallel NetCDF (PnetCDF) is a high-performance library for parallel I/O of scientific data in the NetCDF format. It allows multiple processes in MPI programs to efficiently read and write large array-oriented datasets.",
+    "homepage": "https://parallel-netcdf.github.io/",
+    "source": "curated",
+    "topic": [
+      "Material Science",
+      "Geoscience"
+    ]
+  },
+  "paraview": {
+    "description": "ParaView is an open-source, multi-platform data analysis and visualization application. This package includes the Catalyst in-situ library for versions 5.7 and greater, otherwise use the catalyst package.",
+    "homepage": "https://www.paraview.org",
+    "source": "spack",
+    "topic": [
+      "Material Science",
+      "Engineering"
+    ]
+  },
+  "pcre": {
+    "description": "The PCRE package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.",
+    "homepage": "https://www.pcre.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "pcre2": {
+    "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.",
+    "homepage": "https://www.pcre.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "perl": {
+    "description": "Perl as a Python package",
+    "homepage": "https://www.perl.org",
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "perl-bioperl": {
+    "description": "BioPerl is a collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications. It provides reusable components for tasks such as sequence analysis, parsing biological databases, and working with alignments and protein structures.",
+    "homepage": "https://bioperl.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "petsc": {
+    "description": "PETSc is a suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.",
+    "homepage": "https://petsc.org",
+    "source": "spack",
+    "topic": [
+      "Fluid Dynamics",
+      "Math/Stat"
+    ]
+  },
+  "picard": {
+    "description": "Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.",
+    "homepage": "https://broadinstitute.github.io/picard/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "pigz": {
+    "description": "A parallel implementation of gzip for modern multi-processor, multi-core machines.",
+    "homepage": "https://zlib.net/pigz/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "pip": {
+    "description": "The PyPA recommended tool for installing Python packages.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Programming",
+      "Utilities"
+    ]
+  },
+  "pixman": {
+    "description": "The Pixman package contains a library that provides low-level pixel manipulation features such as image compositing and trapezoid rasterization.",
+    "homepage": "https://www.pixman.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "plumed": {
+    "description": "PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines.  Free energy calculations can be performed as a function of many order parameters with a particular focus on biological problems, using state of the art methods such as metadynamics, umbrella sampling and Jarzynski-equation based steered MD.  The software, written in C++, can be easily interfaced with both fortran and C/C++ codes.",
+    "homepage": "https://www.plumed.org/",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "proj": {
+    "description": "PROJ is a generic coordinate transformation software, that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations.",
+    "homepage": "https://proj.org/",
+    "source": "spack",
+    "topic": [
+      "Geoscience"
+    ]
+  },
+  "protobuf": {
+    "description": "Google's data interchange format.",
+    "homepage": "https://developers.google.com/protocol-buffers",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "py-matplotlib": {
+    "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    "homepage": "https://matplotlib.org/",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "py-mpi4py": {
+    "description": "mpi4py is a Python package providing bindings for the Message Passing Interface (MPI) standard. It enables Python programs to exploit multiple processors and distributed-memory systems for parallel computation.",
+    "homepage": "https://mpi4py.readthedocs.io/",
+    "source": "curated",
+    "topic": [
+      "MPI"
+    ]
+  },
+  "py-numpy": {
+    "description": "NumPy is a fundamental package for scientific computing with Python, providing array objects and operations.",
+    "homepage": "https://numpy.org/",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "py-pandas": {
+    "description": "Pandas is a Python library for data manipulation, analysis, and table-like data structures.",
+    "homepage": "https://pandas.pydata.org/",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "python": {
+    "description": "The Python programming language.",
+    "homepage": "https://www.python.org/",
+    "source": "spack",
+    "topic": [
+      "Programming"
+    ]
+  },
+  "qemu": {
+    "description": "QEMU is a generic and open source machine emulator and virtualizer.",
+    "homepage": "https://www.qemu.org",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "qgis": {
+    "description": "QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.",
+    "homepage": "https://qgis.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "qt": {
+    "description": "Qt is a comprehensive cross-platform C++ application framework.",
+    "homepage": "https://qt.io",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "quantumatk": {
+    "description": "QuantumATK is a software platform for atomic-scale modeling of materials and devices.",
+    "homepage": "https://www.synopsys.com/silicon/quantumatk.html",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "quantum-espresso": {
+    "description": "Quantum ESPRESSO (Quantum opEn-Source Package for Research in Electronic Structure, Simulation, and Optimization) is an integrated suite of open-source computer codes for electronic-structure calculations and materials modeling at the nanoscale. It is based on density functional theory, plane-wave basis sets, and pseudopotentials. Quantum ESPRESSO supports advanced simulations of solid-state materials, surfaces, and nanostructures, and is widely used in condensed matter physics, materials science, and quantum chemistry research.",
+    "homepage": "https://www.quantum-espresso.org/",
+    "source": "curated",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "r": {
+    "description": "R is 'GNU S', a freely available language and environment for statistical computing and graphics which provides a wide variety of statistical and graphical techniques: linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, etc. Please consult the R project homepage for further information.",
+    "homepage": "https://www.r-project.org",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-devtools": {
+    "description": "R devtools package provides tools to simplify R package development.",
+    "homepage": "https://cran.r-project.org/web/packages/devtools/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "readline": {
+    "description": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
+    "homepage": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "renderproto": {
+    "description": "X Rendering Extension.  This extension defines the protcol for a digital image composition as the foundation of a new rendering model within the X Window System.",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/renderproto",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "r-formatr": {
+    "description": "FormatR is an R package to format R code consistently.",
+    "homepage": "https://cran.r-project.org/web/packages/formatR/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-irkernel": {
+    "description": "IRKernel provides the R kernel for Jupyter notebooks.",
+    "homepage": "https://irkernel.github.io/",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-ncdf4": {
+    "description": "ncdf4 package provides R bindings for NetCDF scientific data.",
+    "homepage": "https://cran.r-project.org/web/packages/ncdf4/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "rocm": {
+    "description": "AMD ROCm (Radeon Open Compute) is an open-source software platform for GPU computing, designed to support high-performance computing (HPC), machine learning, and scientific workloads on AMD GPUs.",
+    "homepage": "https://rocmdocs.amd.com",
+    "source": "curated",
+    "topic": [
+      "MPI",
+      "Compilers"
+    ]
+  },
+  "r-plyr": {
+    "description": "Plyr is an R package for splitting, applying, and combining data.",
+    "homepage": "https://cran.r-project.org/web/packages/plyr/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-reshape2": {
+    "description": "Reshape2 provides tools for reshaping R data structures.",
+    "homepage": "https://cran.r-project.org/web/packages/reshape2/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-sf": {
+    "description": "Simple Features (sf) is an R package for handling spatial vector data.",
+    "homepage": "https://cran.r-project.org/web/packages/sf/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "r-shiny": {
+    "description": "Shiny is an R package for building interactive web applications directly from R.",
+    "homepage": "https://cran.r-project.org/web/packages/shiny/index.html",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "rstudio": {
+    "description": "RStudio is an integrated development environment (IDE) for R.",
+    "homepage": "https://www.rstudio.com/products/rstudio/",
+    "source": "spack",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "samtools": {
+    "description": "SAM Tools provide various utilities for manipulating alignments in the SAM format, including sorting, merging, indexing and generating alignments in a per-position format",
+    "homepage": "https://www.htslib.org",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "sas": {
+    "description": "Python split annotations library",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "scikit-learn": {
+    "description": "A set of python modules for machine learning and data mining",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "scipy": {
+    "description": "Fundamental algorithms for scientific computing in Python",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "seaborn": {
+    "description": "Statistical data visualization",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "sentaurus": {
+    "description": "Synopsys Sentaurus software suite for TCAD simulation of semiconductor devices.",
+    "homepage": "https://www.synopsys.com/silicon/tcad.html",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "setuptools": {
+    "description": "Easily download, build, install, upgrade, and uninstall Python packages",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "spark": {
+    "description": "Apache Spark is a fast and general engine for large-scale data processing.",
+    "homepage": "https://spark.apache.org",
+    "source": "spack",
+    "topic": [
+      "Programming",
+      "Workflow"
+    ]
+  },
+  "spice-server": {
+    "description": "SPICE server simulation environment for electronic circuit design and analysis.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "sqlite": {
+    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
+    "homepage": "https://www.sqlite.org",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "sratoolkit": {
+    "description": "The NCBI SRA Toolkit enables reading (\"dumping\") of sequencing files from the SRA database and writing (\"loading\") files into the .sra format.",
+    "homepage": "https://trace.ncbi.nlm.nih.gov/Traces/sra",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "stata": {
+    "description": "STATA is a general-purpose statistical software package developed by StataCorp.",
+    "homepage": "https://www.stata.com/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "stata-mp": {
+    "description": "Stata/MP is the multiprocessor version of Stata for statistical analysis.",
+    "homepage": "https://www.stata.com/products/mp/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "swig": {
+    "description": "SWIG is an interface compiler that connects programs written in C and C++ with scripting languages such as Perl, Python, Ruby, and Tcl. It works by taking the declarations found in C/C++ header files and using them to generate the wrapper code that scripting languages need to access the underlying C/C++ code. In addition, SWIG provides a variety of customization features that let you tailor the wrapping process to suit your application.",
+    "homepage": "https://www.swig.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "tar": {
+    "description": "GNU Tar provides the ability to create tar archives, as well as various other kinds of manipulation.",
+    "homepage": "https://www.gnu.org/software/tar/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Math/Stat"
+    ]
+  },
+  "tbb": {
+    "description": "Intel® oneAPI Threading Building Blocks (oneTBB)",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "tcl": {
+    "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, administration, testing and many more. Open source and business-friendly, Tcl is a mature yet evolving language that is truly cross platform, easily deployed and highly extensible.",
+    "homepage": "https://www.tcl.tk/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "tecplot": {
+    "description": "Tecplot 360 is a Computational Fluid Dynamics (CFD) and numerical simulation software package used in post-processing simulation results. It is also used in chemistry applications to visualize molecule structure by post-processing charge density data.",
+    "homepage": "https://www.tecplot.com/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "texlive": {
+    "description": "TeX Live is an easy (we hope) way to get up and running with the TeX document production system. It provides a comprehensive TeX system with binaries for most flavors of Unix, including GNU/Linux, macOS, and also Windows. It includes all the major TeX-related programs, macro packages, and fonts that are free software, including support for many languages around the world.",
+    "homepage": "https://www.tug.org/texlive",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "thermocalc": {
+    "description": "Thermo-Calc software for thermodynamic calculations of multicomponent systems.",
+    "homepage": "https://www.thermocalc.com/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "tk": {
+    "description": "Tk is a graphical user interface toolkit that takes developing desktop applications to a higher level than conventional approaches. Tk is the standard GUI not only for Tcl, but for many other dynamic languages, and can produce rich, native applications that run unchanged across Windows, Mac OS X, Linux and more.",
+    "homepage": "https://www.tcl.tk",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "tophat": {
+    "description": "Spliced read mapper for RNA-Seq.",
+    "homepage": "https://ccb.jhu.edu/software/tophat/index.shtml",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "totalview": {
+    "description": "Totalview parallel debugger.  Select the version associated with your machine architecture' '.",
+    "homepage": "https://totalview.io",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "trimmomatic": {
+    "description": "A flexible read trimming tool for Illumina NGS data.",
+    "homepage": "http://www.usadellab.org/cms/?page=trimmomatic",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "ucx": {
+    "description": "a communication library implementing high-performance messaging for MPI/PGAS frameworks",
+    "homepage": "https://www.openucx.org",
+    "source": "spack",
+    "topic": [
+      "MPI"
+    ]
+  },
+  "udunits": {
+    "description": "Automated units conversion",
+    "homepage": "https://www.unidata.ucar.edu/software/udunits",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "util-linux-uuid": {
+    "description": "UUID generation utility from the util-linux package.",
+    "homepage": "",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "valgrind": {
+    "description": "An instrumentation framework for building dynamic analysis.  There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile your programs in detail. You can also use Valgrind to build new tools.  Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.",
+    "homepage": "https://valgrind.org/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "vasp": {
+    "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.",
+    "homepage": "https://vasp.at",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "vcftools": {
+    "description": "VCFtools is a program package designed for working with VCF files, such as those generated by the 1000 Genomes Project. The aim of VCFtools is to provide easily accessible methods for working with complex genetic variation data in the form of VCF files.",
+    "homepage": "https://vcftools.github.io/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Workflow"
+    ]
+  },
+  "vim": {
+    "description": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.  Vim is often called a \"programmer's editor,\" and so useful for programming that many consider it an entire IDE. It's not just for programmers, though. Vim is perfect for all kinds of text editing, from composing email to editing configuration files.",
+    "homepage": "https://www.vim.org",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "virtualenv": {
+    "description": "Virtual Python Environment builder",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Programming",
+      "Utilities"
+    ]
+  },
+  "visit": {
+    "description": "VisIt is an Open Source, interactive, scalable, visualization, animation and analysis tool.",
+    "homepage": "https://wci.llnl.gov/simulation/computer-codes/visit/",
+    "source": "spack",
+    "topic": [
+      "Material Science",
+      "Engineering"
+    ]
+  },
+  "vlc": {
+    "description": "VLC media player for multimedia playback.",
+    "homepage": "https://www.videolan.org/vlc/",
+    "source": "curated",
+    "topic": [
+      "Utilities",
+      "Audio/Visual"
+    ]
+  },
+  "vmd": {
+    "description": "VMD provides user-editable materials which can be applied to molecular geometry.  These material properties control the details of how VMD shades the molecular geometry, and how transparent or opaque the displayed molecular geometry is. With this feature, one can easily create nice looking transparent surfaces which allow inner structural details to be seen within a large molecular structure. The material controls can be particularly helpful when rendering molecular scenes using external ray tracers, each of which typically differ slightly.",
+    "homepage": "https://www.ks.uiuc.edu/Research/vmd/",
+    "source": "spack",
+    "topic": [
+      "Utilities",
+      "Audio/Visual"
+    ]
+  },
+  "vscode": {
+    "description": "Visual Studio Code (VS Code) is a lightweight but powerful open-source code editor developed by Microsoft, featuring debugging, task running, and version control support for many programming languages and platforms.",
+    "homepage": "https://code.visualstudio.com",
+    "source": "curated",
+    "topic": [
+      "Programming",
+      "Utilities"
+    ]
+  },
+  "vtk": {
+    "description": "The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization.",
+    "homepage": "https://www.vtk.org",
+    "source": "spack",
+    "topic": [
+      "Material Science",
+      "Engineering"
+    ]
+  },
+  "vtune": {
+    "description": "Intel VTune Profiler is a performance analysis and profiling tool for optimizing application performance on Intel CPUs, GPUs, and FPGAs. It helps developers identify performance bottlenecks such as inefficient threading, memory access issues, vectorization inefficiencies, and I/O constraints. VTune supports system-level and microarchitecture-level analysis, enabling deep insight into how applications utilize hardware resources. It is widely used in high-performance computing, scientific applications, and performance-critical software development.",
+    "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "wannier90": {
+    "description": "Wannier90 calculates maximally-localised Wannier functions (MLWFs).  Wannier90 is released under the GNU General Public License.",
+    "homepage": "https://wannier.org",
+    "source": "spack",
+    "topic": [
+      "Chemistry",
+      "Material Science"
+    ]
+  },
+  "wheel": {
+    "description": "A built-package format for Python",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xalt": {
+    "description": "XALT is a tool for tracking HPC software usage and build environment provenance.",
+    "homepage": "https://xalt.readthedocs.io/",
+    "source": "curated",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "xcb-proto": {
+    "description": "XCB protocol descriptions for building X11 applications.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xcb-util": {
+    "description": "xcb-util is a set of libraries complementing the XCB (X protocol C-language Binding) library, providing convenient functions and abstractions for working with the X Window System.",
+    "homepage": "https://xcb.freedesktop.org",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xcb-util-cursor": {
+    "description": "xcb-util-cursor is a utility library for the XCB library, offering convenience functions to load and manipulate cursors in X11 applications.",
+    "homepage": "https://xcb.freedesktop.org",
+    "source": "curated",
+    "topic": [
+      "Math/Stat",
+      "Programming"
+    ]
+  },
+  "xcb-util-image": {
+    "description": "Utility library for manipulating images in X11 applications.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xcb-util-keysyms": {
+    "description": "X11 utility for key symbols mapping.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xcb-util-renderutil": {
+    "description": "X11 utility for rendering operations.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xcb-util-wm": {
+    "description": "X11 utility for window management.",
+    "homepage": "https://xcb.freedesktop.org/",
+    "source": "curated",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xextproto": {
+    "description": "X Protocol Extensions.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xextproto",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xproto": {
+    "description": "X Window System Core Protocol.  This package provides the headers and specification documents defining the X Window System Core Protocol, Version 11.  It also includes a number of headers that aren't purely protocol related, but are depended upon by many other X Window System packages to provide common definitions and porting layer.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/proto/x11proto",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xtrans": {
+    "description": "xtrans is a library of code that is shared among various X packages to handle network protocol transport in a modular fashion, allowing a single place to add new transport types.  It is used by the X server, libX11, libICE, the X font server, and related components.",
+    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxtrans",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "xz": {
+    "description": "XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems, but also work on some not-so-POSIX systems. XZ Utils are the successor to LZMA Utils.",
+    "homepage": "https://tukaani.org/xz/",
+    "source": "spack",
+    "topic": [
+      "Misc"
+    ]
+  },
+  "zlib": {
+    "description": "A free, general-purpose, legally unencumbered lossless data-compression library.",
+    "homepage": "https://zlib.net",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
+  },
+  "zstd": {
+    "description": "Zstandard, or zstd as short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios.",
+    "homepage": "https://facebook.github.io/zstd/",
+    "source": "spack",
+    "topic": [
+      "Library",
+      "Utilities"
+    ]
   }
 }
