@@ -3,5 +3,6 @@
 run:
 	./update_apps_inventory.sh -v
 	./update_apps_descriptions_from_inventory.sh
+	./generate_apps_topics.py
 	./generate_md.sh
 	./update_apps_catalog.sh

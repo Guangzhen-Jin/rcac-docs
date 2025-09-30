@@ -48,6 +48,7 @@
   --md-text-font: "UnitedSans"; 
 } */
 
+/* Customize table style to Github table */
 th, td {
     border: 1px solid var(--md-typeset-table-color);
     border-spacing: 0;

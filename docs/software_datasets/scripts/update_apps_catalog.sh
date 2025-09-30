@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-set -euo pipefail
+# set -euo pipefail
 
 MD_DIR="../software/apps_md"
 INV_FILE="./rcac_apps_inventory.json"
+DESC_FILE="./apps_descriptions.json" 
 CATALOG_FILE="../software/app_catalog.md"
 INDEX_FILE="../software/index.md"
 
@@ -19,6 +20,7 @@ version_count=$(find ../modulefiles -type f -name "*.lua" \
   ! -regex '.*-[a-zA-Z0-9]\{7\}\.lua$' \
   ! -path "*/modtree/*" \
   ! -path "*/biocontainers/*" \
+  ! -path "*/ngc/*" \
   ! -path "*/rocmcontainers/*" \
   | wc -l)
 
@@ -56,7 +58,11 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
     # If no clusters, leave blank
     clusters=${clusters:-""}
 
-    echo "| [**$app**](apps_md/$app.md) |  | $clusters |"
+    # Query topics from apps_descriptions.json (comma separated). fall back to empty.
+    topics=$(jq -r --arg app "$app" '.[$app].topic // [] | join(", ")' "$DESC_FILE" 2>/dev/null || echo "")
+    topics=${topics:-""}
+
+    echo "| [**$app**](apps_md/$app.md) | $topics | $clusters |"
   done
 
 } > "$CATALOG_FILE"
