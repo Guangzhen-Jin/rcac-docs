@@ -9,276 +9,1349 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **October 01, 2025**, there have been a total of **267** applications with **2416** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **October 01, 2025**, there have been a total of **267** applications with **2417** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
-| Application | Topic | Available at |
-|-------------|-------|--------------|
-| [**abaqus**](apps_md/abaqus.md) | Engineering | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**amber**](apps_md/amber.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**ambertools**](apps_md/ambertools.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH |
-| [**amdblis**](apps_md/amdblis.md) | Misc | ANVIL |
-| [**amdfftw**](apps_md/amdfftw.md) | Library, Math/Stat | ANVIL |
-| [**amdlibflame**](apps_md/amdlibflame.md) | Misc | ANVIL |
-| [**amdlibm**](apps_md/amdlibm.md) | Misc | ANVIL |
-| [**amdscalapack**](apps_md/amdscalapack.md) | Library, Math/Stat | ANVIL |
-| [**amduprof**](apps_md/amduprof.md) | MPI, Compilers | ANVIL, GAUTSCHI, NEGISHI |
-| [**anaconda**](apps_md/anaconda.md) | Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**ansys**](apps_md/ansys.md) | Misc | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**ansysem**](apps_md/ansysem.md) | Misc | SCHOLAR |
-| [**aocc**](apps_md/aocc.md) | Compilers | ANVIL |
-| [**arpack-ng**](apps_md/arpack-ng.md) | Misc | ANVIL, NEGISHI |
-| [**aws-cli**](apps_md/aws-cli.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**bamtools**](apps_md/bamtools.md) | Misc | ANVIL |
-| [**beagle**](apps_md/beagle.md) | Misc | ANVIL |
-| [**beast2**](apps_md/beast2.md) | Misc | ANVIL |
-| [**berkeley-db**](apps_md/berkeley-db.md) | Misc | ANVIL, NEGISHI |
-| [**bismark**](apps_md/bismark.md) | Misc | ANVIL |
-| [**blast-plus**](apps_md/blast-plus.md) | Library, Math/Stat | ANVIL |
-| [**blis**](apps_md/blis.md) | Misc | ANVIL, NEGISHI |
-| [**boost**](apps_md/boost.md) | Library, Math/Stat | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**bowtie2**](apps_md/bowtie2.md) | Library, Workflow | ANVIL |
-| [**bwa**](apps_md/bwa.md) | Library, Workflow | ANVIL |
-| [**bzip2**](apps_md/bzip2.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**cairo**](apps_md/cairo.md) | Misc | ANVIL, NEGISHI |
-| [**cdo**](apps_md/cdo.md) | Geoscience, Climate | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**cgal**](apps_md/cgal.md) | Misc | NEGISHI, SCHOLAR |
-| [**charmpp**](apps_md/charmpp.md) | Misc | ANVIL |
-| [**clusterbot**](apps_md/clusterbot.md) | Misc | ANVIL |
-| [**cmake**](apps_md/cmake.md) | Misc | ANVIL, NEGISHI |
-| [**comsol**](apps_md/comsol.md) | Misc | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**conda**](apps_md/conda.md) | Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**cosmosscope**](apps_md/cosmosscope.md) | Misc | NEGISHI |
-| [**cp2k**](apps_md/cp2k.md) | Chemistry, Material Science | ANVIL, BELL, NEGISHI |
-| [**cuda**](apps_md/cuda.md) | MPI, Compilers | ANVIL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**cudnn**](apps_md/cudnn.md) | MPI, Compilers | ANVIL, GAUTSCHI, GILBRETH |
-| [**cue-login-env**](apps_md/cue-login-env.md) | Misc | ANVIL |
-| [**cufflinks**](apps_md/cufflinks.md) | Misc | ANVIL |
-| [**curl**](apps_md/curl.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**cutadapt**](apps_md/cutadapt.md) | Misc | ANVIL |
-| [**cython**](apps_md/cython.md) | Misc | GAUTSCHI |
-| [**duckdb**](apps_md/duckdb.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**edacfg**](apps_md/edacfg.md) | Misc | NEGISHI |
-| [**eigen**](apps_md/eigen.md) | Library, Math/Stat | ANVIL, NEGISHI |
-| [**emacs**](apps_md/emacs.md) | Misc | ANVIL, NEGISHI |
-| [**expat**](apps_md/expat.md) | Misc | ANVIL |
-| [**fastqc**](apps_md/fastqc.md) | Misc | ANVIL |
-| [**fasttree**](apps_md/fasttree.md) | Misc | ANVIL |
-| [**fastx-toolkit**](apps_md/fastx-toolkit.md) | Misc | ANVIL |
-| [**ffmpeg**](apps_md/ffmpeg.md) | Utilities, Audio/Visual | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**fftw**](apps_md/fftw.md) | Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**font-util**](apps_md/font-util.md) | Misc | ANVIL, NEGISHI |
-| [**fontconfig**](apps_md/fontconfig.md) | Misc | ANVIL, NEGISHI |
-| [**freetype**](apps_md/freetype.md) | Misc | ANVIL, NEGISHI |
-| [**gatk**](apps_md/gatk.md) | Library, Workflow | ANVIL |
-| [**gaussian**](apps_md/gaussian.md) | Chemistry, Material Science | GILBRETH |
-| [**gaussian09**](apps_md/gaussian09.md) | Chemistry, Material Science | SCHOLAR |
-| [**gaussian16**](apps_md/gaussian16.md) | Chemistry, Material Science | BELL, NEGISHI, SCHOLAR |
-| [**gaussview**](apps_md/gaussview.md) | Chemistry, Material Science | BELL, GILBRETH, NEGISHI, SCHOLAR |
-| [**gcc-runtime**](apps_md/gcc-runtime.md) | Compilers | SCHOLAR |
-| [**gcc**](apps_md/gcc.md) | Compilers | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**gdal**](apps_md/gdal.md) | Geoscience, Climate | ANVIL, BELL, NEGISHI |
-| [**gdb**](apps_md/gdb.md) | Misc | ANVIL, BELL, NEGISHI |
-| [**gdbm**](apps_md/gdbm.md) | Misc | ANVIL, NEGISHI |
-| [**geos**](apps_md/geos.md) | Geoscience | ANVIL, NEGISHI |
-| [**gettext**](apps_md/gettext.md) | Misc | ANVIL, NEGISHI |
-| [**gfms**](apps_md/gfms.md) | Misc | ANVIL, GAUTSCHI, GILBRETH |
-| [**ghostscript**](apps_md/ghostscript.md) | Misc | ANVIL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**glib**](apps_md/glib.md) | Misc | ANVIL, NEGISHI |
-| [**gmp**](apps_md/gmp.md) | Misc | ANVIL, NEGISHI |
-| [**gmt**](apps_md/gmt.md) | Misc | ANVIL, BELL, GILBRETH, NEGISHI, SCHOLAR |
-| [**gnuplot**](apps_md/gnuplot.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**gpaw**](apps_md/gpaw.md) | Misc | ANVIL |
-| [**grace**](apps_md/grace.md) | Misc | NEGISHI |
-| [**grads**](apps_md/grads.md) | Geoscience, Climate | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**gromacs**](apps_md/gromacs.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**gsl**](apps_md/gsl.md) | Math/Stat, Engineering | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**gstreamer**](apps_md/gstreamer.md) | Math/Stat, Programming | ANVIL |
-| [**gurobi**](apps_md/gurobi.md) | Math/Stat, Engineering | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**hadoop**](apps_md/hadoop.md) | Misc | ANVIL, BELL, NEGISHI |
-| [**hdf**](apps_md/hdf.md) | Geoscience, Library | ANVIL, BELL, NEGISHI |
-| [**hdf5**](apps_md/hdf5.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**hpctoolkit**](apps_md/hpctoolkit.md) | Misc | ANVIL, NEGISHI |
-| [**hspice**](apps_md/hspice.md) | Misc | BELL, NEGISHI |
-| [**htseq**](apps_md/htseq.md) | Library, Workflow | ANVIL |
-| [**hwloc**](apps_md/hwloc.md) | Misc | ANVIL |
-| [**hyper-shell**](apps_md/hyper-shell.md) | Math/Stat, Programming | ANVIL, SCHOLAR |
-| [**hypershell**](apps_md/hypershell.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**imagemagick**](apps_md/imagemagick.md) | Utilities, Audio/Visual | BELL, GAUTSCHI, NEGISHI |
-| [**impi**](apps_md/impi.md) | MPI | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**inputproto**](apps_md/inputproto.md) | Misc | NEGISHI |
-| [**intel-mkl**](apps_md/intel-mkl.md) | Compilers, Library | ANVIL, BELL, NEGISHI |
-| [**intel-oneapi-compilers**](apps_md/intel-oneapi-compilers.md) | Compilers | BELL, GILBRETH, NEGISHI |
-| [**intel-oneapi-mkl**](apps_md/intel-oneapi-mkl.md) | Compilers, Library | BELL, GILBRETH, NEGISHI |
-| [**intel-oneapi-mpi**](apps_md/intel-oneapi-mpi.md) | MPI, Compilers | BELL, GILBRETH, NEGISHI |
-| [**intel-oneapi-tbb**](apps_md/intel-oneapi-tbb.md) | Compilers | BELL, NEGISHI |
-| [**intel-oneapi-vtune**](apps_md/intel-oneapi-vtune.md) | Compilers | BELL, GILBRETH |
-| [**intel-rt**](apps_md/intel-rt.md) | Compilers | ANVIL, GAUTSCHI, SCHOLAR |
-| [**intel**](apps_md/intel.md) | Compilers | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**julia**](apps_md/julia.md) | Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**jupyter**](apps_md/jupyter.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**kbproto**](apps_md/kbproto.md) | Misc | NEGISHI |
-| [**kokkos**](apps_md/kokkos.md) | Misc | ANVIL |
-| [**krb5**](apps_md/krb5.md) | Misc | ANVIL |
-| [**lammps**](apps_md/lammps.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**launcher**](apps_md/launcher.md) | Math/Stat, Programming | ANVIL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**learning**](apps_md/learning.md) | Misc | ANVIL |
-| [**libaio**](apps_md/libaio.md) | Library | GILBRETH |
-| [**libbsd**](apps_md/libbsd.md) | Library | ANVIL, NEGISHI |
-| [**libfabric**](apps_md/libfabric.md) | Library | ANVIL, NEGISHI |
-| [**libffi**](apps_md/libffi.md) | Library | ANVIL, NEGISHI |
-| [**libflame**](apps_md/libflame.md) | Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**libiconv**](apps_md/libiconv.md) | Library | ANVIL, NEGISHI |
-| [**libmd**](apps_md/libmd.md) | Library | ANVIL, NEGISHI |
-| [**libmesh**](apps_md/libmesh.md) | Geoscience, Library | ANVIL, NEGISHI |
-| [**libpng**](apps_md/libpng.md) | Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**libpthread-stubs**](apps_md/libpthread-stubs.md) | Library | ANVIL, NEGISHI |
-| [**libszip**](apps_md/libszip.md) | Library, Utilities | ANVIL, BELL, NEGISHI |
-| [**libtiff**](apps_md/libtiff.md) | Library | ANVIL, NEGISHI |
-| [**libtirpc**](apps_md/libtirpc.md) | Library | ANVIL |
-| [**libv8**](apps_md/libv8.md) | Library | ANVIL |
-| [**libx11**](apps_md/libx11.md) | Library | ANVIL, NEGISHI |
-| [**libxau**](apps_md/libxau.md) | Library | ANVIL, NEGISHI |
-| [**libxcb**](apps_md/libxcb.md) | Library | ANVIL, NEGISHI |
-| [**libxdmcp**](apps_md/libxdmcp.md) | Library | ANVIL, NEGISHI |
-| [**libxext**](apps_md/libxext.md) | Library | ANVIL, NEGISHI |
-| [**libxml2**](apps_md/libxml2.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**libxp**](apps_md/libxp.md) | Library | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**libxrender**](apps_md/libxrender.md) | Math/Stat, Programming | ANVIL, NEGISHI |
-| [**libxscrnsaver**](apps_md/libxscrnsaver.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**libxslt**](apps_md/libxslt.md) | Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**mathematica**](apps_md/mathematica.md) | Math/Stat, Engineering | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**matlab**](apps_md/matlab.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**matplotlib**](apps_md/matplotlib.md) | Library, Math/Stat | GAUTSCHI |
-| [**meep**](apps_md/meep.md) | Chemistry, Material Science | ANVIL, NEGISHI |
-| [**mesa-glu**](apps_md/mesa-glu.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**monitor**](apps_md/monitor.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**motif**](apps_md/motif.md) | Misc | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**mpc**](apps_md/mpc.md) | Misc | ANVIL, NEGISHI |
-| [**mpfr**](apps_md/mpfr.md) | Math/Stat, Programming | ANVIL, NEGISHI |
-| [**mpi4py**](apps_md/mpi4py.md) | MPI, Programming | GAUTSCHI |
-| [**mrbayes**](apps_md/mrbayes.md) | Misc | ANVIL |
-| [**mvapich2**](apps_md/mvapich2.md) | MPI | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**namd**](apps_md/namd.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**nccl**](apps_md/nccl.md) | MPI, Compilers | ANVIL |
-| [**ncl**](apps_md/ncl.md) | Geoscience, Climate | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**nco**](apps_md/nco.md) | Geoscience, Climate | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**ncurses**](apps_md/ncurses.md) | Misc | ANVIL, NEGISHI |
-| [**ncview**](apps_md/ncview.md) | Geoscience, Climate | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**netcdf-c**](apps_md/netcdf-c.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**netcdf-cxx4**](apps_md/netcdf-cxx4.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**netcdf-fortran**](apps_md/netcdf-fortran.md) | Geoscience, Library | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**netlib-lapack**](apps_md/netlib-lapack.md) | Library, Math/Stat | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**nextflow**](apps_md/nextflow.md) | Workflow | ANVIL, BELL, GAUTSCHI, NEGISHI |
-| [**nf-core**](apps_md/nf-core.md) | Workflow | ANVIL, BELL, NEGISHI |
-| [**numactl**](apps_md/numactl.md) | Misc | ANVIL, NEGISHI |
-| [**numba**](apps_md/numba.md) | Library, Math/Stat | GAUTSCHI |
-| [**numpy**](apps_md/numpy.md) | Library, Math/Stat | GAUTSCHI |
-| [**nvhpc**](apps_md/nvhpc.md) | Compilers | ANVIL, GAUTSCHI, GILBRETH |
-| [**nwchem**](apps_md/nwchem.md) | Chemistry, Material Science | ANVIL, NEGISHI |
-| [**oclfpga**](apps_md/oclfpga.md) | Misc | ANVIL, GAUTSCHI, SCHOLAR |
-| [**octave**](apps_md/octave.md) | Math/Stat, Engineering | ANVIL, BELL, NEGISHI |
-| [**openblas**](apps_md/openblas.md) | Library, Math/Stat | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**openfoam**](apps_md/openfoam.md) | Fluid Dynamics, Engineering | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**openjdk**](apps_md/openjdk.md) | Programming | ANVIL, BELL, GAUTSCHI, NEGISHI |
-| [**openmpi**](apps_md/openmpi.md) | MPI | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**openssl**](apps_md/openssl.md) | Library, Utilities | ANVIL |
-| [**ovito**](apps_md/ovito.md) | Utilities, Audio/Visual | ANVIL, NEGISHI |
-| [**pandas**](apps_md/pandas.md) | Library, Math/Stat | GAUTSCHI |
-| [**pandoc**](apps_md/pandoc.md) | Misc | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**panoply**](apps_md/panoply.md) | Geoscience, Climate | SCHOLAR |
-| [**papi**](apps_md/papi.md) | Misc | ANVIL, NEGISHI |
-| [**parafly**](apps_md/parafly.md) | Material Science, Engineering | ANVIL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**parallel-netcdf**](apps_md/parallel-netcdf.md) | Material Science, Geoscience | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**parallel**](apps_md/parallel.md) | Material Science, Engineering | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**paraview**](apps_md/paraview.md) | Material Science, Engineering | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**pcre**](apps_md/pcre.md) | Misc | ANVIL |
-| [**pcre2**](apps_md/pcre2.md) | Misc | NEGISHI |
-| [**perl-bioperl**](apps_md/perl-bioperl.md) | Misc | ANVIL |
-| [**perl**](apps_md/perl.md) | Misc | ANVIL, NEGISHI |
-| [**petsc**](apps_md/petsc.md) | Fluid Dynamics, Math/Stat | ANVIL, NEGISHI |
-| [**picard**](apps_md/picard.md) | Misc | ANVIL |
-| [**pigz**](apps_md/pigz.md) | Library, Utilities | NEGISHI |
-| [**pip**](apps_md/pip.md) | Programming, Utilities | GAUTSCHI |
-| [**pixman**](apps_md/pixman.md) | Misc | ANVIL, NEGISHI |
-| [**plumed**](apps_md/plumed.md) | Chemistry, Material Science | ANVIL, GILBRETH |
-| [**proj**](apps_md/proj.md) | Geoscience | ANVIL, NEGISHI |
-| [**protobuf**](apps_md/protobuf.md) | Misc | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**py-matplotlib**](apps_md/py-matplotlib.md) | Library, Math/Stat | GAUTSCHI |
-| [**py-mpi4py**](apps_md/py-mpi4py.md) | MPI | ANVIL, GAUTSCHI |
-| [**py-numpy**](apps_md/py-numpy.md) | Library, Math/Stat | GAUTSCHI |
-| [**py-pandas**](apps_md/py-pandas.md) | Library, Math/Stat | GAUTSCHI |
-| [**python**](apps_md/python.md) | Programming | ANVIL, GAUTSCHI |
-| [**qemu**](apps_md/qemu.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**qgis**](apps_md/qgis.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**qt**](apps_md/qt.md) | Misc | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**quantum-espresso**](apps_md/quantum-espresso.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**quantumatk**](apps_md/quantumatk.md) | Chemistry, Material Science | BELL, NEGISHI |
-| [**r-devtools**](apps_md/r-devtools.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r-formatr**](apps_md/r-formatr.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r-irkernel**](apps_md/r-irkernel.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r-ncdf4**](apps_md/r-ncdf4.md) | Math/Stat, Programming | BELL, GILBRETH, SCHOLAR |
-| [**r-plyr**](apps_md/r-plyr.md) | Math/Stat, Programming | GAUTSCHI, SCHOLAR |
-| [**r-reshape2**](apps_md/r-reshape2.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r-sf**](apps_md/r-sf.md) | Math/Stat, Programming | BELL, GILBRETH, SCHOLAR |
-| [**r-shiny**](apps_md/r-shiny.md) | Math/Stat, Programming | BELL, GAUTSCHI, GILBRETH, SCHOLAR |
-| [**r**](apps_md/r.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**readline**](apps_md/readline.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**renderproto**](apps_md/renderproto.md) | Misc | ANVIL, NEGISHI |
-| [**rocm**](apps_md/rocm.md) | MPI, Compilers | BELL, NEGISHI |
-| [**rstudio**](apps_md/rstudio.md) | Math/Stat, Programming | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**samtools**](apps_md/samtools.md) | Library, Workflow | ANVIL |
-| [**sas**](apps_md/sas.md) | Misc | BELL, SCHOLAR |
-| [**scikit-learn**](apps_md/scikit-learn.md) | Library, Math/Stat | GAUTSCHI |
-| [**scipy**](apps_md/scipy.md) | Library, Math/Stat | GAUTSCHI |
-| [**seaborn**](apps_md/seaborn.md) | Misc | GAUTSCHI |
-| [**sentaurus**](apps_md/sentaurus.md) | Misc | BELL, NEGISHI |
-| [**setuptools**](apps_md/setuptools.md) | Misc | GAUTSCHI |
-| [**spark**](apps_md/spark.md) | Programming, Workflow | ANVIL, BELL, NEGISHI |
-| [**spice-server**](apps_md/spice-server.md) | Math/Stat, Programming | ANVIL |
-| [**sqlite**](apps_md/sqlite.md) | Library, Utilities | ANVIL, NEGISHI |
-| [**sratoolkit**](apps_md/sratoolkit.md) | Library, Workflow | ANVIL |
-| [**stata-mp**](apps_md/stata-mp.md) | Misc | BELL, SCHOLAR |
-| [**stata**](apps_md/stata.md) | Misc | BELL, GAUTSCHI, NEGISHI, SCHOLAR |
-| [**swig**](apps_md/swig.md) | Misc | ANVIL, NEGISHI |
-| [**tar**](apps_md/tar.md) | Library, Math/Stat | ANVIL, NEGISHI |
-| [**tbb**](apps_md/tbb.md) | Misc | ANVIL, GAUTSCHI, SCHOLAR |
-| [**tcl**](apps_md/tcl.md) | Misc | ANVIL, NEGISHI |
-| [**tecplot**](apps_md/tecplot.md) | Misc | BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**texlive**](apps_md/texlive.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**thermocalc**](apps_md/thermocalc.md) | Misc | BELL, NEGISHI |
-| [**tk**](apps_md/tk.md) | Misc | ANVIL, BELL, NEGISHI |
-| [**tophat**](apps_md/tophat.md) | Misc | ANVIL |
-| [**totalview**](apps_md/totalview.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**trimmomatic**](apps_md/trimmomatic.md) | Misc | ANVIL |
-| [**ucx**](apps_md/ucx.md) | MPI | ANVIL |
-| [**udunits**](apps_md/udunits.md) | Misc | ANVIL, NEGISHI |
-| [**util-linux-uuid**](apps_md/util-linux-uuid.md) | Library, Utilities | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**valgrind**](apps_md/valgrind.md) | Misc | ANVIL, BELL, NEGISHI |
-| [**vasp**](apps_md/vasp.md) | Chemistry, Material Science | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**vcftools**](apps_md/vcftools.md) | Library, Workflow | ANVIL |
-| [**vim**](apps_md/vim.md) | Misc | BELL |
-| [**virtualenv**](apps_md/virtualenv.md) | Programming, Utilities | GAUTSCHI |
-| [**visit**](apps_md/visit.md) | Material Science, Engineering | ANVIL, NEGISHI |
-| [**vlc**](apps_md/vlc.md) | Utilities, Audio/Visual | ANVIL, NEGISHI |
-| [**vmd**](apps_md/vmd.md) | Utilities, Audio/Visual | ANVIL, GILBRETH, NEGISHI |
-| [**vscode**](apps_md/vscode.md) | Programming, Utilities | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**vtk**](apps_md/vtk.md) | Material Science, Engineering | ANVIL, NEGISHI |
-| [**vtune**](apps_md/vtune.md) | Misc | GAUTSCHI, SCHOLAR |
-| [**wannier90**](apps_md/wannier90.md) | Chemistry, Material Science | ANVIL |
-| [**wheel**](apps_md/wheel.md) | Misc | GAUTSCHI |
-| [**xalt**](apps_md/xalt.md) | Library, Utilities | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI |
-| [**xcb-proto**](apps_md/xcb-proto.md) | Misc | ANVIL, NEGISHI |
-| [**xcb-util-cursor**](apps_md/xcb-util-cursor.md) | Math/Stat, Programming | BELL, GILBRETH |
-| [**xcb-util-image**](apps_md/xcb-util-image.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**xcb-util-keysyms**](apps_md/xcb-util-keysyms.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**xcb-util-renderutil**](apps_md/xcb-util-renderutil.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**xcb-util-wm**](apps_md/xcb-util-wm.md) | Misc | ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR |
-| [**xcb-util**](apps_md/xcb-util.md) | Misc | NEGISHI |
-| [**xextproto**](apps_md/xextproto.md) | Misc | ANVIL, NEGISHI |
-| [**xproto**](apps_md/xproto.md) | Misc | ANVIL, NEGISHI |
-| [**xtrans**](apps_md/xtrans.md) | Misc | NEGISHI |
-| [**xz**](apps_md/xz.md) | Misc | ANVIL, NEGISHI |
-| [**zlib**](apps_md/zlib.md) | Library, Utilities | ANVIL, BELL, GILBRETH, NEGISHI |
-| [**zstd**](apps_md/zstd.md) | Library, Utilities | NEGISHI |
+<table id="appTable" class="tablefilter">
+  <thead>
+    <tr><th><strong>Application</strong></th><th><strong>Topic</strong></th><th><strong>Available at</strong></th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="../apps_md/abaqus"><strong>abaqus</strong></a></td>
+      <td>Engineering</td>
+      <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amber"><strong>amber</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ambertools"><strong>ambertools</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amdblis"><strong>amdblis</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amdfftw"><strong>amdfftw</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amdlibflame"><strong>amdlibflame</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amdlibm"><strong>amdlibm</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amdscalapack"><strong>amdscalapack</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/amduprof"><strong>amduprof</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>ANVIL, GAUTSCHI, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/anaconda"><strong>anaconda</strong></a></td>
+      <td>Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ansys"><strong>ansys</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ansysem"><strong>ansysem</strong></a></td>
+      <td>Misc</td>
+      <td>SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/aocc"><strong>aocc</strong></a></td>
+      <td>Compilers</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/arpack-ng"><strong>arpack-ng</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/aws-cli"><strong>aws-cli</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/bamtools"><strong>bamtools</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/beagle"><strong>beagle</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/beast2"><strong>beast2</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/berkeley-db"><strong>berkeley-db</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/bismark"><strong>bismark</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/blast-plus"><strong>blast-plus</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/blis"><strong>blis</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/boost"><strong>boost</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/bowtie2"><strong>bowtie2</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/bwa"><strong>bwa</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/bzip2"><strong>bzip2</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cairo"><strong>cairo</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cdo"><strong>cdo</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cgal"><strong>cgal</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/charmpp"><strong>charmpp</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/clusterbot"><strong>clusterbot</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cmake"><strong>cmake</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/comsol"><strong>comsol</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/conda"><strong>conda</strong></a></td>
+      <td>Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cosmosscope"><strong>cosmosscope</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cp2k"><strong>cp2k</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cuda"><strong>cuda</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cudnn"><strong>cudnn</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cue-login-env"><strong>cue-login-env</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cufflinks"><strong>cufflinks</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/curl"><strong>curl</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cutadapt"><strong>cutadapt</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/cython"><strong>cython</strong></a></td>
+      <td>Misc</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/duckdb"><strong>duckdb</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/edacfg"><strong>edacfg</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/eigen"><strong>eigen</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/emacs"><strong>emacs</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/expat"><strong>expat</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/fastqc"><strong>fastqc</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/fasttree"><strong>fasttree</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/fastx-toolkit"><strong>fastx-toolkit</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ffmpeg"><strong>ffmpeg</strong></a></td>
+      <td>Utilities, Audio/Visual</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/fftw"><strong>fftw</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/font-util"><strong>font-util</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/fontconfig"><strong>fontconfig</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/freetype"><strong>freetype</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gatk"><strong>gatk</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gaussian"><strong>gaussian</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gaussian09"><strong>gaussian09</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gaussian16"><strong>gaussian16</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>BELL, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gaussview"><strong>gaussview</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>BELL, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gcc-runtime"><strong>gcc-runtime</strong></a></td>
+      <td>Compilers</td>
+      <td>SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gcc"><strong>gcc</strong></a></td>
+      <td>Compilers</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gdal"><strong>gdal</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gdb"><strong>gdb</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gdbm"><strong>gdbm</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/geos"><strong>geos</strong></a></td>
+      <td>Geoscience</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gettext"><strong>gettext</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gfms"><strong>gfms</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ghostscript"><strong>ghostscript</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/glib"><strong>glib</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gmp"><strong>gmp</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gmt"><strong>gmt</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gnuplot"><strong>gnuplot</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gpaw"><strong>gpaw</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/grace"><strong>grace</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/grads"><strong>grads</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gromacs"><strong>gromacs</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gsl"><strong>gsl</strong></a></td>
+      <td>Math/Stat, Engineering</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gstreamer"><strong>gstreamer</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/gurobi"><strong>gurobi</strong></a></td>
+      <td>Math/Stat, Engineering</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hadoop"><strong>hadoop</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hdf"><strong>hdf</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hdf5"><strong>hdf5</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hpctoolkit"><strong>hpctoolkit</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hspice"><strong>hspice</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/htseq"><strong>htseq</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hwloc"><strong>hwloc</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hyper-shell"><strong>hyper-shell</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/hypershell"><strong>hypershell</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/imagemagick"><strong>imagemagick</strong></a></td>
+      <td>Utilities, Audio/Visual</td>
+      <td>BELL, GAUTSCHI, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/impi"><strong>impi</strong></a></td>
+      <td>MPI</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/inputproto"><strong>inputproto</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-mkl"><strong>intel-mkl</strong></a></td>
+      <td>Compilers, Library</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-oneapi-compilers"><strong>intel-oneapi-compilers</strong></a></td>
+      <td>Compilers</td>
+      <td>BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-oneapi-mkl"><strong>intel-oneapi-mkl</strong></a></td>
+      <td>Compilers, Library</td>
+      <td>BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-oneapi-mpi"><strong>intel-oneapi-mpi</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-oneapi-tbb"><strong>intel-oneapi-tbb</strong></a></td>
+      <td>Compilers</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-oneapi-vtune"><strong>intel-oneapi-vtune</strong></a></td>
+      <td>Compilers</td>
+      <td>BELL, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel-rt"><strong>intel-rt</strong></a></td>
+      <td>Compilers</td>
+      <td>ANVIL, GAUTSCHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/intel"><strong>intel</strong></a></td>
+      <td>Compilers</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/julia"><strong>julia</strong></a></td>
+      <td>Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/jupyter"><strong>jupyter</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/kbproto"><strong>kbproto</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/kokkos"><strong>kokkos</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/krb5"><strong>krb5</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/lammps"><strong>lammps</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/launcher"><strong>launcher</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/learning"><strong>learning</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libaio"><strong>libaio</strong></a></td>
+      <td>Library</td>
+      <td>GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libbsd"><strong>libbsd</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libfabric"><strong>libfabric</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libffi"><strong>libffi</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libflame"><strong>libflame</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libiconv"><strong>libiconv</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libmd"><strong>libmd</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libmesh"><strong>libmesh</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libpng"><strong>libpng</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libpthread-stubs"><strong>libpthread-stubs</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libszip"><strong>libszip</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libtiff"><strong>libtiff</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libtirpc"><strong>libtirpc</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libv8"><strong>libv8</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libx11"><strong>libx11</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxau"><strong>libxau</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxcb"><strong>libxcb</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxdmcp"><strong>libxdmcp</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxext"><strong>libxext</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxml2"><strong>libxml2</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxp"><strong>libxp</strong></a></td>
+      <td>Library</td>
+      <td>BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxrender"><strong>libxrender</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxscrnsaver"><strong>libxscrnsaver</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/libxslt"><strong>libxslt</strong></a></td>
+      <td>Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mathematica"><strong>mathematica</strong></a></td>
+      <td>Math/Stat, Engineering</td>
+      <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/matlab"><strong>matlab</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/matplotlib"><strong>matplotlib</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/meep"><strong>meep</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mesa-glu"><strong>mesa-glu</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/monitor"><strong>monitor</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/motif"><strong>motif</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mpc"><strong>mpc</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mpfr"><strong>mpfr</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mpi4py"><strong>mpi4py</strong></a></td>
+      <td>MPI, Programming</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mrbayes"><strong>mrbayes</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/mvapich2"><strong>mvapich2</strong></a></td>
+      <td>MPI</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/namd"><strong>namd</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nccl"><strong>nccl</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ncl"><strong>ncl</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nco"><strong>nco</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ncurses"><strong>ncurses</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ncview"><strong>ncview</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/netcdf-c"><strong>netcdf-c</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/netcdf-cxx4"><strong>netcdf-cxx4</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/netcdf-fortran"><strong>netcdf-fortran</strong></a></td>
+      <td>Geoscience, Library</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/netlib-lapack"><strong>netlib-lapack</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nextflow"><strong>nextflow</strong></a></td>
+      <td>Workflow</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nf-core"><strong>nf-core</strong></a></td>
+      <td>Workflow</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/numactl"><strong>numactl</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/numba"><strong>numba</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/numpy"><strong>numpy</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nvhpc"><strong>nvhpc</strong></a></td>
+      <td>Compilers</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/nwchem"><strong>nwchem</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/oclfpga"><strong>oclfpga</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, GAUTSCHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/octave"><strong>octave</strong></a></td>
+      <td>Math/Stat, Engineering</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/openblas"><strong>openblas</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/openfoam"><strong>openfoam</strong></a></td>
+      <td>Fluid Dynamics, Engineering</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/openjdk"><strong>openjdk</strong></a></td>
+      <td>Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/openmpi"><strong>openmpi</strong></a></td>
+      <td>MPI</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/openssl"><strong>openssl</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ovito"><strong>ovito</strong></a></td>
+      <td>Utilities, Audio/Visual</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pandas"><strong>pandas</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pandoc"><strong>pandoc</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/panoply"><strong>panoply</strong></a></td>
+      <td>Geoscience, Climate</td>
+      <td>SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/papi"><strong>papi</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/parafly"><strong>parafly</strong></a></td>
+      <td>Material Science, Engineering</td>
+      <td>ANVIL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/parallel-netcdf"><strong>parallel-netcdf</strong></a></td>
+      <td>Material Science, Geoscience</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/parallel"><strong>parallel</strong></a></td>
+      <td>Material Science, Engineering</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/paraview"><strong>paraview</strong></a></td>
+      <td>Material Science, Engineering</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pcre"><strong>pcre</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pcre2"><strong>pcre2</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/perl-bioperl"><strong>perl-bioperl</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/perl"><strong>perl</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/petsc"><strong>petsc</strong></a></td>
+      <td>Fluid Dynamics, Math/Stat</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/picard"><strong>picard</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pigz"><strong>pigz</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pip"><strong>pip</strong></a></td>
+      <td>Programming, Utilities</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/pixman"><strong>pixman</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/plumed"><strong>plumed</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/proj"><strong>proj</strong></a></td>
+      <td>Geoscience</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/protobuf"><strong>protobuf</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/py-matplotlib"><strong>py-matplotlib</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/py-mpi4py"><strong>py-mpi4py</strong></a></td>
+      <td>MPI</td>
+      <td>ANVIL, GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/py-numpy"><strong>py-numpy</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/py-pandas"><strong>py-pandas</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/python"><strong>python</strong></a></td>
+      <td>Programming</td>
+      <td>ANVIL, GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/qemu"><strong>qemu</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/qgis"><strong>qgis</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/qt"><strong>qt</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/quantum-espresso"><strong>quantum-espresso</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/quantumatk"><strong>quantumatk</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-devtools"><strong>r-devtools</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-formatr"><strong>r-formatr</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-irkernel"><strong>r-irkernel</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-ncdf4"><strong>r-ncdf4</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-plyr"><strong>r-plyr</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>GAUTSCHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-reshape2"><strong>r-reshape2</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-sf"><strong>r-sf</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r-shiny"><strong>r-shiny</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/r"><strong>r</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/readline"><strong>readline</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/renderproto"><strong>renderproto</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/rocm"><strong>rocm</strong></a></td>
+      <td>MPI, Compilers</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/rstudio"><strong>rstudio</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/samtools"><strong>samtools</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/sas"><strong>sas</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/scikit-learn"><strong>scikit-learn</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/scipy"><strong>scipy</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/seaborn"><strong>seaborn</strong></a></td>
+      <td>Misc</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/sentaurus"><strong>sentaurus</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/setuptools"><strong>setuptools</strong></a></td>
+      <td>Misc</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/spark"><strong>spark</strong></a></td>
+      <td>Programming, Workflow</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/spice-server"><strong>spice-server</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/sqlite"><strong>sqlite</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/sratoolkit"><strong>sratoolkit</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/stata-mp"><strong>stata-mp</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/stata"><strong>stata</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/swig"><strong>swig</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tar"><strong>tar</strong></a></td>
+      <td>Library, Math/Stat</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tbb"><strong>tbb</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, GAUTSCHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tcl"><strong>tcl</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tecplot"><strong>tecplot</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/texlive"><strong>texlive</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/thermocalc"><strong>thermocalc</strong></a></td>
+      <td>Misc</td>
+      <td>BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tk"><strong>tk</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/tophat"><strong>tophat</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/totalview"><strong>totalview</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/trimmomatic"><strong>trimmomatic</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/ucx"><strong>ucx</strong></a></td>
+      <td>MPI</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/udunits"><strong>udunits</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/util-linux-uuid"><strong>util-linux-uuid</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/valgrind"><strong>valgrind</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vasp"><strong>vasp</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vcftools"><strong>vcftools</strong></a></td>
+      <td>Library, Workflow</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vim"><strong>vim</strong></a></td>
+      <td>Misc</td>
+      <td>BELL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/virtualenv"><strong>virtualenv</strong></a></td>
+      <td>Programming, Utilities</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/visit"><strong>visit</strong></a></td>
+      <td>Material Science, Engineering</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vlc"><strong>vlc</strong></a></td>
+      <td>Utilities, Audio/Visual</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vmd"><strong>vmd</strong></a></td>
+      <td>Utilities, Audio/Visual</td>
+      <td>ANVIL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vscode"><strong>vscode</strong></a></td>
+      <td>Programming, Utilities</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vtk"><strong>vtk</strong></a></td>
+      <td>Material Science, Engineering</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/vtune"><strong>vtune</strong></a></td>
+      <td>Misc</td>
+      <td>GAUTSCHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/wannier90"><strong>wannier90</strong></a></td>
+      <td>Chemistry, Material Science</td>
+      <td>ANVIL</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/wheel"><strong>wheel</strong></a></td>
+      <td>Misc</td>
+      <td>GAUTSCHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xalt"><strong>xalt</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-proto"><strong>xcb-proto</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util-cursor"><strong>xcb-util-cursor</strong></a></td>
+      <td>Math/Stat, Programming</td>
+      <td>BELL, GILBRETH</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util-image"><strong>xcb-util-image</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util-keysyms"><strong>xcb-util-keysyms</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util-renderutil"><strong>xcb-util-renderutil</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util-wm"><strong>xcb-util-wm</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xcb-util"><strong>xcb-util</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xextproto"><strong>xextproto</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xproto"><strong>xproto</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xtrans"><strong>xtrans</strong></a></td>
+      <td>Misc</td>
+      <td>NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/xz"><strong>xz</strong></a></td>
+      <td>Misc</td>
+      <td>ANVIL, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/zlib"><strong>zlib</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>ANVIL, BELL, GILBRETH, NEGISHI</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/zstd"><strong>zstd</strong></a></td>
+      <td>Library, Utilities</td>
+      <td>NEGISHI</td>
+    </tr>
+  </tbody>
+</table>

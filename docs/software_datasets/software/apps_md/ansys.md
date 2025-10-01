@@ -14,7 +14,7 @@ ANSYS is a comprehensive software suite for engineering simulation covering fini
 
 |Cluster|Versions|
 |---|---|
-**BELL**|2023R1, 2024R2
+**BELL**|2023R1, 2024R2, 2025R2
 **GAUTSCHI**|2024R2, 2025R2
 **GILBRETH**|2024R2
 **NEGISHI**|2022R2, 2023R1, 2023R2, 2024R2, 2025R2
