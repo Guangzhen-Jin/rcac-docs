@@ -38,6 +38,11 @@ theme:
         name: Switch to light mode
 extra_css:
   - stylesheets/extra.css
+  - assets/css/tablefilter.css
+extra_javascript:
+  - assets/js/tablefilter.js
+  - assets/js/init-tablefilter.js
+
 
 plugins:
   - search

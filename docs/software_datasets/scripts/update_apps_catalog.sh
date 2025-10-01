@@ -43,8 +43,11 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo "## Applications Catalog"
   echo
-  echo "| Application | Topic | Available at |"
-  echo "|-------------|-------|--------------|"
+  echo '<table id="appTable" class="tablefilter">'
+  echo "  <thead>"
+  echo "    <tr><th><strong>Application</strong></th><th><strong>Topic</strong></th><th><strong>Available at</strong></th></tr>"
+  echo "  </thead>"
+  echo "  <tbody>"
 
   # Iterate through apps
   find "$MD_DIR" -type f -name "*.md" | sort | while read -r filepath; do
@@ -54,17 +57,22 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
     clusters=$(jq -r --arg app "$app" \
       '.[$app].availability | keys[]? | ascii_upcase' "$INV_FILE" 2>/dev/null \
       | sort -u | paste -sd "," - | sed 's/,/, /g')
-    
-    # If no clusters, leave blank
     clusters=${clusters:-""}
 
     # Query topics from apps_descriptions.json (comma separated). fall back to empty.
     topics=$(jq -r --arg app "$app" '.[$app].topic // [] | join(", ")' "$DESC_FILE" 2>/dev/null || echo "")
     topics=${topics:-""}
 
-    echo "| [**$app**](apps_md/$app.md) | $topics | $clusters |"
+    echo "    <tr>"
+    echo "      <td><a href=\"../apps_md/$app\"><strong>$app</strong></a></td>"
+    echo "      <td>$topics</td>"
+    echo "      <td>$clusters</td>"
+    echo "    </tr>"
   done
 
+  echo "  </tbody>"
+  echo "</table>"
+  
 } > "$CATALOG_FILE"
 
 {
@@ -94,7 +102,6 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo "    Chemistry software catalog of deployed applications on RCAC clusters."
   echo
   echo '    [:octicons-arrow-right-24: Computational Chemistry Software Catalog](chemistry_catalog.md)'
-  echo
   echo
   echo "-   :material-application:{ .lg .middle } __Fluid Dynamics__"
   echo
@@ -128,7 +135,6 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo '    [:octicons-arrow-right-24: Biocontainers :octicons-link-external-16:](https://biocontainer-doc.readthedocs.io/en/latest/)'
   echo
-
   echo '</div>'
 
 } > "$INDEX_FILE"
