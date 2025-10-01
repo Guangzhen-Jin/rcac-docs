@@ -15,7 +15,8 @@ There are many places you can store your files to access them on the clusters:
 * `Ceph` (S3 object storage)
 
 ## Cloud
-* Box.com / REED
+* Box.com / REED (retires soon)
+* SharePoint
 * GitHub (github.itap.purdue.edu)
 
 ## Libraries
