@@ -81,3 +81,34 @@ th, td {
 [data-md-color-scheme="slate"] .md-typeset__table tr:nth-child(2n) {
     background-color: hsla(var(--md-hue),25%,25%,1)
 }
+
+/* Let MkDocs Material control tables */
+#appTable th,
+#appTable td {
+  background: inherit !important;
+  color: inherit !important;
+}
+
+/* Restore MkDocs default borders */
+#appTable,
+#appTable th,
+#appTable td {
+  border: 1px solid var(--md-typeset-table-color, rgba(0, 0, 0, 0.12));
+  border-collapse: collapse;
+}
+
+/* Make TableFilter filter row follow MkDocs theme */
+#appTable .fltrow th,
+#appTable .fltrow td {
+  background-color: var(--md-default-bg-color) !important;
+  color: var(--md-default-fg-color) !important;
+  border: 1px solid var(--md-typeset-table-color, rgba(0,0,0,.12)) !important;
+}
+
+/* Ensure inputs/selects in filter row match theme */
+#appTable .fltrow input,
+#appTable .fltrow select {
+  background-color: var(--md-default-bg-color) !important;
+  color: var(--md-default-fg-color) !important;
+  border: 1px solid var(--md-typeset-table-color, rgba(0,0,0,.12)) !important;
+}

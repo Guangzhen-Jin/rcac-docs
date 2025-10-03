@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     col_0: 'input',              // Application → text input
     col_1: 'input',             // Topic → input (we'll add a clickable select next to it)
     col_2: 'input',             // Available at → input (we'll add a clickable select next to it)
-    alternate_rows: true,
+    alternate_rows: false,
+    themes: [{ name: 'transparent'}], 
     extensions: [{ name: 'sort' }],
     watermark: ['Start typing...', 'Topic...', 'Avalable cluster...'],
     auto_filter: { delay: 100 }, // milliseconds
