@@ -29,3 +29,4 @@ prepend_path("PYTHONPATH", pathJoin(modroot, 'libexec','share/qgis/python/plugin
 prepend_path("PYTHONPATH", pathJoin(modroot, 'libexec','share/qgis/python'))
 setenv("QT_PLUGIN_PATH", pathJoin(modroot, 'libexec','plugins'))
 setenv("QGIS_PREFIX_PATH", pathJoin(modroot, 'libexec'))
+prepend_path("JUPYTER_PATH", pathJoin(modroot, 'libexec', 'share/jupyter'))

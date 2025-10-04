@@ -21,6 +21,7 @@ been developing and releasing OpenFOAM since its debut in 2004.]])
 
 -- depends_on("cgal/5.6")
 depends_on("fftw/3.3.10")
+depends_on("gcc/8.5.0")
 depends_on("openmpi/5.0.5")
 
 local modroot = "/apps/spack/bell-20250305/apps/openfoam/2312-gcc-14.2.0-mjzfujh"
