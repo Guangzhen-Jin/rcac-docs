@@ -168,9 +168,10 @@ extra:
         - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
+          # note: >-
+          #   Thanks for your feedback! Help us improve this page by using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20&body=&body=>%20**Page%20URL:**%20{url}%0A>%20Please%20describe%20the%20issue%20you%20found%20on%20this%20page.%0A%0A" target="_blank" rel="noopener">feedback form</a>.
           note: >-
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20&body=Page%20URL:%20{url}%0APlease%20describe%20the%20issue...%0A%0A" target="_blank" rel="noopener">feedback form</a>.
+            Thanks for your feedback! Help us improve this page by using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20&body=>%20**Page%20URL:**%20https://rcac-docs-demo.readthedocs.io{url}%0A>%20Please%20describe%20the%20issue%20you%20found%20on%20this%20page.%0A%0A" target="_blank" rel="noopener">feedback form</a>.
 
 features:
   - search.suggest
