@@ -91,23 +91,8 @@ nav:
       - software_datasets/software/index.md
       - All Software: software_datasets/software/app_catalog.md
       - Computational chemistry: software_datasets/software/chemistry_catalog.md
-        # - amber: software_datasets/software/amber.md
-        # - cp2k: software_datasets/software/cp2k.md
-        # - gamess: software_datasets/software/gamess.md
-        # - gaussian09: software_datasets/software/gaussian09.md
-        # - gaussian16: software_datasets/software/gaussian16.md
-        # - gaussview: software_datasets/software/gaussview.md
-        # - gromacs: software_datasets/software/gromacs.md
-        # - lammps: software_datasets/software/lammps.md
-        # - namd: software_datasets/software/namd.md
-        # - nwchem: software_datasets/software/nwchem.md
-        # - quantum-espresso: software_datasets/software/quantum-espresso.md
-        # - vasp: software_datasets/software/vasp.md
-        # - vmd: software_datasets/software/vmd.md
-        # - wannier90: software_datasets/software/wannier90.md
       - Fluid dynamics: software_datasets/software/fluid_catalog.md
       - MPIs: software_datasets/software/mpi_catalog.md
-        # - abaqus: software_datasets/software/abaqus.md
     - Datasets:
       - software_datasets/datasets/index.md
       - Hydrological: software_datasets/datasets/hydrological.md
@@ -173,7 +158,7 @@ extra:
     provider: google
     property: G-3D80JBWGP0  # Guangzhen's Google Analytics
     feedback:
-      title: Was this page helpful?
+      title: Page helpful? Submit your feedback if not.
       ratings:
         - icon: material/thumb-up-outline
           name: This page was helpful
@@ -185,7 +170,7 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new/choose" target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20&body=Page%20URL:%20{url}%0APlease%20describe%20the%20issue...%0A%0A" target="_blank" rel="noopener">feedback form</a>.
 
 features:
   - search.suggest
