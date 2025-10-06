@@ -158,7 +158,7 @@ extra:
     provider: google
     property: G-3D80JBWGP0  # Guangzhen's Google Analytics
     feedback:
-      title: Was this page helpful? Submit your feedback if not.
+      title: Page helpful? Submit your feedback if not.
       ratings:
         - icon: material/thumb-up-outline
           name: This page was helpful
@@ -170,7 +170,7 @@ extra:
           data: 0
           note: >-
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20{title}&body=Page%20URL:%20{url}%0APlease%20describe%20the%20issue...%0A" target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://github.com/Guangzhen-Jin/rcac-docs/issues/new?labels=feedback&title=[Feedback]:%20&body=Page%20URL:%20{url}%0APlease%20describe%20the%20issue...%0A%0A" target="_blank" rel="noopener">feedback form</a>.
 
 features:
   - search.suggest
