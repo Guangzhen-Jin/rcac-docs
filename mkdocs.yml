@@ -96,9 +96,10 @@ nav:
     - Software:
       - software_datasets/software/index.md
       - All Software: software_datasets/software/app_catalog.md
+      - Compilers: software_datasets/software/compiler_catalog.md
+      - MPIs: software_datasets/software/mpi_catalog.md
       - Computational chemistry: software_datasets/software/chemistry_catalog.md
       - Fluid dynamics: software_datasets/software/fluid_catalog.md
-      - MPIs: software_datasets/software/mpi_catalog.md
     - Datasets:
       - software_datasets/datasets/index.md
       - Hydrological: software_datasets/datasets/hydrological.md

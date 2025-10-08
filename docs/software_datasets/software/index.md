@@ -17,6 +17,22 @@ Check the most popular software in different domains below:
 
 <div class="grid cards" markdown>
 
+-   :material-application:{ .lg .middle } __Compilers__
+
+    ---
+
+    Compilers catalog of deployed applications on RCAC clusters.
+
+    [:octicons-arrow-right-24: Compilers Catalog](compiler_catalog.md)
+
+-   :material-application:{ .lg .middle } __MPIs__
+
+    ---
+
+    MPI software catalog of deployed applications on RCAC clusters.
+
+    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)
+
 -   :material-application:{ .lg .middle } __Computational Chemistry__
 
     ---
@@ -32,14 +48,6 @@ Check the most popular software in different domains below:
     Fluid Dynamics software catalog of deployed applications on RCAC clusters.
 
     [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_catalog.md)
-
--   :material-application:{ .lg .middle } __MPIs__
-
-    ---
-
-    MPI software catalog of deployed applications on RCAC clusters.
-
-    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)
 
 -   :material-application:{ .lg .middle } __Audio/Visualization__
 
