@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 # set -euo pipefail
+# Update the software/app_catalog.md and software/index.md
+# based on the markdown files in software/apps_md/
+# and the inventory file rcac_apps_inventory.json
+# and the description file apps_descriptions.json
+# Usage: ./update_apps_catalog.sh (or run `make` in the parent dir) to include all steps.
+
 
 MD_DIR="../software/apps_md"
 INV_FILE="./rcac_apps_inventory.json"
@@ -95,6 +101,22 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo '<div class="grid cards" markdown>'
   echo
+  echo "-   :material-application:{ .lg .middle } __Compilers__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Compilers catalog of deployed applications on RCAC clusters."
+  echo 
+  echo '    [:octicons-arrow-right-24: Compilers Catalog](compiler_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __MPIs__"
+  echo
+  echo "    ---"
+  echo
+  echo "    MPI software catalog of deployed applications on RCAC clusters."
+  echo 
+  echo '    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)'
+  echo
   echo "-   :material-application:{ .lg .middle } __Computational Chemistry__"
   echo
   echo "    ---"
@@ -110,14 +132,6 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo "    Fluid Dynamics software catalog of deployed applications on RCAC clusters."
   echo
   echo '    [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_catalog.md)'
-  echo
-  echo "-   :material-application:{ .lg .middle } __MPIs__"
-  echo
-  echo "    ---"
-  echo
-  echo "    MPI software catalog of deployed applications on RCAC clusters."
-  echo 
-  echo '    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)'
   echo
   echo "-   :material-application:{ .lg .middle } __Audio/Visualization__"
   echo

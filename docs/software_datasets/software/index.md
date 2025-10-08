@@ -9,13 +9,29 @@ hide:
 # Software and versions on RCAC clusters
 
 ## Overview
-As of **October 04, 2025**, there have been a total of **267** applications with **2418** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **October 08, 2025**, there have been a total of **267** applications with **2418** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 You can see [**a full list of all software and version deployed on all RCAC clusters**](app_catalog.md), OR
 
 Check the most popular software in different domains below:
 
 <div class="grid cards" markdown>
+
+-   :material-application:{ .lg .middle } __Compilers__
+
+    ---
+
+    Compilers catalog of deployed applications on RCAC clusters.
+
+    [:octicons-arrow-right-24: Compilers Catalog](compiler_catalog.md)
+
+-   :material-application:{ .lg .middle } __MPIs__
+
+    ---
+
+    MPI software catalog of deployed applications on RCAC clusters.
+
+    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)
 
 -   :material-application:{ .lg .middle } __Computational Chemistry__
 
@@ -32,14 +48,6 @@ Check the most popular software in different domains below:
     Fluid Dynamics software catalog of deployed applications on RCAC clusters.
 
     [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_catalog.md)
-
--   :material-application:{ .lg .middle } __MPIs__
-
-    ---
-
-    MPI software catalog of deployed applications on RCAC clusters.
-
-    [:octicons-arrow-right-24: MPIs Catalog](mpi_catalog.md)
 
 -   :material-application:{ .lg .middle } __Audio/Visualization__
 
