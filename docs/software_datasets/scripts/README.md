@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Scripts to generate markdown files for applications from modulefiles
 
 ## 1. update_apps_inventory.sh
