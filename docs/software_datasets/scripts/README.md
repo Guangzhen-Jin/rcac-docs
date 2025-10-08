@@ -21,6 +21,14 @@ Generate markdown files for each app with the given format. Read the app with ve
 ## 3. update_apps_catalog.sh
 Update the app index page "app_catalog.md" with all the markdown files generated from step 2.
 
+## Optional: generate_apps_topics.py
+Usage: `generate_apps_topics.py`
+
+It will read application list from "rcac_apps_inventory.json" and auto-fill apps_topics.json using heuristics. Current topics are:
+  MPI, Compilers, Audio/Visual, Climate, Chemistry, Fluid Dynamics,
+  Geoscience, Library, Material Science, Math/Stat,
+  Engineering, Programming, Utilities, Workflow, Misc
+
 ## Optional: gen_apps_descriptions.py
 Usage: `gen_apps_descriptions.py app1 app2 ...`.
 
@@ -37,6 +45,7 @@ It will read the application list from "rcac_apps_inventory.json" and generate t
 TL;DR: You could simply run `make` which will include all the steps below with correct order.
 
 - Run `update_apps_inventory.sh -v` to generate the inventory.
+- Run `generate_apps_topics.py` to generate the topics of each applicaiton in the inventory.
 - Run `update_apps_descriptions_from_inventory.sh` to generate the apps descriptions if not yet.
 - Run `generate_md.sh` to generate the md files for all the apps with descriptions, homepage, versions on deployed clusters and how to use.
 - Run `update_apps_catalog.sh` to update the app index page "app_catalog.md" with all the markdown files generated.
