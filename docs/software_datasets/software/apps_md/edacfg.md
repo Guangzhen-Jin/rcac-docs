@@ -14,6 +14,7 @@ edacfg (Error Detection and Correction configuration) is a Linux utility for con
 
 |Cluster|Versions|
 |---|---|
+**GAUTSCHI**|default
 **NEGISHI**|default
 
 ## Module
