@@ -4,7 +4,7 @@ Auto-fill apps_topics.json from rcac_apps_inventory.json using heuristics.
 Allowed topics:
   MPI, Compilers, Audio/Visual, Climate, Chemistry, Fluid Dynamics,
   Geoscience, Library, Material Science, Math/Stat,
-  Engineering, Programming, Utilities, Workflow, Misc
+  Engineering, Programming, Utilities, Workflow, Miscellaneous
 """
 from pathlib import Path
 import json
@@ -71,12 +71,16 @@ EXCEPTIONS = {
     'mpi4py': ['MPI', 'Programming'],
     'ucx': ['MPI'],
     'abaqus': ['Engineering'],
+    'ansys': ['Engineering'],
+    'ansysedt': ['Engineering'],
+    'ansysem': ['Engineering'],
+    'namd': ['Chemistry', 'Material Science'],
 }
 
 TOPIC_PRIORITY = [
     'MPI', 'Compilers', 'Chemistry', 'Material Science', 'Fluid Dynamics',
     'Geoscience', 'Library', 'Math/Stat', 'Engineering', 'Programming',
-    'Utilities', 'Workflow', 'Audio/Visual', 'Misc'
+    'Utilities', 'Workflow', 'Audio/Visual', 'Miscellaneous'
 ]
 
 def select_top_n(topics, n=2):
@@ -107,7 +111,7 @@ def assign_topics(app_name):
         if name.startswith('py-') or name.startswith('r-') or name.startswith('lib'):
             topics = ['Library']
         else:
-            topics = ['Misc']
+            topics = ['Miscellaneous']
     return select_top_n(topics, 2)
 
 def main():

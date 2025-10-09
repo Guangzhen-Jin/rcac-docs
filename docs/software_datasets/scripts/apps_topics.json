@@ -7,20 +7,20 @@
     "Programming"
   ],
   "ambertools": [
-    "Misc"
+    "Miscellaneous"
   ],
   "amdblis": [
-    "Misc"
+    "Miscellaneous"
   ],
   "amdfftw": [
     "Library",
     "Math/Stat"
   ],
   "amdlibflame": [
-    "Misc"
+    "Miscellaneous"
   ],
   "amdlibm": [
-    "Misc"
+    "Miscellaneous"
   ],
   "amdscalapack": [
     "Library",
@@ -34,41 +34,44 @@
     "Programming"
   ],
   "ansys": [
-    "Misc"
+    "Engineering"
+  ],
+  "ansysedt": [
+    "Engineering"
   ],
   "ansysem": [
-    "Misc"
+    "Engineering"
   ],
   "aocc": [
     "Compilers"
   ],
   "arpack-ng": [
-    "Misc"
+    "Miscellaneous"
   ],
   "aws-cli": [
-    "Misc"
+    "Miscellaneous"
   ],
   "bamtools": [
-    "Misc"
+    "Miscellaneous"
   ],
   "beagle": [
-    "Misc"
+    "Miscellaneous"
   ],
   "beast2": [
-    "Misc"
+    "Miscellaneous"
   ],
   "berkeley-db": [
-    "Misc"
+    "Miscellaneous"
   ],
   "bismark": [
-    "Misc"
+    "Miscellaneous"
   ],
   "blast-plus": [
     "Library",
     "Math/Stat"
   ],
   "blis": [
-    "Misc"
+    "Miscellaneous"
   ],
   "boost": [
     "Library",
@@ -87,32 +90,32 @@
     "Utilities"
   ],
   "cairo": [
-    "Misc"
+    "Miscellaneous"
   ],
   "cdo": [
     "Geoscience",
     "Climate"
   ],
   "cgal": [
-    "Misc"
+    "Miscellaneous"
   ],
   "charmpp": [
-    "Misc"
+    "Miscellaneous"
   ],
   "clusterbot": [
-    "Misc"
+    "Miscellaneous"
   ],
   "cmake": [
-    "Misc"
+    "Miscellaneous"
   ],
   "comsol": [
-    "Misc"
+    "Miscellaneous"
   ],
   "conda": [
     "Programming"
   ],
   "cosmosscope": [
-    "Misc"
+    "Miscellaneous"
   ],
   "cp2k": [
     "Chemistry",
@@ -127,45 +130,45 @@
     "Compilers"
   ],
   "cue-login-env": [
-    "Misc"
+    "Miscellaneous"
   ],
   "cufflinks": [
-    "Misc"
+    "Miscellaneous"
   ],
   "curl": [
     "Library",
     "Utilities"
   ],
   "cutadapt": [
-    "Misc"
+    "Miscellaneous"
   ],
   "cython": [
-    "Misc"
+    "Miscellaneous"
   ],
   "duckdb": [
-    "Misc"
+    "Miscellaneous"
   ],
   "edacfg": [
-    "Misc"
+    "Miscellaneous"
   ],
   "eigen": [
     "Library",
     "Math/Stat"
   ],
   "emacs": [
-    "Misc"
+    "Miscellaneous"
   ],
   "expat": [
-    "Misc"
+    "Miscellaneous"
   ],
   "fastqc": [
-    "Misc"
+    "Miscellaneous"
   ],
   "fasttree": [
-    "Misc"
+    "Miscellaneous"
   ],
   "fastx-toolkit": [
-    "Misc"
+    "Miscellaneous"
   ],
   "ffmpeg": [
     "Utilities",
@@ -175,13 +178,13 @@
     "Library"
   ],
   "font-util": [
-    "Misc"
+    "Miscellaneous"
   ],
   "fontconfig": [
-    "Misc"
+    "Miscellaneous"
   ],
   "freetype": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gatk": [
     "Library",
@@ -214,40 +217,40 @@
     "Climate"
   ],
   "gdb": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gdbm": [
-    "Misc"
+    "Miscellaneous"
   ],
   "geos": [
     "Geoscience"
   ],
   "gettext": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gfms": [
-    "Misc"
+    "Miscellaneous"
   ],
   "ghostscript": [
-    "Misc"
+    "Miscellaneous"
   ],
   "glib": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gmp": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gmt": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gnuplot": [
-    "Misc"
+    "Miscellaneous"
   ],
   "gpaw": [
-    "Misc"
+    "Miscellaneous"
   ],
   "grace": [
-    "Misc"
+    "Miscellaneous"
   ],
   "grads": [
     "Geoscience",
@@ -270,7 +273,7 @@
     "Engineering"
   ],
   "hadoop": [
-    "Misc"
+    "Miscellaneous"
   ],
   "hdf": [
     "Geoscience",
@@ -281,24 +284,24 @@
     "Library"
   ],
   "hpctoolkit": [
-    "Misc"
+    "Miscellaneous"
   ],
   "hspice": [
-    "Misc"
+    "Miscellaneous"
   ],
   "htseq": [
     "Library",
     "Workflow"
   ],
   "hwloc": [
-    "Misc"
+    "Miscellaneous"
   ],
   "hyper-shell": [
     "Math/Stat",
     "Programming"
   ],
   "hypershell": [
-    "Misc"
+    "Miscellaneous"
   ],
   "imagemagick": [
     "Utilities",
@@ -308,7 +311,7 @@
     "MPI"
   ],
   "inputproto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "intel": [
     "Compilers"
@@ -345,13 +348,13 @@
     "Programming"
   ],
   "kbproto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "kokkos": [
-    "Misc"
+    "Miscellaneous"
   ],
   "krb5": [
-    "Misc"
+    "Miscellaneous"
   ],
   "lammps": [
     "Chemistry",
@@ -362,7 +365,7 @@
     "Programming"
   ],
   "learning": [
-    "Misc"
+    "Miscellaneous"
   ],
   "libaio": [
     "Library"
@@ -458,17 +461,17 @@
     "Material Science"
   ],
   "mesa-glu": [
-    "Misc"
+    "Miscellaneous"
   ],
   "monitor": [
     "Math/Stat",
     "Programming"
   ],
   "motif": [
-    "Misc"
+    "Miscellaneous"
   ],
   "mpc": [
-    "Misc"
+    "Miscellaneous"
   ],
   "mpfr": [
     "Math/Stat",
@@ -479,13 +482,14 @@
     "Programming"
   ],
   "mrbayes": [
-    "Misc"
+    "Miscellaneous"
   ],
   "mvapich2": [
     "MPI"
   ],
   "namd": [
-    "Misc"
+    "Chemistry",
+    "Material Science"
   ],
   "nccl": [
     "MPI",
@@ -500,7 +504,7 @@
     "Climate"
   ],
   "ncurses": [
-    "Misc"
+    "Miscellaneous"
   ],
   "ncview": [
     "Geoscience",
@@ -529,7 +533,7 @@
     "Workflow"
   ],
   "numactl": [
-    "Misc"
+    "Miscellaneous"
   ],
   "numba": [
     "Library",
@@ -547,7 +551,7 @@
     "Material Science"
   ],
   "oclfpga": [
-    "Misc"
+    "Miscellaneous"
   ],
   "octave": [
     "Math/Stat",
@@ -580,14 +584,14 @@
     "Math/Stat"
   ],
   "pandoc": [
-    "Misc"
+    "Miscellaneous"
   ],
   "panoply": [
     "Geoscience",
     "Climate"
   ],
   "papi": [
-    "Misc"
+    "Miscellaneous"
   ],
   "parafly": [
     "Material Science",
@@ -606,23 +610,23 @@
     "Engineering"
   ],
   "pcre": [
-    "Misc"
+    "Miscellaneous"
   ],
   "pcre2": [
-    "Misc"
+    "Miscellaneous"
   ],
   "perl": [
-    "Misc"
+    "Miscellaneous"
   ],
   "perl-bioperl": [
-    "Misc"
+    "Miscellaneous"
   ],
   "petsc": [
     "Fluid Dynamics",
     "Math/Stat"
   ],
   "picard": [
-    "Misc"
+    "Miscellaneous"
   ],
   "pigz": [
     "Library",
@@ -633,7 +637,7 @@
     "Utilities"
   ],
   "pixman": [
-    "Misc"
+    "Miscellaneous"
   ],
   "plumed": [
     "Chemistry",
@@ -643,7 +647,7 @@
     "Geoscience"
   ],
   "protobuf": [
-    "Misc"
+    "Miscellaneous"
   ],
   "py-matplotlib": [
     "Library",
@@ -668,10 +672,10 @@
     "Material Science"
   ],
   "qgis": [
-    "Misc"
+    "Miscellaneous"
   ],
   "qt": [
-    "Misc"
+    "Miscellaneous"
   ],
   "quantum-espresso": [
     "Chemistry",
@@ -722,7 +726,7 @@
     "Utilities"
   ],
   "renderproto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "rocm": [
     "MPI",
@@ -737,7 +741,7 @@
     "Workflow"
   ],
   "sas": [
-    "Misc"
+    "Miscellaneous"
   ],
   "scikit-learn": [
     "Library",
@@ -748,13 +752,13 @@
     "Math/Stat"
   ],
   "seaborn": [
-    "Misc"
+    "Miscellaneous"
   ],
   "sentaurus": [
-    "Misc"
+    "Miscellaneous"
   ],
   "setuptools": [
-    "Misc"
+    "Miscellaneous"
   ],
   "spark": [
     "Programming",
@@ -773,57 +777,57 @@
     "Workflow"
   ],
   "stata": [
-    "Misc"
+    "Miscellaneous"
   ],
   "stata-mp": [
-    "Misc"
+    "Miscellaneous"
   ],
   "swig": [
-    "Misc"
+    "Miscellaneous"
   ],
   "tar": [
     "Library",
     "Math/Stat"
   ],
   "tbb": [
-    "Misc"
+    "Miscellaneous"
   ],
   "tcl": [
-    "Misc"
+    "Miscellaneous"
   ],
   "tecplot": [
-    "Misc"
+    "Miscellaneous"
   ],
   "texlive": [
-    "Misc"
+    "Miscellaneous"
   ],
   "thermocalc": [
-    "Misc"
+    "Miscellaneous"
   ],
   "tk": [
-    "Misc"
+    "Miscellaneous"
   ],
   "tophat": [
-    "Misc"
+    "Miscellaneous"
   ],
   "totalview": [
-    "Misc"
+    "Miscellaneous"
   ],
   "trimmomatic": [
-    "Misc"
+    "Miscellaneous"
   ],
   "ucx": [
     "MPI"
   ],
   "udunits": [
-    "Misc"
+    "Miscellaneous"
   ],
   "util-linux-uuid": [
     "Library",
     "Utilities"
   ],
   "valgrind": [
-    "Misc"
+    "Miscellaneous"
   ],
   "vasp": [
     "Chemistry",
@@ -834,7 +838,7 @@
     "Workflow"
   ],
   "vim": [
-    "Misc"
+    "Miscellaneous"
   ],
   "virtualenv": [
     "Programming",
@@ -861,52 +865,52 @@
     "Engineering"
   ],
   "vtune": [
-    "Misc"
+    "Miscellaneous"
   ],
   "wannier90": [
     "Chemistry",
     "Material Science"
   ],
   "wheel": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xalt": [
     "Library",
     "Utilities"
   ],
   "xcb-proto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xcb-util": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xcb-util-cursor": [
     "Math/Stat",
     "Programming"
   ],
   "xcb-util-image": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xcb-util-keysyms": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xcb-util-renderutil": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xcb-util-wm": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xextproto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xproto": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xtrans": [
-    "Misc"
+    "Miscellaneous"
   ],
   "xz": [
-    "Misc"
+    "Miscellaneous"
   ],
   "zlib": [
     "Library",

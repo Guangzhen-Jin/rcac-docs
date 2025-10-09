@@ -150,17 +150,18 @@ def save_db(db):
 
 def main(apps):
     curated_db = load_db(CURATED_FILE)
-    topics_db = load_db(TOPICS_FILE)           # load topics
+    topics_db = load_db(TOPICS_FILE)
     db = load_db(OUTFILE)
 
     for app in apps:
+        topics = get_topics_for_app(app, topics_db)   
         if app in db and db[app].get("description") and db[app]["description"] != "TODO: add description":
-            # print(f"[skip] {app} already in DB")
+            # Force update topics
+            db[app]["topic"] = topics
             continue
 
         print(f"Fetching description for {app}...")
         desc, homepage, source = get_description(app, curated_db)
-        topics = get_topics_for_app(app, topics_db)   # attach topics
 
         db[app] = {
             "description": desc,

@@ -21,7 +21,7 @@
     "homepage": "https://ambermd.org/AmberTools.php",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "amdblis": {
@@ -29,7 +29,7 @@
     "homepage": "https://www.amd.com/en/developer/aocl/blis.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "amdfftw": {
@@ -46,7 +46,7 @@
     "homepage": "https://www.amd.com/en/developer/aocl/blis.html#libflame",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "amdlibm": {
@@ -54,7 +54,7 @@
     "homepage": "https://www.amd.com/en/developer/aocl/libm.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "amdscalapack": {
@@ -88,7 +88,7 @@
     "homepage": "https://www.ansys.com",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Engineering"
     ]
   },
   "ansysem": {
@@ -96,7 +96,7 @@
     "homepage": "https://www.ansys.com/products/electronics",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Engineering"
     ]
   },
   "aocc": {
@@ -112,7 +112,7 @@
     "homepage": "https://github.com/opencollab/arpack-ng",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "aws-cli": {
@@ -120,7 +120,7 @@
     "homepage": "https://aws.amazon.com/cli/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "bamtools": {
@@ -128,7 +128,7 @@
     "homepage": "https://github.com/pezmaster31/bamtools",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "beagle": {
@@ -136,7 +136,7 @@
     "homepage": "https://faculty.washington.edu/browning/beagle/beagle.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "beast2": {
@@ -144,7 +144,7 @@
     "homepage": "http://beast2.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "berkeley-db": {
@@ -152,7 +152,7 @@
     "homepage": "https://www.oracle.com/database/technologies/related/berkeleydb.html",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "bismark": {
@@ -160,7 +160,7 @@
     "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/bismark",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "blast-plus": {
@@ -177,7 +177,7 @@
     "homepage": "https://github.com/flame/blis",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "boost": {
@@ -221,7 +221,7 @@
     "homepage": "https://www.cairographics.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "cdo": {
@@ -238,7 +238,7 @@
     "homepage": "https://www.cgal.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "charmpp": {
@@ -246,7 +246,7 @@
     "homepage": "https://charmplusplus.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "clusterbot": {
@@ -254,7 +254,7 @@
     "homepage": null,
     "source": "none",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "cmake": {
@@ -262,7 +262,7 @@
     "homepage": "https://www.cmake.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "comsol": {
@@ -270,7 +270,7 @@
     "homepage": "https://www.comsol.com",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "conda": {
@@ -286,7 +286,7 @@
     "homepage": "https://ui.adsabs.harvard.edu/abs/2019A&C....27..111C/abstract",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "cp2k": {
@@ -321,7 +321,7 @@
     "homepage": "",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "cufflinks": {
@@ -329,7 +329,7 @@
     "homepage": "https://cole-trapnell-lab.github.io/cufflinks",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "curl": {
@@ -346,7 +346,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "cython": {
@@ -354,7 +354,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "duckdb": {
@@ -362,7 +362,7 @@
     "homepage": "https://duckdb.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "edacfg": {
@@ -370,7 +370,7 @@
     "homepage": "https://github.com/mchehab/edac-utils",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "eigen": {
@@ -387,7 +387,7 @@
     "homepage": "https://www.gnu.org/software/emacs",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "expat": {
@@ -395,7 +395,7 @@
     "homepage": "https://libexpat.github.io/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "fastqc": {
@@ -403,7 +403,7 @@
     "homepage": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "fasttree": {
@@ -411,7 +411,7 @@
     "homepage": "http://www.microbesonline.org/fasttree",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "fastx-toolkit": {
@@ -419,7 +419,7 @@
     "homepage": "http://hannonlab.cshl.edu/fastx_toolkit/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "ffmpeg": {
@@ -444,7 +444,7 @@
     "homepage": "https://www.freedesktop.org/wiki/Software/fontconfig/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "font-util": {
@@ -452,7 +452,7 @@
     "homepage": "",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "freetype": {
@@ -460,7 +460,7 @@
     "homepage": "https://www.freetype.org/index.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gatk": {
@@ -538,7 +538,7 @@
     "homepage": "https://www.gnu.org/software/gdb",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gdbm": {
@@ -546,7 +546,7 @@
     "homepage": "https://www.gnu.org.ua/software/gdbm/gdbm.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "geos": {
@@ -562,7 +562,7 @@
     "homepage": "https://www.gnu.org/software/gettext/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gfms": {
@@ -570,7 +570,7 @@
     "homepage": "",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "ghostscript": {
@@ -578,7 +578,7 @@
     "homepage": "https://ghostscript.com/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "glib": {
@@ -586,7 +586,7 @@
     "homepage": "https://developer.gnome.org/glib/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gmp": {
@@ -594,7 +594,7 @@
     "homepage": "https://gmplib.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gmt": {
@@ -602,7 +602,7 @@
     "homepage": "https://www.generic-mapping-tools.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gnuplot": {
@@ -610,7 +610,7 @@
     "homepage": "http://www.gnuplot.info",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "gpaw": {
@@ -618,7 +618,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "grace": {
@@ -626,7 +626,7 @@
     "homepage": "https://plasma-gate.weizmann.ac.il/Grace",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "grads": {
@@ -679,7 +679,7 @@
     "homepage": "https://hadoop.apache.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "hdf": {
@@ -705,7 +705,7 @@
     "homepage": "https://hpctoolkit.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "hspice": {
@@ -713,7 +713,7 @@
     "homepage": "https://www.synopsys.com/verification/analog-mixed-signal/hspice.html",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "htseq": {
@@ -730,7 +730,7 @@
     "homepage": "https://www.open-mpi.org/projects/hwloc/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "hyper-shell": {
@@ -747,7 +747,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "imagemagick": {
@@ -772,7 +772,7 @@
     "homepage": "https://cgit.freedesktop.org/xorg/proto/inputproto",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "intel": {
@@ -864,7 +864,7 @@
     "homepage": "https://cgit.freedesktop.org/xorg/proto/kbproto",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "kokkos": {
@@ -872,7 +872,7 @@
     "homepage": "https://github.com/kokkos/kokkos",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "krb5": {
@@ -880,7 +880,7 @@
     "homepage": "https://kerberos.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "lammps": {
@@ -906,7 +906,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "libaio": {
@@ -1147,7 +1147,7 @@
     "homepage": "https://www.mesa3d.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "monitor": {
@@ -1164,7 +1164,7 @@
     "homepage": "https://motif.ics.com/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "mpc": {
@@ -1172,7 +1172,7 @@
     "homepage": "https://www.multiprecision.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "mpfr": {
@@ -1198,7 +1198,7 @@
     "homepage": "https://mrbayes.sourceforge.net",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "mvapich2": {
@@ -1214,7 +1214,8 @@
     "homepage": "https://www.ks.uiuc.edu/Research/namd/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Chemistry",
+      "Material Science"
     ]
   },
   "nccl": {
@@ -1249,7 +1250,7 @@
     "homepage": "https://invisible-island.net/ncurses/ncurses.html",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "ncview": {
@@ -1318,7 +1319,7 @@
     "homepage": "https://github.com/numactl/numactl",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "numba": {
@@ -1361,7 +1362,7 @@
     "homepage": "https://www.intel.com/content/www/us/en/software/programmable/sdk.html",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "octave": {
@@ -1439,7 +1440,7 @@
     "homepage": "https://pandoc.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "panoply": {
@@ -1456,7 +1457,7 @@
     "homepage": "https://icl.utk.edu/papi/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "parafly": {
@@ -1500,7 +1501,7 @@
     "homepage": "https://www.pcre.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "pcre2": {
@@ -1508,7 +1509,7 @@
     "homepage": "https://www.pcre.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "perl": {
@@ -1516,7 +1517,7 @@
     "homepage": "https://www.perl.org",
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "perl-bioperl": {
@@ -1524,7 +1525,7 @@
     "homepage": "https://bioperl.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "petsc": {
@@ -1541,7 +1542,7 @@
     "homepage": "https://broadinstitute.github.io/picard/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "pigz": {
@@ -1567,7 +1568,7 @@
     "homepage": "https://www.pixman.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "plumed": {
@@ -1592,7 +1593,7 @@
     "homepage": "https://developers.google.com/protocol-buffers",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "py-matplotlib": {
@@ -1652,7 +1653,7 @@
     "homepage": "https://qgis.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "qt": {
@@ -1660,7 +1661,7 @@
     "homepage": "https://qt.io",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "quantumatk": {
@@ -1713,7 +1714,7 @@
     "homepage": "https://cgit.freedesktop.org/xorg/proto/renderproto",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "r-formatr": {
@@ -1811,7 +1812,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "scikit-learn": {
@@ -1837,7 +1838,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "sentaurus": {
@@ -1845,7 +1846,7 @@
     "homepage": "https://www.synopsys.com/silicon/tcad.html",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "setuptools": {
@@ -1853,7 +1854,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "spark": {
@@ -1897,7 +1898,7 @@
     "homepage": "https://www.stata.com/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "stata-mp": {
@@ -1905,7 +1906,7 @@
     "homepage": "https://www.stata.com/products/mp/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "swig": {
@@ -1913,7 +1914,7 @@
     "homepage": "https://www.swig.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "tar": {
@@ -1930,7 +1931,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "tcl": {
@@ -1938,7 +1939,7 @@
     "homepage": "https://www.tcl.tk/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "tecplot": {
@@ -1946,7 +1947,7 @@
     "homepage": "https://www.tecplot.com/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "texlive": {
@@ -1954,7 +1955,7 @@
     "homepage": "https://www.tug.org/texlive",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "thermocalc": {
@@ -1962,7 +1963,7 @@
     "homepage": "https://www.thermocalc.com/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "tk": {
@@ -1970,7 +1971,7 @@
     "homepage": "https://www.tcl.tk",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "tophat": {
@@ -1978,7 +1979,7 @@
     "homepage": "https://ccb.jhu.edu/software/tophat/index.shtml",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "totalview": {
@@ -1986,7 +1987,7 @@
     "homepage": "https://totalview.io",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "trimmomatic": {
@@ -1994,7 +1995,7 @@
     "homepage": "http://www.usadellab.org/cms/?page=trimmomatic",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "ucx": {
@@ -2010,7 +2011,7 @@
     "homepage": "https://www.unidata.ucar.edu/software/udunits",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "util-linux-uuid": {
@@ -2027,7 +2028,7 @@
     "homepage": "https://valgrind.org/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "vasp": {
@@ -2053,7 +2054,7 @@
     "homepage": "https://www.vim.org",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "virtualenv": {
@@ -2115,7 +2116,7 @@
     "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "wannier90": {
@@ -2132,7 +2133,7 @@
     "homepage": null,
     "source": "pypi",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xalt": {
@@ -2149,7 +2150,7 @@
     "homepage": "https://xcb.freedesktop.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xcb-util": {
@@ -2157,7 +2158,7 @@
     "homepage": "https://xcb.freedesktop.org",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xcb-util-cursor": {
@@ -2174,7 +2175,7 @@
     "homepage": "https://xcb.freedesktop.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xcb-util-keysyms": {
@@ -2182,7 +2183,7 @@
     "homepage": "https://xcb.freedesktop.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xcb-util-renderutil": {
@@ -2190,7 +2191,7 @@
     "homepage": "https://xcb.freedesktop.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xcb-util-wm": {
@@ -2198,7 +2199,7 @@
     "homepage": "https://xcb.freedesktop.org/",
     "source": "curated",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xextproto": {
@@ -2206,7 +2207,7 @@
     "homepage": "https://gitlab.freedesktop.org/xorg/proto/xextproto",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xproto": {
@@ -2214,7 +2215,7 @@
     "homepage": "https://gitlab.freedesktop.org/xorg/proto/x11proto",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xtrans": {
@@ -2222,7 +2223,7 @@
     "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxtrans",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "xz": {
@@ -2230,7 +2231,7 @@
     "homepage": "https://tukaani.org/xz/",
     "source": "spack",
     "topic": [
-      "Misc"
+      "Miscellaneous"
     ]
   },
   "zlib": {
@@ -2249,6 +2250,14 @@
     "topic": [
       "Library",
       "Utilities"
+    ]
+  },
+  "ansysedt": {
+    "description": "TODO: add description",
+    "homepage": null,
+    "source": "none",
+    "topic": [
+      "Engineering"
     ]
   }
 }
