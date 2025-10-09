@@ -28,10 +28,29 @@ jobs:
         run: make
 
       - name: Commit and push changes
+        env:
+          GITHUB_BRANCH: ${{ github.ref_name }}
+          REPO_ROOT: ${{ github.workspace }}
         run: |
           git config --global user.name "Guangzhen-Jin"
           git config --global user.email "jin456@purdue.edu"
-          
-          git add ../software/apps_md ../software/app_catalog.md ../software/index.md
-          git commit -m "Auto-update app catalog and markdown files" || echo "No changes to commit"
-          git push
+
+          # Ensure we have the latest remote refs
+          git -C "$REPO_ROOT" fetch origin "$GITHUB_BRANCH"
+
+          # Rebase local workspace on top of remote to avoid non-fast-forward errors
+          git -C "$REPO_ROOT" pull --rebase --autostash origin "$GITHUB_BRANCH" || {
+            echo "git pull --rebase failed — aborting to avoid overwrite"; git -C "$REPO_ROOT" status; exit 1;
+          }
+
+          git -C "$REPO_ROOT" add ../software/apps_md ../software/app_catalog.md ../software/index.md
+          # If nothing to commit, exit cleanly
+          if git -C "$REPO_ROOT" diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git -C "$REPO_ROOT" commit -m "Auto-update app catalog and markdown files"
+
+          # Push commits (fast-forward or already rebased)
+          git -C "$REPO_ROOT" push origin "HEAD:$GITHUB_BRANCH"
