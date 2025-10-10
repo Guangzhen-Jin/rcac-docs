@@ -1,0 +1,284 @@
+{
+  "/userguides/anvil/": [
+    "Home",
+    "Anvil User Guide"
+  ],
+  "/userguides/anvil/overview/": [
+    "Home",
+    "Anvil User Guide",
+    "Anvil Overview"
+  ],
+  "/userguides/anvil/access/": [
+    "Home",
+    "Anvil User Guide",
+    "Accessing the System"
+  ],
+  "/userguides/anvil/system/": [
+    "Home",
+    "Anvil User Guide",
+    "System Architecture"
+  ],
+  "/userguides/anvil/jobs/": [
+    "Home",
+    "Anvil User Guide",
+    "Running Jobs on Anvil"
+  ],
+  "/userguides/gautschi/": [
+    "Home",
+    "Gautschi User Guide"
+  ],
+  "/userguides/gautschi/biography/": [
+    "Home",
+    "Gautschi User Guide",
+    "Biography of Gautschi"
+  ],
+  "/userguides/gautschi/overview/": [
+    "Home",
+    "Gautschi User Guide",
+    "Gautschi Overview"
+  ],
+  "/userguides/gautschi/jobs/": [
+    "Home",
+    "Gautschi User Guide",
+    "Running Jobs on Gautschi"
+  ],
+  "/blog/": [
+    "Home",
+    "RCAC Blogs"
+  ],
+  "/software_datasets/": [
+    "Home",
+    "RCAC Software and Datasets"
+  ],
+  "/software_datasets/software/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software"
+  ],
+  "/software_datasets/software/app_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "All Software"
+  ],
+  "/software_datasets/software/compiler_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Compilers"
+  ],
+  "/software_datasets/software/mpi_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "MPIs"
+  ],
+  "/software_datasets/software/chemistry_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Computational chemistry"
+  ],
+  "/software_datasets/software/fluid_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Fluid dynamics"
+  ],
+  "/software_datasets/datasets/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets"
+  ],
+  "/software_datasets/datasets/hydrological/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "Hydrological"
+  ],
+  "/software_datasets/datasets/igenomes/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "Igenomes"
+  ],
+  "/workshops/": [
+    "Home",
+    "RCAC Workshops"
+  ],
+  "/workshops/hpc_exchange/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange"
+  ],
+  "/workshops/hpc_exchange/week1/week1/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Week 1 Index"
+  ],
+  "/workshops/hpc_exchange/week1/terminal/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Setting up for the workshop"
+  ],
+  "/workshops/hpc_exchange/week1/access/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "How to Access the Clusters"
+  ],
+  "/workshops/hpc_exchange/week1/unix/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "What is Unix"
+  ],
+  "/workshops/hpc_exchange/week1/shell/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "What is the Shell"
+  ],
+  "/workshops/hpc_exchange/week1/anatomy/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Anatomy of a Command"
+  ],
+  "/workshops/hpc_exchange/week1/navigate/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Navigate the Filesystem"
+  ],
+  "/workshops/hpc_exchange/week1/edit/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Editing files from the command line"
+  ],
+  "/workshops/hpc_exchange/week1/reference/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Command Reference"
+  ],
+  "/workshops/hpc_exchange/week2/week2/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Week 2 Index"
+  ],
+  "/workshops/hpc_exchange/week2/clusters/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Purdue Clusters"
+  ],
+  "/workshops/hpc_exchange/week2/access/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Access"
+  ],
+  "/workshops/hpc_exchange/week2/files1/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Files"
+  ],
+  "/workshops/hpc_exchange/week2/applications/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Applications"
+  ],
+  "/workshops/hpc_exchange/week2/what_cluster/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "What is a Cluster"
+  ],
+  "/workshops/hpc_exchange/week2/jobs/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Jobs"
+  ],
+  "/workshops/hpc_exchange/week3/week3/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Week 3 Index"
+  ],
+  "/workshops/hpc_exchange/week3/scripts/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Scripting"
+  ],
+  "/workshops/hpc_exchange/week3/processes/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Managing Processes"
+  ],
+  "/workshops/hpc_exchange/week3/pipes/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Managing Output with Pipes"
+  ],
+  "/workshops/hpc_exchange/week3/managing_files/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Managing Files and Directories"
+  ],
+  "/workshops/hpc_exchange/week4/week4/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Week 4 Index"
+  ],
+  "/workshops/hpc_exchange/week4/files2/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "File storage and transfers"
+  ],
+  "/workshops/hpc_exchange/week4/multinode/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Multinode jobs and topology"
+  ],
+  "/workshops/hpc_exchange/week4/history/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Job History"
+  ],
+  "/workshops/hpc_exchange/week4/monitor/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Resource Utilization and Monitoring"
+  ],
+  "/workshops/hpc_exchange/week4/workloads/": [
+    "Home",
+    "RCAC Workshops",
+    "HPC Exchange",
+    "Managing Workloads and Jobs"
+  ],
+  "/tags/": [
+    "Home",
+    "Tags"
+  ],
+  "/contact/": [
+    "Home",
+    "Contact us"
+  ]
+}

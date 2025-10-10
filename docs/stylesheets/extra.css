@@ -112,3 +112,19 @@ th, td {
   color: var(--md-default-fg-color) !important;
   border: 1px solid var(--md-typeset-table-color, rgba(0,0,0,.12)) !important;
 }
+
+/* style for breadcrumbs */
+.md-breadcrumb {
+  font-size: 0.9em;
+  margin-bottom: 0.8em;
+}
+.breadcrumb-link {
+  text-decoration: underline;
+  color: var(--md-typeset-a-color);
+}
+.breadcrumb-link:hover {
+  text-decoration: none;
+}
+.breadcrumb-current {
+  font-weight: 600;
+}
