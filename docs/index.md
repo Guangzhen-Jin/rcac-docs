@@ -1,7 +1,7 @@
 ---
 hide:
   - footer
-#   - toc
+  - toc
 # icon: /fontawesome/regular/home
 ---
 
