@@ -14,6 +14,7 @@ N/A
 
 |Cluster|Versions|
 |---|---|
+**GILBRETH**|2023R2, 2024R1
 **NEGISHI**|2023R2, 2024R1
 
 ## Module
