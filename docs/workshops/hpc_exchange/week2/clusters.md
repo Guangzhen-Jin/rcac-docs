@@ -35,8 +35,8 @@ Anvil is built in partnership with Dell and AMD and consists of 1,000 nodes with
 The supercomputer ecosystem also includes 32 large memory nodes, each with 1 TB of RAM, and 16 nodes each with four NVIDIA A100 Tensor Core GPUs providing 1.5 PF of single-precision performance to support machine learning and artificial intelligence applications.
 Access to Anvil is granted by the NSF's ACCESS program and not by RCAC.
 
-## Secure Clusters
-Purdue also operates two more secure clusters: Rossmann and Weber. Rossmann is built to handle health data with higher levels of access restrictions, such as patient data. Weber is designed to deal with export controlled data.
+## Clusters for Controlled Research
+Purdue also operates two clusters for controlled research: Rossmann and Weber. Rossmann is built to handle health data with higher levels of access restrictions, such as patient data. Weber is designed to deal with export controlled data.
 Access to these two clusters is on a case-by-case basis and usually requires a review of what and why they are needed.
 
 **Next section:**[How to access the Clusters](access.md)
