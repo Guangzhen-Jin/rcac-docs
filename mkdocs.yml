@@ -60,6 +60,7 @@ plugins:
         - Anvil
         - Software
         - Slurm
+        - Workflows
       pagination_per_page: 5
       pagination_if_single_page: true
   - tags:
