@@ -1,3 +1,16 @@
+---
+date:
+  created: 2025-10-16
+  updated: 2025-10-16
+authors:
+  - rderue
+categories:
+  - Slurm
+  - Workflows
+slug:
+  - preemption_checkpointing
+---
+
 ### What is Preemption?
 In the context of computing, preemption refers to the act of stopping or pausing one process to allow another process to run, and we say that a task, X, preempts another task, Y, when X pauses Y to allow itself to run. We can use this concept of preemption in an HPC environment to maximize the utilization of the resources in the cluster by allowing low priority jobs to be preempted by higher priority jobs since this allows us to be lenient with the resource limitations placed on the low priority jobs.
 
