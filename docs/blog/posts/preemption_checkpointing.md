@@ -8,7 +8,7 @@ categories:
   - Slurm
   - Workflows
 slug:
-  - preemption_checkpointing
+  - preemption-checkpointing
 ---
 
 ### What is Preemption?
