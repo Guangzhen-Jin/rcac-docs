@@ -7,8 +7,7 @@ authors:
 categories:
   - Slurm
   - Workflows
-slug:
-  - preemption-checkpointing
+slug: preemption-checkpointing
 ---
 
 ### What is Preemption?
