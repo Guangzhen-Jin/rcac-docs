@@ -8,10 +8,12 @@ categories:
   - Slurm
   - Workflows
 slug: preemption-checkpointing
+title: Checkpointing in a Preemptible Environment
 ---
 
 ### What is Preemption?
 In the context of computing, preemption refers to the act of stopping or pausing one process to allow another process to run, and we say that a task, X, preempts another task, Y, when X pauses Y to allow itself to run. We can use this concept of preemption in an HPC environment to maximize the utilization of the resources in the cluster by allowing low priority jobs to be preempted by higher priority jobs since this allows us to be lenient with the resource limitations placed on the low priority jobs.
+<!-- more -->
 
 #### Preemption in Slurm
 With the way that we have set up our queues for Gautschi, a job can only be preempted if the person who submits the job labels it as being eligible for preemption. This is done by tagging your job with the "preemptible" quality of service (QoS) by using the option `-q preemptible` or equivalently, `--qos=preemptible`. Currently, this option is only available for use in the "ai" partition. The benefit to allowing your job to be preempted by higher priority jobs is that we are able to be much more generous with the limits enforced on preemptible jobs as these jobs can't "block" other jobs. The two primary benefits to you when using this QoS are:
