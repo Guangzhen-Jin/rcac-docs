@@ -19,11 +19,11 @@ With the way that we have set up our queues for Gautschi, a job can only be pree
  1. Preemptible jobs are only charged for a quarter of the GPU hours they consume
  2. An account can make use of many more GPUs (up to 80) than is allowed when using non-premptible jobs.
 
-The benefit to us is that we can achieve much better utilization of the GPUs on the cluster without increasing wait times for group's high priority work.
+The benefit to us is that we can achieve much better utilization of the GPUs on the cluster without increasing wait times for groups' high priority work.
 
 Slurm implements preemption by sending Unix Signals to the process running your job script. Unix Signals are a predefined set of messages that can be sent to your process each with a particular meaning that often have default behaviors. `SIGINT` (The interrupt signal), is the signal sent to your process when you press ctrl+c in the terminal and is often used to interrupt a running command. Slurm will use several signals in a similar manner. Let's consider a toy example wherein the following steps occur:
 
-1. You have a low-priority job running that you submitted under the the preemptible QOS and another user submits a high priority job while there are no resources to run that job.
+1. You have a low-priority job running that you submitted under the preemptible QOS and another user submits a high priority job while there are no resources to run that job.
 2. Slurm will seek to preempt one or more jobs to free up the necessary resources. In this case, it selects your job to be preempted.
 3. Slurm lets your job know that it will be preempted shortly by sending the processes running your jobscript and any job steps a couple of signals (SIGCONT and SIGTERM). These signals tell your process that it will be preempted soon. RCAC configures how long your jobs have until they are preempted upon receipt of these signals through a Slurm setting called "Gracetime."
 4. After waiting the "gracetime" period, your job is sent three more signals (`SIGCONT`, `SIGTERM`, `SIGKILL`). The last of these signals will kill your process immediately.
