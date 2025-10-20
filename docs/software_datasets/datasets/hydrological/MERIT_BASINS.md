@@ -1,5 +1,7 @@
 # MERIT_BASINS
 
+[Back to hydrological datasets](../hydrological.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | MERIT Basins is a dataset derived from the MERIT Hydro digital elevation model, delineating global river basins and sub-basins. It provides information on basin boundaries and hydrological flow directions, making it suitable for hydrological modeling and water resource management. The dataset supports large-scale studies of river networks and basin-level hydrology. |

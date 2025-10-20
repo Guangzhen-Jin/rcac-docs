@@ -1,5 +1,7 @@
 # HumanFootprint
 
+[Back to Covariates datasets](../Covariates.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | Global human footprint analysis at 1km resolution. |
