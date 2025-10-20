@@ -69,7 +69,7 @@ setenv("FI_PROVIDER", "verbs")
 -- Not sure if the problem is in the state of the fabric or in IMPI.
 -- Squelching the warnings for now, review when the fabric is fully up.
 setenv("I_MPI_COLL_EXTERNAL", "0")
-
+setenv("I_MPI_PMI_LIBRARY", "/lib64/libpmi2.so")
 
 depends_on("numactl")
 depends_on("libfabric")
