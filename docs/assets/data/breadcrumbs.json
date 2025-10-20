@@ -96,6 +96,24 @@
     "Datasets",
     "Hydrological"
   ],
+  "/software_datasets/datasets/meteorological/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "Meteorological"
+  ],
+  "/software_datasets/datasets/geospatial/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "Geospatial"
+  ],
+  "/software_datasets/datasets/Covariates/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "Covariates"
+  ],
   "/software_datasets/datasets/igenomes/": [
     "Home",
     "RCAC Software and Datasets",
