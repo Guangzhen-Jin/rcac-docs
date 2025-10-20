@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   build:
@@ -19,37 +18,40 @@ jobs:
         working-directory: docs/software_datasets/scripts
 
     steps:
-      - name: Generate GitHub App token
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false  # we'll use our own token instead of GITHUB_TOKEN
+
+      - name: Generate GitHub App installation token
         id: app-token
         uses: tibdex/github-app-token@v2
         with:
           app_id: ${{ secrets.RCAC_DOCS_BOT_APP_ID }}
-          private_key: ${{ secrets.RCAC_DOCS_BOT_APP_PRIVATE_KEY }}
-          installation_retrieval_mode: repository
-          installation_retrieval_payload: Guangzhen-Jin/rcac-docs
+          private_key: ${{ secrets.RCAC_DOCS_BOT_PRIVATE_KEY }}
 
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ steps.app-token.outputs.token }}
-          fetch-depth: 0
+      - name: Configure git identity
+        run: |
+          git config user.name "rcac-docs-bot"
+          git config user.email "rcac-docs-bot[bot]@users.noreply.github.com"
 
       - name: Run make
         run: make
 
-      - name: Commit and push changes
+      - name: Commit and push changes (using App token)
         env:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          git config --global user.name "rcac-docs-bot[bot]"
-          git config --global user.email "rcac-docs-bot[bot]@users.noreply.github.com"
+          # Stage any modified files BEFORE pulling to avoid unstaged changes
+          git add ../software/apps_md ../software/app_catalog.md ../software/index.md || true
+          
+          # Pull and rebase with staged changes
+          git pull origin ${{ github.ref_name }} --rebase || git pull origin ${{ github.ref_name }}
 
-          # Stage any files make may have updated
-          git add ../software/apps_md ../software/app_catalog.md ../software/index.md
-
-          # If no changes, exit quietly
+          # Re-stage in case rebase changed files
+          git add ../software/apps_md ../software/app_catalog.md ../software/index.md || true
+          
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-
-          # Commit and push
           git commit -m "Auto-update app catalog and markdown files"
-          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/Guangzhen-Jin/rcac-docs HEAD:main
+          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
