@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **October 20, 2025**, there have been a total of **269** applications with **2440** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **October 20, 2025**, there have been a total of **269** applications with **2435** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
@@ -76,7 +76,7 @@ As of **October 20, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/ansys"><strong>ansys</strong></a></td>
       <td>Engineering</td>
-      <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+      <td>BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
     </tr>
     <tr>
       <td><a href="../apps_md/ansysedt"><strong>ansysedt</strong></a></td>
