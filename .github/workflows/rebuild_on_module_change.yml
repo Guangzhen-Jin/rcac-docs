@@ -1,4 +1,4 @@
-name: Run Make on modulefiles change
+name: Run Make on modulefiles change (GitHub App)
 
 on:
   push:
@@ -17,22 +17,35 @@ jobs:
     defaults:
       run:
         working-directory: docs/software_datasets/scripts
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: true 
+          persist-credentials: false  # we'll use our own token instead of GITHUB_TOKEN
+
+      - name: Generate GitHub App installation token
+        id: app-token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.RCAC_DOCS_BOT_APP_ID }}
+          private_key: ${{ secrets.RCAC_DOCS_BOT_PRIVATE_KEY }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "rcac-docs-bot"
+          git config user.email "rcac-docs-bot[bot]@users.noreply.github.com"
 
       - name: Run make
         run: make
 
-      - name: Commit and push changes
+      - name: Commit and push changes (using App token)
+        env:
+          GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          git config --global user.name "Guangzhen-Jin"
-          git config --global user.email "jin456@purdue.edu"
-          git pull
-          
+          git pull origin ${{ github.ref_name }} --rebase
           git add ../software/apps_md ../software/app_catalog.md ../software/index.md
-          git commit -m "Auto-update app catalog and markdown files" || echo "No changes to commit"
-          git push
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Auto-update app catalog and markdown files"
+          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
