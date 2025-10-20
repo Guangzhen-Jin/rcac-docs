@@ -5,7 +5,7 @@ hide:
 # icon: /fontawesome/regular/home
 ---
 
-!!! warning "**This is a demo site. It will be replaced with docs.rcac.purdue.edu in production.**"
+!!! warning "**This is a demo site. It will be replaced with "docs.rcac.purdue.edu" in production.**"
     **You are visiting a demo site designed for testing purposes only. Any contents on this website cannot be referred to for any RCAC resource!**
 
 # Welcome to RCAC Documentation
