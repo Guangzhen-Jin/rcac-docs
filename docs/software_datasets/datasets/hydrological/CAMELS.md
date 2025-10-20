@@ -1,5 +1,7 @@
 # CAMELS
 
+[Back to hydrological datasets](../hydrological.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | CAMELS is a collection of datasets combining hydrological and meteorological observations with catchment attributes for hundreds of catchments across the United States and other regions. The dataset includes attributes such as geology, soil, climate, and land cover, along with daily streamflow and precipitation data. CAMELS is used for understanding hydrological processes, benchmarking hydrological models, and conducting comparative studies across diverse catchments. |

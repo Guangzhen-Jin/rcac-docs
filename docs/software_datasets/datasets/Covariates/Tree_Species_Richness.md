@@ -1,5 +1,7 @@
 # Tree_Species_Richness
 
+[Back to Covariates datasets](../Covariates.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | Dataset on global tree species diversity and richness. |

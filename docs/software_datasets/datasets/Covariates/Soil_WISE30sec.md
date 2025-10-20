@@ -1,5 +1,7 @@
 # Soil_WISE30sec
 
+[Back to Covariates datasets](../Covariates.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | Harmonized global soil property database for modeling applications. |

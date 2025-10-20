@@ -1,5 +1,7 @@
 # GEDI
 
+[Back to Covariates datasets](../Covariates.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | Gridded land surface metrics from GEDI data. |

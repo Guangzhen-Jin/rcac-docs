@@ -1,5 +1,7 @@
 # MODIS_LAND_COVER_V6
 
+[Back to geospatial datasets](../geospatial.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | This dataset provides annual land cover type data derived from the MODIS sensor. It includes classifications such as forests, grasslands, and urban areas, aiding in land cover change analysis and environmental assessments. |

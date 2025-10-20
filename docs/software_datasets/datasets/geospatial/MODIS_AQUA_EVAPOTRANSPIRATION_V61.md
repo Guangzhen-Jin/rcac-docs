@@ -1,5 +1,7 @@
 # MODIS_AQUA_EVAPOTRANSPIRATION_V61
 
+[Back to geospatial datasets](../geospatial.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | The MYD16A2.061 dataset provides 8-day evapotranspiration (ET) and potential evapotranspiration (PET) data derived from the Moderate Resolution Imaging Spectroradiometer (MODIS) aboard the Aqua satellite. The data is available globally and supports studies related to water cycles, vegetation health, and land-atmosphere interactions. |

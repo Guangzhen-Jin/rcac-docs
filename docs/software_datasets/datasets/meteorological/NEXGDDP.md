@@ -1,5 +1,7 @@
 # NEXGDDP
 
+[Back to meteorological datasets](../meteorological.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | NEX-GDDP-CMIP6 provides global downscaled climate scenarios derived from CMIP6 models. It includes daily projections of maximum and minimum temperatures and precipitation at a spatial resolution of 0.25 degrees (~25 km x 25 km) for the periods from 1950 through 2100. The dataset is designed to assist in evaluating climate change impacts at local to regional scales. |

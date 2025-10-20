@@ -1,5 +1,7 @@
 # ForestAge
 
+[Back to Covariates datasets](../Covariates.md)
+
 | Field | Value |
 |--------|-------|
 | **Description** | Mapped global forest age from inventories, biomass, and climate data. |
