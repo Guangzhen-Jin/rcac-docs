@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **October 16, 2025**, there have been a total of **269** applications with **2438** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **October 20, 2025**, there have been a total of **269** applications with **2440** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
@@ -31,12 +31,12 @@ As of **October 16, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/amber"><strong>amber</strong></a></td>
       <td>Math/Stat, Programming</td>
-      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
     </tr>
     <tr>
       <td><a href="../apps_md/ambertools"><strong>ambertools</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, BELL, GAUTSCHI, GILBRETH</td>
+      <td>ANVIL, BELL, GAUTSCHI, GILBRETH, SCHOLAR</td>
     </tr>
     <tr>
       <td><a href="../apps_md/amdblis"><strong>amdblis</strong></a></td>

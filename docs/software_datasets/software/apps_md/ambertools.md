@@ -18,6 +18,7 @@ AmberTools is a free, useful standalone package and a prerequisite for installin
 **BELL**|25
 **GAUTSCHI**|25
 **GILBRETH**|25
+**SCHOLAR**|25
 
 ## Module
 

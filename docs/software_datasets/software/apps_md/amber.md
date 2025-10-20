@@ -19,6 +19,7 @@ Amber is a suite of biomolecular simulation programs together with Amber tools. 
 **GAUTSCHI**|24
 **GILBRETH**|24
 **NEGISHI**|20, 24
+**SCHOLAR**|24
 
 ## Module
 
