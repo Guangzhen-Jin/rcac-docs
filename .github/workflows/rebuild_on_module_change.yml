@@ -3,13 +3,13 @@ name: Run Make on modulefiles change (GitHub App)
 on:
   push:
     branches:
-      - auto_app
       - main
     paths:
       - 'docs/software_datasets/modulefiles/**'
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -19,33 +19,37 @@ jobs:
         working-directory: docs/software_datasets/scripts
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: false  # we'll use our own token instead of GITHUB_TOKEN
-
-      - name: Generate GitHub App installation token
+      - name: Generate GitHub App token
         id: app-token
         uses: tibdex/github-app-token@v2
         with:
           app_id: ${{ secrets.RCAC_DOCS_BOT_APP_ID }}
-          private_key: ${{ secrets.RCAC_DOCS_BOT_PRIVATE_KEY }}
+          private_key: ${{ secrets.RCAC_DOCS_BOT_APP_PRIVATE_KEY }}
+          installation_retrieval_mode: repository
+          installation_retrieval_payload: Guangzhen-Jin/rcac-docs
 
-      - name: Configure git identity
-        run: |
-          git config user.name "rcac-docs-bot"
-          git config user.email "rcac-docs-bot[bot]@users.noreply.github.com"
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          fetch-depth: 0
 
       - name: Run make
         run: make
 
-      - name: Commit and push changes (using App token)
+      - name: Commit and push changes
         env:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          git pull origin ${{ github.ref_name }} --rebase
+          git config --global user.name "rcac-docs-bot[bot]"
+          git config --global user.email "rcac-docs-bot[bot]@users.noreply.github.com"
+
+          # Stage any files make may have updated
           git add ../software/apps_md ../software/app_catalog.md ../software/index.md
+
+          # If no changes, exit quietly
           git diff --cached --quiet && echo "No changes to commit" && exit 0
+
+          # Commit and push
           git commit -m "Auto-update app catalog and markdown files"
-          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+          git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/Guangzhen-Jin/rcac-docs HEAD:main
