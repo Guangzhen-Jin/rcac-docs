@@ -105,6 +105,9 @@ nav:
     - Datasets:
       - software_datasets/datasets/index.md
       - Hydrological: software_datasets/datasets/hydrological.md
+      - Meteorological: software_datasets/datasets/meteorological.md
+      - Geospatial: software_datasets/datasets/geospatial.md
+      - Covariates: software_datasets/datasets/Covariates.md
       - Igenomes: software_datasets/datasets/igenomes.md
   - RCAC Workshops:
     - workshops/index.md
