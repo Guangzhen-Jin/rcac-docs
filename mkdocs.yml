@@ -12,11 +12,11 @@ theme:
     code: Consolas
   features:
     - navigation.indexes
-    # Back-to-top button¶
+    # Back-to-top button
     - navigation.top
     - navigation.footer
-    #  - navigation.sections
-    #  - navigation.expand
+    #- navigation.sections
+    #- navigation.expand
     - toc.follow
     - search.suggest
     - search.highlight
@@ -92,7 +92,6 @@ nav:
       - Running Jobs on Gautschi: userguides/gautschi/jobs/index.md
   - RCAC Blogs:
     - blog/index.md
-    #- Tags: blog/tags.md
   - RCAC Software and Datasets:
     - software_datasets/index.md
     - Software:
