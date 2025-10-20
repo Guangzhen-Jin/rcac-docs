@@ -1,28 +1,25 @@
-name: Run Make on modulefiles change (GitHub App)
+name: Update breadcrumbs on mkdocs.yml change (GitHub App)
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'docs/software_datasets/modulefiles/**'
+      - 'mkdocs.yml'
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  update-breadcrumbs:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: docs/software_datasets/scripts
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false  # we'll use our own token instead of GITHUB_TOKEN
+          persist-credentials: false
 
       - name: Generate GitHub App installation token
         id: app-token
@@ -31,27 +28,34 @@ jobs:
           app_id: ${{ secrets.RCAC_DOCS_BOT_APP_ID }}
           private_key: ${{ secrets.RCAC_DOCS_BOT_PRIVATE_KEY }}
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
       - name: Configure git identity
         run: |
           git config user.name "rcac-docs-bot"
           git config user.email "rcac-docs-bot@users.noreply.github.com"
 
-      - name: Run make
-        run: make
+      - name: Generate breadcrumbs
+        run: python tools/generate_breadcrumbs.py
 
-      - name: Commit and push changes (using App token)
+      - name: Commit and push updated breadcrumbs (using App token)
         env:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          # Stage any modified files BEFORE pulling to avoid unstaged changes
-          git add ../software/apps_md ../software/app_catalog.md ../software/index.md || true
+          # Stage the regenerated JSON before pulling
+          git add docs/assets/data/breadcrumbs.json || true
           
-          # Pull and rebase with staged changes
+          # Sync with branch to avoid rebase errors
           git pull origin ${{ github.ref_name }} --rebase || git pull origin ${{ github.ref_name }}
-
-          # Re-stage in case rebase changed files
-          git add ../software/apps_md ../software/app_catalog.md ../software/index.md || true
           
+          # Re-stage in case of merge/rebase updates
+          git add docs/assets/data/breadcrumbs.json || true
+          
+          # Skip commit if no changes
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Auto-update app catalog and markdown files"
+          
+          git commit -m "Auto-update breadcrumbs.json after mkdocs.yml change"
           git push https://x-access-token:${GITHUB_APP_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
