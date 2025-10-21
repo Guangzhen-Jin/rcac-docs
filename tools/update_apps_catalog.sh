@@ -7,11 +7,11 @@
 # Usage: ./update_apps_catalog.sh (or run `make` in the parent dir) to include all steps.
 
 
-MD_DIR="../software/apps_md"
+MD_DIR="../docs/software_datasets/software/apps_md"
 INV_FILE="./rcac_apps_inventory.json"
 DESC_FILE="./apps_descriptions.json" 
-CATALOG_FILE="../software/app_catalog.md"
-INDEX_FILE="../software/index.md"
+CATALOG_FILE="../docs/software_datasets/software/app_catalog.md"
+INDEX_FILE="../docs/software_datasets/software/index.md"
 
 mkdir -p "$(dirname "$CATALOG_FILE")"
 mkdir -p "$(dirname "$INDEX_FILE")"
@@ -20,7 +20,7 @@ mkdir -p "$(dirname "$INDEX_FILE")"
 today=$(date +"%B %d, %Y")
 app_count=$(find "$MD_DIR" -type f -name "*.md" | wc -l)
 
-version_count=$(find ../modulefiles -type f -name "*.lua" \
+version_count=$(find ../docs/software_datasets/modulefiles -type f -name "*.lua" \
   ! -name ".*" \
   ! -name "*.modulerc.lua" \
   ! -regex '.*-[a-zA-Z0-9]\{7\}\.lua$' \

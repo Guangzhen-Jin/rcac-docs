@@ -2259,5 +2259,13 @@
     "topic": [
       "Engineering"
     ]
+  },
+  "ads": {
+    "description": "A Python module for NASA's ADS that doesn't suck.",
+    "homepage": null,
+    "source": "pypi",
+    "topic": [
+      "Miscellaneous"
+    ]
   }
 }
