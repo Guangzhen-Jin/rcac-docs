@@ -1,6 +1,6 @@
-# Chemistry
+# Material Science
 
-Computational chemistry software supports modeling of molecular interactions, quantum mechanics, and thermodynamics, providing essential tools for material discovery, drug design, and chemical process simulation.
+Materials science packages support simulation and characterization of materials (electronic structure, molecular dynamics, mesoscale modeling), used for materials discovery and property prediction.
 
 * [**cp2k**](apps_md/cp2k.md)
 * [**gaussian**](apps_md/gaussian.md)
@@ -12,9 +12,15 @@ Computational chemistry software supports modeling of molecular interactions, qu
 * [**meep**](apps_md/meep.md)
 * [**namd**](apps_md/namd.md)
 * [**nwchem**](apps_md/nwchem.md)
+* [**parafly**](apps_md/parafly.md)
+* [**parallel**](apps_md/parallel.md)
+* [**parallel-netcdf**](apps_md/parallel-netcdf.md)
+* [**paraview**](apps_md/paraview.md)
 * [**plumed**](apps_md/plumed.md)
 * [**qemu**](apps_md/qemu.md)
 * [**quantumatk**](apps_md/quantumatk.md)
 * [**quantum-espresso**](apps_md/quantum-espresso.md)
 * [**vasp**](apps_md/vasp.md)
+* [**visit**](apps_md/visit.md)
+* [**vtk**](apps_md/vtk.md)
 * [**wannier90**](apps_md/wannier90.md)

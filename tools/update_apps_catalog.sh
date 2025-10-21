@@ -12,6 +12,7 @@ INV_FILE="./rcac_apps_inventory.json"
 DESC_FILE="./apps_descriptions.json" 
 CATALOG_FILE="../docs/software_datasets/software/app_catalog.md"
 INDEX_FILE="../docs/software_datasets/software/index.md"
+OUT_DIR="../docs/software_datasets/software"
 
 mkdir -p "$(dirname "$CATALOG_FILE")"
 mkdir -p "$(dirname "$INDEX_FILE")"
@@ -97,7 +98,7 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo "You can see [**a full list of all software and version deployed on all RCAC clusters**](app_catalog.md), OR"
   echo 
-  echo "Check the most popular software in different domains below:"
+  echo "Check the software among popular domains below:"
   echo
   echo '<div class="grid cards" markdown>'
   echo
@@ -107,7 +108,7 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo "    Compilers catalog of deployed applications on RCAC clusters."
   echo 
-  echo '    [:octicons-arrow-right-24: Compilers Catalog](compiler_catalog.md)'
+  echo '    [:octicons-arrow-right-24: Compilers Catalog](compilers_catalog.md)'
   echo
   echo "-   :material-application:{ .lg .middle } __MPIs__"
   echo
@@ -131,7 +132,7 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo 
   echo "    Fluid Dynamics software catalog of deployed applications on RCAC clusters."
   echo
-  echo '    [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_catalog.md)'
+  echo '    [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_dynamics_catalog.md)'
   echo
   echo "-   :material-application:{ .lg .middle } __Audio/Visualization__"
   echo
@@ -139,7 +140,7 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo "    Audio/Visualization software catalog of deployed applications on RCAC clusters."
   echo 
-  echo '    [:octicons-arrow-right-24: Audio/Visualization Software Catalog](audio_vis_catalog.md)'
+  echo '    [:octicons-arrow-right-24: Audio/Visualization Software Catalog](audio_visual_catalog.md)'
   echo
   echo "-   :simple-docker:{ .lg .middle } __Biocontainers__"
   echo
@@ -149,8 +150,106 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo '    [:octicons-arrow-right-24: Biocontainers :octicons-link-external-16:](https://biocontainer-doc.readthedocs.io/en/latest/)'
   echo
+  echo "-   :material-application:{ .lg .middle } __Library__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Core libraries and shared components supporting HPC software environments."
+  echo
+  echo '    [:octicons-arrow-right-24: Library Catalog](library_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __Mathematics/Statistics__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Mathematical and statistical software packages for computation, analysis, and modeling."
+  echo
+  echo '    [:octicons-arrow-right-24: Mathematics/Statistics Catalog](math_stat_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __Engineering__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Engineering tools and simulation software used for design and analysis."
+  echo
+  echo '    [:octicons-arrow-right-24: Engineering Catalog](engineering_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __Geoscience__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Geoscience modeling and analysis software for Earth and environmental research."
+  echo
+  echo '    [:octicons-arrow-right-24: Geoscience Catalog](geoscience_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __Utilities__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Utility tools and system-level software for workflow support and productivity."
+  echo
+  echo '    [:octicons-arrow-right-24: Utilities Catalog](utilities_catalog.md)'
+  echo
+  echo "-   :material-application:{ .lg .middle } __Workflow__"
+  echo
+  echo "    ---"
+  echo
+  echo "    Workflow management tools for automation and reproducible research pipelines."
+  echo
+  echo '    [:octicons-arrow-right-24: Workflow Catalog](workflow_catalog.md)'
+  echo
   echo '</div>'
 
 } > "$INDEX_FILE"
 
 echo "Catalog updated at $CATALOG_FILE and $INDEX_FILE."
+
+##############################
+# Generate individual catalogs
+##############################
+
+declare -A TOPIC_DESCRIPTIONS=(
+  ["MPI"]="MPI (Message Passing Interface) implementations provide the foundation for scalable parallel computation across distributed memory nodes. They enable communication, synchronization, and data exchange for multi-node jobs and are optimized for specific interconnects and high-speed interconnects used in HPC."
+  ["Compilers"]="Compilers on HPC translate high-level code (C/C++, Fortran, etc.) into highly optimized machine code and are critical for achieving peak performance on clusters. They provide advanced optimizations (vectorization, loop transformations, link-time optimization), support vendor-specific instruction sets and libraries, and interact with MPI/OpenMP runtimes for scalable parallel execution."
+  ["Audio/Visual"]="Audio and visualization tools enable scientific data interpretation through rendering, visualization, animation, and sound processing, helping researchers understand complex multidimensional results and produce publication-quality figures and movies."
+  ["Chemistry"]="Computational chemistry software supports modeling of molecular interactions, quantum mechanics, and thermodynamics, providing essential tools for material discovery, drug design, and chemical process simulation."
+  ["Fluid Dynamics"]="Fluid dynamics software enables numerical simulation of fluid flow, turbulence, and related transport phenomena using finite volume, finite element, or lattice Boltzmann solvers for engineering and scientific problems."
+  ["Geoscience"]="Geoscience software supports simulation and analysis of Earth system processes such as ocean circulation, seismic wave propagation, atmospheric modeling, and climate studies, integrating physics-based models with observational data."
+  ["Library"]="Core libraries provide reusable numerical, I/O, and communication functionality (linear algebra, FFTs, I/O layers, serialization, etc.) that scientific applications and packages depend on in HPC environments."
+  ["Material Science"]="Materials science packages support simulation and characterization of materials (electronic structure, molecular dynamics, mesoscale modeling), used for materials discovery and property prediction."
+  ["Math/Stat"]="Mathematics and statistics software packages provide algorithms for numerical computation, optimization, linear algebra, and statistical analysis used across scientific and engineering domains."
+  ["Engineering"]="Engineering applications simulate and optimize structures, fluids, multiphysics systems and other domain-specific engineering problems using solvers and analysis tools."
+  ["Programming"]="Programming-related tools include languages, runtimes, build systems, and developer tooling that support software development on HPC systems."
+  ["Utilities"]="Utility software provides tools that enhance HPC workflows — file and data management, monitoring, profiling, conversion utilities, and system-level helpers to improve productivity and debugging."
+  ["Workflow"]="Workflow management tools orchestrate computational pipelines, automate job submission, and ensure reproducibility of complex HPC analyses."
+)
+
+# Topics to generate (excluding Biocontainers)
+TOPIC_LIST=("MPI" "Compilers" "Audio/Visual" "Chemistry" "Fluid Dynamics" "Geoscience" \
+            "Library" "Material Science" "Math/Stat" "Engineering" "Programming" "Utilities" "Workflow")
+
+echo "Generating topic catalogs..."
+for topic in "${TOPIC_LIST[@]}"; do
+  file_slug=$(echo "$topic" | tr '[:upper:]' '[:lower:]' | tr ' /' '_' )
+  outfile="$OUT_DIR/${file_slug}_catalog.md"
+
+  echo "# $topic" > "$outfile"
+  echo >> "$outfile"
+  echo "${TOPIC_DESCRIPTIONS[$topic]}" >> "$outfile"
+  echo >> "$outfile"
+
+  # Find all apps that belong to this topic
+  jq -r --arg topic "$topic" '
+    to_entries[] 
+    | select(.value.topic | index($topic))
+    | .key
+  ' "$DESC_FILE" | sort | while read -r app; do
+      if [[ -f "$MD_DIR/$app.md" ]]; then
+        echo "* [**$app**](apps_md/$app.md)" >> "$outfile"
+      fi
+  done
+
+  echo "  → Generated $outfile"
+done
+
+echo "All topic catalogs generated successfully."
