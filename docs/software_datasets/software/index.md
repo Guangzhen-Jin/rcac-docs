@@ -13,7 +13,7 @@ As of **October 21, 2025**, there have been a total of **269** applications with
 
 You can see [**a full list of all software and version deployed on all RCAC clusters**](app_catalog.md), OR
 
-Check the most popular software in different domains below:
+Check the software among popular domains below:
 
 <div class="grid cards" markdown>
 
@@ -23,7 +23,7 @@ Check the most popular software in different domains below:
 
     Compilers catalog of deployed applications on RCAC clusters.
 
-    [:octicons-arrow-right-24: Compilers Catalog](compiler_catalog.md)
+    [:octicons-arrow-right-24: Compilers Catalog](compilers_catalog.md)
 
 -   :material-application:{ .lg .middle } __MPIs__
 
@@ -47,7 +47,7 @@ Check the most popular software in different domains below:
 
     Fluid Dynamics software catalog of deployed applications on RCAC clusters.
 
-    [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_catalog.md)
+    [:octicons-arrow-right-24: Fluid Dynamics Software Catalog](fluid_dynamics_catalog.md)
 
 -   :material-application:{ .lg .middle } __Audio/Visualization__
 
@@ -55,7 +55,7 @@ Check the most popular software in different domains below:
 
     Audio/Visualization software catalog of deployed applications on RCAC clusters.
 
-    [:octicons-arrow-right-24: Audio/Visualization Software Catalog](audio_vis_catalog.md)
+    [:octicons-arrow-right-24: Audio/Visualization Software Catalog](audio_visual_catalog.md)
 
 -   :simple-docker:{ .lg .middle } __Biocontainers__
 
@@ -64,5 +64,53 @@ Check the most popular software in different domains below:
     Check the catalog of all deployed biocontainers on RCAC clusters.
 
     [:octicons-arrow-right-24: Biocontainers :octicons-link-external-16:](https://biocontainer-doc.readthedocs.io/en/latest/)
+
+-   :material-application:{ .lg .middle } __Library__
+
+    ---
+
+    Core libraries and shared components supporting HPC software environments.
+
+    [:octicons-arrow-right-24: Library Catalog](library_catalog.md)
+
+-   :material-application:{ .lg .middle } __Mathematics/Statistics__
+
+    ---
+
+    Mathematical and statistical software packages for computation, analysis, and modeling.
+
+    [:octicons-arrow-right-24: Mathematics/Statistics Catalog](math_stat_catalog.md)
+
+-   :material-application:{ .lg .middle } __Engineering__
+
+    ---
+
+    Engineering tools and simulation software used for design and analysis.
+
+    [:octicons-arrow-right-24: Engineering Catalog](engineering_catalog.md)
+
+-   :material-application:{ .lg .middle } __Geoscience__
+
+    ---
+
+    Geoscience modeling and analysis software for Earth and environmental research.
+
+    [:octicons-arrow-right-24: Geoscience Catalog](geoscience_catalog.md)
+
+-   :material-application:{ .lg .middle } __Utilities__
+
+    ---
+
+    Utility tools and system-level software for workflow support and productivity.
+
+    [:octicons-arrow-right-24: Utilities Catalog](utilities_catalog.md)
+
+-   :material-application:{ .lg .middle } __Workflow__
+
+    ---
+
+    Workflow management tools for automation and reproducible research pipelines.
+
+    [:octicons-arrow-right-24: Workflow Catalog](workflow_catalog.md)
 
 </div>

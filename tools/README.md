@@ -49,3 +49,11 @@ TL;DR: You could simply run `make` which will include all the steps below with c
 - Run `update_apps_descriptions_from_inventory.sh` to generate the apps descriptions if not yet.
 - Run `generate_md.sh` to generate the md files for all the apps with descriptions, homepage, versions on deployed clusters and how to use.
 - Run `update_apps_catalog.sh` to update the app index page "app_catalog.md" with all the markdown files generated.
+
+# Script to generate breadcrumb json file based on mkdocs.yml `nav`
+## generate_breadcrumbs.py
+Rules:  
+- Only include parent titles if that parent section contains an actual index.md
+- Do NOT emit an entry for the root "/" (no breadcrumb for Home page)
+- Writes output to `docs/assets/data/breadcrumbs.json` so MkDocs will serve it within `docs/assets/js/breadcrumbs.js`
+- Ignores unknown Python YAML tags used by Material
