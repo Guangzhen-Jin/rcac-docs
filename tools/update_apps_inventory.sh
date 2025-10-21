@@ -7,7 +7,7 @@
 set -euo pipefail
 
 OUTPUT_FILE="./rcac_apps_inventory.json"
-MODULEDIR="../docs/software_datasets/modulefiles"
+MODULEDIR="../modulefiles"
 VERBOSE=0
 
 while getopts "v" opt; do

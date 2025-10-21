@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'docs/software_datasets/modulefiles/**'
+      - 'modulefiles/**'
 
 permissions:
   contents: write

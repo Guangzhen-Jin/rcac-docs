@@ -7,7 +7,7 @@
 set -euo pipefail
 
 OUTPUT_FILE="./rcac_apps_inventory.json"
-MODULEDIR="../docs/software_datasets/modulefiles"  # relative path from ./scripts
+MODULEDIR="../modulefiles"  # relative path from ./scripts
 
 if [ ! -d "$MODULEDIR" ]; then
     echo "Error: modulefiles directory not found at $MODULEDIR" >&2
