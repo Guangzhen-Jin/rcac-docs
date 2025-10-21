@@ -10,7 +10,7 @@ from pathlib import Path
 import json
 import re
 
-INV = Path("../scripts/rcac_apps_inventory.json")
+INV = Path("./rcac_apps_inventory.json")
 OUT = Path("./apps_topics.json")
 
 # heuristic rules: keyword -> list of topics

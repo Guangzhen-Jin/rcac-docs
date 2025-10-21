@@ -1,13 +1,10 @@
 {
   "abaqus": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "2024"
       ],
       "scholar": [
-        "2024"
-      ],
-      "bell": [
         "2024"
       ],
       "gilbreth": [
@@ -18,19 +15,27 @@
         "2022",
         "2023",
         "2024"
+      ],
+      "gautschi": [
+        "2024"
+      ]
+    }
+  },
+  "ads": {
+    "availability": {
+      "gautschi": [
+        "2022.2",
+        "2024.2",
+        "2025.2"
       ]
     }
   },
   "amber": {
     "availability": {
-      "anvil": [
-        "20",
-        "24"
-      ],
-      "gautschi": [
-        "24"
-      ],
       "bell": [
+        "24"
+      ],
+      "scholar": [
         "24"
       ],
       "gilbreth": [
@@ -39,21 +44,31 @@
       "negishi": [
         "20",
         "24"
+      ],
+      "gautschi": [
+        "24"
+      ],
+      "anvil": [
+        "20",
+        "24"
       ]
     }
   },
   "ambertools": {
     "availability": {
-      "anvil": [
+      "bell": [
+        "25"
+      ],
+      "scholar": [
+        "25"
+      ],
+      "gilbreth": [
         "25"
       ],
       "gautschi": [
         "25"
       ],
-      "bell": [
-        "25"
-      ],
-      "gilbreth": [
+      "anvil": [
         "25"
       ]
     }
@@ -95,34 +110,25 @@
   },
   "amduprof": {
     "availability": {
-      "anvil": [
-        "5.0"
+      "negishi": [
+        "3.4-502"
       ],
       "gautschi": [
         "5.1.701"
       ],
-      "negishi": [
-        "3.4-502"
+      "anvil": [
+        "5.0"
       ]
     }
   },
   "anaconda": {
     "availability": {
-      "anvil": [
-        "2021.05-py38",
-        "2024.02-py311",
-        "2025.06-py313"
-      ],
-      "gautschi": [
+      "bell": [
         "2024.10-py312",
         "2025.06-py313"
       ],
       "scholar": [
         "2024.02-py311",
-        "2024.10-py312",
-        "2025.06-py313"
-      ],
-      "bell": [
         "2024.10-py312",
         "2025.06-py313"
       ],
@@ -136,22 +142,27 @@
         "2024.02-py311",
         "2024.10-py312",
         "2025.06-py313"
+      ],
+      "gautschi": [
+        "2024.10-py312",
+        "2025.06-py313"
+      ],
+      "anvil": [
+        "2021.05-py38",
+        "2024.02-py311",
+        "2025.06-py313"
       ]
     }
   },
   "ansys": {
     "availability": {
-      "gautschi": [
+      "bell": [
+        "2023R1",
         "2024R2",
         "2025R2"
       ],
       "scholar": [
         "2022R1"
-      ],
-      "bell": [
-        "2023R1",
-        "2024R2",
-        "2025R2"
       ],
       "gilbreth": [
         "2024R2",
@@ -163,12 +174,24 @@
         "2023R2",
         "2024R2",
         "2025R2"
+      ],
+      "gautschi": [
+        "2024R2",
+        "2025R2"
       ]
     }
   },
   "ansysedt": {
     "availability": {
+      "gilbreth": [
+        "2023R2",
+        "2024R1"
+      ],
       "negishi": [
+        "2023R2",
+        "2024R1"
+      ],
+      "gautschi": [
         "2023R2",
         "2024R1"
       ]
@@ -190,33 +213,33 @@
   },
   "arpack-ng": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "3.8.0"
       ],
-      "negishi": [
+      "anvil": [
         "3.8.0"
       ]
     }
   },
   "aws-cli": {
     "availability": {
-      "anvil": [
-        "2.4.15"
-      ],
-      "gautschi": [
+      "bell": [
         "2.9.7"
       ],
       "scholar": [
         "2.4.15"
-      ],
-      "bell": [
-        "2.9.7"
       ],
       "gilbreth": [
         "2.24.5"
       ],
       "negishi": [
         "2.9.7"
+      ],
+      "gautschi": [
+        "2.9.7"
+      ],
+      "anvil": [
+        "2.4.15"
       ]
     }
   },
@@ -243,10 +266,10 @@
   },
   "berkeley-db": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "18.1.40"
       ],
-      "negishi": [
+      "anvil": [
         "18.1.40"
       ]
     }
@@ -267,30 +290,23 @@
   },
   "blis": {
     "availability": {
-      "anvil": [
-        "0.8.1"
-      ],
       "negishi": [
         "0.8.1",
         "0.9.0"
+      ],
+      "anvil": [
+        "0.8.1"
       ]
     }
   },
   "boost": {
     "availability": {
-      "anvil": [
-        "1.74.0",
-        "1.86.0"
-      ],
-      "gautschi": [
+      "bell": [
         "1.85.0"
       ],
       "scholar": [
         "1.85.0",
         "1.86.0"
-      ],
-      "bell": [
-        "1.85.0"
       ],
       "gilbreth": [
         "1.79.0",
@@ -299,6 +315,13 @@
       "negishi": [
         "1.79.0",
         "1.80.0"
+      ],
+      "gautschi": [
+        "1.85.0"
+      ],
+      "anvil": [
+        "1.74.0",
+        "1.86.0"
       ]
     }
   },
@@ -318,42 +341,42 @@
   },
   "bzip2": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.0.8"
       ],
-      "negishi": [
+      "anvil": [
         "1.0.8"
       ]
     }
   },
   "cairo": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.16.0"
       ],
-      "negishi": [
+      "anvil": [
         "1.16.0"
       ]
     }
   },
   "cdo": {
     "availability": {
-      "anvil": [
-        "1.9.9"
-      ],
-      "gautschi": [
-        "2.3.0"
+      "bell": [
+        "2.4.4"
       ],
       "scholar": [
         "2.3.0"
-      ],
-      "bell": [
-        "2.4.4"
       ],
       "gilbreth": [
         "2.3.0"
       ],
       "negishi": [
+        "1.9.9"
+      ],
+      "gautschi": [
+        "2.3.0"
+      ],
+      "anvil": [
         "1.9.9"
       ]
     }
@@ -384,32 +407,32 @@
   },
   "cmake": {
     "availability": {
-      "anvil": [
-        "3.20.0"
-      ],
       "negishi": [
         "3.23.1",
         "3.24.3"
+      ],
+      "anvil": [
+        "3.20.0"
       ]
     }
   },
   "comsol": {
     "availability": {
-      "gautschi": [
+      "bell": [
+        "6.0",
         "6.2",
         "6.3"
       ],
       "scholar": [
         "6.2"
       ],
-      "bell": [
-        "6.0",
-        "6.2",
-        "6.3"
-      ],
       "negishi": [
         "6.0",
         "6.1",
+        "6.2",
+        "6.3"
+      ],
+      "gautschi": [
         "6.2",
         "6.3"
       ]
@@ -417,23 +440,13 @@
   },
   "conda": {
     "availability": {
-      "anvil": [
-        "2024.09",
-        "2025.02",
-        "2025.09"
-      ],
-      "gautschi": [
-        "2024.09",
+      "bell": [
         "2025.02",
         "2025.09"
       ],
       "scholar": [
         "2024.09-py312",
         "2024.09",
-        "2025.09"
-      ],
-      "bell": [
-        "2025.02",
         "2025.09"
       ],
       "gilbreth": [
@@ -443,6 +456,16 @@
       ],
       "negishi": [
         "2024.09",
+        "2025.09"
+      ],
+      "gautschi": [
+        "2024.09",
+        "2025.02",
+        "2025.09"
+      ],
+      "anvil": [
+        "2024.09",
+        "2025.02",
         "2025.09"
       ]
     }
@@ -456,25 +479,26 @@
   },
   "cp2k": {
     "availability": {
-      "anvil": [
-        "8.2",
-        "2024.3"
-      ],
       "bell": [
         "2024.3"
       ],
       "negishi": [
         "2022.1"
+      ],
+      "anvil": [
+        "8.2",
+        "2024.3"
       ]
     }
   },
   "cuda": {
     "availability": {
-      "anvil": [
-        "11.0.3",
-        "11.2.2",
-        "11.4.2",
-        "12.0.1"
+      "scholar": [
+        "12.1.0"
+      ],
+      "gilbreth": [
+        "12.1.1",
+        "12.6.0"
       ],
       "gautschi": [
         "12.6.0",
@@ -482,29 +506,28 @@
         "12.8.0",
         "12.9.0"
       ],
-      "scholar": [
-        "12.1.0"
-      ],
-      "gilbreth": [
-        "12.1.1",
-        "12.6.0"
+      "anvil": [
+        "11.0.3",
+        "11.2.2",
+        "11.4.2",
+        "12.0.1"
       ]
     }
   },
   "cudnn": {
     "availability": {
-      "anvil": [
-        "cuda-11.0_8.0",
-        "cuda-11.2_8.1",
-        "cuda-11.4_8.2",
-        "cuda-12.0_8.8"
+      "gilbreth": [
+        "9.2.0.82-12"
       ],
       "gautschi": [
         "9.2.0.82-12",
         "9.12.0.46-12"
       ],
-      "gilbreth": [
-        "9.2.0.82-12"
+      "anvil": [
+        "cuda-11.0_8.0",
+        "cuda-11.2_8.1",
+        "cuda-11.4_8.2",
+        "cuda-12.0_8.8"
       ]
     }
   },
@@ -524,12 +547,12 @@
   },
   "curl": {
     "availability": {
-      "anvil": [
-        "7.76.1"
-      ],
       "negishi": [
         "7.78.0",
         "7.85.0"
+      ],
+      "anvil": [
+        "7.76.1"
       ]
     }
   },
@@ -549,20 +572,12 @@
   },
   "duckdb": {
     "availability": {
-      "anvil": [
-        "1.0.0",
-        "1.4.0"
-      ],
-      "gautschi": [
+      "bell": [
         "1.1.3",
         "1.4.0"
       ],
       "scholar": [
         "1.0.0",
-        "1.4.0"
-      ],
-      "bell": [
-        "1.1.3",
         "1.4.0"
       ],
       "gilbreth": [
@@ -572,6 +587,14 @@
       "negishi": [
         "1.0.0",
         "1.4.0"
+      ],
+      "gautschi": [
+        "1.1.3",
+        "1.4.0"
+      ],
+      "anvil": [
+        "1.0.0",
+        "1.4.0"
       ]
     }
   },
@@ -579,26 +602,29 @@
     "availability": {
       "negishi": [
         "default"
+      ],
+      "gautschi": [
+        "default"
       ]
     }
   },
   "eigen": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "3.3.9"
       ],
-      "negishi": [
+      "anvil": [
         "3.3.9"
       ]
     }
   },
   "emacs": {
     "availability": {
-      "anvil": [
-        "27.2"
-      ],
       "negishi": [
         "28.2"
+      ],
+      "anvil": [
+        "27.2"
       ]
     }
   },
@@ -632,9 +658,6 @@
   },
   "ffmpeg": {
     "availability": {
-      "anvil": [
-        "4.2.2"
-      ],
       "bell": [
         "7.0.2"
       ],
@@ -643,23 +666,18 @@
       ],
       "negishi": [
         "4.4.1"
+      ],
+      "anvil": [
+        "4.2.2"
       ]
     }
   },
   "fftw": {
     "availability": {
-      "anvil": [
-        "2.1.5",
-        "3.3.8",
-        "3.3.10"
-      ],
-      "gautschi": [
+      "bell": [
         "3.3.10"
       ],
       "scholar": [
-        "3.3.10"
-      ],
-      "bell": [
         "3.3.10"
       ],
       "gilbreth": [
@@ -667,35 +685,43 @@
       ],
       "negishi": [
         "3.3.10"
+      ],
+      "gautschi": [
+        "3.3.10"
+      ],
+      "anvil": [
+        "2.1.5",
+        "3.3.8",
+        "3.3.10"
       ]
     }
   },
   "font-util": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.3.2"
       ],
-      "negishi": [
+      "anvil": [
         "1.3.2"
       ]
     }
   },
   "fontconfig": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "2.12.3"
       ],
-      "negishi": [
+      "anvil": [
         "2.12.3"
       ]
     }
   },
   "freetype": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "2.7.1"
       ],
-      "negishi": [
+      "anvil": [
         "2.7.1"
       ]
     }
@@ -723,10 +749,10 @@
   },
   "gaussian16": {
     "availability": {
-      "scholar": [
+      "bell": [
         "B.01"
       ],
-      "bell": [
+      "scholar": [
         "B.01"
       ],
       "negishi": [
@@ -736,11 +762,11 @@
   },
   "gaussview": {
     "availability": {
-      "scholar": [
-        "5.0.8",
+      "bell": [
         "6.0.16"
       ],
-      "bell": [
+      "scholar": [
+        "5.0.8",
         "6.0.16"
       ],
       "gilbreth": [
@@ -753,25 +779,15 @@
   },
   "gcc": {
     "availability": {
-      "anvil": [
-        "8.4.1",
-        "10.2.0",
-        "11.2.0",
-        "14.2.0"
-      ],
-      "gautschi": [
-        "11.4.1",
-        "14.1.0"
-      ],
-      "scholar": [
-        "11.4.1",
-        "14.1.0"
-      ],
       "bell": [
         "8.5.0",
         "9.3.0",
         "11.1.0",
         "14.2.0"
+      ],
+      "scholar": [
+        "11.4.1",
+        "14.1.0"
       ],
       "gilbreth": [
         "11.5.0",
@@ -781,6 +797,16 @@
         "8.5.0",
         "11.2.0",
         "12.2.0"
+      ],
+      "gautschi": [
+        "11.4.1",
+        "14.1.0"
+      ],
+      "anvil": [
+        "8.4.1",
+        "10.2.0",
+        "11.2.0",
+        "14.2.0"
       ]
     }
   },
@@ -793,85 +819,80 @@
   },
   "gdal": {
     "availability": {
-      "anvil": [
-        "2.4.4",
-        "3.2.0"
-      ],
       "bell": [
         "3.10.0"
       ],
       "negishi": [
         "2.4.4",
         "3.5.3"
+      ],
+      "anvil": [
+        "2.4.4",
+        "3.2.0",
+        "3.10.0"
       ]
     }
   },
   "gdb": {
     "availability": {
-      "anvil": [
-        "11.1"
-      ],
       "bell": [
         "15.2"
       ],
       "negishi": [
         "11.1",
         "12.1"
+      ],
+      "anvil": [
+        "11.1"
       ]
     }
   },
   "gdbm": {
     "availability": {
-      "anvil": [
-        "1.19"
-      ],
       "negishi": [
         "1.23"
+      ],
+      "anvil": [
+        "1.19"
       ]
     }
   },
   "geos": {
     "availability": {
-      "anvil": [
-        "3.8.1",
+      "negishi": [
         "3.9.1"
       ],
-      "negishi": [
+      "anvil": [
+        "3.8.1",
         "3.9.1"
       ]
     }
   },
   "gettext": {
     "availability": {
-      "anvil": [
-        "0.21"
-      ],
       "negishi": [
         "0.21.1"
+      ],
+      "anvil": [
+        "0.21"
       ]
     }
   },
   "gfms": {
     "availability": {
-      "anvil": [
+      "gilbreth": [
         "default"
       ],
       "gautschi": [
         "default"
       ],
-      "gilbreth": [
+      "anvil": [
         "default"
       ]
     }
   },
   "ghostscript": {
     "availability": {
-      "anvil": [
-        "9.56.1"
-      ],
-      "gautschi": [
-        "9.56.1"
-      ],
       "scholar": [
         "9.56.1"
       ],
@@ -880,39 +901,42 @@
       ],
       "negishi": [
         "9.56.1"
+      ],
+      "gautschi": [
+        "9.56.1"
+      ],
+      "anvil": [
+        "9.56.1"
       ]
     }
   },
   "glib": {
     "availability": {
-      "anvil": [
-        "2.68.3"
-      ],
       "negishi": [
         "2.74.1"
+      ],
+      "anvil": [
+        "2.68.3"
       ]
     }
   },
   "gmp": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "6.2.1"
       ],
-      "negishi": [
+      "anvil": [
         "6.2.1"
       ]
     }
   },
   "gmt": {
     "availability": {
-      "anvil": [
-        "6.1.0"
+      "bell": [
+        "6.4.0"
       ],
       "scholar": [
         "6.5.0"
-      ],
-      "bell": [
-        "6.4.0"
       ],
       "gilbreth": [
         "6.4.0"
@@ -920,17 +944,14 @@
       "negishi": [
         "5.4.4",
         "6.2.0"
+      ],
+      "anvil": [
+        "6.1.0"
       ]
     }
   },
   "gnuplot": {
     "availability": {
-      "anvil": [
-        "5.4.2"
-      ],
-      "gautschi": [
-        "6.0.0"
-      ],
       "bell": [
         "6.0.0"
       ],
@@ -938,6 +959,12 @@
         "6.0.0"
       ],
       "negishi": [
+        "5.4.2"
+      ],
+      "gautschi": [
+        "6.0.0"
+      ],
+      "anvil": [
         "5.4.2"
       ]
     }
@@ -958,9 +985,6 @@
   },
   "grads": {
     "availability": {
-      "anvil": [
-        "2.2.1"
-      ],
       "bell": [
         "2.2.3"
       ],
@@ -969,25 +993,18 @@
       ],
       "negishi": [
         "2.2.1"
+      ],
+      "anvil": [
+        "2.2.1"
       ]
     }
   },
   "gromacs": {
     "availability": {
-      "anvil": [
-        "2019.6",
-        "2021",
-        "2021.2",
-        "2023",
-        "2024.1"
-      ],
-      "gautschi": [
+      "bell": [
         "2024.3"
       ],
       "scholar": [
-        "2024.3"
-      ],
-      "bell": [
         "2024.3"
       ],
       "gilbreth": [
@@ -996,15 +1013,21 @@
       ],
       "negishi": [
         "2022.3"
+      ],
+      "gautschi": [
+        "2024.3"
+      ],
+      "anvil": [
+        "2019.6",
+        "2021",
+        "2021.2",
+        "2023",
+        "2024.1"
       ]
     }
   },
   "gsl": {
     "availability": {
-      "anvil": [
-        "2.4",
-        "2.7"
-      ],
       "bell": [
         "2.8"
       ],
@@ -1014,6 +1037,10 @@
       "negishi": [
         "2.4",
         "2.7.1"
+      ],
+      "anvil": [
+        "2.4",
+        "2.7"
       ]
     }
   },
@@ -1026,80 +1053,80 @@
   },
   "gurobi": {
     "availability": {
-      "anvil": [
-        "9.5.1"
-      ],
-      "gautschi": [
+      "bell": [
         "11.0.3"
       ],
       "scholar": [
         "11.0.3"
       ],
-      "bell": [
-        "11.0.3"
-      ],
       "negishi": [
         "10.0.1"
+      ],
+      "gautschi": [
+        "11.0.3"
+      ],
+      "anvil": [
+        "9.5.1"
       ]
     }
   },
   "hadoop": {
     "availability": {
-      "anvil": [
-        "3.3.0"
-      ],
       "bell": [
         "3.4.0"
       ],
       "negishi": [
         "3.3.2"
+      ],
+      "anvil": [
+        "3.3.0"
       ]
     }
   },
   "hdf": {
     "availability": {
-      "anvil": [
-        "4.2.15"
-      ],
       "bell": [
         "4.2.15"
       ],
       "negishi": [
+        "4.2.15"
+      ],
+      "anvil": [
         "4.2.15"
       ]
     }
   },
   "hdf5": {
     "availability": {
-      "anvil": [
-        "1.10.7",
-        "1.14.5"
-      ],
-      "gautschi": [
-        "1.14.3"
-      ],
-      "scholar": [
-        "1.14.3"
-      ],
       "bell": [
         "1.14.3",
         "1.14.5"
+      ],
+      "scholar": [
+        "1.14.3"
       ],
       "gilbreth": [
         "1.14.3"
       ],
       "negishi": [
         "1.13.2"
+      ],
+      "gautschi": [
+        "1.14.3"
+      ],
+      "anvil": [
+        "1.10.7",
+        "1.14.5"
       ]
     }
   },
   "hpctoolkit": {
     "availability": {
-      "anvil": [
-        "2021.03.01"
-      ],
       "negishi": [
         "2022.05.15"
+      ],
+      "anvil": [
+        "2021.03.01"
       ]
     }
   },
@@ -1129,36 +1156,21 @@
   },
   "hyper-shell": {
     "availability": {
-      "anvil": [
-        "2.0.2"
-      ],
       "scholar": [
         "2.5.2"
+      ],
+      "anvil": [
+        "2.0.2"
       ]
     }
   },
   "hypershell": {
     "availability": {
-      "anvil": [
-        "2.0.2",
-        "2.2.0",
-        "2.4.0",
-        "2.5.1",
-        "2.6.0",
-        "2.6.2",
-        "2.6.5",
-        "2.7.0"
-      ],
-      "gautschi": [
-        "2.5.2",
+      "bell": [
         "2.6.5",
         "2.7.0"
       ],
       "scholar": [
-        "2.7.0"
-      ],
-      "bell": [
-        "2.6.5",
         "2.7.0"
       ],
       "gilbreth": [
@@ -1174,40 +1186,55 @@
         "2.6.2",
         "2.6.5",
         "2.7.0"
+      ],
+      "gautschi": [
+        "2.5.2",
+        "2.6.5",
+        "2.7.0"
+      ],
+      "anvil": [
+        "2.0.2",
+        "2.2.0",
+        "2.4.0",
+        "2.5.1",
+        "2.6.0",
+        "2.6.2",
+        "2.6.5",
+        "2.7.0"
       ]
     }
   },
   "imagemagick": {
     "availability": {
-      "gautschi": [
-        "7.1.1-29"
-      ],
       "bell": [
         "7.1.1-39"
       ],
       "negishi": [
         "7.0.8-7"
+      ],
+      "gautschi": [
+        "7.1.1-29"
       ]
     }
   },
   "impi": {
     "availability": {
-      "anvil": [
-        "2019.5.281",
-        "2019.9.304",
-        "2021.12"
-      ],
-      "gautschi": [
-        "2021.12"
+      "bell": [
+        "2019.9.304"
       ],
       "scholar": [
         "2021.12"
       ],
-      "bell": [
-        "2019.9.304"
-      ],
       "negishi": [
         "2019.9.304"
+      ],
+      "gautschi": [
+        "2021.12"
+      ],
+      "anvil": [
+        "2019.5.281",
+        "2019.9.304",
+        "2021.12"
       ]
     }
   },
@@ -1220,36 +1247,36 @@
   },
   "intel": {
     "availability": {
-      "anvil": [
-        "19.0.5.281",
-        "19.1.3.304",
-        "2024.1"
-      ],
-      "gautschi": [
-        "2024.1"
+      "bell": [
+        "19.1.3.304"
       ],
       "scholar": [
         "2024.1"
       ],
-      "bell": [
-        "19.1.3.304"
-      ],
       "negishi": [
         "19.1.3.304"
+      ],
+      "gautschi": [
+        "2024.1"
+      ],
+      "anvil": [
+        "19.0.5.281",
+        "19.1.3.304",
+        "2024.1"
       ]
     }
   },
   "intel-mkl": {
     "availability": {
-      "anvil": [
-        "2019.5.281",
-        "2020.4.304"
-      ],
       "bell": [
         "2020.0.4"
       ],
       "negishi": [
         "2019.9.304"
+      ],
+      "anvil": [
+        "2019.5.281",
+        "2020.4.304"
       ]
     }
   },
@@ -1316,37 +1343,25 @@
   },
   "intel-rt": {
     "availability": {
-      "anvil": [
+      "scholar": [
         "2024.1.0"
       ],
       "gautschi": [
         "2024.1.0"
       ],
-      "scholar": [
+      "anvil": [
         "2024.1.0"
       ]
     }
   },
   "julia": {
     "availability": {
-      "anvil": [
-        "1.6.2",
+      "bell": [
         "1.9.3",
-        "1.10.9",
-        "1.11.4",
-        "1.11.6"
-      ],
-      "gautschi": [
-        "1.11.1",
         "1.11.4",
         "1.11.6"
       ],
       "scholar": [
-        "1.11.4",
-        "1.11.6"
-      ],
-      "bell": [
-        "1.9.3",
         "1.11.4",
         "1.11.6"
       ],
@@ -1360,26 +1375,29 @@
         "1.9.3",
         "1.11.4",
         "1.11.6"
+      ],
+      "gautschi": [
+        "1.11.1",
+        "1.11.4",
+        "1.11.6"
+      ],
+      "anvil": [
+        "1.6.2",
+        "1.9.3",
+        "1.10.9",
+        "1.11.4",
+        "1.11.6"
       ]
     }
   },
   "jupyter": {
     "availability": {
-      "anvil": [
-        "2.0.0",
-        "2022.04",
-        "2025.07"
-      ],
-      "gautschi": [
-        "1.1.1",
+      "bell": [
+        "3.4.4",
         "2025.09"
       ],
       "scholar": [
         "1.1.1",
-        "2025.09"
-      ],
-      "bell": [
-        "3.4.4",
         "2025.09"
       ],
       "gilbreth": [
@@ -1389,6 +1407,15 @@
       "negishi": [
         "3.1.1",
         "2025.09"
+      ],
+      "gautschi": [
+        "1.1.1",
+        "2025.09"
+      ],
+      "anvil": [
+        "2.0.0",
+        "2022.04",
+        "2025.07"
       ]
     }
   },
@@ -1415,41 +1442,41 @@
   },
   "lammps": {
     "availability": {
-      "anvil": [
-        "20210310-kokkos",
-        "20210310",
-        "20230802",
+      "bell": [
         "20240829.1"
-      ],
-      "gautschi": [
-        "20240829"
       ],
       "scholar": [
         "20240829"
-      ],
-      "bell": [
-        "20240829.1"
       ],
       "gilbreth": [
         "20240829"
       ],
       "negishi": [
         "20220623"
+      ],
+      "gautschi": [
+        "20240829"
+      ],
+      "anvil": [
+        "20210310-kokkos",
+        "20210310",
+        "20230802",
+        "20240829.1"
       ]
     }
   },
   "launcher": {
     "availability": {
-      "anvil": [
+      "gilbreth": [
+        "3.9"
+      ],
+      "negishi": [
         "3.9"
       ],
       "gautschi": [
         "3.9"
       ],
-      "gilbreth": [
-        "3.9"
-      ],
-      "negishi": [
+      "anvil": [
         "3.9"
       ]
     }
@@ -1471,46 +1498,40 @@
   },
   "libbsd": {
     "availability": {
-      "anvil": [
-        "0.11.3"
-      ],
       "negishi": [
         "0.11.5"
+      ],
+      "anvil": [
+        "0.11.3"
       ]
     }
   },
   "libfabric": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.12.0"
       ],
-      "negishi": [
+      "anvil": [
         "1.12.0"
       ]
     }
   },
   "libffi": {
     "availability": {
-      "anvil": [
-        "3.3"
-      ],
       "negishi": [
         "3.4.2"
+      ],
+      "anvil": [
+        "3.3"
       ]
     }
   },
   "libflame": {
     "availability": {
-      "anvil": [
-        "5.2.0"
-      ],
-      "gautschi": [
+      "bell": [
         "5.2.0"
       ],
       "scholar": [
-        "5.2.0"
-      ],
-      "bell": [
         "5.2.0"
       ],
       "gilbreth": [
@@ -1518,51 +1539,51 @@
       ],
       "negishi": [
         "5.2.0"
+      ],
+      "gautschi": [
+        "5.2.0"
+      ],
+      "anvil": [
+        "5.2.0"
       ]
     }
   },
   "libiconv": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.16"
       ],
-      "negishi": [
+      "anvil": [
         "1.16"
       ]
     }
   },
   "libmd": {
     "availability": {
-      "anvil": [
-        "1.0.3"
-      ],
       "negishi": [
         "1.0.4"
+      ],
+      "anvil": [
+        "1.0.3"
       ]
     }
   },
   "libmesh": {
     "availability": {
-      "anvil": [
-        "1.6.2"
-      ],
       "negishi": [
         "1.7.1"
+      ],
+      "anvil": [
+        "1.6.2"
       ]
     }
   },
   "libpng": {
     "availability": {
-      "anvil": [
-        "1.6.37"
-      ],
-      "gautschi": [
+      "bell": [
         "1.6.37"
       ],
       "scholar": [
-        "1.6.37"
-      ],
-      "bell": [
         "1.6.37"
       ],
       "gilbreth": [
@@ -1571,39 +1592,45 @@
       "negishi": [
         "1.5.30",
         "1.6.37"
+      ],
+      "gautschi": [
+        "1.6.37"
+      ],
+      "anvil": [
+        "1.6.37"
       ]
     }
   },
   "libpthread-stubs": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "0.4"
       ],
-      "negishi": [
+      "anvil": [
         "0.4"
       ]
     }
   },
   "libszip": {
     "availability": {
-      "anvil": [
-        "2.1.1"
-      ],
       "bell": [
         "2.1.1"
       ],
       "negishi": [
+        "2.1.1"
+      ],
+      "anvil": [
         "2.1.1"
       ]
     }
   },
   "libtiff": {
     "availability": {
-      "anvil": [
-        "4.1.0"
-      ],
       "negishi": [
         "4.4.0"
+      ],
+      "anvil": [
+        "4.1.0"
       ]
     }
   },
@@ -1623,147 +1650,143 @@
   },
   "libx11": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.7.0"
       ],
-      "negishi": [
+      "anvil": [
         "1.7.0"
       ]
     }
   },
   "libxau": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.0.8"
       ],
-      "negishi": [
+      "anvil": [
         "1.0.8"
       ]
     }
   },
   "libxcb": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.14"
       ],
-      "negishi": [
+      "anvil": [
         "1.14"
       ]
     }
   },
   "libxdmcp": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.1.2"
       ],
-      "negishi": [
+      "anvil": [
         "1.1.2"
       ]
     }
   },
   "libxext": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.3.3"
       ],
-      "negishi": [
+      "anvil": [
         "1.3.3"
       ]
     }
   },
   "libxml2": {
     "availability": {
-      "anvil": [
-        "2.9.10"
-      ],
       "negishi": [
         "2.10.1"
+      ],
+      "anvil": [
+        "2.9.10"
       ]
     }
   },
   "libxp": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "1.0.3"
       ],
       "scholar": [
         "1.0.3"
       ],
-      "bell": [
+      "negishi": [
         "1.0.3"
       ],
-      "negishi": [
+      "gautschi": [
         "1.0.3"
       ]
     }
   },
   "libxrender": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "0.9.10"
       ],
-      "negishi": [
+      "anvil": [
         "0.9.10"
       ]
     }
   },
   "libxscrnsaver": {
     "availability": {
-      "anvil": [
-        "1.2.2"
-      ],
-      "gautschi": [
-        "1.2.2"
-      ],
-      "scholar": [
-        "1.2.2"
-      ],
       "bell": [
         "1.2.2",
         "1.2.4"
+      ],
+      "scholar": [
+        "1.2.2"
       ],
       "gilbreth": [
         "1.2.2"
       ],
       "negishi": [
+        "1.2.2"
+      ],
+      "gautschi": [
+        "1.2.2"
+      ],
+      "anvil": [
         "1.2.2"
       ]
     }
   },
   "libxslt": {
     "availability": {
-      "anvil": [
-        "1.1.33"
-      ],
-      "gautschi": [
-        "1.1.33"
+      "bell": [
+        "1.1.42"
       ],
       "scholar": [
         "1.1.33"
-      ],
-      "bell": [
-        "1.1.42"
       ],
       "gilbreth": [
         "1.1.33"
       ],
       "negishi": [
         "1.1.33"
+      ],
+      "gautschi": [
+        "1.1.33"
+      ],
+      "anvil": [
+        "1.1.33"
       ]
     }
   },
   "mathematica": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "14.1",
         "14.2"
       ],
       "scholar": [
         "14.1"
-      ],
-      "bell": [
-        "14.1",
-        "14.2"
       ],
       "gilbreth": [
         "14.1",
@@ -1773,24 +1796,19 @@
         "13.1",
         "14.1",
         "14.2"
+      ],
+      "gautschi": [
+        "14.1",
+        "14.2"
       ]
     }
   },
   "matlab": {
     "availability": {
-      "anvil": [
-        "R2020b",
-        "R2021b",
-        "R2022a",
-        "R2023a"
-      ],
-      "gautschi": [
+      "bell": [
         "R2024a"
       ],
       "scholar": [
-        "R2024a"
-      ],
-      "bell": [
         "R2024a"
       ],
       "gilbreth": [
@@ -1801,6 +1819,15 @@
         "R2022a",
         "R2023a",
         "R2024b"
+      ],
+      "gautschi": [
+        "R2024a"
+      ],
+      "anvil": [
+        "R2020b",
+        "R2021b",
+        "R2022a",
+        "R2023a"
       ]
     }
   },
@@ -1813,44 +1840,38 @@
   },
   "meep": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.20.0"
       ],
-      "negishi": [
+      "anvil": [
         "1.20.0"
       ]
     }
   },
   "mesa-glu": {
     "availability": {
-      "anvil": [
-        "9.0.2"
-      ],
-      "gautschi": [
+      "bell": [
         "9.0.2"
       ],
       "scholar": [
-        "9.0.2"
-      ],
-      "bell": [
         "9.0.2"
       ],
       "gilbreth": [
         "9.0.2"
       ],
       "negishi": [
+        "9.0.2"
+      ],
+      "gautschi": [
+        "9.0.2"
+      ],
+      "anvil": [
         "9.0.2"
       ]
     }
   },
   "monitor": {
     "availability": {
-      "anvil": [
-        "2.3.1"
-      ],
-      "gautschi": [
-        "2.3.1"
-      ],
       "bell": [
         "2.3.1"
       ],
@@ -1859,42 +1880,48 @@
       ],
       "negishi": [
         "2.3.1"
+      ],
+      "gautschi": [
+        "2.3.1"
+      ],
+      "anvil": [
+        "2.3.1"
       ]
     }
   },
   "motif": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "2.3.8"
       ],
       "scholar": [
         "2.3.8"
       ],
-      "bell": [
+      "negishi": [
         "2.3.8"
       ],
-      "negishi": [
+      "gautschi": [
         "2.3.8"
       ]
     }
   },
   "mpc": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.1.0"
       ],
-      "negishi": [
+      "anvil": [
         "1.1.0"
       ]
     }
   },
   "mpfr": {
     "availability": {
-      "anvil": [
-        "3.1.6",
+      "negishi": [
         "4.0.2"
       ],
-      "negishi": [
+      "anvil": [
+        "3.1.6",
         "4.0.2"
       ]
     }
@@ -1915,12 +1942,6 @@
   },
   "mvapich2": {
     "availability": {
-      "anvil": [
-        "2.3.6"
-      ],
-      "gautschi": [
-        "2.3.7-1"
-      ],
       "bell": [
         "2.3.7-1"
       ],
@@ -1929,18 +1950,17 @@
       ],
       "negishi": [
         "2.3.7"
+      ],
+      "gautschi": [
+        "2.3.7-1"
+      ],
+      "anvil": [
+        "2.3.6"
       ]
     }
   },
   "namd": {
     "availability": {
-      "anvil": [
-        "2.14",
-        "3.0"
-      ],
-      "gautschi": [
-        "3.0"
-      ],
       "bell": [
         "3.0"
       ],
@@ -1949,6 +1969,13 @@
       ],
       "negishi": [
         "2.14"
+      ],
+      "gautschi": [
+        "3.0"
+      ],
+      "anvil": [
+        "2.14",
+        "3.0"
       ]
     }
   },
@@ -1963,16 +1990,10 @@
   },
   "ncl": {
     "availability": {
-      "anvil": [
-        "6.4.0"
-      ],
-      "gautschi": [
+      "bell": [
         "6.6.2"
       ],
       "scholar": [
-        "6.6.2"
-      ],
-      "bell": [
         "6.6.2"
       ],
       "gilbreth": [
@@ -1980,21 +2001,21 @@
       ],
       "negishi": [
         "6.6.2"
+      ],
+      "gautschi": [
+        "6.6.2"
+      ],
+      "anvil": [
+        "6.4.0"
       ]
     }
   },
   "nco": {
     "availability": {
-      "anvil": [
-        "4.9.3"
-      ],
-      "gautschi": [
+      "bell": [
         "5.2.4"
       ],
       "scholar": [
-        "5.2.4"
-      ],
-      "bell": [
         "5.2.4"
       ],
       "gilbreth": [
@@ -2003,31 +2024,31 @@
       "negishi": [
         "4.9.3",
         "5.0.1"
+      ],
+      "gautschi": [
+        "5.2.4"
+      ],
+      "anvil": [
+        "4.9.3"
       ]
     }
   },
   "ncurses": {
     "availability": {
-      "anvil": [
-        "6.2"
-      ],
       "negishi": [
         "6.3"
+      ],
+      "anvil": [
+        "6.2"
       ]
     }
   },
   "ncview": {
     "availability": {
-      "anvil": [
-        "2.1.8"
-      ],
-      "gautschi": [
+      "bell": [
         "2.1.9"
       ],
       "scholar": [
-        "2.1.9"
-      ],
-      "bell": [
         "2.1.9"
       ],
       "gilbreth": [
@@ -2035,21 +2056,21 @@
       ],
       "negishi": [
         "2.1.9"
+      ],
+      "gautschi": [
+        "2.1.9"
+      ],
+      "anvil": [
+        "2.1.8"
       ]
     }
   },
   "netcdf-c": {
     "availability": {
-      "anvil": [
-        "4.7.4"
-      ],
-      "gautschi": [
+      "bell": [
         "4.9.2"
       ],
       "scholar": [
-        "4.9.2"
-      ],
-      "bell": [
         "4.9.2"
       ],
       "gilbreth": [
@@ -2057,21 +2078,22 @@
       ],
       "negishi": [
         "4.9.0"
+      ],
+      "gautschi": [
+        "4.9.2"
+      ],
+      "anvil": [
+        "4.7.4",
+        "4.9.2"
       ]
     }
   },
   "netcdf-cxx4": {
     "availability": {
-      "anvil": [
-        "4.3.1"
-      ],
-      "gautschi": [
+      "bell": [
         "4.3.1"
       ],
       "scholar": [
-        "4.3.1"
-      ],
-      "bell": [
         "4.3.1"
       ],
       "gilbreth": [
@@ -2079,21 +2101,21 @@
       ],
       "negishi": [
         "4.3.1"
+      ],
+      "gautschi": [
+        "4.3.1"
+      ],
+      "anvil": [
+        "4.3.1"
       ]
     }
   },
   "netcdf-fortran": {
     "availability": {
-      "anvil": [
-        "4.5.3"
-      ],
-      "gautschi": [
+      "bell": [
         "4.6.1"
       ],
       "scholar": [
-        "4.6.1"
-      ],
-      "bell": [
         "4.6.1"
       ],
       "gilbreth": [
@@ -2101,21 +2123,21 @@
       ],
       "negishi": [
         "4.6.0"
+      ],
+      "gautschi": [
+        "4.6.1"
+      ],
+      "anvil": [
+        "4.5.3"
       ]
     }
   },
   "netlib-lapack": {
     "availability": {
-      "anvil": [
-        "3.8.0"
-      ],
-      "gautschi": [
+      "bell": [
         "3.11.0"
       ],
       "scholar": [
-        "3.11.0"
-      ],
-      "bell": [
         "3.11.0"
       ],
       "gilbreth": [
@@ -2123,17 +2145,17 @@
       ],
       "negishi": [
         "3.8.0"
+      ],
+      "gautschi": [
+        "3.11.0"
+      ],
+      "anvil": [
+        "3.8.0"
       ]
     }
   },
   "nextflow": {
     "availability": {
-      "anvil": [
-        "22.10.1"
-      ],
-      "gautschi": [
-        "24.04.3"
-      ],
       "bell": [
         "24.10.0",
         "25.04.6"
@@ -2141,15 +2163,17 @@
       "negishi": [
         "22.10.1",
         "23.04.1"
+      ],
+      "gautschi": [
+        "24.04.3"
+      ],
+      "anvil": [
+        "22.10.1"
       ]
     }
   },
   "nf-core": {
     "availability": {
-      "anvil": [
-        "2.7.2",
-        "2.8"
-      ],
       "bell": [
         "2.11.1"
       ],
@@ -2157,15 +2181,19 @@
         "2.7.2",
         "2.8",
         "2.11.1"
+      ],
+      "anvil": [
+        "2.7.2",
+        "2.8"
       ]
     }
   },
   "numactl": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "2.0.14"
       ],
-      "negishi": [
+      "anvil": [
         "2.0.14"
       ]
     }
@@ -2186,67 +2214,61 @@
   },
   "nvhpc": {
     "availability": {
-      "anvil": [
-        "21.7",
-        "23.3"
+      "gilbreth": [
+        "23.5",
+        "24.7"
       ],
       "gautschi": [
         "24.7"
       ],
-      "gilbreth": [
-        "23.5",
-        "24.7"
+      "anvil": [
+        "21.7",
+        "23.3"
       ]
     }
   },
   "nwchem": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "7.0.2"
       ],
-      "negishi": [
+      "anvil": [
         "7.0.2"
       ]
     }
   },
   "oclfpga": {
     "availability": {
-      "anvil": [
+      "scholar": [
         "2024.1.0"
       ],
       "gautschi": [
         "2024.1.0"
       ],
-      "scholar": [
+      "anvil": [
         "2024.1.0"
       ]
     }
   },
   "octave": {
     "availability": {
-      "anvil": [
-        "6.3.0"
-      ],
       "bell": [
         "9.1.0"
       ],
       "negishi": [
         "7.3.0"
+      ],
+      "anvil": [
+        "6.3.0"
       ]
     }
   },
   "openblas": {
     "availability": {
-      "anvil": [
-        "0.3.17"
-      ],
-      "gautschi": [
+      "bell": [
         "0.3.27"
       ],
       "scholar": [
-        "0.3.27"
-      ],
-      "bell": [
         "0.3.27"
       ],
       "gilbreth": [
@@ -2255,41 +2277,40 @@
       ],
       "negishi": [
         "0.3.21"
+      ],
+      "gautschi": [
+        "0.3.27"
+      ],
+      "anvil": [
+        "0.3.17"
       ]
     }
   },
   "openfoam": {
     "availability": {
-      "anvil": [
-        "8-20210316",
-        "2406",
-        "2412",
-        "2414"
-      ],
-      "gautschi": [
+      "bell": [
         "2312"
       ],
       "scholar": [
         "2312"
       ],
-      "bell": [
-        "2312"
-      ],
       "negishi": [
         "9-20211122",
         "2312"
+      ],
+      "gautschi": [
+        "2312"
+      ],
+      "anvil": [
+        "8-20210316",
+        "2406",
+        "2412",
+        "2414"
       ]
     }
   },
   "openjdk": {
     "availability": {
-      "anvil": [
-        "1.8.0_265-b01",
-        "11.0.8_10"
-      ],
-      "gautschi": [
-        "17.0.2_8"
-      ],
       "bell": [
         "17.0.11_9",
         "17.0.8.1_1"
@@ -2297,27 +2318,23 @@
       "negishi": [
         "1.8.0_265-b01",
         "11.0.17_8"
+      ],
+      "gautschi": [
+        "17.0.2_8"
+      ],
+      "anvil": [
+        "1.8.0_265-b01",
+        "11.0.8_10"
       ]
     }
   },
   "openmpi": {
     "availability": {
-      "anvil": [
-        "3.1.6",
-        "4.0.6-cu11.0.3",
-        "4.0.6",
-        "4.1.6",
-        "5.0.5"
-      ],
-      "gautschi": [
+      "bell": [
         "4.1.6",
         "5.0.5"
       ],
       "scholar": [
-        "4.1.6",
-        "5.0.5"
-      ],
-      "bell": [
         "4.1.6",
         "5.0.5"
       ],
@@ -2328,6 +2345,17 @@
       ],
       "negishi": [
         "4.1.4"
+      ],
+      "gautschi": [
+        "4.1.6",
+        "5.0.5"
+      ],
+      "anvil": [
+        "3.1.6",
+        "4.0.6-cu11.0.3",
+        "4.0.6",
+        "4.1.6",
+        "5.0.5"
       ]
     }
   },
@@ -2340,11 +2368,11 @@
   },
   "ovito": {
     "availability": {
-      "anvil": [
-        "3.12.2"
-      ],
       "negishi": [
         "3.11.0"
+      ],
+      "anvil": [
+        "3.12.2"
       ]
     }
   },
@@ -2357,16 +2385,16 @@
   },
   "pandoc": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "2.19.2"
       ],
       "scholar": [
         "2.19.2"
       ],
-      "bell": [
+      "gilbreth": [
         "2.19.2"
       ],
-      "gilbreth": [
+      "gautschi": [
         "2.19.2"
       ]
     }
@@ -2380,38 +2408,32 @@
   },
   "papi": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "6.0.0.1"
       ],
-      "negishi": [
+      "anvil": [
         "6.0.0.1"
       ]
     }
   },
   "parafly": {
     "availability": {
-      "anvil": [
+      "gilbreth": [
+        "r2013"
+      ],
+      "negishi": [
         "r2013"
       ],
       "gautschi": [
         "r2013"
       ],
-      "gilbreth": [
-        "r2013"
-      ],
-      "negishi": [
+      "anvil": [
         "r2013"
       ]
     }
   },
   "parallel": {
     "availability": {
-      "anvil": [
-        "20200822"
-      ],
-      "gautschi": [
-        "20241022"
-      ],
       "bell": [
         "20240822"
       ],
@@ -2420,21 +2442,21 @@
       ],
       "negishi": [
         "20220522"
+      ],
+      "gautschi": [
+        "20241022"
+      ],
+      "anvil": [
+        "20200822"
       ]
     }
   },
   "parallel-netcdf": {
     "availability": {
-      "anvil": [
-        "1.11.2"
-      ],
-      "gautschi": [
+      "bell": [
         "1.12.3"
       ],
       "scholar": [
-        "1.12.3"
-      ],
-      "bell": [
         "1.12.3"
       ],
       "gilbreth": [
@@ -2442,28 +2464,35 @@
       ],
       "negishi": [
         "1.11.2"
+      ],
+      "gautschi": [
+        "1.12.3"
+      ],
+      "anvil": [
+        "1.11.2",
+        "1.12.3"
       ]
     }
   },
   "paraview": {
     "availability": {
-      "anvil": [
-        "5.9.1",
-        "5.10.1"
-      ],
-      "gautschi": [
-        "5.13.0"
+      "bell": [
+        "5.13.2"
       ],
       "scholar": [
         "5.13.0"
-      ],
-      "bell": [
-        "5.13.2"
       ],
       "negishi": [
         "5.9.1",
         "5.12.1-xdmf",
         "5.12.1"
+      ],
+      "gautschi": [
+        "5.13.0"
+      ],
+      "anvil": [
+        "5.9.1",
+        "5.10.1"
       ]
     }
   },
@@ -2483,12 +2512,12 @@
   },
   "perl": {
     "availability": {
-      "anvil": [
-        "5.32.0"
-      ],
       "negishi": [
         "5.32.0",
         "5.36.0"
+      ],
+      "anvil": [
+        "5.32.0"
       ]
     }
   },
@@ -2501,12 +2530,12 @@
   },
   "petsc": {
     "availability": {
-      "anvil": [
-        "3.15.3"
-      ],
       "negishi": [
         "3.17.5",
         "3.18.3"
+      ],
+      "anvil": [
+        "3.15.3"
       ]
     }
   },
@@ -2533,43 +2562,40 @@
   },
   "pixman": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "0.40.0"
       ],
-      "negishi": [
+      "anvil": [
         "0.40.0"
       ]
     }
   },
   "plumed": {
     "availability": {
-      "anvil": [
+      "gilbreth": [
         "2.9.1"
       ],
-      "gilbreth": [
+      "anvil": [
         "2.9.1"
       ]
     }
   },
   "proj": {
     "availability": {
-      "anvil": [
-        "5.2.0",
-        "6.2.0"
-      ],
       "negishi": [
         "5.2.0",
         "6.2.0",
         "8.1.0",
         "8.2.1"
+      ],
+      "anvil": [
+        "5.2.0",
+        "6.2.0"
       ]
     }
   },
   "protobuf": {
     "availability": {
-      "anvil": [
-        "3.11.4"
-      ],
       "bell": [
         "3.28.2"
       ],
@@ -2579,6 +2605,9 @@
       "negishi": [
         "3.11.4",
         "3.18.0"
+      ],
+      "anvil": [
+        "3.11.4"
       ]
     }
   },
@@ -2591,11 +2620,11 @@
   },
   "py-mpi4py": {
     "availability": {
-      "anvil": [
-        "3.0.3"
-      ],
       "gautschi": [
         "3.1.6"
+      ],
+      "anvil": [
+        "3.0.3"
       ]
     }
   },
@@ -2615,47 +2644,41 @@
   },
   "python": {
     "availability": {
-      "anvil": [
-        "3.9.5"
-      ],
       "gautschi": [
         "3.11.9"
+      ],
+      "anvil": [
+        "3.9.5"
       ]
     }
   },
   "qemu": {
     "availability": {
-      "anvil": [
-        "4.1.1",
-        "6.2.0"
-      ],
-      "gautschi": [
-        "4.2.1"
+      "bell": [
+        "9.1.0"
       ],
       "scholar": [
         "4.2.1"
       ],
-      "bell": [
-        "9.1.0"
-      ],
       "negishi": [
         "4.2.1"
+      ],
+      "gautschi": [
+        "4.2.1"
+      ],
+      "anvil": [
+        "4.1.1",
+        "6.2.0"
       ]
     }
   },
   "qgis": {
     "availability": {
-      "anvil": [
-        "3.40.1"
-      ],
-      "gautschi": [
-        "3.40.2"
+      "bell": [
+        "3.42.0"
       ],
       "scholar": [
         "3.40.2"
-      ],
-      "bell": [
-        "3.42.0"
       ],
       "gilbreth": [
         "3.42.0"
@@ -2663,14 +2686,17 @@
       "negishi": [
         "3.40.1",
         "3.44.3"
+      ],
+      "gautschi": [
+        "3.40.2"
+      ],
+      "anvil": [
+        "3.40.1"
       ]
     }
   },
   "qt": {
     "availability": {
-      "anvil": [
-        "5.15.2"
-      ],
       "bell": [
         "5.15.15"
       ],
@@ -2679,28 +2705,31 @@
       ],
       "negishi": [
         "5.15.2"
+      ],
+      "anvil": [
+        "5.15.2"
       ]
     }
   },
   "quantum-espresso": {
     "availability": {
+      "bell": [
+        "7.4"
+      ],
+      "scholar": [
+        "7.3.1"
+      ],
+      "negishi": [
+        "7.1"
+      ],
+      "gautschi": [
+        "7.3.1"
+      ],
       "anvil": [
         "6.7",
         "7.2",
         "7.3",
         "7.4"
-      ],
-      "gautschi": [
-        "7.3.1"
-      ],
-      "scholar": [
-        "7.3.1"
-      ],
-      "bell": [
-        "7.4"
-      ],
-      "negishi": [
-        "7.1"
       ]
     }
   },
@@ -2716,18 +2745,10 @@
   },
   "r": {
     "availability": {
-      "anvil": [
-        "4.0.5",
-        "4.1.0",
-        "4.4.1"
-      ],
-      "gautschi": [
+      "bell": [
         "4.4.1"
       ],
       "scholar": [
-        "4.4.1"
-      ],
-      "bell": [
         "4.4.1"
       ],
       "gilbreth": [
@@ -2737,64 +2758,72 @@
         "4.2.2",
         "4.3.1",
         "4.4.1"
+      ],
+      "gautschi": [
+        "4.4.1"
+      ],
+      "anvil": [
+        "4.0.5",
+        "4.1.0",
+        "4.4.1"
       ]
     }
   },
   "r-devtools": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "2.4.5"
       ],
       "scholar": [
         "2.4.5"
       ],
-      "bell": [
+      "gilbreth": [
         "2.4.5"
       ],
-      "gilbreth": [
+      "gautschi": [
         "2.4.5"
       ]
     }
   },
   "r-formatr": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "1.14"
       ],
       "scholar": [
         "1.14"
       ],
-      "bell": [
+      "gilbreth": [
         "1.14"
       ],
-      "gilbreth": [
+      "gautschi": [
         "1.14"
       ]
     }
   },
   "r-irkernel": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "1.3.2"
       ],
       "scholar": [
         "1.3.2"
       ],
-      "bell": [
+      "gilbreth": [
         "1.3.2"
       ],
-      "gilbreth": [
+      "gautschi": [
         "1.3.2"
       ]
     }
   },
   "r-ncdf4": {
     "availability": {
-      "scholar": [
-        "1.21"
-      ],
       "bell": [
         "1.23"
+      ],
+      "scholar": [
+        "1.21"
       ],
       "gilbreth": [
         "1.21"
@@ -2803,37 +2832,37 @@
   },
   "r-plyr": {
     "availability": {
-      "gautschi": [
+      "scholar": [
         "1.8.8"
       ],
-      "scholar": [
+      "gautschi": [
         "1.8.8"
       ]
     }
   },
   "r-reshape2": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "1.4.4"
       ],
       "scholar": [
         "1.4.4"
       ],
-      "bell": [
+      "gilbreth": [
         "1.4.4"
       ],
-      "gilbreth": [
+      "gautschi": [
         "1.4.4"
       ]
     }
   },
   "r-sf": {
     "availability": {
-      "scholar": [
-        "1.0-12"
-      ],
       "bell": [
         "1.0-16"
+      ],
+      "scholar": [
+        "1.0-12"
       ],
       "gilbreth": [
         "1.0-12"
@@ -2842,36 +2871,36 @@
   },
   "r-shiny": {
     "availability": {
-      "gautschi": [
-        "1.8.1.1"
+      "bell": [
+        "1.9.1"
       ],
       "scholar": [
         "1.8.1.1"
       ],
-      "bell": [
-        "1.9.1"
-      ],
       "gilbreth": [
+        "1.8.1.1"
+      ],
+      "gautschi": [
         "1.8.1.1"
       ]
     }
   },
   "readline": {
     "availability": {
-      "anvil": [
-        "8.1"
-      ],
       "negishi": [
         "8.1.2"
+      ],
+      "anvil": [
+        "8.1"
       ]
     }
   },
   "renderproto": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "0.11.1"
       ],
-      "negishi": [
+      "anvil": [
         "0.11.1"
       ]
     }
@@ -2890,24 +2919,24 @@
   },
   "rstudio": {
     "availability": {
-      "anvil": [
-        "2021.09.0",
-        "2024.04.2"
-      ],
-      "gautschi": [
-        "2024.09"
+      "bell": [
+        "2024.12"
       ],
       "scholar": [
         "2024.09"
-      ],
-      "bell": [
-        "2024.12"
       ],
       "gilbreth": [
         "2024.12"
       ],
       "negishi": [
         "2023.06",
+        "2024.04.2"
+      ],
+      "gautschi": [
+        "2024.09"
+      ],
+      "anvil": [
+        "2021.09.0",
         "2024.04.2"
       ]
     }
@@ -2921,10 +2950,10 @@
   },
   "sas": {
     "availability": {
-      "scholar": [
+      "bell": [
         "9.4"
       ],
-      "bell": [
+      "scholar": [
         "9.4"
       ]
     }
@@ -2971,13 +3000,13 @@
   },
   "spark": {
     "availability": {
-      "anvil": [
-        "3.1.1"
-      ],
       "bell": [
         "3.5.1"
       ],
       "negishi": [
+        "3.1.1"
+      ],
+      "anvil": [
         "3.1.1"
       ]
     }
@@ -2991,11 +3020,11 @@
   },
   "sqlite": {
     "availability": {
-      "anvil": [
-        "3.35.5"
-      ],
       "negishi": [
         "3.39.4"
+      ],
+      "anvil": [
+        "3.35.5"
       ]
     }
   },
@@ -3008,7 +3037,7 @@
   },
   "stata": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "18",
         "19"
       ],
@@ -3017,11 +3046,11 @@
         "18",
         "19"
       ],
-      "bell": [
+      "negishi": [
         "18",
         "19"
       ],
-      "negishi": [
+      "gautschi": [
         "18",
         "19"
       ]
@@ -3029,12 +3058,12 @@
   },
   "stata-mp": {
     "availability": {
-      "scholar": [
-        "17",
+      "bell": [
         "18",
         "19"
       ],
-      "bell": [
+      "scholar": [
+        "17",
         "18",
         "19"
       ]
@@ -3042,57 +3071,54 @@
   },
   "swig": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "4.0.2"
       ],
-      "negishi": [
+      "anvil": [
         "4.0.2"
       ]
     }
   },
   "tar": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.34"
       ],
-      "negishi": [
+      "anvil": [
         "1.34"
       ]
     }
   },
   "tbb": {
     "availability": {
-      "anvil": [
+      "scholar": [
         "2021.12"
       ],
       "gautschi": [
         "2021.12"
       ],
-      "scholar": [
+      "anvil": [
         "2021.12"
       ]
     }
   },
   "tcl": {
     "availability": {
-      "anvil": [
-        "8.6.11"
-      ],
       "negishi": [
         "8.6.11",
         "8.6.12"
+      ],
+      "anvil": [
+        "8.6.11"
       ]
     }
   },
   "tecplot": {
     "availability": {
-      "gautschi": [
+      "bell": [
         "360-2024-R1"
       ],
       "scholar": [
-        "360-2024-R1"
-      ],
-      "bell": [
         "360-2024-R1"
       ],
       "gilbreth": [
@@ -3102,21 +3128,18 @@
       "negishi": [
         "360-2022-R2",
         "360-2024-R1"
+      ],
+      "gautschi": [
+        "360-2024-R1"
       ]
     }
   },
   "texlive": {
     "availability": {
-      "anvil": [
-        "20200406"
-      ],
-      "gautschi": [
+      "bell": [
         "20220321"
       ],
       "scholar": [
-        "20220321"
-      ],
-      "bell": [
         "20220321"
       ],
       "gilbreth": [
@@ -3124,6 +3147,12 @@
       ],
       "negishi": [
         "20220321"
+      ],
+      "gautschi": [
+        "20220321"
+      ],
+      "anvil": [
+        "20200406"
       ]
     }
   },
@@ -3139,13 +3168,13 @@
   },
   "tk": {
     "availability": {
-      "anvil": [
-        "8.6.11"
-      ],
       "bell": [
         "8.6.11"
       ],
       "negishi": [
+        "8.6.11"
+      ],
+      "anvil": [
         "8.6.11"
       ]
     }
@@ -3159,18 +3188,11 @@
   },
   "totalview": {
     "availability": {
-      "anvil": [
-        "2020.2.6",
-        "2025.1.13"
-      ],
-      "gautschi": [
+      "bell": [
+        "2024.3-x86-64",
         "2025.1.13"
       ],
       "scholar": [
-        "2025.1.13"
-      ],
-      "bell": [
-        "2024.3-x86-64",
         "2025.1.13"
       ],
       "gilbreth": [
@@ -3178,6 +3200,13 @@
       ],
       "negishi": [
         "2021.4.10",
+        "2025.1.13"
+      ],
+      "gautschi": [
+        "2025.1.13"
+      ],
+      "anvil": [
+        "2020.2.6",
         "2025.1.13"
       ]
     }
@@ -3198,26 +3227,20 @@
   },
   "udunits": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "2.2.28"
       ],
-      "negishi": [
+      "anvil": [
         "2.2.28"
       ]
     }
   },
   "util-linux-uuid": {
     "availability": {
-      "anvil": [
-        "2.38.1"
-      ],
-      "gautschi": [
+      "bell": [
         "2.38.1"
       ],
       "scholar": [
-        "2.38.1"
-      ],
-      "bell": [
         "2.38.1"
       ],
       "gilbreth": [
@@ -3225,39 +3248,30 @@
       ],
       "negishi": [
         "2.38.1"
+      ],
+      "gautschi": [
+        "2.38.1"
+      ],
+      "anvil": [
+        "2.38.1"
       ]
     }
   },
   "valgrind": {
     "availability": {
-      "anvil": [
-        "3.15.0"
-      ],
       "bell": [
         "3.23.0"
       ],
       "negishi": [
         "3.19.0"
+      ],
+      "anvil": [
+        "3.15.0"
       ]
     }
   },
   "vasp": {
     "availability": {
-      "anvil": [
-        "5.4.4.pl2",
-        "5.4.4.pl2-vtst",
-        "6.3.0",
-        "6.3.0-beef",
-        "6.3.0-gpu",
-        "6.3.0-sol",
-        "6.3.0-vtst",
-        "6.3.0-wannier90"
-      ],
-      "gautschi": [
-        "6.4.3-beef",
-        "6.4.3-vtst",
-        "6.4.3"
-      ],
       "bell": [
         "5.4.4.pl2",
         "6.4.1"
@@ -3269,6 +3283,21 @@
         "5.4.4.pl2",
         "6.4.1_vtst",
         "6.4.1"
+      ],
+      "gautschi": [
+        "6.4.3-beef",
+        "6.4.3-vtst",
+        "6.4.3"
+      ],
+      "anvil": [
+        "5.4.4.pl2",
+        "5.4.4.pl2-vtst",
+        "6.3.0",
+        "6.3.0-beef",
+        "6.3.0-gpu",
+        "6.3.0-sol",
+        "6.3.0-vtst",
+        "6.3.0-wannier90"
       ]
     }
   },
@@ -3295,42 +3324,39 @@
   },
   "visit": {
     "availability": {
-      "anvil": [
-        "3.1.4"
-      ],
       "negishi": [
         "3.3.3"
+      ],
+      "anvil": [
+        "3.1.4"
       ]
     }
   },
   "vlc": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "3.0.9.2"
       ],
-      "negishi": [
+      "anvil": [
         "3.0.9.2"
       ]
     }
   },
   "vmd": {
     "availability": {
-      "anvil": [
-        "1.9.3"
-      ],
       "gilbreth": [
         "1.9.3"
       ],
       "negishi": [
+        "1.9.3"
+      ],
+      "anvil": [
         "1.9.3"
       ]
     }
   },
   "vscode": {
     "availability": {
-      "anvil": [
-        "1.61.2"
-      ],
       "bell": [
         "1.79.2"
       ],
@@ -3339,25 +3365,28 @@
       ],
       "negishi": [
         "1.79.2"
+      ],
+      "anvil": [
+        "1.61.2"
       ]
     }
   },
   "vtk": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "9.0.0"
       ],
-      "negishi": [
+      "anvil": [
         "9.0.0"
       ]
     }
   },
   "vtune": {
     "availability": {
-      "gautschi": [
+      "scholar": [
         "2024.1"
       ],
-      "scholar": [
+      "gautschi": [
         "2024.1"
       ]
     }
@@ -3378,12 +3407,6 @@
   },
   "xalt": {
     "availability": {
-      "anvil": [
-        "2.10.45"
-      ],
-      "gautschi": [
-        "3.1.4"
-      ],
       "bell": [
         "3.0.2"
       ],
@@ -3392,15 +3415,21 @@
       ],
       "negishi": [
         "3.0.2"
+      ],
+      "gautschi": [
+        "3.1.4"
+      ],
+      "anvil": [
+        "2.10.45"
       ]
     }
   },
   "xcb-proto": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "1.14.1"
       ],
-      "negishi": [
+      "anvil": [
         "1.14.1"
       ]
     }
@@ -3424,82 +3453,76 @@
   },
   "xcb-util-image": {
     "availability": {
-      "anvil": [
-        "0.4.0"
-      ],
-      "gautschi": [
+      "bell": [
         "0.4.1"
       ],
       "scholar": [
-        "0.4.1"
-      ],
-      "bell": [
         "0.4.1"
       ],
       "gilbreth": [
         "0.4.1"
       ],
       "negishi": [
+        "0.4.0"
+      ],
+      "gautschi": [
+        "0.4.1"
+      ],
+      "anvil": [
         "0.4.0"
       ]
     }
   },
   "xcb-util-keysyms": {
     "availability": {
-      "anvil": [
-        "0.4.0"
-      ],
-      "gautschi": [
+      "bell": [
         "0.4.1"
       ],
       "scholar": [
-        "0.4.1"
-      ],
-      "bell": [
         "0.4.1"
       ],
       "gilbreth": [
         "0.4.1"
       ],
       "negishi": [
+        "0.4.0"
+      ],
+      "gautschi": [
+        "0.4.1"
+      ],
+      "anvil": [
         "0.4.0"
       ]
     }
   },
   "xcb-util-renderutil": {
     "availability": {
-      "anvil": [
-        "0.3.9"
-      ],
-      "gautschi": [
+      "bell": [
         "0.3.10"
       ],
       "scholar": [
-        "0.3.10"
-      ],
-      "bell": [
         "0.3.10"
       ],
       "gilbreth": [
         "0.3.10"
       ],
       "negishi": [
+        "0.3.9"
+      ],
+      "gautschi": [
+        "0.3.10"
+      ],
+      "anvil": [
         "0.3.9"
       ]
     }
   },
   "xcb-util-wm": {
     "availability": {
-      "anvil": [
-        "0.4.1"
-      ],
-      "gautschi": [
+      "bell": [
         "0.4.2"
       ],
       "scholar": [
-        "0.4.2"
-      ],
-      "bell": [
         "0.4.2"
       ],
       "gilbreth": [
@@ -3507,25 +3530,31 @@
       ],
       "negishi": [
         "0.4.1"
+      ],
+      "gautschi": [
+        "0.4.2"
+      ],
+      "anvil": [
+        "0.4.1"
       ]
     }
   },
   "xextproto": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "7.3.0"
       ],
-      "negishi": [
+      "anvil": [
         "7.3.0"
       ]
     }
   },
   "xproto": {
     "availability": {
-      "anvil": [
+      "negishi": [
         "7.0.31"
       ],
-      "negishi": [
+      "anvil": [
         "7.0.31"
       ]
     }
@@ -3539,20 +3568,17 @@
   },
   "xz": {
     "availability": {
-      "anvil": [
-        "5.2.5"
-      ],
       "negishi": [
         "5.2.6",
         "5.2.7"
+      ],
+      "anvil": [
+        "5.2.5"
       ]
     }
   },
   "zlib": {
     "availability": {
-      "anvil": [
-        "1.2.11"
-      ],
       "bell": [
         "1.3.1"
       ],
@@ -3561,6 +3587,9 @@
       ],
       "negishi": [
         "1.2.13"
+      ],
+      "anvil": [
+        "1.2.11"
       ]
     }
   },
