@@ -61,7 +61,7 @@
     "Software",
     "All Software"
   ],
-  "/software_datasets/software/compiler_catalog/": [
+  "/software_datasets/software/compilers_catalog/": [
     "Home",
     "RCAC Software and Datasets",
     "Software",
@@ -77,13 +77,55 @@
     "Home",
     "RCAC Software and Datasets",
     "Software",
-    "Computational chemistry"
+    "Computational Chemistry"
   ],
-  "/software_datasets/software/fluid_catalog/": [
+  "/software_datasets/software/fluid_dynamics_catalog/": [
     "Home",
     "RCAC Software and Datasets",
     "Software",
-    "Fluid dynamics"
+    "Fluid Dynamics"
+  ],
+  "/software_datasets/software/audio_visual_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Audio/Visualization"
+  ],
+  "/software_datasets/software/library_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Library"
+  ],
+  "/software_datasets/software/math_stat_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Mathematics/Statistics"
+  ],
+  "/software_datasets/software/engineering_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Engineering"
+  ],
+  "/software_datasets/software/geoscience_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Geoscience"
+  ],
+  "/software_datasets/software/utilities_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Utilities"
+  ],
+  "/software_datasets/software/workflow_catalog/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Software",
+    "Workflow"
   ],
   "/software_datasets/datasets/": [
     "Home",
