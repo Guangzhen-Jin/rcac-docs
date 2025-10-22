@@ -95,10 +95,17 @@ nav:
     - Software:
       - software_datasets/software/index.md
       - All Software: software_datasets/software/app_catalog.md
-      - Compilers: software_datasets/software/compiler_catalog.md
+      - Compilers: software_datasets/software/compilers_catalog.md
       - MPIs: software_datasets/software/mpi_catalog.md
-      - Computational chemistry: software_datasets/software/chemistry_catalog.md
-      - Fluid dynamics: software_datasets/software/fluid_catalog.md
+      - Computational Chemistry: software_datasets/software/chemistry_catalog.md
+      - Fluid Dynamics: software_datasets/software/fluid_dynamics_catalog.md
+      - Audio/Visualization: software_datasets/software/audio_visual_catalog.md
+      - Library: software_datasets/software/library_catalog.md
+      - Mathematics/Statistics: software_datasets/software/math_stat_catalog.md
+      - Engineering: software_datasets/software/engineering_catalog.md
+      - Geoscience: software_datasets/software/geoscience_catalog.md
+      - Utilities: software_datasets/software/utilities_catalog.md
+      - Workflow: software_datasets/software/workflow_catalog.md
     - Datasets:
       - software_datasets/datasets/index.md
       - Hydrological: software_datasets/datasets/hydrological.md
