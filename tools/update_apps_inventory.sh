@@ -60,19 +60,6 @@ while IFS= read -r -d '' filepath; do
   relpath="${filepath#$MODULEDIR/}"
   filename="${filepath##*/}"
 
-  # # split path into cluster / (compiler...ignored) / app / version.lua
-  # IFS='/' read -r cluster rest <<< "$relpath"
-  # [ -z "$cluster" ] && continue
-
-  # # app = second-to-last component, version = filename w/o .lua
-  # app_dir=$(basename "$(dirname "$filepath")")
-  # version="${filename%.*}"
-
-  # jq -n --arg app "$app_dir" \
-  #       --arg cluster "$cluster" \
-  #       --arg version "$version" \
-  #       '{app:$app, cluster:$cluster, version:$version}' >> "$NEW_TMP"
-
   # Split the path into an array
   IFS='/' read -ra path_parts <<< "$relpath"
   [ "${#path_parts[@]}" -lt 3 ] && continue  # skip if not enough depth
@@ -89,12 +76,38 @@ while IFS= read -r -d '' filepath; do
 
 done
 
+# === Detect default versions (symlinks like default -> xxx.lua) ===
+find "$MODULEDIR" -type l -name "default" -print0 |
+while IFS= read -r -d '' linkpath; do
+  skip_file "$linkpath" && continue
+
+  relpath="${linkpath#$MODULEDIR/}"
+  target=$(basename "$(readlink "$linkpath")")
+  [[ "$target" == *.lua ]] || continue
+  default_version="${target%.lua}"
+
+  IFS='/' read -ra path_parts <<< "$relpath"
+  [ "${#path_parts[@]}" -lt 3 ] && continue
+  cluster="${path_parts[0]}"
+  len=${#path_parts[@]}
+  app_dir="${path_parts[$((len-2))]}"
+
+  jq -n --arg app "$app_dir" \
+        --arg cluster "$cluster" \
+        --arg version "$default_version" \
+        '{app:$app, cluster:$cluster, default:$version}' >> "$NEW_TMP"
+done
+
 # Aggregate all entries into a single JSON structure:
-# { app: { availability: { cluster: [versions] } } }
+# { app: { availability: { cluster: [versions] }, default: { cluster: version } } }
 jq --slurp '
   reduce .[] as $it ({}; 
     .[$it.app] |= ( . // {availability:{}} ) |
-    .[$it.app].availability[$it.cluster] |= ((. // []) + [$it.version])
+    if ($it | has("default")) then
+      .[$it.app].default[$it.cluster] = $it.default
+    else
+      .[$it.app].availability[$it.cluster] |= ((. // []) + [$it.version])
+    end
   )
   | to_entries
   | map({ key: .key,
