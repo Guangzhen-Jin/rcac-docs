@@ -21,7 +21,7 @@ mkdir -p "$(dirname "$INDEX_FILE")"
 today=$(date +"%B %d, %Y")
 app_count=$(find "$MD_DIR" -type f -name "*.md" | wc -l)
 
-version_count=$(find ../modulefiles -type f -name "*.lua" \
+version_count=$(find ../modulefiles \( -type f -o -type l \) -name "*.lua" \
   ! -name ".*" \
   ! -name "*.modulerc.lua" \
   ! -regex '.*-[a-zA-Z0-9]\{7\}\.lua$' \
