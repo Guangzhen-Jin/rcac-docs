@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ./scripts/update_apps_inventory.sh
+# ./tools/update_apps_inventory.sh
 # Full rebuild each run, availability only (no description/homepage).
 # Output: ./rcac_apps_inventory.json
 # Requires: jq
@@ -53,7 +53,7 @@ trap 'rm -f "$NEW_TMP" "$OLD_FILE"' EXIT
 find "$MODULEDIR" -type l -exec test ! -e {} \; -print -delete 2>/dev/null
 
 # Collect all entries
-find "$MODULEDIR" -type f -name "*.lua" ! -name "default" -print0 |
+find "$MODULEDIR" \( -type f -o -type l \) -name "*.lua" ! -name "default" -print0 |
 while IFS= read -r -d '' filepath; do
   skip_file "$filepath" && continue
 
