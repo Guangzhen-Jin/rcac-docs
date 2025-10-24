@@ -15,6 +15,7 @@ Tcl (Tool Command Language) is a very powerful but easy to learn dynamic program
 |Cluster|Versions|
 |---|---|
 **ANVIL**|8.6.11
+**BELL**|8.6.12
 **NEGISHI**|8.6.11, 8.6.12
 
 ## Module

@@ -15,6 +15,7 @@ cURL is an open source command line tool and library for transferring data with 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|7.76.1
+**BELL**|8.10.1
 **NEGISHI**|7.78.0, 7.85.0
 
 ## Module

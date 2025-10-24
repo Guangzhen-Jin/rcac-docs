@@ -15,6 +15,7 @@ A cross-platform, open-source build system. CMake is a family of tools designed 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.20.0
+**BELL**|3.30.5
 **NEGISHI**|3.23.1, 3.24.3
 
 ## Module

@@ -9,7 +9,7 @@ hide:
 # All software and versions on RCAC clusters
 
 ## Overview
-As of **October 23, 2025**, there have been a total of **269** applications with **2440** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
+As of **October 24, 2025**, there have been a total of **270** applications with **2441** available versions deployed across **6** RCAC HPC clusters: **ANVIL, BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR**.
 
 ## Applications Catalog
 
@@ -186,7 +186,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/cmake"><strong>cmake</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/comsol"><strong>comsol</strong></a></td>
@@ -231,7 +231,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/curl"><strong>curl</strong></a></td>
       <td>Library, Utilities</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/cutadapt"><strong>cutadapt</strong></a></td>
@@ -346,7 +346,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/gdal"><strong>gdal</strong></a></td>
       <td>Geoscience, Climate</td>
-      <td>ANVIL, BELL, NEGISHI</td>
+      <td>ANVIL, BELL, GAUTSCHI, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/gdb"><strong>gdb</strong></a></td>
@@ -361,7 +361,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/geos"><strong>geos</strong></a></td>
       <td>Geoscience</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/gettext"><strong>gettext</strong></a></td>
@@ -386,7 +386,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/gmp"><strong>gmp</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/gmt"><strong>gmt</strong></a></td>
@@ -601,7 +601,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/libiconv"><strong>libiconv</strong></a></td>
       <td>Library</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/libmd"><strong>libmd</strong></a></td>
@@ -631,7 +631,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/libtiff"><strong>libtiff</strong></a></td>
       <td>Library</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/libtirpc"><strong>libtirpc</strong></a></td>
@@ -671,7 +671,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/libxml2"><strong>libxml2</strong></a></td>
       <td>Library, Utilities</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/libxp"><strong>libxp</strong></a></td>
@@ -731,12 +731,12 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/mpc"><strong>mpc</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/mpfr"><strong>mpfr</strong></a></td>
       <td>Math/Stat, Programming</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/mpi4py"><strong>mpi4py</strong></a></td>
@@ -971,7 +971,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/proj"><strong>proj</strong></a></td>
       <td>Geoscience</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/protobuf"><strong>protobuf</strong></a></td>
@@ -1141,7 +1141,7 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/sqlite"><strong>sqlite</strong></a></td>
       <td>Library, Utilities</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/sratoolkit"><strong>sratoolkit</strong></a></td>
@@ -1176,12 +1176,17 @@ As of **October 23, 2025**, there have been a total of **269** applications with
     <tr>
       <td><a href="../apps_md/tcl"><strong>tcl</strong></a></td>
       <td>Miscellaneous</td>
-      <td>ANVIL, NEGISHI</td>
+      <td>ANVIL, BELL, NEGISHI</td>
     </tr>
     <tr>
       <td><a href="../apps_md/tecplot"><strong>tecplot</strong></a></td>
       <td>Miscellaneous</td>
       <td>BELL, GAUTSCHI, GILBRETH, NEGISHI, SCHOLAR</td>
+    </tr>
+    <tr>
+      <td><a href="../apps_md/texinfo"><strong>texinfo</strong></a></td>
+      <td>Miscellaneous</td>
+      <td>BELL</td>
     </tr>
     <tr>
       <td><a href="../apps_md/texlive"><strong>texlive</strong></a></td>

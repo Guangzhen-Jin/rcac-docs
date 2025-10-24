@@ -16,6 +16,7 @@ GDAL: Geospatial Data Abstraction Library.  GDAL is a translator library for ras
 |---|---|
 **ANVIL**|2.4.4, 3.2.0, 3.10.0
 **BELL**|3.10.0
+**GAUTSCHI**|3.9.2
 **NEGISHI**|2.4.4, 3.5.3
 
 ## Module
