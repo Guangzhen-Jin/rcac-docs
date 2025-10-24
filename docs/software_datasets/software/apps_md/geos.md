@@ -15,6 +15,7 @@ GEOS (Geometry Engine, Open Source).  GEOS is a C/C++ library for computational 
 |Cluster|Versions|
 |---|---|
 **ANVIL**|3.8.1, 3.9.1
+**BELL**|3.13.0
 **NEGISHI**|3.9.1
 
 ## Module

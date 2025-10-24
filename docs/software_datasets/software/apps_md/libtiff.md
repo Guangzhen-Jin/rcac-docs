@@ -15,6 +15,7 @@ LibTIFF - Tag Image File Format (TIFF) Library and Utilities.
 |Cluster|Versions|
 |---|---|
 **ANVIL**|4.1.0
+**BELL**|4.7.0
 **NEGISHI**|4.4.0
 
 ## Module

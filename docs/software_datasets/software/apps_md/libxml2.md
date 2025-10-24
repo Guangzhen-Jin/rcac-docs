@@ -15,6 +15,7 @@ Libxml2 is the XML C parser and toolkit developed for the Gnome project (but usa
 |Cluster|Versions|
 |---|---|
 **ANVIL**|2.9.10
+**BELL**|2.13.4
 **NEGISHI**|2.10.1
 
 ## Module

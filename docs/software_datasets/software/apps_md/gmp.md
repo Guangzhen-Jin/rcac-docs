@@ -14,7 +14,8 @@ GMP is a free library for arbitrary precision arithmetic, operating on signed in
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|6.2.1
+**ANVIL**|6.2.1, 6.3.0
+**BELL**|6.3.0
 **NEGISHI**|6.2.1
 
 ## Module
