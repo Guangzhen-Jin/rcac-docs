@@ -14,10 +14,12 @@ N/A
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|3.9
-**GAUTSCHI**|3.9
+**ANVIL**|3.9 (D)
+**GAUTSCHI**|3.9 (D)
 **GILBRETH**|3.9
-**NEGISHI**|3.9
+**NEGISHI**|3.9 (D)
+
+(D): Default Module
 
 ## Module
 

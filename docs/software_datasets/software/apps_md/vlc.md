@@ -14,8 +14,10 @@ VLC media player for multimedia playback.
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|3.0.9.2
-**NEGISHI**|3.0.9.2
+**ANVIL**|3.0.9.2 (D)
+**NEGISHI**|3.0.9.2 (D)
+
+(D): Default Module
 
 ## Module
 

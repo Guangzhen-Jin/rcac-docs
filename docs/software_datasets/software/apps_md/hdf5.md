@@ -14,12 +14,14 @@ HDF5 is a data model, library, and file format for storing and managing data. It
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|1.10.7, 1.14.5
+**ANVIL**|1.10.7 (D), 1.14.5
 **BELL**|1.14.3, 1.14.5
 **GAUTSCHI**|1.14.3
 **GILBRETH**|1.14.3
-**NEGISHI**|1.13.2
+**NEGISHI**|1.13.2 (D)
 **SCHOLAR**|1.14.3
+
+(D): Default Module
 
 ## Module
 

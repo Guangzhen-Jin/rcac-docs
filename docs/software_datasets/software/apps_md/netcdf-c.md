@@ -18,8 +18,10 @@ NetCDF C library for array-oriented scientific data storage and access.
 **BELL**|4.9.2
 **GAUTSCHI**|4.9.2
 **GILBRETH**|4.9.2
-**NEGISHI**|4.9.0
+**NEGISHI**|4.9.0 (D)
 **SCHOLAR**|4.9.2
+
+(D): Default Module
 
 ## Module
 

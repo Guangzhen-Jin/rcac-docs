@@ -14,12 +14,14 @@ NetCDF Fortran library providing Fortran APIs to access scientific datasets.
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|4.5.3
+**ANVIL**|4.5.3 (D)
 **BELL**|4.6.1
 **GAUTSCHI**|4.6.1
 **GILBRETH**|4.6.1
-**NEGISHI**|4.6.0
+**NEGISHI**|4.6.0 (D)
 **SCHOLAR**|4.6.1
+
+(D): Default Module
 
 ## Module
 

@@ -14,9 +14,11 @@ N/A
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|default
-**GAUTSCHI**|default
-**GILBRETH**|default
+**ANVIL**|default (D)
+**GAUTSCHI**|default (D)
+**GILBRETH**|default (D)
+
+(D): Default Module
 
 ## Module
 

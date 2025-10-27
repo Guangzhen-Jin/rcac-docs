@@ -14,9 +14,11 @@ Intel Math Kernel Library (MKL) provides highly optimized math routines for scie
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|2019.5.281, 2020.4.304
+**ANVIL**|2019.5.281 (D), 2020.4.304
 **BELL**|2020.0.4
 **NEGISHI**|2019.9.304
+
+(D): Default Module
 
 ## Module
 
