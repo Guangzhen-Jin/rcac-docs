@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# ./scripts/generate_md.sh
+# ./tools/generate_md.sh
 # Generate markdown files for each application
 # - Availability from rcac_apps_inventory.json
 # - Description & homepage from app_descriptions.json
@@ -44,14 +44,35 @@ jq -r 'keys[]' "$INV_FILE" | while IFS= read -r app; do
     echo ""
     echo "|Cluster|Versions|"
     echo "|---|---|"
-    jq -r --arg app "$app" '
-      .[$app].availability
+
+    # Generate the version table with (D) markers
+    versions_table=$(jq -r --arg app "$app" '
+      .[$app] as $a
+      | ($a.availability // {})
       | to_entries
-      | sort_by(.key)   # sort clusters alphabetically
+      | sort_by(.key)
       | .[]
-      | "**\(.key | ascii_upcase)**|" + (.value | join(", "))
-    ' "$INV_FILE"
+      | .key as $cluster
+      | "**\($cluster | ascii_upcase)**|" +
+        (
+          .value
+          | map(
+              if ($a.default? and ($a.default | type) == "object" and ($a.default[$cluster]? // "") == .)
+              then . + " (D)" else . end
+            )
+          | join(", ")
+        )
+    ' "$INV_FILE")
+
+    echo "$versions_table"
     echo ""
+
+    # Only print the legend if (D) is present
+    if echo "$versions_table" | grep -q "(D)"; then
+      echo "(D): Default Module"
+      echo ""
+    fi
+
     echo "## Module"
     echo ""
     echo "You can load the module by:"
