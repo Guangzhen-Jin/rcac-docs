@@ -17,8 +17,10 @@ OpenFOAM is a GPL-opensource C++ CFD-toolbox. This offering is supported by Open
 **ANVIL**|8-20210316, 2406, 2412, 2414
 **BELL**|2312
 **GAUTSCHI**|2312
-**NEGISHI**|9-20211122, 2312
+**NEGISHI**|9-20211122 (D), 2312
 **SCHOLAR**|2312
+
+(D): Default Module
 
 ## Module
 

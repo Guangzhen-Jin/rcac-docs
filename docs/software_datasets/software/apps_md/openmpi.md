@@ -14,12 +14,14 @@ An open source Message Passing Interface implementation.  The Open MPI Project i
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|3.1.6, 4.0.6-cu11.0.3, 4.0.6, 4.1.6, 5.0.5
+**ANVIL**|3.1.6, 4.0.6-cu11.0.3, 4.0.6 (D), 4.1.6, 5.0.5
 **BELL**|4.1.6, 5.0.5
-**GAUTSCHI**|4.1.6, 5.0.5
-**GILBRETH**|4.1.6, 5.0.5-cuda12.6, 5.0.5
-**NEGISHI**|4.1.4
-**SCHOLAR**|4.1.6, 5.0.5
+**GAUTSCHI**|4.1.6, 5.0.5 (D)
+**GILBRETH**|4.1.6 (D), 5.0.5-cuda12.6, 5.0.5
+**NEGISHI**|4.1.4 (D)
+**SCHOLAR**|4.1.6, 5.0.5 (D)
+
+(D): Default Module
 
 ## Module
 

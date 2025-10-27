@@ -14,10 +14,12 @@ Visual Studio Code (VS Code) is a lightweight but powerful open-source code edit
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|1.61.2
+**ANVIL**|1.61.2 (D)
 **BELL**|1.79.2
 **GILBRETH**|1.97.2
 **NEGISHI**|1.79.2
+
+(D): Default Module
 
 ## Module
 

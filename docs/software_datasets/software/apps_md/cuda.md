@@ -14,10 +14,12 @@ CUDA is a parallel computing platform and programming model invented by NVIDIA. 
 
 |Cluster|Versions|
 |---|---|
-**ANVIL**|11.0.3, 11.2.2, 11.4.2, 12.0.1
+**ANVIL**|11.0.3, 11.2.2 (D), 11.4.2, 12.0.1
 **GAUTSCHI**|12.6.0, 12.6.1, 12.8.0, 12.9.0
 **GILBRETH**|12.1.1, 12.6.0
 **SCHOLAR**|12.1.0
+
+(D): Default Module
 
 ## Module
 

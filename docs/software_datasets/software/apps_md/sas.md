@@ -15,7 +15,9 @@ N/A
 |Cluster|Versions|
 |---|---|
 **BELL**|9.4
-**SCHOLAR**|9.4
+**SCHOLAR**|9.4 (D)
+
+(D): Default Module
 
 ## Module
 
