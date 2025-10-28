@@ -156,6 +156,12 @@
     "Datasets",
     "Covariates"
   ],
+  "/software_datasets/datasets/geoai/": [
+    "Home",
+    "RCAC Software and Datasets",
+    "Datasets",
+    "GeoAI"
+  ],
   "/software_datasets/datasets/igenomes/": [
     "Home",
     "RCAC Software and Datasets",
