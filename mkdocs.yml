@@ -112,6 +112,7 @@ nav:
       - Meteorological: software_datasets/datasets/meteorological.md
       - Geospatial: software_datasets/datasets/geospatial.md
       - Covariates: software_datasets/datasets/Covariates.md
+      - GeoAI: software_datasets/datasets/geoai.md
       - Igenomes: software_datasets/datasets/igenomes.md
   - RCAC Workshops:
     - workshops/index.md
