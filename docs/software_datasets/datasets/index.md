@@ -7,6 +7,7 @@ Categorized list of popular datasets on Purdue RCAC clusters.
 - [Meteorological Datasets](meteorological.md)
 - [Geospatial Datasets](geospatial.md)
 - [Covariates Datasets](Covariates.md)
+- [GeoAI Datasets](geoai.md)
 
 
 To see which datasets are available on the system, run:
