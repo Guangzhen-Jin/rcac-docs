@@ -19,7 +19,7 @@ $ module load datasets/geoai
 - To unload the module and remove the environment settings: module unload `<DATASET_NAME>`
 - Each dataset module sets environment variables (e.g., `$<DATASET_NAME>_ROOTDIR`, `$<DATASET_NAME>_HOME`, `$RCAC_<DATASET_NAME>_ROOT`, and `$RCAC_<DATASET_NAME>_VERSION`) that simplify dataset access and version management within your jobs and workflows.
 
-## Geospatial Datasets
+## GeoAI Datasets
 * [**BioMassters**](geoai/BioMassters.md)
 * [**AerialImageDataset**](geoai/AerialImageDataset.md)
 * [**burn_intensity**](geoai/burn_intensity.md)
