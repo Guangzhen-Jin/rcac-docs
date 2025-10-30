@@ -10,7 +10,7 @@ To access the datasets on RCAC clusters:
 ```bash
 $ module avail
 $ module load datasets
-$ module load datasets/hydrological
+$ module avail datasets/hydrological
 ```
 
 ## Tips:
