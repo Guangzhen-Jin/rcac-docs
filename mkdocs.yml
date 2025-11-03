@@ -71,7 +71,8 @@ plugins:
         - index.md
         - contact.md
         - blog/*
-        - software_datasets/*
+        - software/*
+        - datasets/*
   - macros
 
 nav:
@@ -90,30 +91,28 @@ nav:
       - Running Jobs on Gautschi: userguides/gautschi/jobs/index.md
   - RCAC Blogs:
     - blog/index.md
-  - RCAC Software and Datasets:
-    - software_datasets/index.md
-    - Software:
-      - software_datasets/software/index.md
-      - All Software: software_datasets/software/app_catalog.md
-      - Compilers: software_datasets/software/compilers_catalog.md
-      - MPIs: software_datasets/software/mpi_catalog.md
-      - Computational Chemistry: software_datasets/software/chemistry_catalog.md
-      - Fluid Dynamics: software_datasets/software/fluid_dynamics_catalog.md
-      - Audio/Visualization: software_datasets/software/audio_visual_catalog.md
-      - Library: software_datasets/software/library_catalog.md
-      - Mathematics/Statistics: software_datasets/software/math_stat_catalog.md
-      - Engineering: software_datasets/software/engineering_catalog.md
-      - Geoscience: software_datasets/software/geoscience_catalog.md
-      - Utilities: software_datasets/software/utilities_catalog.md
-      - Workflow: software_datasets/software/workflow_catalog.md
-    - Datasets:
-      - software_datasets/datasets/index.md
-      - Hydrological: software_datasets/datasets/hydrological.md
-      - Meteorological: software_datasets/datasets/meteorological.md
-      - Geospatial: software_datasets/datasets/geospatial.md
-      - Covariates: software_datasets/datasets/Covariates.md
-      - GeoAI: software_datasets/datasets/geoai.md
-      - Igenomes: software_datasets/datasets/igenomes.md
+  - Software:
+    - software/index.md
+    - All Software: software/app_catalog.md
+    - Compilers: software/compilers_catalog.md
+    - MPIs: software/mpi_catalog.md
+    - Computational Chemistry: software/chemistry_catalog.md
+    - Fluid Dynamics: software/fluid_dynamics_catalog.md
+    - Audio/Visualization: software/audio_visual_catalog.md
+    - Library: software/library_catalog.md
+    - Mathematics/Statistics: software/math_stat_catalog.md
+    - Engineering: software/engineering_catalog.md
+    - Geoscience: software/geoscience_catalog.md
+    - Utilities: software/utilities_catalog.md
+    - Workflow: software/workflow_catalog.md
+  - Datasets:
+    - datasets/index.md
+    - Hydrological: datasets/hydrological.md
+    - Meteorological: datasets/meteorological.md
+    - Geospatial: datasets/geospatial.md
+    - Covariates: datasets/Covariates.md
+    - GeoAI: datasets/geoai.md
+    - Igenomes: datasets/igenomes.md
   - RCAC Workshops:
     - workshops/index.md
     - HPC Exchange:

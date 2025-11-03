@@ -1246,9 +1246,6 @@
   },
   "hyper-shell": {
     "availability": {
-      "scholar": [
-        "2.5.2"
-      ],
       "anvil": [
         "2.0.2"
       ]
@@ -1260,7 +1257,6 @@
   "hypershell": {
     "availability": {
       "bell": [
-        "2.6.5",
         "2.7.0"
       ],
       "scholar": [
@@ -2487,8 +2483,7 @@
       "anvil": [
         "8-20210316",
         "2406",
-        "2412",
-        "2414"
+        "2412"
       ]
     },
     "default": {

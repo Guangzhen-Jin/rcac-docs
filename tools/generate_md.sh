@@ -8,7 +8,7 @@ set -euo pipefail
 
 INV_FILE="./rcac_apps_inventory.json"
 DESC_FILE="./apps_descriptions.json"
-MD_DIR="../docs/software_datasets/software/apps_md"
+MD_DIR="../docs/software/apps_md"
 
 mkdir -p "$MD_DIR"
 
