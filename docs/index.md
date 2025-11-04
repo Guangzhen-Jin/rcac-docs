@@ -55,12 +55,20 @@ This is a space to host documentation for RCAC resources and where RCAC staff sh
 
     [:octicons-arrow-right-24: Check materials](workshops/index.md)
 
--   :material-application:{ .lg .middle } __Software and Datasets__
+-   :material-application:{ .lg .middle } __Software__
 
     ---
 
-    Up-to-date software and datasets catalog on RCAC resources.
+    Up-to-date software catalog on RCAC resources.
 
-    [:octicons-arrow-right-24: Check catalog](software_datasets/index.md)
+    [:octicons-arrow-right-24: Check catalog](software/index.md)
+
+-   :material-database-settings:{ .lg .middle } __Datasets__
+
+    ---
+
+    Up-to-date datasets catalog on RCAC resources.
+
+    [:octicons-arrow-right-24: Check catalog](datasets/index.md)
 
 </div>

@@ -46,125 +46,101 @@
     "Home",
     "RCAC Blogs"
   ],
-  "/software_datasets/": [
+  "/software/": [
     "Home",
-    "RCAC Software and Datasets"
-  ],
-  "/software_datasets/software/": [
-    "Home",
-    "RCAC Software and Datasets",
     "Software"
   ],
-  "/software_datasets/software/app_catalog/": [
+  "/software/app_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "All Software"
   ],
-  "/software_datasets/software/compilers_catalog/": [
+  "/software/compilers_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Compilers"
   ],
-  "/software_datasets/software/mpi_catalog/": [
+  "/software/mpi_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "MPIs"
   ],
-  "/software_datasets/software/chemistry_catalog/": [
+  "/software/chemistry_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Computational Chemistry"
   ],
-  "/software_datasets/software/fluid_dynamics_catalog/": [
+  "/software/fluid_dynamics_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Fluid Dynamics"
   ],
-  "/software_datasets/software/audio_visual_catalog/": [
+  "/software/audio_visual_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Audio/Visualization"
   ],
-  "/software_datasets/software/library_catalog/": [
+  "/software/library_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Library"
   ],
-  "/software_datasets/software/math_stat_catalog/": [
+  "/software/math_stat_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Mathematics/Statistics"
   ],
-  "/software_datasets/software/engineering_catalog/": [
+  "/software/engineering_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Engineering"
   ],
-  "/software_datasets/software/geoscience_catalog/": [
+  "/software/geoscience_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Geoscience"
   ],
-  "/software_datasets/software/utilities_catalog/": [
+  "/software/utilities_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Utilities"
   ],
-  "/software_datasets/software/workflow_catalog/": [
+  "/software/workflow_catalog/": [
     "Home",
-    "RCAC Software and Datasets",
     "Software",
     "Workflow"
   ],
-  "/software_datasets/datasets/": [
+  "/datasets/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets"
   ],
-  "/software_datasets/datasets/hydrological/": [
+  "/datasets/hydrological/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "Hydrological"
   ],
-  "/software_datasets/datasets/meteorological/": [
+  "/datasets/meteorological/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "Meteorological"
   ],
-  "/software_datasets/datasets/geospatial/": [
+  "/datasets/geospatial/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "Geospatial"
   ],
-  "/software_datasets/datasets/Covariates/": [
+  "/datasets/Covariates/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "Covariates"
   ],
-  "/software_datasets/datasets/geoai/": [
+  "/datasets/geoai/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "GeoAI"
   ],
-  "/software_datasets/datasets/igenomes/": [
+  "/datasets/igenomes/": [
     "Home",
-    "RCAC Software and Datasets",
     "Datasets",
     "Igenomes"
   ],
