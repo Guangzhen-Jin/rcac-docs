@@ -3,6 +3,7 @@
 Welcome! Below are the top-level dataset categories.
 Categorized list of popular datasets on Purdue RCAC clusters.
 
+- [AI Datasets](ai.md)
 - [Hydrological Datasets](hydrological.md)
 - [Meteorological Datasets](meteorological.md)
 - [Geospatial Datasets](geospatial.md)
@@ -15,8 +16,8 @@ To see which datasets are available on the system, run:
 $ module avail
 $ module load datasets
 ```
-After that, you can load a specific dataset category (e.g., hydrological, meteorological, etc.) using:
+After that, you can check available dataset for a specific dataset category (e.g., hydrological, meteorological, etc.) using:
 
 ```bash
-$ module load datasets/<category>
+$ module avail datasets/<category>
 ```
