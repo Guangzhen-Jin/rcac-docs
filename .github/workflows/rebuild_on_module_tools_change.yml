@@ -1,4 +1,4 @@
-name: Run Make on modulefiles change (GitHub App)
+name: Run Make on modulefiles and tools change (GitHub App)
 
 on:
   push:
