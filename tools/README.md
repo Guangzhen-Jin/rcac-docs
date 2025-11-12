@@ -11,7 +11,7 @@ Usage: `update_apps_inventory.sh -v`.
 Read all modulefiles from "modulefiles" directory and generate application information including app name, versions, and deployed clusters from lua files into a json file "rcac_apps_inventory.json". Verbose mode `update_apps_inventory.sh -v` will display the newly added and/or removed apps since last run. 
 1) It will skip all hidden modules (i.e. lua name including the hash from spack `version-xxxxxxx.lua`).
 2) It will skip module configuration file `.modulerc.lua`.
-3) It will skip folders "modtree", "biocontainers", "rocmcontainers".
+3) It will skip folders "modtree", "biocontainers", "rocmcontainers", "ngc".
 
 ## 2. generate_md.sh
 Usage: `generate_md.sh`.
