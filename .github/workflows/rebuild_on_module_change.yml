@@ -45,13 +45,13 @@ jobs:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           # Stage any modified files BEFORE pulling to avoid unstaged changes
-          git add ../docs/software/apps_md ../docs/software/app_catalog.md ../docs/software_datasets/software/index.md || true
+          git add ../docs/software/apps_md ../docs/software/app_catalog.md ../docs/software/index.md || true
           
           # Pull and rebase with staged changes
           git pull origin ${{ github.ref_name }} --rebase || git pull origin ${{ github.ref_name }}
 
           # Re-stage in case rebase changed files
-          git add ../docs/software/apps_md ../docs/software/app_catalog.md ../docs/software_datasets/software/index.md || true
+          git add ../docs/software/apps_md ../docs/software/app_catalog.md ../docs/software/index.md || true
           
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Auto-update app catalog and markdown files"
