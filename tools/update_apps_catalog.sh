@@ -148,7 +148,7 @@ cluster_names=$(jq -r '[to_entries[] | .value.availability | keys[] | ascii_upca
   echo
   echo "    Check the catalog of all deployed biocontainers on RCAC clusters."
   echo
-  echo '    [:octicons-arrow-right-24: Biocontainers :octicons-link-external-16:](https://biocontainer-doc.readthedocs.io/en/latest/)'
+  echo '    [:octicons-arrow-right-24: Biocontainers :octicons-link-external-16:](https://biocontainer-doc.readthedocs.io/)'
   echo
   echo "-   :material-application:{ .lg .middle } __Library__"
   echo
