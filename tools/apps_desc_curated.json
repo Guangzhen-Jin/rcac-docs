@@ -373,5 +373,14 @@
     "description": "Conda is an open-source package, dependency, and environment management system. It allows users to quickly install, run, and update packages and their dependencies across platforms, and to create isolated environments for reproducible software workflows. Conda is widely used in data science, machine learning, and scientific computing.",
     "homepage": "https://docs.conda.io/",
     "source": "curated"
+  },
+  "ansysedt": {
+    "description": "ANSYS Electronics Desktop (EDT) provides an integrated environment for electromagnetic, signal-integrity, power-integrity, and electronics thermal simulations. It includes tools such as HFSS, Maxwell, Q3D Extractor, SIwave, and Icepak under a unified interface. This suite is commonly used for high-frequency component modeling, PCB/IC package analysis, antenna design, and multiphysics electronics workflows.",
+    "homepage": "https://www.ansys.com/products/electronics/ansys-electronics-desktop",
+    "source": "curated"
+  },
+  "clusterbot": {
+    "description": "ClusterBot is a chatbot designed to assist users in managing and interacting with high-performance computing (HPC) clusters. It provides functionalities such as job submission, monitoring, resource management, and troubleshooting through a conversational interface, enhancing user experience and productivity in HPC environments.",
+    "source": "curated"
   }
 }
