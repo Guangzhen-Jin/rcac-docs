@@ -4,11 +4,11 @@
 
 ## Description
 
-TODO: add description
+ANSYS Electronics Desktop (EDT) provides an integrated environment for electromagnetic, signal-integrity, power-integrity, and electronics thermal simulations. It includes tools such as HFSS, Maxwell, Q3D Extractor, SIwave, and Icepak under a unified interface. This suite is commonly used for high-frequency component modeling, PCB/IC package analysis, antenna design, and multiphysics electronics workflows.
 
 ## Homepage
 
-N/A
+[https://www.ansys.com/products/electronics/ansys-electronics-desktop](https://www.ansys.com/products/electronics/ansys-electronics-desktop){:target="_blank"}
 
 ## Available Versions on RCAC Clusters
 
