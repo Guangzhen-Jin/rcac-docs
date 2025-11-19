@@ -114,6 +114,11 @@
     "Home",
     "Datasets"
   ],
+  "/datasets/ai/": [
+    "Home",
+    "Datasets",
+    "AI"
+  ],
   "/datasets/hydrological/": [
     "Home",
     "Datasets",
