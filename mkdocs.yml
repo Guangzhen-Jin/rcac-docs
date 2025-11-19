@@ -107,6 +107,7 @@ nav:
     - Workflow: software/workflow_catalog.md
   - Datasets:
     - datasets/index.md
+    - AI: datasets/ai.md
     - Hydrological: datasets/hydrological.md
     - Meteorological: datasets/meteorological.md
     - Geospatial: datasets/geospatial.md
