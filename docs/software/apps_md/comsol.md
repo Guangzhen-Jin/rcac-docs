@@ -14,9 +14,9 @@ COMSOL Multiphysics is a simulation platform for modeling designs, devices, and 
 
 |Cluster|Versions|
 |---|---|
-**BELL**|6.0, 6.2, 6.3
-**GAUTSCHI**|6.2, 6.3
-**NEGISHI**|6.0, 6.1, 6.2, 6.3
+**BELL**|6.0, 6.2, 6.3, 6.4
+**GAUTSCHI**|6.2, 6.3, 6.4
+**NEGISHI**|6.0, 6.1, 6.2, 6.3, 6.4
 **SCHOLAR**|6.2
 
 ## Module
